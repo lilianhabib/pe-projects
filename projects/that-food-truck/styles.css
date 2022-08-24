@@ -1,0 +1,117 @@
+*{
+   box-sizing: border-box;
+
+}
+
+.logo{
+   width: 150px;
+   display: block;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+  
+ 
+
+nav a{
+
+   font-family: Heiti TC;
+   font-size: 20px;
+   color: #75a971;
+   font-weight: bolder;
+   text-decoration: none;
+   margin: 15px;
+   overflow: hidden;   
+}
+
+nav a:hover{
+   opacity: 0.1;
+   transition: 0.3s;
+}
+
+nav{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+.inner-content{
+   max-width: 600px;
+   width: 98%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   
+}
+
+.menu-item{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 2px solid #75a971;
+   padding: 5px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+   grid-gap: 20px;
+}
+
+
+h3{
+   font-family: Heiti TC;
+   font-weight: bolder;
+   font-size: 2vw;
+   color: #234a00;
+   text-align: center;
+}
+
+
+.price{
+   font-family: Heiti TC;
+   font-weight: bolder;
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+.description{
+   font-family: Heiti TC;
+   font-weight: bolder;
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+.dish-img{
+   width: 200px;
+   max-width: 95%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+button{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+   background-color: #75a971;
+   color: #234a00;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   width: 20vw;
+   height: 7vw;
+   /*font styling*/
+   font-family: Heiti TC;
+   font-size: 2vw;
+   font-weight: bolder;
+
+}
+
+
+
+
+
+
