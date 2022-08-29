@@ -46,8 +46,8 @@ h1{
 .centered-element{
 	margin: 0;
 	position: absolute;
-	top: 50%;
-	transform: translateY(-90%);
+	/*top: 10%;
+	/*transform: translateY(-50%);*/
 	padding: 10px;
 	text-align: left;
 }
