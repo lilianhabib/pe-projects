@@ -16,7 +16,7 @@ body{
 }
 
 h1{
-	color: black;
+	color: #E1C9C9;
 	font-size: 20px;
 	font-family: 'Prata', serif;
 	max-width: 70%;
@@ -61,7 +61,7 @@ section{
 }
 
 .resume-link{
-	color: black;
+	color: #E1C9C9;
 	font-size: 40px;
 	font-family: 'Prata',serif;
 	font-style: italic;
@@ -69,12 +69,12 @@ section{
 }
 
 .resume-link:hover{
-	color: #E1C9C9;
+	color: black;
 	font-style: normal;
 }
 
 .teacher{
-	color: black;
+	color: #E1C9C9;
 	font-size: 20px;
 	font-family:'Prata',serif;
 	font-style: italic;
@@ -82,12 +82,12 @@ section{
 }
 
 .teacher:hover{
-	color: #E1C9C9;
+	color: black;
 	font-style: normal;
 }
 
 .developer-pro{
-	color: black;
+	color: #E1C9C9;
 	font-size: 20px;
 	font-family: 'Prata',serif;
 	font-style: italic;
@@ -95,7 +95,7 @@ section{
 }
 
 .developer-pro:hover{
-	color: #E1C9C9;
+	color: black;
 	font-style: normal;
 }
 
