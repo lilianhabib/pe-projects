@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #8FBC8F;
+	max-width: 100%;
+}
+
+header{
+	height: 200px; 
+	transition: width 10s, height 10s;
+	text-align: center;
+}
+
+header:hover{
+	width: 500px;
+
+}
+
+h1{
+	text-align: center;
+ 	color: #228B22;
+ 	font-size: 50px; 
+ 	font-family:'Amatic SC, cursive';
+ }
+
+ p{
+ 	text-align: center;
+ }
+
+h2{
+	letter-spacing: 0.02em;
+	
+}
+
+ul{
+	list-style: square;
+}
+
+a{
+	color: #006400;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline;
+	transition: width 10s;
+}
+
+a:visited {
+	color: white;
+}
+
+a:active{
+	color: white;
+}
