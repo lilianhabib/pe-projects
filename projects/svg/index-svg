@@ -1,0 +1,42 @@
+<picture> 
+  
+<svg width="100%" height="100%" viewBox="0 0 72 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(1,0,0,1,-13.1015,-19.8504)">
+        <rect x="13.101" y="19.85" width="71.509" height="74.62" style="fill:none;"/>
+        <g class="body" transform="matrix(1,0,0,1,-6.9076,-6.52134)">
+            <path d="M57.239,84.407L50,98.419L63.847,98.333L57.239,84.407Z" style="stroke:rgb(2,0,0);stroke-width:1px;"/>
+        </g>
+        <g class="head" transform="matrix(1,0,0,1,-6.9076,-4.52134)">
+            <ellipse cx="57.239" cy="57.732" rx="27.398" ry="26.675" ;/>
+        </g>
+        <g class="ears" transform="matrix(1,0,0,1,-6.9076,-4.52134)">
+            <ellipse cx="36.945" cy="39.85" rx="10.557" ry="10.15"/>
+        </g>
+        <g class="ears1" serif:id="ears" transform="matrix(1,0,0,1,33.2206,-5.23226)">
+            <ellipse cx="36.945" cy="39.85" rx="10.557" ry="10.15";/>
+        </g>
+        <g class="mouth" transform="matrix(1,0,0,1,-9.02541,-1.25898)">
+            <ellipse cx="59.357" cy="62.298" rx="11.855" ry="7.829";/>
+        </g>
+        <g class="eyes" transform="matrix(1,0,0,1.70952,-4.9076,-34.4129)">
+            <ellipse cx="45.674" cy="46.065" rx="4.326" ry="3.935";/>
+        </g>
+        <g class="eyes1" serif:id="eyes" transform="matrix(1,0,0,1.6728,13.9346,-32.5766)">
+            <ellipse cx="45.674" cy="46.065" rx="4.326" ry="3.935";/>
+        </g>
+        <g class="arm" transform="matrix(1,0,0,1,-6.9076,-4.52134)">
+            <ellipse cx="50.684" cy="90.572" rx="3.01" ry="2.531";/>
+        </g>
+        <g class="arms" transform="matrix(1,0,0,1,5.91521,-4.52134)">
+            <ellipse cx="50.684" cy="90.572" rx="3.01" ry="2.531";/>
+        </g>
+        <g class="leg" transform="matrix(1,0,0,1,-7.9076,-6.52134)">
+            <ellipse cx="55.466" cy="98.209" rx="1.773" ry="1.791";/>
+        </g>
+        <g class="leg1" serif:id="leg" transform="matrix(1,0,0,1,-2.9076,-6.52134)">
+            <ellipse cx="55.466" cy="98.209" rx="1.773" ry="1.791";/>
+        </g>
+    </g>
+</svg>
+
+</picture>
