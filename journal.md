@@ -39,6 +39,8 @@ Challenge: Select a couple of images from your mood board and change how they re
 Challenge: Use shapes and play with the space, transparency, colour, position, and size of the elements. Experiment with positioning different sized elements in the corner, on top of each other, beside each other, and far or close to each other. Design decisions should have a purpose, reason, and consistency so you can confidently sell your ideas to the client. 
 
 ## conclusion / major takeaways? 
+- no major takeaways 
+
 
 ##09.15.2022
 ## Lesson 081: Contrast 
@@ -68,7 +70,7 @@ Blockers: feeling slightly overwhelmed with the number of tasks I expect myself 
 
 
 ## conclusion / major takeaways? 
-###Typography Guide 
+**Typography Guide**
 1. Flush Left 
   * Set your flush left rag right because, in western culture, people read from top to bottom, left to right. Eyes naturally follow this flow. Avoid indenting the first line. 
 
