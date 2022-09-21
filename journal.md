@@ -1,9 +1,287 @@
 # Daily Journal 
 
-This is my daily journal intro sentence 
+This journal is to document my progress, questions, notes about the lesson, and what I've been learning. 
 
-## Lesson 080
+##09.14.2022 
+
+##Lesson 080: Space 
+
+###Standup 
+**Yesterday**
+* I created some graphics and layouts in black and white 
+* Spent the majority of the day finalizing my site. I think I am finally content with it. I will post it on the show and tell channel soon. 
+* Added a goals page to my site 
+* Completed my substack article 
+
+**Today**
+* Reorganize my mood board and experiment with shapes, space, and colour
+* Practice responsive layout and add it to my garden
+* Create a responsive layout webpage 
+* Post my article 
+* Start a new thing-a-day 
+* Revise my goals 
+
+No blockers 
+
+Have a great day! 
+
+## Lesson Notes
+**Video 1**
+* In your mood boards, change how they might relate to each other - creating contrast between images and creating a juxtaposition 
+* Create different-sized images 
+* Big areas of colour or space to contrast depth 
+* Use the contrast of size, shape, colours, and space to develop some magic
+
+Challenge: Select a couple of images from your mood board and change how they relate to each other. Reorganize those images based on size, colour, shape, style, pattern, and depth. Think about how you might want to organize the space around those images. Provide an opinion on the design choices you have made. 
 
 
-* or - for unordered lists
-1, 2, 3 for numbered lists 
+**Video 2** 
+Challenge: Use shapes and play with the space, transparency, colour, position, and size of the elements. Experiment with positioning different sized elements in the corner, on top of each other, beside each other, and far or close to each other. Design decisions should have a purpose, reason, and consistency so you can confidently sell your ideas to the client. 
+
+## conclusion / major takeaways? 
+
+##09.15.2022
+## Lesson 081: Contrast 
+**Yesterday** 
+* Reorganize my mood board and experiment with shapes, space, and colour 
+* Practice responsive layout and add it to my garden
+* Create a responsive layout webpage 
+* Post my article 
+* Start a new thing-a-day 
+* Revise my goals 
+* Added to my daily journal 
+* Made two small changes to my site 
+
+**Today**
+* Learn more about contrast - go over Chris and Milka’s resources 
+* Work on a responsive layout and add it to my web page 
+* Complete day 2 of a thing-a-day 
+* Complete a daily journal and commit and push it to github
+
+If there is time 
+* Update my typeface on my website and apply the type rules 
+* Update thing-a-day page 
+* Update it on the server 
+
+
+Blockers: feeling slightly overwhelmed with the number of tasks I expect myself to complete. I need to prioritize 3 or 4 of the most important tasks rather than listing everything I want to get done. 
+
+
+## conclusion / major takeaways? 
+###Typography Guide 
+1. Flush Left 
+  * Set your flush left rag right because, in western culture, people read from top to bottom, left to right. Eyes naturally follow this flow. Avoid indenting the first line. 
+
+2. Use One Typeface 
+  * Avoid using two typefaces. Using two requires an understanding of the chosen faces so you can be confident that they are complementary
+  * Avoid using two typefaces of the same classification. Do not use two sans serif, serif, slab serif, or script faces together. The reason is contrast. 
+
+3. Skip a Weight  
+* The key to design is contrast. So go from light to bold or from medium to extra bold. Slight changes in weight change make it harder for the audience to notice the difference 
+* Try mixing bold for the headline and light for the body 
+
+4. Double Point Size
+* A good rule of thumb when changing point sizes is to double or half the point size you are using. For example, if you are using 30 pt for the headline, use 15 pt for the body. 
+For other uses, use 3x or 4x the point size for something more dramatic 
+
+5. Align to One Axis 
+*Build your type along one primary axis and align the element to this grid line. For a vertical axis, align the left edge of your type. This will work regardless of font type or size. For the horizontal axis, align on the strongest horizontal element.
+
+6. Pick any Typeface
+* Akzidenz Grotesk, Avenir, Avant Garde, Baskerville, Bembo, Bodoni, Bookman, Caslon, Century, Clarendon, Courier, DIN, Franklin Gothic, Frutiger, Futura, Garamond, Gill Sans, Gotham, Helvetica, Letter Gothic, Memphis, Meta, Mrs. Eaves, OCRB, Rockwell, Sabon, Times New Roman, Trade Gothic, Trajan, and Univers.
+
+7. Group by Using Rules 
+* Use rules/lines to group related blocks of information. This will also make dissimilar objects appear more orderly. 
+
+8. Avoid the corners 
+* Don’t place elements along the edge or corners of a page unless to deliberately cut elements off. Negative space is a good thing 
+
+9. Mind the Gap 
+*Typography is all about spacing. Never force justify type because of the inherent rivers that it’ll create. 
+* Avoid having a single word on the last line of a paragraph, otherwise known as a widow. 
+* Don’t allow a new page or column to begin with the final word or line from a previous paragraph, therefore, separating it from the rest of its paragraph - known as orphan
+* Use a single space after punctuation in a sentence. Pay attention to the shape the rag creates to avoid undesired shapes/angles 
+* Spacing matters. The closer things are together, the more the reader will assume a relationship exists between separate blocks of information 
+
+10. Relax, it’s just type 
+* Be bold or italic, never regular - this is not an actual rule. It is a way to govern your life. Now that you’ve learned the rules, break it 
+
+
+###Chris and Milka’s critique Takeaways 
+* Be intentional about spacing! Creating small, medium, and large white spaces creates good contrast. You don’t have to have the size of the space in order, mix it up! This helps create hierarchy. Also, make sure the size of the space is distinguishable. 
+* If the text is left aligned and ragged right, you want to be aware of the length of the lines. It is best to have short and long lines alternate. 
+* Our eyes usually go to the darkest element on the page. The darkest element is typically the most important. Then the second most important is not as dark and the least important is the lightest. You want to create a hierarchy and have the elements interact using different font weights. 
+
+
+##09.16.2022 
+##Lesson 082: Research and Employ 
+
+###Standup 
+**Yesterday**
+* Learned about contrast - go over Chris and Milka’s resources 
+* Practiced responsive layout 
+* Complete day 2 of a thing-a-day 
+* Completed my journal 
+* Updated the typeface on my website and applied some of the type rules
+
+
+
+**Today**
+* Spend some time finding an interesting website layout and breaking it down 
+* Practice responsive layout 
+* Complete day 3 of a thing a day 
+* Complete a daily journal and commit it 
+If there is time 
+* Update thing-a-day page 
+* Update files on github
+
+No blockers 
+
+## Lesson Notes
+- Codepen of the website remake: https://codepen.io/lilianhabib/pen/MWGeZaE 
+- This layout reminded me of one of the layouts in Chris and Milka’s critique. The S-bottle logo is positioned at the top left of the web page, which immediately catches the users' attention because it is the boldest element and it is positioned where the eyes are naturally drawn to. Then the eyes are drawn to the image and then the menu. I like that the elements force the users’ eyes to travel around the page. 
+
+- The menu seems like it was positioned arbitrarily relative to the logo because it is neither positioned at the top, middle, or bottom of the logo area. But, was it supposed to be positioned relative to the logo? I think that if it was properly aligned with the logo, it would have created a better flow and symmetry. 
+
+- Just below the menu is the second boldest element on the web page. The designer could have put “pure” in the first line, but that would have caused “water” to be a widow. 
+
+- Under the bold text is a short paragraph. It looks pretty small in comparison to the text above it. I wonder if reducing the font size by half would have visually looked better. I think that the difference in font sizes is too significant and, therefore, there isn’t harmony between the two sets of text. 
+
+- The font size for the contact button looks bigger than the paragraph, but that could be because it is in uppercase letters. 
+
+- The space between the three main elements on the right side of the page isn’t equal, but it is close to being the same pixels. I believe they should have put the effort to make the space equal to create consistency. 
+
+- In regards to space, I do see a difference between large, medium, and small. Milka talked about the importance of creating different lengths of space to create a dynamic layout. I like that the space isn’t positioned chronologically from small to large because otherwise, it wouldn’t seem natural. 
+
+- I think that the contrast between the background colour and text could be better. It is difficult to read the white text on a light blue background. 
+
+
+## conclusion / major takeaways? 
+- Be intentional about spacing and constrast. Both work together to create cohesive. However, sometimes, the spacing won't make sense (i.e. spacing between elements are only a few pixels off) because spacing it created based on the length of the box/words/paragraph. 
+
+
+##09.17.2022 
+##Lesson 083: Visual Language Intro 
+
+###Standup 
+**Yesterday**
+* Completed day 3 of TAD 
+* Worked on researching and analyzing a website 
+
+**Today**
+* Post day 3 of TAD
+* Finalize the research and employ exercise 
+* Get started on today's lesson 
+
+No blockers 
+
+Have a great day! 
+
+## Lesson Notes
+**Website elements** 
+* Name 
+* Biography/About page 
+* Links to projects 
+* Links to different accounts  - LinkedIn, GitHub, substack, etc
+* Menu linking to other pages such as about, contact, etc 
+* Contact page/section
+* images/thumbnail of projects 
+* Logo 
+* Resume 
+* Picture of yourself 
+
+
+## conclusion / major takeaways? 
+* Style tiles are a great way to combine all of the elements for the website and present it to the client. It wouldn't be efficient to create an entire website for each iterations. 
+* You want the client to be with you at every stage while designing a website 
+* Creating different iterations increases client buy-ins - iteractions can easily be completed be done with style tiles 
+
+
+
+##09.19.2022 
+##Lesson 085: Postcard Challenge  
+
+###Standup 
+**Weekend**
+* Completed the research and employ assignment 
+* Completed day 4 and 5 of TAD 
+* Completed a visual design mood board and two style tiles for my site 
+* Started the postcard assignment 
+
+
+**Today**
+* Completed a couple of TAD
+* Uploaded day 4 and 5 
+* Completed the postcard assignment 
+* Practice responsive layout 
+* Start my substack article 
+* Update files in my git and github 
+
+No blockers 
+
+Have a great day! 
+
+## Lesson Notes
+* I didn’t know anything about Santa Fe, New Mexico. So when I Googled the location, I found some similarities between the photos. I collected the photos I really liked in affinity designer. I compared the photos and found that there’s a lot of beige/brown coloured architecture, so I wanted to incorporate that as it seems common in this area. After some time, I narrowed it down to two photos and decided to combine the photos in the red box into a postcard. I wanted to incorporate the photo of the gate because it gives a welcoming and warm feeling. I wanted to capture the beauty of Santa Fe by incorporating the coloured sky, trees, and architecture.  
+
+## conclusion / major takeaways? 
+* Design is fun!! 
+* Letting go of my own expectations and letting the design just happen!
+
+
+##09.20.2022 
+##Lesson 086: Constraint-Secret word graphic  
+
+###Standup 
+**Yesterday**
+* Completed day 6 of TAD 
+* Uploaded day 4 and 5 
+* Completed the postcard assignment 
+* Practiced responsive layout 
+* Uploaded substack article 
+* Updated files in my git and github 
+
+**Today**
+* Complete day 7 of TAD and upload day 6
+* Complete today’s secret word graphic assignment 
+* Practice responsive layout 
+* Update files in git and github 
+* Meet with Derek 
+* Fix some file issues  
+* Move journal to github
+
+No blockers 
+
+Have a great day! 
+
+
+
+
+## Lesson Notes
+* secret word: collaborative 
+* Google definition: produced or conducted by two or more parties working together  
+* Search for pictures and make a mood board. Then narrow photos down to two. 
+
+
+## conclusion / major takeaways?
+* 
+
+
+
+##09.21.2022 
+##Lesson 087: Store style tile  
+
+###Standup 
+* What is one thing you learned yesterday? I was originally creating documents with my notes and uploading them to GitHub, but after speaking with Derek, I have learned how to complete journals directly in GitHub, which is so much easier. I might have misunderstood the instructions. I also reviewed the standup resource again. Not sure what took me so long to adopt this framework, but I'll be formating these standups like this from now on. 
+* What is something that was confusing? Or an idea you had? Navigating GitHub is still  confusing. I am still figuring out all of the buttons and options available. 
+* Is there anything you need help with today? 
+* Is there anything you are excited to learn? I am excited to explore some common UX patterns/components and make a style tile with some of these components. If there is time, I am hoping to learn about DeployBot. 
+
+No blockers 
+
+Have a great day! 
+
+## Lesson Notes
+ 
+## conclusion / major takeaways? 
+
