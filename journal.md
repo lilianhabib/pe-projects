@@ -284,6 +284,8 @@ No blockers
 Have a great day! 
 
 ## Lesson Notes
+* Today was a challenge day so no lesson notes. 
  
 ## conclusion / major takeaways? 
+* I am beginning to see the value in brainstorming and researching. Typically, I get impatient and I start designing without having any goals or starting point. This often causes a lot of stress and frustration as I am deleting, adding, and rearranging things. In the past couple of design challenges, I opened the design programs not to design something but to brainstorm and gather some ideas. I personally think brainstorming and researching have led to some designs I was actually satisfied with, which might mean that design could be in my future. This doesn't mean I'll create amazing designs all the time. It just means that I'll be less anxious about design and can go into it with a clear mind. 
 
