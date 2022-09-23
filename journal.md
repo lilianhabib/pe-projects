@@ -289,3 +289,29 @@ Have a great day!
 ## conclusion / major takeaways? 
 * I am beginning to see the value in brainstorming and researching. Typically, I get impatient and I start designing without having any goals or starting point. This often causes a lot of stress and frustration as I am deleting, adding, and rearranging things. In the past couple of design challenges, I opened the design programs not to design something but to brainstorm and gather some ideas. I personally think brainstorming and researching have led to some designs I was actually satisfied with, which might mean that design could be in my future. This doesn't mean I'll create amazing designs all the time. It just means that I'll be less anxious about design and can go into it with a clear mind. 
 
+
+
+##09.22.2022 
+##Lesson 088: Symbol and Icon Exploration   
+
+###Standup 
+* What is one thing you learned yesterday? I learned how to set up DeployBot and connect it to GitHub and server. I also learned about common UX patterns among various websites and applied those patterns to a style tile for a company’a website 
+
+* What is something that was confusing? In a one of the channels, Derek mentioned to "keep content and layout separate with components that are independent of the page structure (ie inner-columns)". What does it mean to “keep content and layout separate" and "independent of the page structure"? 
+
+* Is there anything you are excited to learn? I am excited to learn about  and design symbols and icons that all fit together 
+
+* Blockers: going to have limited access to the internet until Saturday. Also, Slack is being weird on my laptop, so might not be able to upload today’s lesson by end of day. 
+
+
+## Lesson Notes
+* I create a set of icons today. The words selected were not related, but I had to somehow create some cohesiveness between them. I decided to stick to a yellow and white colour theme and use mostly simple shapes to create the images.
+* Midway through this assignment, doubt started to set in. I hadn't felt this in the past few challenges - I've been confident with every design step I've taken. I thought I was doing it wrong and I did not think that my icons represented the words at all. I put a stop to those thoughts right away and reminded myself that not every design decision it going to be a good one. If I did it wrong, then that is great! I'll post it, get feedback, and make the proper changes. Having this internal dialogue with myself about whether the assignment is good enough or if I am doing it right, is not the best approach. Always get help and opinion from others. Often, my thoughts are biased and not always entirely accurate. 
+ 
+## conclusion / major takeaways? 
+* Ask for help and opinion about my work before scratching the entire design. There might be some value in creating something different. 
+
+
+
+
+
