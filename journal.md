@@ -312,6 +312,39 @@ Have a great day!
 * Ask for help and opinion about my work before scratching the entire design. There might be some value in creating something different. 
 
 
+##09.26.2022 
+##Lesson 092: PHP Templates
+
+###Standup 
+* What is one thing you learned over the weekend? The entire Friday and weekend was write off for me as I was getting back home. I did work on my site and finalize it, but I did not learn anything new.  
+
+* What is something that was confusing? I did not find anything confusing  
+
+* Is there anything you are excited to learn? Today, I am excited to get a better understanding of PHP templates and create a Mad Lib challenge. Also, I am hoping to finalize the others pages on my website. 
+
+* Blockers: I am still trying to get my body back to a normal sleep schedule - it's been harder than I thought it would be. 
+
+
+## Lesson Notes
+* Delimiter: A character that marks the beginning or end of a unit of data. In PHP, I'll be using <?php?> to start and end PHP.
+* Concatenation: combine or join together (ex: airplane/air-plane). In PHP, you'll be joining strings together. For example, grabbing a first and last name from a databse and smooshing them together to form a greeting. 
+* PHP is like an HTML document with some PHP in it. It is like the style tag within an HTML.
+* Inside the quotes are strings of different characters, symbols and numbers 
+* We can complete math equations 
+* We can assign references to the different strings  
+* Other ways to comment PHP in a paragraph, so use PHP in HTML: 
+		
+		<?php echo $variable; ?> 
+
+		<?=$variable?> 
+  
+
+
+ 
+## conclusion / major takeaways? 
+* 
+
+
 
 
 
