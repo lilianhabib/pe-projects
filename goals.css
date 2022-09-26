@@ -1,0 +1,182 @@
+@import meyer-reset.css;
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+
+}
+
+body{
+	background-color: #FFFAF5;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto;
+
+}
+
+.inner-column{
+/*border: 3px blue solid;*/
+	width: 900px;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+
+header{
+	margin-top: 3vh;
+	
+}
+
+.nav-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+
+	
+}
+
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	gap: 50px;
+
+}
+
+.nav-container a{
+	text-decoration: none;
+	color: #A66C6C;
+	font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 17px;
+}
+
+.header-logo{
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.header-logo img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+h1{
+
+	font-family: 'Avenir';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #A66C6C;
+}
+
+h2{
+	color: #A66C6C;
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 5vh;
+}
+
+.goals-container{
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
+
+li{
+  font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 15px;
+	color: black;
+	text-indent: 30px;
+	list-style: none;
+}
+
+p{
+  font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 20px;
+	color: #A66C6C;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+	/*border: 3px solid red;*/
+	background-color: #A66C6C;
+
+}
+
+.footer-header{
+	text-align: center;
+	padding-top: 30px;
+	font-size: clamp(30px, 3vw, 100px);
+	color: #FFFAF5;
+}
+
+.footer-paragraph{
+	text-align: center;
+
+	font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 15px;
+	color: #FFFAF5;
+	padding-top: 15px;
+
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+
+.say-hello-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.say-hello-container button{
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	width: 150px;
+	background-color: #FFFAF5;
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.say-hello-container button a:hover{
+	border: none;
+	font-size: 20px;
+}
+
+.say-hello-container a{
+	text-decoration: none;
+	color: #A66C6C;
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 15px;
+}

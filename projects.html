@@ -1,7 +1,6 @@
 <!doctype html> 
 
-<html>
-
+<html> 
 	<head> 
 		<meta charset="utf-8">
 		<meta name="author" content="Lilian Habib">
@@ -16,7 +15,7 @@
 		<link rel="shortcut icon" href="images/lilian1.png" type="image/png">
 
 		<link rel='stylesheet' href='home.css'>
-		
+	
 		<!-- font --> 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +38,7 @@
 		  <meta name="twitter:image" content="https://peprojects.devimages/metalilian.png">
 
 		<title> Lilian's Website </title>
-	</head>  
+	</head>
 
 
 	<body> 
@@ -49,6 +48,7 @@
 
 				<img src='images/logo.png' class='header-logo'>
 				<nav>
+					<a href='home.html'>Home</a>
 					<a href='projects.html'>Projects</a>
 					<a href='#'>About</a>
 					<a href='#'>Resume</a>
@@ -59,29 +59,67 @@
 
 		</header>
 
-		<main>
 
-			<section class='intro-container inner-column'>
-				<div class='resume'>
-					<h1>Hello! I'm <a href='home' class="resume-name"> Lilian</a></h1>
-				</div>
+		<main> 
 
-				<div class='job-container'>
-					<p>An <span>aspiring developer</span> passionate about creating meaningful, user-friendly, and engaging experiences through digital means.</p>
+			<section class='project-container inner-column'>
 
+				<h2 id='projects' class="projects-heading">Projects</h2>
+				
+				<project-list>
+					<div class='project'>
+						<a href='https://peprojects.dev/alpha-5/lilian/projects/that-food-truck/home.html' target="_blank">
+						<h3>That Food Truck Project</h3>
 
-					<socials>
-						<a href='#'>LinkedIn</a>
-						<a href='#'>GitHub</a>
-						<a href='#'>Twitter</a>
-						<a href='#'>Substack</a>
-					</socials>
+						<picture>
+							<img src='https://www.seriouseats.com/thmb/MAqXabKpyfCrVbiiAEmfLZWhDTU=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180807-grilled-tandoori-chicken-patties-main-morgan-eisenberg-c67faa4cc10c4599a6da40885e7ff020.jpg' class='project-img'>
+						</picture>
+						</a>
+					</div>
+
 		
-				</div>
-			</section>
-					
-		</main>
+					<div class='project'>
 
+						<a href='https://peprojects.dev/alpha-5/lilian/projects/4-page-website/welcome.html' target="_blank">
+						<h3>Favourite Places in BC</h3>
+
+						<picture>
+							<img src='https://vegnews.com/media/W1siZiIsIjE2NTc5L1ZlZ05ld3MuVmFuY291dmVyLmpwZyJdLFsicCIsImNyb3BfcmVzaXplZCIsIjEyNTR4NzQxKzArOTQiLCIxNjAweDk0Nl4iLHsiZm9ybWF0IjoianBnIn1dLFsicCIsIm9wdGltaXplIl1d/VegNews.Vancouver.jpg?sha=cea474fc12d280a8' class='project-img'>
+						</picture>
+						</a>
+					</div>
+
+	
+
+					<div class='project'>
+						<a href='https://peprojects.dev/alpha-5/lilian/projects/donut-shop/home/index.html' target="_blank">
+						<h3>Hole in the Wall Donuts</h3>
+
+						<picture>
+							<img src='https://tipbuzz.com/wp-content/uploads/Donut-Holes.jpg' class='project-img'>
+						</picture>
+						</a>
+					</div>
+
+				</project-list>
+
+
+				<project-list>
+
+					<div class='project'>
+						<a href='https://peprojects.dev/alpha-5/lilian/projects/thing-a-day/index.html' target="_blank">
+						<h3>A Thing-A-Day Challenge</h3>
+						</a>
+
+						<picture>
+							<img src='projects/thing-a-day/images/m-day30.jpg'  class='project-img'>
+						</picture>
+						</a>
+					</div>
+				</project-list>
+				
+			</section>
+		</main>
 
 		<footer>
 			<section class='footer-container inner-column'> 
@@ -107,5 +145,4 @@
 		</footer>
 
 	</body> 
-
-</html> 
+</html>
