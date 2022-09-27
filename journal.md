@@ -342,7 +342,7 @@ Have a great day!
 
  
 ## conclusion / major takeaways? 
-* 
+* Today was fun and confusing all at the same time. I enjoyed learning about PHP and seeing how it can be used. I created a MadLibs activity and used PHP to fill in the blanks. I wrote the paragraph in <?php ?> and used echo to push the code onto the webpage. Then I tried php in HTML. There are two ways to write PHP in HTML. I tried both and found that it was much easier than the PHP method. When I uploaded it to the server, that was when things got challening. I spent some time figuring it out andI couldn't. But with Derek's help, I did the process of elimination and removed the math equation and that seems to have fixed the issue! Bt also... take. things. slow. I need to pratice this. I don't know if it is  excitement or lack of patience or both. 
 
 
 
