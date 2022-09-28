@@ -29,6 +29,11 @@ header{
 	margin-top: 3vh;
 }
 
+main{
+	padding:  2vh;
+}
+
+
 .nav-container{
 	display: flex;
 	flex-direction: row;
@@ -69,16 +74,8 @@ nav{
 	height: auto;
 }
 
-h1{
-	color: #A66C6C;
-	font-family: 'Avenir';
-	font-weight: black;
-	font-size: 50px;
-  
-	text-align: center;
-}
 
-h2{
+h1{
 	font-family: 'Avenir';
 	font-size: 50px;
 	font-weight: bold;
@@ -86,69 +83,46 @@ h2{
 	color: #A66C6C;
 }
 
-
-/*PROJECT-LIST*/ 
-.project-container{
-/*	border: 4px solid blue;*/
-	min-height: 775px;
-	padding-bottom: 10vh;
-	padding-top:  5vh;
-
+h2{
+	color: #A66C6C;
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 5vh;
 }
 
 
-.background-img1{
-	border: none;
-	border-radius: 50%;
-	width: 50%;
-	height: 50%;
-	opacity: 60%;
-}
-
-
-project-list{
-	display: flex;
-	flex-direction: column;
+.about-container{
+	display: flex; 
+	flex-direction: row; 
 	justify-content: center;
 	align-items: center;
-	position: relative;
-	gap: 20px;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-
-
-picture{
-	display: block;
-	border: none;
-	border-radius: 0;
-	opacity: 35%;
-	overflow: hidden;
-	width: 200px;
-	height: 200px;
-
-}
-
-.project-img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-
-}
-
-h3{
-	text-align: center;
+.about-paragraph{
+	text-align: left;
 	font-family: 'Avenir';
+	font-weight: regular;
 	font-size: 15px;
-	font-weight: bolder;
-	transform: translate(0px, 115px);
 	color: #A66C6C;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
-
-
-.project a{
-	text-decoration: none;
+	
+p{
+  font-family: 'Avenir';
+	font-weight: regular;
 	font-size: 15px;
+	color: #A66C6C;
+/*	overflow:  visible;*/
 }
+
+
 
 
 
@@ -157,6 +131,7 @@ h3{
 
 footer{
 	background-color: #A66C6C;
+	width:  100%;
 }
 
 .footer-header{
@@ -222,24 +197,14 @@ footer{
 }
 
 
+@media (min-width: 700px){
+	project-list{
+		flex-direction: row;
+	}
+}
+
 @media (max-width: 600px){
 	nav{
 		gap: 20px;
 	}
-
 }
-
-@media (min-width: 700px){
-	project-list{
-		flex-direction: row;
-
-	}	
-}
-
-
-
-
-
-
-
-

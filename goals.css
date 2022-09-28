@@ -1,4 +1,4 @@
-@import meyer-reset.css;
+@import meyer-reset.css; 
 
 
 *{
@@ -19,8 +19,7 @@ body{
 }
 
 .inner-column{
-/*border: 3px blue solid;*/
-	width: 900px;
+	max-width: 900px;
 	margin-left:  auto;
 	margin-right: auto;
 }
@@ -28,17 +27,20 @@ body{
 
 header{
 	margin-top: 3vh;
-	
 }
+
+main{
+	padding:  3vh;
+}
+
 
 .nav-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-
-
-	
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -48,10 +50,10 @@ nav{
 	justify-content: end;
 	align-items: center;
 	gap: 50px;
-
 }
 
 .nav-container a{
+/*	border: 2px solid hotpink;*/
 	text-decoration: none;
 	color: #A66C6C;
 	font-family: 'Avenir';
@@ -76,7 +78,6 @@ nav{
 
 
 h1{
-
 	font-family: 'Avenir';
 	font-size: 50px;
 	font-weight: bold;
@@ -119,19 +120,25 @@ p{
 
 
 
-/* FOOTER */
+/*footer */
 
 footer{
-	/*border: 3px solid red;*/
 	background-color: #A66C6C;
-
 }
 
 .footer-header{
 	text-align: center;
 	padding-top: 30px;
-	font-size: clamp(30px, 3vw, 100px);
+	font-size: clamp(30px, 3vw, 30px);
 	color: #FFFAF5;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
 }
 
 .footer-paragraph{
@@ -141,7 +148,7 @@ footer{
 	font-weight: regular;
 	font-size: 15px;
 	color: #FFFAF5;
-	padding-top: 15px;
+	padding-top: 20px;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -160,7 +167,7 @@ footer{
 	width: 150px;
 	background-color: #FFFAF5;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 
 
 	display: block;
@@ -180,3 +187,16 @@ footer{
 	font-weight: bold;
 	font-size: 15px;
 }
+
+
+@media (min-width: 700px){
+	project-list{
+		flex-direction: row;
+	}
+}
+
+@media (max-width: 600px){
+	nav{
+		gap: 20px;
+	}
+
