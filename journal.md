@@ -347,4 +347,24 @@ Have a great day!
 
 
 
+##09.26.2022 
+##Lesson 092: PHP Templates
+
+###Standup 
+* What is one thing you learned over the yesterday? Yesterday I learned more about PHP and completed a MadLibs challenge. I ran into a HTTP 500 error after uploading it to the server. It took a while to figure out, but got it to work. I praticed PHP before the day ended and ran into the same HTTP 500 error. I realized that I forgot a few semi-colons and quotations. I also finalized all of the pages for my site (except the resume page) and updated the server. 
+
+* What is something that was confusing? I did not find anything confusing  
+
+* Is there anything you are excited to learn? Today, I am excited go over some terms and dive into else, if, and elseif statments. I am also going to go over yesterday lesson again for more practice. 
+
+* Blockers: None!
+
+## Lesson Notes
+* Today we practiced some PHP control flow statements (else, elseif, and if). It reminded me of JS when I was learning on my own. I did run into some HTTP 500 error because I was putting a condition on the last else statement. I put a conditioned on the if and elseif statements and echoed a comment for the last else statement. 
+## conclusion / major takeaways? 
+* As I was practicing writing <?php echo $animal;?> and <?=$animal?> statements in paragraphs, I forgot the semi-colons again when assigning a value to the variable! Don't forget the semi-colon! Look over things carefully!! 
+*
+
+
+
 
