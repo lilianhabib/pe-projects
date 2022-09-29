@@ -347,8 +347,8 @@ Have a great day!
 
 
 
-##09.26.2022 
-##Lesson 092: PHP Templates
+##09.27.2022 
+##Lesson 093: Control Flow
 
 ###Standup 
 * What is one thing you learned over the yesterday? Yesterday I learned more about PHP and completed a MadLibs challenge. I ran into a HTTP 500 error after uploading it to the server. It took a while to figure out, but got it to work. I praticed PHP before the day ended and ran into the same HTTP 500 error. I realized that I forgot a few semi-colons and quotations. I also finalized all of the pages for my site (except the resume page) and updated the server. 
@@ -360,11 +360,39 @@ Have a great day!
 * Blockers: None!
 
 ## Lesson Notes
-* Today we practiced some PHP control flow statements (else, elseif, and if). It reminded me of JS when I was learning on my own. I did run into some HTTP 500 error because I was putting a condition on the last else statement. I put a conditioned on the if and elseif statements and echoed a comment for the last else statement. 
+* Today we practiced some PHP control flow statements (else, elseif, and if). It reminded me of JS when I was learning on my own. I did run into some HTTP 500 error because I was putting a condition on the last else statement. I put a conditioned on the if and elseif statements and echoed a comment for the last else statement.
+* Key words 
+* * Delimiter: A character or set of characters that separate some text from other text. A comma, tags, quotes
+* * Keyword: a reserved word that the language and the interpreter have already defined. 
+* * Statement: explicit instruction. A comman you write. When you use the assignment operator, do math, or concatenate some strings, you are writing statements. 
+* * Operator: a symbol that tells the PHP interpreter to perform certain actions. 
+* * Boolean: value is true or false. 
+
 ## conclusion / major takeaways? 
 * As I was practicing writing <?php echo $animal;?> and <?=$animal?> statements in paragraphs, I forgot the semi-colons again when assigning a value to the variable! Don't forget the semi-colon! Look over things carefully!! 
-*
 
 
+##09.28.2022 
+##Lesson 094: PHP Arrays and Objects + some HSL color
 
+###Standup 
+* What is one thing you learned over the yesterday? Yesterday, I learned about else, elseif and else statements. I practiced it several times and learned that the else statement doesn't need a condition. When I did add one, it resulted in a HTTP 500 error. I went over the MadLibs activity again and I kept forgetting those semi-colons. Spent about 5-10 minutes figuring out what I was doing wrong. Practiced it several times more after that and I think I am getting the the hang of it, but I'm going to practice it again today. I also unexpectedly spent majority of my evening fixing my site. The menu and paragraph for two of the pages overflowed, while the others didn't (i.e. home and project page). Not sure why because I used the home page's html and css as a template for all of the pages. The navigation bar overflowing was most confusing. I went over the code line by line and it was exactly the same as the home page's. However, when I copied the nav css (from the home page) to the other page, it magically fixed the issue. I don't know if it was some sort of glitch. Also recently, my logo disappears and I see another logo. Only when I refresh the page several times, I see my original logo. Weird.
 
+* What is something that was confusing? Other than the website issue, there are no confusions! 
+
+* Is there anything you are excited to learn? Today, I am excited to learn about some PHP arrays and objects and play around with HSL colour
+
+* Blockers: None!
+
+## Lesson Notes
+* An array is a data structure to organize lists of things. It has an intrinsic order to it. 
+* Instead of asscessing the array with numbers, you can write echo $cat["nameokeyvalue"];. 
+* Arrays has an intrinsic order, so you need to called $example[2]. The list starts at 0. 
+* The Value Song: 
+* * adding black to a colour creates a shade. 
+* * adding white to a colour creates a tint. 
+* * grey - when you mix white and black. Add grey to a colour and you create a tone 
+* * value is the lightness or darkness of colour of hue
+
+## conclusion / major takeaways? 
+* Major takeaway today is use only one CSS styles page for all web pages. Always remember quotations and commas, and symbols. 
