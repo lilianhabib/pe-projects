@@ -396,3 +396,23 @@ Have a great day!
 
 ## conclusion / major takeaways? 
 * Major takeaway today is use only one CSS styles page for all web pages. Always remember quotations and commas, and symbols. 
+
+
+##09.29.2022 
+##Lesson 095: Loops and Iteration
+
+###Standup 
+* What is one thing you learned over the yesterday? Yesterday I learned about arrays and objects and HSL. I checked my site's colour contrast. I didn't pass with the original colours, but passed the second time around with different colours. I also combined all css style pages into one for my entire site. Nothing looks broken so far! 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: None!
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
+
