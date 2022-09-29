@@ -48,60 +48,6 @@
 			echo "<p>" . $cat . " is a gray and " . $adjectiveThree . "</p>"; 
 		?>
 
-		<?php
-
-			$cost = 50; 
-
-			if ($cost == 50) {
-				echo "lilian";
-			} elseif ($cost > 50) {
-				echo "chai";
-			} else {
-				echo "maybe"; 
-			}
-			
-
-			$name = "Sun"; 
-
-			if ($name == "Sun"){
-				echo "Hello, Sun";
-			} else {
-				echo "Welcome"; 
-			}
-
-
-			$animal = "horse";
-
-			if ($animal == "snake"){
-				echo "Get it!"; 
-			} else {
-				echo "Maybe next time"; 
-			}
-		?>
-
-		<?php
-			$tip = 30; 
-
-			if ($tip == 20) {
-				echo "Thank you!";
-			} elseif ($tip > 20) {
-				echo "Wowza, What a tippa"; 
-			} else {
-				echo "Well, I did foget to bring them the food..."; 
-			}
-		?>
-
-		<?php
-			$weather = "snow"; 
-
-			if ($weather == "rain"){
-				echo "Stay inside!";
-			} elseif ($weather == "sun"){
-				echo "Let's go to the beach";
-			} else {
-				echo "Let's check the weather!"; 
-			}
-		?>
 		
 			<h2>Method 2</h2>
 			<p>Dear <?=$relative?>, I am having a <?=$adjectiveOne?> time at camp. The counselor is <?=$adjectiveTwo?> and the food is <?=$adjectiveThree?>. I met <?=$personOne?> and we became <?=$adjectiveFour?> friends. Unfortunately, <?=$personOne?> is <?=$adjectiveFive?> and I <?=$edVerb?> my <?=$bodyPart?> so we couldn`t go <?=$ingVerb?> like everybody else. I need more <?=$pluralNoun?> and a <?=$noun?> sharpener, so please <?=$verbOne?> more when you <?=$verbTwo?> back.</p>

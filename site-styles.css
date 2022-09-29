@@ -6,11 +6,15 @@
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
+}
 
+html{
+	--paper: #E5F0FB;
+	--ink: #E5F0FB;
 }
 
 body{
-	background-color: #FFFAF5;
+	background-color: var(--paper);
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -53,7 +57,7 @@ nav{
 .nav-container a{
 /*	border: 2px solid hotpink;*/
 	text-decoration: none;
-	color: #A66C6C;
+	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 17px;
@@ -74,7 +78,7 @@ nav{
 }
 
 h1{
-	color: #A66C6C;
+	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: black;
 	font-size: 60px;
@@ -99,7 +103,7 @@ h1{
 .resume-name{
 	display: block;
 	font-style: italic;
-	color: #A66C6C;
+	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: black 900;
 	font-size: 60px;
@@ -113,7 +117,7 @@ h1{
 }
 
 .job-container{
-	color: #A66C6C;
+	color: #24505B;
 	font-size: 30px;
 	font-family: 'Avenir';
 	font-weight: regular;
@@ -137,7 +141,7 @@ h1{
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 15px;
-	color: #A66C6C;
+	color: #24505B;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	overflow: hidden;
@@ -157,14 +161,14 @@ socials{
 
 socials a{
 	text-decoration: none;
-	color: #A66C6C;
+	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 17px;
 }
 
 socials a:hover{
-	color: #FFFAF5;
+	color: #E5F0FB;
 }
 
 
@@ -174,45 +178,171 @@ h2{
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
+	color: #24505B;
+}
+
+/*PROJECTS*/
+.project-heading{
+	color: #A66C6C;
+	font-family: 'Avenir';
+	font-weight: black;
+	font-size: 50px;
+  
+	text-align: center;
+}
+
+.project-container{
+/*	border: 4px solid blue;*/
+	min-height: 65vh;
+	padding-bottom: 10vh;
+	padding-top:  5vh;
+
+}
+
+
+.background-img1{
+	border: none;
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	opacity: 60%;
+}
+
+
+project-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	gap: 20px;
+}
+
+
+
+picture{
+	display: block;
+	border: none;
+	border-radius: 0;
+	opacity: 35%;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+
+}
+
+.project-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+h3{
+	text-align: center;
+	font-family: 'Avenir';
+	font-size: 15px;
+	font-weight: bolder;
+	transform: translate(0px, 115px);
 	color: #A66C6C;
 }
 
-picture{
-	border-radius: 100%;
-	width: 500px;
-	border: 6px dotted #E1C9C9;
-	overflow: hidden;
 
-}
-
-picture img{
-	width: 100%;
-	height: auto;
-	object-fit: cover;
-	display: block;
-
+.project a{
+	text-decoration: none;
+	font-size: 15px;
 }
 
 
-
-ul li{
-	list-style: none;
-
+/*ABOUT*/
+.about-container{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center;
+	align-items: center;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
+
+.about-container p{
+  	font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 15px;
+	color: #24505B;
+	text-align: left;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+/*	overflow:  visible;*/
+}
+
+
+/*GOALS*/
+
+.goals-container{
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
+
+ul{
+	padding-left: 1em;
+}
+
+li{
+  font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 15px;
+	color: black;
+}
+
+.goals-container p{
+  font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 20px;
+	color: #A66C6C;
+}
+
+
+.goals-heading{
+	font-family: 'Avenir';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #24505B;
+}
+
+.sub-heading{
+	color: #24505B;
+	font-family: 'Avenir';
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 5vh;
+}
+
+.goals-container p{
+	font-family: 'Avenir';
+	font-weight: regular;
+	font-size: 20px;
+	color: #24505B;
+}
+
 
 
 
 /*footer */
 
 footer{
-	background-color: #A66C6C;
+	background-color: #24505B/*#A66C6C*/;
 }
 
 .footer-header{
 	text-align: center;
 	padding-top: 30px;
 	font-size: clamp(30px, 3vw, 30px);
-	color: #FFFAF5;
+	color: #E5F0FB;
 }
 
 .footer-container{
@@ -229,7 +359,7 @@ footer{
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 15px;
-	color: #FFFAF5;
+	color: #E5F0FB;
 	padding-top: 20px;
 
 	margin-left: auto;
@@ -247,7 +377,7 @@ footer{
 	border-radius: 10px;
 	padding: 20px;
 	width: 150px;
-	background-color: #FFFAF5;
+	background-color: #E5F0FB;
 	margin-top: 20px;
 	margin-bottom: 30px;
 
@@ -264,29 +394,28 @@ footer{
 
 .say-hello-container a{
 	text-decoration: none;
-	color: #A66C6C;
+	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: bold;
 	font-size: 15px;
 }
 
 
-@media (min-width: 700px){
-	project-list{
-		flex-direction: row;
-	}	
-}
+
 
 @media (max-width: 600px){
 	nav{
 		gap: 20px;
 	}
-	
 
+}
 
+@media (min-width: 700px){
+	project-list{
+		flex-direction: row;
 
-
-
+	}	
+}
 
 
 
