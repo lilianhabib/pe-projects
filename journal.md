@@ -2,11 +2,11 @@
 
 This journal is to document my progress, questions, notes about the lesson, and what I've been learning. 
 
-##09.14.2022 
+## 09.14.2022 
 
-##Lesson 080: Space 
+## Lesson 080: Space 
 
-###Standup 
+### Standup 
 **Yesterday**
 * I created some graphics and layouts in black and white 
 * Spent the majority of the day finalizing my site. I think I am finally content with it. I will post it on the show and tell channel soon. 
@@ -42,7 +42,7 @@ Challenge: Use shapes and play with the space, transparency, colour, position, a
 - no major takeaways 
 
 
-##09.15.2022
+## 09.15.2022
 ## Lesson 081: Contrast 
 **Yesterday** 
 * Reorganize my mood board and experiment with shapes, space, and colour 
@@ -115,10 +115,10 @@ For other uses, use 3x or 4x the point size for something more dramatic
 * Our eyes usually go to the darkest element on the page. The darkest element is typically the most important. Then the second most important is not as dark and the least important is the lightest. You want to create a hierarchy and have the elements interact using different font weights. 
 
 
-##09.16.2022 
-##Lesson 082: Research and Employ 
+## 09.16.2022 
+## Lesson 082: Research and Employ 
 
-###Standup 
+### Standup 
 **Yesterday**
 * Learned about contrast - go over Chris and Milka’s resources 
 * Practiced responsive layout 
@@ -200,10 +200,10 @@ Have a great day!
 
 
 
-##09.19.2022 
-##Lesson 085: Postcard Challenge  
+## 09.19.2022 
+## Lesson 085: Postcard Challenge  
 
-###Standup 
+### Standup 
 **Weekend**
 * Completed the research and employ assignment 
 * Completed day 4 and 5 of TAD 
@@ -231,10 +231,10 @@ Have a great day!
 * Letting go of my own expectations and letting the design just happen!
 
 
-##09.20.2022 
-##Lesson 086: Constraint-Secret word graphic  
+## 09.20.2022 
+## Lesson 086: Constraint-Secret word graphic  
 
-###Standup 
+### Standup 
 **Yesterday**
 * Completed day 6 of TAD 
 * Uploaded day 4 and 5 
@@ -270,10 +270,10 @@ Have a great day!
 
 
 
-##09.21.2022 
-##Lesson 087: Store style tile  
+## 09.21.2022 
+## Lesson 087: Store style tile  
 
-###Standup 
+### Standup 
 * What is one thing you learned yesterday? I was originally creating documents with my notes and uploading them to GitHub, but after speaking with Derek, I have learned how to complete journals directly in GitHub, which is so much easier. I might have misunderstood the instructions. I also reviewed the standup resource again. Not sure what took me so long to adopt this framework, but I'll be formating these standups like this from now on. 
 * What is something that was confusing? Or an idea you had? Navigating GitHub is still  confusing. I am still figuring out all of the buttons and options available. 
 * Is there anything you need help with today? 
@@ -291,10 +291,10 @@ Have a great day!
 
 
 
-##09.22.2022 
-##Lesson 088: Symbol and Icon Exploration   
+## 09.22.2022 
+## Lesson 088: Symbol and Icon Exploration   
 
-###Standup 
+### Standup 
 * What is one thing you learned yesterday? I learned how to set up DeployBot and connect it to GitHub and server. I also learned about common UX patterns among various websites and applied those patterns to a style tile for a company’a website 
 
 * What is something that was confusing? In a one of the channels, Derek mentioned to "keep content and layout separate with components that are independent of the page structure (ie inner-columns)". What does it mean to “keep content and layout separate" and "independent of the page structure"? 
@@ -312,10 +312,10 @@ Have a great day!
 * Ask for help and opinion about my work before scratching the entire design. There might be some value in creating something different. 
 
 
-##09.26.2022 
-##Lesson 092: PHP Templates
+## 09.26.2022 
+## Lesson 092: PHP Templates
 
-###Standup 
+### Standup 
 * What is one thing you learned over the weekend? The entire Friday and weekend was write off for me as I was getting back home. I did work on my site and finalize it, but I did not learn anything new.  
 
 * What is something that was confusing? I did not find anything confusing  
@@ -347,10 +347,10 @@ Have a great day!
 
 
 
-##09.27.2022 
-##Lesson 093: Control Flow
+## 09.27.2022 
+## Lesson 093: Control Flow
 
-###Standup 
+### Standup 
 * What is one thing you learned over the yesterday? Yesterday I learned more about PHP and completed a MadLibs challenge. I ran into a HTTP 500 error after uploading it to the server. It took a while to figure out, but got it to work. I praticed PHP before the day ended and ran into the same HTTP 500 error. I realized that I forgot a few semi-colons and quotations. I also finalized all of the pages for my site (except the resume page) and updated the server. 
 
 * What is something that was confusing? I did not find anything confusing  
@@ -372,10 +372,10 @@ Have a great day!
 * As I was practicing writing <?php echo $animal;?> and <?=$animal?> statements in paragraphs, I forgot the semi-colons again when assigning a value to the variable! Don't forget the semi-colon! Look over things carefully!! 
 
 
-##09.28.2022 
-##Lesson 094: PHP Arrays and Objects + some HSL color
+## 09.28.2022 
+## Lesson 094: PHP Arrays and Objects + some HSL color
 
-###Standup 
+### Standup 
 * What is one thing you learned over the yesterday? Yesterday, I learned about else, elseif and else statements. I practiced it several times and learned that the else statement doesn't need a condition. When I did add one, it resulted in a HTTP 500 error. I went over the MadLibs activity again and I kept forgetting those semi-colons. Spent about 5-10 minutes figuring out what I was doing wrong. Practiced it several times more after that and I think I am getting the the hang of it, but I'm going to practice it again today. I also unexpectedly spent majority of my evening fixing my site. The menu and paragraph for two of the pages overflowed, while the others didn't (i.e. home and project page). Not sure why because I used the home page's html and css as a template for all of the pages. The navigation bar overflowing was most confusing. I went over the code line by line and it was exactly the same as the home page's. However, when I copied the nav css (from the home page) to the other page, it magically fixed the issue. I don't know if it was some sort of glitch. Also recently, my logo disappears and I see another logo. Only when I refresh the page several times, I see my original logo. Weird.
 
 * What is something that was confusing? Other than the website issue, there are no confusions! 
@@ -398,10 +398,10 @@ Have a great day!
 * Major takeaway today is use only one CSS styles page for all web pages. Always remember quotations and commas, and symbols. 
 
 
-##09.29.2022 
-##Lesson 095: Loops and Iteration
+## 09.29.2022 
+## Lesson 095: Loops and Iteration
 
-###Standup 
+### Standup 
 * What is one thing you learned over the yesterday? Yesterday I learned about arrays and objects and HSL. I checked my site's colour contrast. I didn't pass with the original colours, but passed the second time around with different colours. I also combined all css style pages into one for my entire site. Nothing looks broken so far! 
 
 * What is something that was confusing? 
