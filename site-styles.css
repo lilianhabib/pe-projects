@@ -100,7 +100,7 @@ h1{
 	
 }
 
-.resume-name{
+/*.resume-name{
 	display: block;
 	font-style: italic;
 	color: #24505B;
@@ -109,12 +109,12 @@ h1{
 	font-size: 60px;
 	text-decoration: none;
 	margin-left: 20px;
-}
+}*/
 
-.resume-name:hover{
+/*.resume-name:hover{
 	color: black;
 	font-style: normal;
-}
+}*/
 
 .job-container{
 	color: #24505B;

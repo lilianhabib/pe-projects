@@ -402,16 +402,16 @@ Have a great day!
 ## Lesson 095: Loops and Iteration
 
 ### Standup 
-* What is one thing you learned over the yesterday? Yesterday I learned about arrays and objects and HSL. I checked my site's colour contrast. I didn't pass with the original colours, but passed the second time around with different colours. I also combined all css style pages into one for my entire site. Nothing looks broken so far! 
+* What is one thing you learned over the yesterday? Yesterday I learned about arrays and objects and HSL. I checked my site's colour contrast. I didn't pass with the original colours, but passed the second time around with different colours. I also combined all css style pages into one. Nothing looks broken so far!
 
 * What is something that was confusing? 
 
-* Is there anything you are excited to learn? 
+* Is there anything you are excited to learn? I am looking forward to learning about loops and iteration. After meeting with Derek, I have a better understanding of how to navigate git. I will also be applying CSS variables to my css and completing some milstone PHP challenges. 
 
 * Blockers: None!
 
 ## Lesson Notes
-* 
-
+* There are so many things I've learned today! It's exciting. So if thre are 5 items in the $fruitArray ($fruitsArray = ["Apple", "Banana", "Cherries", "Date", "Elderberry"]). Then I'll use 'foreach'. (foreach 9$fruitArray as $fruit) { echo "li" . $fruit . "/li"; }). So what this means is that for each item in the $fruitArray call it $fruit and then echo each $fruit item in a list. 
+* I created a monster adoption website using PHP! But it was confusing! I need more practice. I need to study each section to understand it better. I also think formatting is another thing I need to master, but that will come with practice. 
 ## conclusion / major takeaways? 
-* 
+* foreach statement will called each item/run a block of code for each item. It'll also identify each item as a new variable. Then it'll do what you ask it to do i.e. create a list.  
