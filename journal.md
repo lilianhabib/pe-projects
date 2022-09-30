@@ -415,3 +415,23 @@ Have a great day!
 * I created a monster adoption website using PHP! But it was confusing! I need more practice. I need to study each section to understand it better. I also think formatting is another thing I need to master, but that will come with practice. 
 ## conclusion / major takeaways? 
 * foreach statement will called each item/run a block of code for each item. It'll also identify each item as a new variable. Then it'll do what you ask it to do i.e. create a list.  
+* Also! USE STYLE TILE TO TEST OUT IDEAS FIRST THEN CODE IT. 
+
+
+
+## 09.30.2022 
+## Lesson 096: PHP functions
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I learned about the foreach statement and 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn?
+
+* Blockers: None!
+
+## Lesson Notes
+* 
+## conclusion / major takeaways? 
+* 

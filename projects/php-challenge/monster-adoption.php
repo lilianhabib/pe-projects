@@ -128,7 +128,7 @@
 			align-items: center;
 			max-width: 120vh;
 			font-family: 'Avenir';
-			font-size: 15px;
+			font-size: 20px;
 
 		}
 
@@ -245,7 +245,7 @@
 
 	echo "<h1 class='company-name'>Monster Adoption Service</h1>";
 
-	echo "<p class='intro-paragraph'>Welcome to Monster Adoption Service. Monster Adoption Service is a well-organized intimate center with a limit of 15 at all times. All our monsters are socialized with humans (adults & children), other monsters and, of course, the resident cat! We would like to emphasize that, although our center is well organized and maintained for the comfort of our Adoptees, this is not where they are meant to be. Upon entering the center many animals are often confused, stressed and in some cases, badly undernourished. We need to make their transition to a regular environment as simple as possible.Although Animatch does its utmost to help alleviate most of the factors traumatizing the pets, we are not the final solution. These dogs need permanent, understanding and loving homes. The sooner these animals find their forever home, the easier it will be for them to adapt, accept and begin living normally again.</p>";
+	echo "<p class='intro-paragraph'>Welcome to Monster Adoption Service. Monster Adoption Service is a well-organized intimate center with a limit of 15 at all times. All our monsters are socialized with humans (adults & children), other monsters and, of course, the resident cat! We would like to emphasize that, although our center is well organized and maintained for the comfort of our Adoptees, this is not where they are meant to be. Upon entering the center many animals are often confused, stressed and in some cases, badly undernourished. We need to make their transition to a regular environment as simple as possible. Although Animatch does its utmost to help alleviate most of the factors traumatizing the monsters, we are not the final solution. These monsters need permanent, understanding and loving homes. The sooner these monsters find their forever home, the easier it will be for them to adapt, accept and begin living normally again.</p>";
 
 	foreach ($bigmonsters as $monster) {
 		$name = $monster["name"]; 
