@@ -411,7 +411,7 @@ Have a great day!
 * Blockers: None!
 
 ## Lesson Notes
-* There are so many things I've learned today! It's exciting. So if thre are 5 items in the $fruitArray ($fruitsArray = ["Apple", "Banana", "Cherries", "Date", "Elderberry"]). Then I'll use 'foreach'. (foreach 9$fruitArray as $fruit) { echo "li" . $fruit . "/li"; }). So what this means is that for each item in the $fruitArray call it $fruit and then echo each $fruit item in a list. 
+* There are so many things I've learned today! It's exciting. So if thre are 5 items in the $fruitArray ($fruitsArray = ["Apple", "Banana", "Cherries", "Date", "Elderberry"]). Then I'll use 'foreach'. (foreach $fruitArray as $fruit) { echo "li" . $fruit . "/li"; }). So what this means is that for each item in the $fruitArray call it $fruit and then echo each $fruit item in a list. 
 * I created a monster adoption website using PHP! But it was confusing! I need more practice. I need to study each section to understand it better. I also think formatting is another thing I need to master, but that will come with practice. 
 ## conclusion / major takeaways? 
 * foreach statement will called each item/run a block of code for each item. It'll also identify each item as a new variable. Then it'll do what you ask it to do i.e. create a list.  
@@ -423,15 +423,22 @@ Have a great day!
 ## Lesson 096: PHP functions
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday I learned about the foreach statement and 
+* What is one thing you learned yesterday? Yesterday I learned about the foreach statement. The foreach statement will call each item and run a block of code for each item and do what you tell it to do (for example, create a list of each item). I also learned how to use PHP to create an entire website. It was pretty confusing at first, but I kept typing the same things over and it stuck. Still need more practice though. 
 
 * What is something that was confusing? 
 
-* Is there anything you are excited to learn?
+* Is there anything you are excited to learn? I am excited to learn about and practice writing PHP functions and look for some use-cases for PHP. 
 
 * Blockers: None!
 
 ## Lesson Notes
-* 
+* Scope: Very simple: PHP has function scope. That's the only kind of scope separator that exists in PHP. Variables inside a function are only available inside that function. Variables outside of functions are available anywhere outside of functions, but not inside any function. This means there's one special scope in PHP: the global scope. Any variable declared outside of any function is within this global scope. 
+* So, the $variables floating around in the program are scoped to the whole project, and the $variables in each function body are scoped to their respective function. They can’t access each other’s stuff!
+* Anything outside of a function is called the global scope.
+* Anything inside of a function is called the function scope.
+* When you are planning out the function, the various things that will be needed are called parameters.
+* When you go to call and actually run the function, then the values you pass into those parameter slots are referred to as arguments.
+*
+
 ## conclusion / major takeaways? 
-* 
+* Thinking about where PHP can be used has made me realize that PHP can be used in a lot of apps and websites. 
