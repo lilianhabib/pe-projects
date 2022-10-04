@@ -442,3 +442,23 @@ Have a great day!
 
 ## conclusion / major takeaways? 
 * Thinking about where PHP can be used has made me realize that PHP can be used in a lot of apps and websites. 
+
+
+
+
+## 10.3.2022 
+## Lesson 099: Vacation Day 
+
+### Standup 
+* What is one thing you learned yesterday? Saturday/Sunday I wasn't feeling well but I managed to go through the PHP warm-up and practice some PHP objects, arrays, templates, and functions. I also completed Saturday's reflection and thought about different ways PHP can be used. In a way, it helped me understand it better when I thought about from a real-world perspective. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I am excited to go over more milestone PHP challenges. The theme-challenge sounds interesting, so maybe I can do that today! I also want to take my one-a-day and recode it using PHP. Sounds intimidating but I feel like it might help all the PHP stuff stick if I can apply it to a personal project. I really like the monster PHP challenge for that reason. It combined everything I have learning into one project. Because we have been learning PHP in small chunks, my brain thinks of it as something unrelated. So when there is a project that combines everything I've been learning, I see the relationship between each and how it can be used together. 
+
+* Blockers: I'm having these intrusive thoughts that I'd forget all the PHP I have learned in the last week. 
+
+## Lesson Notes
+* No lesson available today! 
+## conclusion / major takeaways? 
+* I was able to code my thing-a-day using PHP! Pretty cool and pretty proud of myself. It sounded like a huge task but got it done in a reasonable time!

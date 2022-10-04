@@ -104,6 +104,64 @@
 
 
 
+<?php 
+	
+	function myShows($show){
+		echo "I love " . $show . "."; 
+
+	}
+
+	myShows(Friends); 
+?>
+
+<?php
+	$myShows = "Friends"; 
+	echo "<p>I love the show " . $myShows . "</p>";
+
+	$myFood = "Pizza"; 
+	echo "<p>I love " . $myFood . ". </p>"; 
+
+	$mySeason = "fall"; 
+	echo "<p>My favourite season is " . $mySeason . ". </p>";
+
+	$myBook = "To Kill a Mockingbird";
+	echo "<p>My favourite book is " . $myBook . ". </p>";
+
+
+	$myFavourite = [$myShows, $myFood, $mySeason, $myBook]; 
+
+	echo "<h2>My Favourite</h2>";
+
+	foreach ($myFavourite as $favourite){
+		echo "<li>" . $favourite . "</li>"; 
+	}
+?>
+
+<?php
+
+	$favs = "dog";
+	echo $favs; 
+	
+	function Favourites($favs) {
+		echo " I love " . $favs . ".";
+	}
+
+	Favourites(cookies); 
+	Favourites(popcorn); 
+	Favourites(tea); 
+	Favourites(plants); 
+	Favourites(bread); 
+	Favourites(seeds);
+?>
+
+
+
+
+
+
+
+
+
 
 
 

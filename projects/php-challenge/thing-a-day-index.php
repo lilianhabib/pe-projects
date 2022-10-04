@@ -1,7 +1,4 @@
-
-<!doctype html> 
-<html> 
-	<head> 
+<head> 
 
 		<meta charset="utf-8">
 		<meta name="author" content="Lilian Habib">
@@ -13,12 +10,13 @@
 		<meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/sharelilian.png">
 		
 
-		<link rel="shortcut icon" href="images/lilian1.png" type="image/png">
+		<link rel="shortcut icon" href="../../images/lilian1.png" type="image/png">
+
+		<link rel="stylesheet" href='styles.css'> 
 		
-		<!-- font --> 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=BhuTuka+Expanded+One&family=Give+You+Glory&family=Patrick+Hand&family=Prata&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=BhuTuka+Expanded+One&family=Patrick+Hand&family=Podkova&family=Square+Peg&display=swap" rel="stylesheet">
 
 	
 		<!-- Facebook Meta Tags -->
@@ -36,78 +34,24 @@
 		  <meta name="twitter:description" content="A website containing all of Lilian's awesome websites created while in Perpetual Education - Design for the Web.">
 		  <meta name="twitter:image" content="https://peprojects.devimages/metalilian.png">
 
-		<link rel="icon" href="../images/lilian1.png" type="image/png">
-		
-		<title> Contact Page </title>
-		
-		<style> 
-			*{
-				box-sizing: border-box;
-			}
 
-			body{
-				background-color: pink;
-			}
+		<title>Lilian's Thing-A-Day</title>
 
-			div{
-				background-color: white;
-				max-width: 500px;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				padding: 20px;
-				position: absolute;
-  				top: 40%;
-  				left: 50%;
-  				transform: translate(-50%, -50%);
-			}
 
-			h1{
-				text-align: center;
-			}
 
-			nav{
-				padding: 20px;
-				margin:  20px;
-				text-align: center; 
-			}
+	<head> 
 
-			a{
-				text-decoration: none;
-				color: black;
-				padding: 20px;
-			}
+<?php 
+	echo "<h1>A Thing-A-Day</h1>";
+	echo "<p>Pick something. Anything. Create some constraints. Then do it for a set amount of days.</p>";
 
-			a:hover{
-				color: blue;
-			}
+	$dayOne = "<img src='images/m-day1.jpg' alt='the letter m repeated in the color red'>";
 
-			p a{
-				padding: 0;
-			}
+	$dayTwo = "<img src='images/m-day2.jpg' alt='the letter m'>";
 
-			p{
-				text-align: center;
-			}
-		
-		</style>
-	</head>
+	$designs = [$dayOne, $dayTwo]; 
 
-	<body> 
-		<div>
-		<header> 
-			<h1> Contact Page </h1>
-		</header>
-
-		<main> 
-			<nav> 
-				<a href="welcome.html"> Welcome </a>
-				<a href="favourites.html"> My Favourites </a>
-				<a href="journal.html"> Journal </a> 
-			</nav>
-
-			<p> Contact me at <a href= "mailto: lilianslku@gmail.com" class="email"> lilianslku@gmail.com</a> for more information.</p>
-		</main>
-		</div>
-
-</html>
+	foreach ($designs as $design){
+		echo "<li>$design</li>";
+	} 
+?>

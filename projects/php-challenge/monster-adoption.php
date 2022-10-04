@@ -283,4 +283,45 @@
 ?>
 
 
+<?php
+	$post1[
+		"title" => "This is the title", 
+		"text" => "This is the description", 
+		"image" => "This is the image", 
+		"video" => "This is the video", 
+		"link" => "This is the link", 
+	];
+
+	$post2[
+		"title" => "This is the title", 
+		"text" => "This is the description", 
+		"image" => "This is the image", 
+		"video" => "This is the video", 
+		"link" => "This is the link", 
+	];
+
+	$posts = [$post1, $post2]; 
+
+	foreach ($posts as $post) {
+		$title = $post["title"]; 
+		$text = $post["text"]; 
+		$image = $post["image"]; 
+		$video = $post["video"]; 
+		$link = $post["link"]; 
+	}
+
+	echo "<ol>"
+		echo "<li class='post'>";
+			echo "<post-template>"; 
+					"<h2 class='title'>" . $title . "</h2>" . 
+					"<p class='text'>" . $text . "</p>" . 
+					"<picture class='image'>" . $video . "</picture>" . 
+					"<video class='video'>" . $link . "</video>" . 
+				"<post-template>"; 
+		echo "</li>"
+	echo "</ol>"
+?>
+
+
+
 
