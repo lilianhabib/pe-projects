@@ -495,9 +495,10 @@ Have a great day!
 
 * What is something that was confusing? 
 
-* Is there anything you are excited to learn? I am excited to research other websites and gather some visual inspiration for the site. I might also start the style tile today if I feel ready to
+* Is there anything you are excited to learn? I am excited to research sites and gather some visual inspiration for my site. I might also start the style tile today if I feel ready to. 
 
-* Blockers: 
+* Blockers: No blockers :) 
+
 
 
 ## Lesson Notes
