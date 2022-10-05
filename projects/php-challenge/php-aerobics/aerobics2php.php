@@ -24,6 +24,7 @@
 ?>
 
 <?php 
+
 	$food = "pizza"; 
 	$time = "lunch"; 
 	$cost = 2; 
@@ -31,5 +32,32 @@
 	$location = "Costco";
 	$total = 2 * 5; 
 
-	echo "Today I had " . $location . " " . $food . " for " . $time . ". The pizza cost " . $total . "."; 
+	echo "Today I had " . $location . " " . $food . " for " . $time . ". The pizza cost " . $total . ".";
+?>
+
+<?php
+	$first = "Ruby"; 
+	$last = "B"; 
+	$d = date("Date"); 
+
+	$available = false; 
+
+	if ($available){
+		echo "I'm free to chat!"; 
+
+	}else {
+		echo "I'm not free to chat, but email me so we can find some time!"; 
+	}
+
+	echo "<selection>";
+
+	if ($d == "Fri"){
+		echo "Happy Friyay!"; 
+	}elseif ($d == "Wed") {
+		echo "Happy Hump Day!"; 
+	}else {
+		echo "Hope you're having a splended day!"; 
+	}
+
+	echo "</selection>";
 ?>
