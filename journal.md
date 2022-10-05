@@ -389,10 +389,10 @@ Have a great day!
 * Instead of asscessing the array with numbers, you can write echo $cat["nameokeyvalue"];. 
 * Arrays has an intrinsic order, so you need to called $example[2]. The list starts at 0. 
 * The Value Song: 
-* * adding black to a colour creates a shade. 
-* * adding white to a colour creates a tint. 
-* * grey - when you mix white and black. Add grey to a colour and you create a tone 
-* * value is the lightness or darkness of colour of hue
+* adding black to a colour creates a shade. 
+* adding white to a colour creates a tint. 
+* grey - when you mix white and black. Add grey to a colour and you create a tone 
+* value is the lightness or darkness of colour of hue
 
 ## conclusion / major takeaways? 
 * Major takeaway today is use only one CSS styles page for all web pages. Always remember quotations and commas, and symbols. 
@@ -447,7 +447,7 @@ Have a great day!
 
 
 ## 10.3.2022 
-## Lesson 099: Vacation Day 
+## Lesson 099: CatchUp Day 1 
 
 ### Standup 
 * What is one thing you learned yesterday? Saturday/Sunday I wasn't feeling well but I managed to go through the PHP warm-up and practice some PHP objects, arrays, templates, and functions. I also completed Saturday's reflection and thought about different ways PHP can be used. In a way, it helped me understand it better when I thought about from a real-world perspective. 
@@ -460,5 +460,48 @@ Have a great day!
 
 ## Lesson Notes
 * No lesson available today! 
+* Day 1 of the theme challenge. Starting the challenge was a little overwhelming. I haven't done responsive layouts in about 2 weeks, so I was worried that I might have forgotten a couple of things. Thankfully, I used a boilerplate for my CSS and HTML so that helped save some time and jog my memory. I made changes to the boilerplate accordingly. I have done a few of these layouts and from what I have seen and done, it is always best to start with formatting the structure. I start with the header and move down. I also start with the smallest screen and adjust for a bigger screen using @media. The footer section was a bit more complex. I could have created a 2 by 2 grid with flex box but I decided to use display: grid. Grid was and still is tricky to navigate, but I decided to give it a try anyways. I set the grid columns and immediately had an issue. The issue didn't discourage me, if anything, it made me determine to find the solution. After about 5 minutes or so, the commas between the two values caused the issue! Those darn commas. Anyways, I finally finished step 1 - coding the structure and applying CSS.
 ## conclusion / major takeaways? 
 * I was able to code my thing-a-day using PHP! Pretty cool and pretty proud of myself. It sounded like a huge task but got it done in a reasonable time!
+
+
+## 10.4.2022 
+## Lesson 0100: CatchUp Day 2
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday, I attempted to recode my thing-a-day with PHP and it worked! Ran into some issues with the images not appearing but moved my php file to the same folder as the images and that fixed the issue. Overall it took a while, but I gained more confidence in PHP. I also spent some time going over the PHP challenges. I fixed an issue with my DeployBot and pe-projects folder. I started the layout challenge and finished the HTML and CSS. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I am looking forward to completing the layout challenge. I will spend some time making it responsive for the different screen sizes. I am hoping to get on a call with Derek today to go over the code. I really like Chanelle's idea of completing a write-up each day, so that is what I'm going to do! 
+
+* Blockers: None! 
+
+
+## Lesson Notes
+* Theme Challenge Layout 
+* Day 2 of the Theme Challenge. Yesterday I completed the HTML and CSS. Today I wanted to work on step 2 - making the site responsive. This look longer than expected because I kept having to make adjustments to the initial CSS. Lesson learned - make it responsive while coding the structure of the HTML. Before speaking with Derek, I looked over the code once more. I made sure the spacing made sense and the site was responsive. I ran into this weird issue with the inner-column of my footer. The box was condensed to the corner, which I have only seen happen when I do not make a custom element display: block. Stepped away from it for a while, refreshed the page and the issue was gone. Not sure what the issue was because I didn't change anything in the footer. I also completed my write-up for the challenge. Chatted with Derek, made some changes to my HTML, and then spent a good amount of time coding three sections of the page in PHP. Once that issue magically fixed itself. I chatted with Derek just to make sure my code was in good shape. I fixed my HTML structure so that my content elements such as <p> and <h3> were in a box (i.e. header>inner-column>module or section>inner-column>module or footer>inner-column>module). After making those HTML changes, I transferred things into Sublime and recoded the menu, article, and action sections using PHP. it was so daunting starting out with PHP. I did not know where or how to start. I went back to mini challenges I did throughout last week and I started with key:value pairs. From there everything slowly started to make sense. I showed Derek and removed all the "echo" and properly embedded PHP into HTML. I used the monsters adoption PHP to help. I'm getting more confident and starting to love PHP. I see everything as puzzle pieces. Anyways, on to day 3 - Research! 
+
+## conclusion / major takeaways? 
+* 
+
+
+## 10.5.2022 
+## Lesson 0101: TITLE HERE 
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday I finished making my layout responsive. It took me longer than I wanted. I had an issue with the inner-column of my footer. The box was condensed to the corner, which I have only seen happen when I do not make a custom element display: block. Stepped away from it for a while, refreshed the page and the issue was gone. I also completed my 2 write-ups for this challenge. Then chatted with Derek, made some changes to my HTML, and then spent a good amount of time coding the menu, call-to-action, and article section in PHP. It was nerve wracking at first because I did not know where to start, but after reviewing some of the mini challenges from last week, it helped push me in the right direction. 
+
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? I am excited to research other websites and gather some visual inspiration for the site. I might also start the style tile today if I feel ready to
+
+* Blockers: 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
