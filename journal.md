@@ -487,7 +487,7 @@ Have a great day!
 
 
 ## 10.5.2022 
-## Lesson 0101: TITLE HERE 
+## Lesson 0101: Catch-up Day 3
 
 ### Standup 
 * What is one thing you learned yesterday?  Yesterday I finished making my layout responsive. It took me longer than I wanted. I had an issue with the inner-column of my footer. The box was condensed to the corner, which I have only seen happen when I do not make a custom element display: block. Stepped away from it for a while, refreshed the page and the issue was gone. I also completed my 2 write-ups for this challenge. Then chatted with Derek, made some changes to my HTML, and then spent a good amount of time coding the menu, call-to-action, and article section in PHP. It was nerve wracking at first because I did not know where to start, but after reviewing some of the mini challenges from last week, it helped push me in the right direction. 
@@ -508,3 +508,57 @@ Have a great day!
 
 ## conclusion / major takeaways? 
 * No confusions or major takeaways 
+
+
+
+## 10.6.2022 
+## Lesson 0102: Catch-Up Day 4
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday, I chose an industry and narrowed it down to hair care or skin care. I spent a good amount of time researching different website, taking screenshots, and organizing the images on Affinity Designer. I also chatted with Chanelle and exchanged our PHP code for the theme challenge. I completed my write-up for yesterday's task as well. I decided to take a break from practicing PHP just to let everything sink in. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I am looking forward to applying some of the patterns/features/designs I gathered yesterday to some style tiles. I want to practice some PHP and work on recoding a website to PHP. I'll also be meeting Chanelle today to discuss our PHP code. 
+
+* Blockers: None! 
+
+
+## Lesson Notes
+*  Meeting with Chanelle about PHP theme challenge Notes 
+* I really like how you separated the files into parts. I totally forgot to do that when I was coding things in PHP. 
+* I think overall your PHP is more concise than mine. I think I add extra stuff that seems like it didn't need to be there. For example, your CTA php doesn't have $header = $action["header"]; etc whereas mine does. Yours worked without having to declare a new value to the header, paragraph and button. 
+* Question: FOr your CTA, I am curious why you created $moduleTwo instead of just having $moduleOne. 
+* For Article.php: It seems like we did something similar for the article section but like the call to action, I assigned a new value, but I like the way approach you took. 
+* I also see that you included the link for the button in the afterward in the echo section instead of in the key:value pairs. Is there a reason why you chose to do that instead of a different way?
+* Also, looking at your style sheet, it reminds me that I need to do better at formatting and cleaning up my stylesheet by removing anything unnecessary. 
+* Overall, I think you did great. I definitely want to make some changes to mine after looking at yours. 
+//separate into separate files 
+* I learned a lot while talking to Chanelle. Our code were pretty similar, but there were some differences and we discussed those. I made changes to my file that is more aligned with her file structure/format. 
+
+
+## conclusion / major takeaways? 
+* I learned more about PHP today after reviewing Chanelle's php with her. Putting PHP in a separate file is another way to integrate PHP in HTML. 
+
+
+## 10.7.2022 
+## Lesson 0102: Catch-Up Day 5
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday, I spent a good amount of time creating some style tiles and thinking about the colour combination, typefaces, and layout. I think I finalized on a style that creates the image I want the brand to have. I also had a good chat with Chanelle about our php site and I made changes to my file - i.e. I created separate files for each php section, formatted my style sheets, and tried to replicate the menu with php (with the space between sign-in). I haven't fixed the menu yet, but I will continue to do that today. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I am hoping to apply styles to my website. It is pretty exciting to see everything come together to create a complete website. I haven't been practicing PHP or haven't had the time/made the time to start converting another personal website to PHP. I am hoping that I can have time to do that today even if it is for 30 minutes. 
+
+* Blockers: It is Thanksgiving weekend! There will be lots of food and house preparation and friends and family flying in, so I will be pretty busy this weekend/middle of next week. I won't be online as much (this weekend) but I'll try to get my challenge up with the styles before the end of the week. 
+
+
+
+
+## Lesson Notes
+*  
+
+
+## conclusion / major takeaways? 
+* 
