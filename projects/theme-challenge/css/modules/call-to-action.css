@@ -1,0 +1,40 @@
+
+call-to-action {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+call-to-action a {
+  margin-top:  20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: .05em;
+  padding:  10px 0;
+  /* should a link look like a "button" though? */
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding:  10px;
+  background-color: black;
+  font-family: Avenir;
+  font-weight:  400;
+}
+
+call-to-action a:hover{
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 600px) {
+  call-to-action {
+    padding: 100px;
+  }
+}

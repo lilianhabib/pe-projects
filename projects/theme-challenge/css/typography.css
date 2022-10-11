@@ -1,0 +1,66 @@
+
+*{
+	font-family: Avenir;
+}
+
+.loud-voice	{
+	font-family: Avenir;
+	font-size: clamp(36px, 5vw, 60px);
+}
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
+graphic-diptych text-content .calm-voice{
+	text-align: center;
+}
+.intro-voice	{
+	font-family: Avenir;
+	font-size: 60px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.attention-voice	{
+	font-family: Avenir;
+	font-size: 30px;
+}
+
+article-card .attention-voice{
+	text-align: center;
+}
+
+.something-for-site-map-headings {
+	/* */
+}
+
+.calm-voice {
+	font-family: Avenir;
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+
+article-card .calm-voice{
+	text-align: center;
+}
+.link span{
+	text-align: center;
+}
+
+
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now $todo */
+p + p {
+	margin-top: 14px;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}

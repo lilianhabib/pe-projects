@@ -67,10 +67,13 @@
 
               <nav>
 
-                <?php foreach($mainNavs as $mainNav){ ?>
-                <a href='#' class='main-nav'><?=$mainNav?></a>
-                <?php } ?>
+                <div class='main-nav'>
 
+                  <?php foreach($mainNavs as $mainNav){ ?>
+                  <a href='#'><?=$mainNav?></a>
+                  <?php } ?>
+                  
+                </div>
               
                 <div class='signin'> 
                   <?php $signIn = "Sign-In";?>

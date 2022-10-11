@@ -1,0 +1,45 @@
+
+article-card {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* */
+  border: 2px solid #A49C84;
+  padding: 20px;
+}
+
+
+/*article-card:hover{
+  background-color: rgba(164, 156, 132, 0.5);
+}
+*/
+
+article-card picture:hover {;
+  opacity: 0.3;
+  background: rgba(164, 156, 132, 0.5);
+} 
+
+article-card .link{
+  border: 1.5px solid black;
+}
+
+article-card .link:hover{
+  background-color: var(--black);
+  color: var(--white);
+}
+
+
+article-card h2 {
+  margin-top: 20px;
+}
+
+article-card p{
+  text-align: left;
+}
+
+
+article-card a {
+  margin-top: 20px;
+  color: var(--color);
+  padding: 10px;
+}

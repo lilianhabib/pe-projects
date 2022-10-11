@@ -1,0 +1,47 @@
+
+site-map {
+  display: block;
+  /* */
+  padding-top: 40px;
+  padding-bottom: 120px;
+  /* */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h3{
+  font-weight: bold;
+}
+
+site-map .logo {
+  max-width:  40px;
+}
+
+site-map .logo * {
+  fill: currentColor;
+}
+
+site-map a {
+  font-family: Avenir;
+  font-size: 1rem;
+  padding-top:  10px;
+  text-decoration: none;
+}
+
+@media (min-width:  700px) {
+  site-map nav {
+    width:  50%;
+  }
+}
+
+@media (min-width:  900px) {
+  site-map nav {
+    width:  25%;
+  }
+}
+
+site-map nav {
+  flex-grow:  1;
+}

@@ -554,11 +554,33 @@ Have a great day!
 * Blockers: It is Thanksgiving weekend! There will be lots of food and house preparation and friends and family flying in, so I will be pretty busy this weekend/middle of next week. I won't be online as much (this weekend) but I'll try to get my challenge up with the styles before the end of the week. 
 
 
+## Lesson Notes
+*  No lesson notes 
 
+
+## conclusion / major takeaways? 
+* No major takeaways 
+
+
+
+## 10.10.2022 
+## Lesson 0106: Catch-Up Day 7
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I spent a lot of time with family and friends that I haven't seen in a while so I did not get a chance to do as much I originally wanted. However, towards the end of the night yesterday, I got a chance to add CSS to the site. I just need to add some images and finalize the details. I did look over the original files sent but didn't get a chance to look over the less complicated one. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I want to look over Derek's code and compare it to my code. I also hope to finish the CSS and post it. My current tile looks similar to the layout so if I have time today, I want to redo my style tile. 
+
+* Blockers: None 
 
 ## Lesson Notes
-*  
+* PHP CSS are put in separate files and each section of the website can get their own CSS file. But how do you organize your CSS files so that it makes sense?
+* This theme challenge is so 
 
 
 ## conclusion / major takeaways? 
 * 
+
+
