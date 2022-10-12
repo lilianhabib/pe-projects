@@ -577,10 +577,30 @@ Have a great day!
 
 ## Lesson Notes
 * PHP CSS are put in separate files and each section of the website can get their own CSS file. But how do you organize your CSS files so that it makes sense?
-* This theme challenge is so 
+* This theme challenge has had its challenges, especially today when I could only use CSS to change the visual design of the site. But it is nice to see how all these different files come together to create one site. It was confusing (and still is) to navigating between each and trying to determine it's connection from one file to another, however, I learned a lot passively as I was switching between both. 
 
 
 ## conclusion / major takeaways? 
-* 
+* No major takeaways 
+
+
+## 10.11.2022 
+## Lesson 0107: Catch-Up Day 8
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spent a good amount of time styling my site. Navigating the different files and trying to determine where to make the changes and where to add new styles was a little challenging. There were frustrating moments as well but I am happy with the results. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I want to review my site and see if there is anything I want to change. Yesterday was a long day so looking at it again today might spark some new ideas. Complete my last layout for my responsive layout garden and start converting a project to PHP.  
+
+* Blockers: None 
+
+## Lesson Notes
+*  I ran into an issue where the graphic-diptych text overflowed into the next section where the screen size was the smallest. I removed the absolute and relative positioning and that seemed to fix the issue. 
+
+
+## conclusion / major takeaways? 
+* No major takeaways 
 
 
