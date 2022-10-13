@@ -1,24 +1,81 @@
 
 call-to-action {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  /* */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid black;
+
+
+}*/
+
+
+
+@media (min-width: 600px) {
+  call-to-action {
+    padding: 100px;
+  }
 
 }
 
-call-to-action a {
-  margin-top:  20px;
+call-to-action_intro{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 5vh;
+}
+
+call-to-action-grid{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+/*  border: 2px solid red;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+*/
+}
+
+picture{
+  max-width: 300px;
+  padding: 10px;
+}
+
+picture:hover{
+  opacity: 0.3;
+}
+
+.action-pic{
+  width: 100%;
+  height: auto;
+}
+.noisy-voice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.shy-voice {
+  font-size: 25px;
+  text-align: center;
+}
+
+.buy span {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--white);
+  color: white;
   font-weight: 700;
   letter-spacing: .05em;
   padding:  10px 0;
-  /* should a link look like a "button" though? */
   display: flex;
   flex-direction: row;
   border: 1px solid black;
@@ -26,15 +83,29 @@ call-to-action a {
   background-color: black;
   font-family: Avenir;
   font-weight:  400;
+
 }
 
-call-to-action a:hover{
+.buy span:hover{
   background-color: white;
   color: black;
 }
+.buy {
+  background-color: black;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  
+}
 
-@media (min-width: 600px) {
-  call-to-action {
-    padding: 100px;
-  }
+
+
+/*  PRODUCT*/
+
+product-info{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
 }

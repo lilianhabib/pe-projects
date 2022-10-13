@@ -5,7 +5,7 @@ article-card {
   padding-bottom: 40px;
   /* */
   border: 2px solid #A49C84;
-  padding: 20px;
+  padding: 15px;
 }
 
 
@@ -13,8 +13,17 @@ article-card {
   background-color: rgba(164, 156, 132, 0.5);
 }
 */
+article-card picture{
+  max-width: 700px;
+  max-height: 700px;
+}
 
-article-card picture:hover {;
+.article-card{
+  width: 100%;
+  height: auto;
+}
+
+article-card picture:hover {
   opacity: 0.3;
   background: rgba(164, 156, 132, 0.5);
 } 
@@ -29,17 +38,21 @@ article-card .link:hover{
 }
 
 
+
 article-card h2 {
-  margin-top: 20px;
+  padding-top: 20px;
+
 }
 
 article-card p{
-  text-align: left;
+  max-height: 150px;
 }
 
 
 article-card a {
-  margin-top: 20px;
+  margin-top: auto;
   color: var(--color);
   padding: 10px;
+
 }
+

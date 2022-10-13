@@ -8,11 +8,15 @@
 		</a>
 
 		<a href='#'>
-			<span>Some page</span>
+			<span>Shop All</span>
 		</a>
 
 		<a href='#'>
-			<span>"Masthead"</span>
+			<span>About</span>
+		</a>
+
+		<a href='#'>
+			<span>Skin Quiz</span>
 		</a>
 	</nav>
 

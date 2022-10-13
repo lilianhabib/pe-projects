@@ -25,7 +25,7 @@ graphic-diptych text-content .calm-voice{
 
 .attention-voice	{
 	font-family: Avenir;
-	font-size: 30px;
+	font-size: clamp(30px, 2vw, 2rem);
 }
 
 article-card .attention-voice{

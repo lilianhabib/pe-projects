@@ -598,9 +598,55 @@ Have a great day!
 
 ## Lesson Notes
 *  I ran into an issue where the graphic-diptych text overflowed into the next section where the screen size was the smallest. I removed the absolute and relative positioning and that seemed to fix the issue. 
+* Coding php in separate files is actually a lot easier than I thought. I think that creating the files from scratch yourself makes it easier. I coded the about.html page to PHP and everything turned out well. I haven't separated the CSS yet. 
 
 
 ## conclusion / major takeaways? 
 * No major takeaways 
+
+
+## 10.12.2022 
+## Lesson 0108: Catch-Up Day 9
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I fixed the text content on my site because it was overflowing into the action section. I spent some time updating the links on my personal. And spent some time, working on my responsive layout. I also recoded my about page in PHP.
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I want to finish my theme challenge site.  
+
+* Blockers: None 
+
+## Lesson Notes
+*  Why is my graphic diptych not showing up?
+* Why can I not apply different images to my call-to-action section? 
+
+
+## conclusion / major takeaways? 
+* No major takeaways 
+
+
+
+## 10.13.2022 
+## Lesson 0109: Catch-Up Day 10
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I worked on my site. I had issues with images not/the wrong images appearing, but I think it just took a while to appear. I also changed the call-to-action section to include a product section. Ran into an issue where all the images were the same for the product section. 
+
+* What is something that was confusing? 
+
+* Is there anything you are excited to learn? Today I fixed the image issue. I didn't include the $thumbnail = $products["thumbnail"]. I want to replace all of the text with ones that align with the purpose of the site. I'm also meeting with Derek to go over my site and get feedback. 
+
+* Blockers: None 
+
+## Lesson Notes
+*  Why is my graphic diptych not showing up?
+* Why can I not apply different images to my call-to-action section? 
+
+
+## conclusion / major takeaways? 
+* No major takeaways 
+
+
 
 

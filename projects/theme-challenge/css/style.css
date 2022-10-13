@@ -68,15 +68,13 @@ html {
 }
 
 .welcome {
-		background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/welcome-img2);
+		background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/welcome.jpg);
 		background-size: cover;
 		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		opacity: 0.8; 
 		background-attachment: fixed;
-		
-
 }
 
 /* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
@@ -94,6 +92,7 @@ html {
 .get-involved call-to-action {
 
 }
+
 
 
 .stuff {
