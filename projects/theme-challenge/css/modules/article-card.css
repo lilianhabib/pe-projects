@@ -1,27 +1,13 @@
 
 article-card {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
   /* */
   border: 2px solid #A49C84;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-
-/*article-card:hover{
-  background-color: rgba(164, 156, 132, 0.5);
-}
-*/
-article-card picture{
-  max-width: 700px;
-  max-height: 700px;
-}
-
-.article-card{
-  width: 100%;
-  height: auto;
-}
 
 article-card picture:hover {
   opacity: 0.3;
@@ -41,18 +27,11 @@ article-card .link:hover{
 
 article-card h2 {
   padding-top: 20px;
-
 }
-
-article-card p{
-  max-height: 150px;
-}
-
 
 article-card a {
   margin-top: auto;
   color: var(--color);
   padding: 10px;
-
 }
 

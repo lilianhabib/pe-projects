@@ -1,6 +1,5 @@
 
 graphic-diptych {
-
   display: block;
   padding:  20px;
   padding-top: 40vh;
@@ -14,7 +13,7 @@ graphic-diptych {
 graphic-diptych picture{
   display: none;
 }
-text-content {
+graphic-diptych text-content {
   display: block;
   max-width: 900px;
   padding: 15px;

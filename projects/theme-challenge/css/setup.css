@@ -9,14 +9,13 @@ html {
 
 a {
 	display: block;
-	text-decoration: none;
 	color: inherit;
 }
 
 p a {
 	display: inline;
 	color: blue;
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 }
 
 picture {

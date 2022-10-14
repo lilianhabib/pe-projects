@@ -23,7 +23,7 @@ graphic-diptych text-content .calm-voice{
 	text-align: center;
 }
 
-.attention-voice	{
+.attention-voice{
 	font-family: Avenir;
 	font-size: clamp(30px, 2vw, 2rem);
 }
@@ -48,6 +48,7 @@ article-card .calm-voice{
 .link span{
 	text-align: center;
 }
+
 
 
 

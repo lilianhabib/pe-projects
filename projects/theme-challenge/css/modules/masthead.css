@@ -1,6 +1,7 @@
 
 mast-head {
   display: block;
+
 }
 
 mast-head nav {
@@ -14,10 +15,13 @@ mast-head .logo {
   max-width:  60px;
 }
 
-mast-head a {
+mast-head .nav-link {
   font-family: Avenir;
   font-size: 1rem;
   padding:  10px;
+}
+mast-head .nav-link:hover{
+  text-decoration: underline;
 }
 
 @media (min-width: 600px) {
