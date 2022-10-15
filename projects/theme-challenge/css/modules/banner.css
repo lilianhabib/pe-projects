@@ -1,0 +1,17 @@
+.announcement{
+  display: block; 
+  color: var(--white);
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  background-color: rgba(139,132,114,1);
+/*  */
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+header .announcement span{
+  text-decoration: underline;
+}

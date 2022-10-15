@@ -1,6 +1,6 @@
 <product-grid>
 
-	<h2>
+	<h2 class='attention-voice'>Collection</h2>
 	<ul>
 		<li>
 			<product-card>

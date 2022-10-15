@@ -25,15 +25,16 @@ product-card text-content{
 	justify-content: center;
 	align-items: center;
 	grid-area: stack;
+	 /*  */
 	background-color: rgba(255,255,255,0.5);
-	padding: 10px;
+	
 	padding-bottom: 0px;
-	width: 150px;
-	height: 150px;
+	width: 170px;
+	height: 170px;
 }
 
 product-card price{
-	padding: 5px;
+	padding: 7px;
 }
 
 product-card .buy-now{
@@ -41,9 +42,14 @@ product-card .buy-now{
 	font-size: 15px;
 	font-weight: lighter;
 	padding-top: 5px;
-	text-decoration: uppercase;
+	text-transform: uppercase;
 	font-size: 17px;
 
+}
+
+product-card span{
+	text-transform: uppercase;
+	font-weight: lighter;
 }
 
 product-card picture{
@@ -51,9 +57,10 @@ product-card picture{
 	grid-area: stack;
 }
 
+
 product-grid h3{
 	font-size: 15px;
-	padding: 10px;
+	padding: 15px;
 	font-weight: bolder;
 }
 
@@ -63,6 +70,8 @@ product-grid h3{
 	product-grid ul{
 		grid-template-columns: 1fr 1fr;
 	}	
+
+
 }
 
 @media (min-width: 900px){
@@ -74,4 +83,17 @@ product-grid h3{
 		grid-column: span 2;
 		grid-row: span 2;
 	}
+
+	product-card text-content{
+		display: none;
+	}
+
+	picture:hover+text-content{
+		display: block;
+			display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
 }
+

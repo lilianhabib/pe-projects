@@ -31,6 +31,17 @@ graphic-diptych text-content .calm-voice{
 article-card .attention-voice{
 	text-align: center;
 }
+articles-intro .attention-voice{
+	font-size: 30px;
+	font-weight: bold; 
+  	text-align: center;
+}
+product-grid .attention-voice{
+	font-size: 30px; 
+	font-weight: bold;
+  	padding-bottom: 20px;
+  	text-align: center;
+}
 
 .something-for-site-map-headings {
 	/* */

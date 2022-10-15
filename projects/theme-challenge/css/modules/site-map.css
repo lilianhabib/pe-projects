@@ -30,6 +30,48 @@ site-map a {
   text-decoration: none;
 }
 
+.site-footer .what-to-call-it-then p{
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+site-map .social-menu icon{
+  display: block;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+site-map .social-menu img{
+  max-width: 30px;
+}
+
+site-map subsribe{
+  display: block;
+  margin-top: 20px;
+}
+
+site-map subsribe h3{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+site-map subsribe .email{
+  border: none;
+  max-width: 175px;
+
+
+}
+
+site-map subsribe button{
+  background-color:  rgba(139,132,114,1);
+  border: none;
+  color: var(--white);
+}
+
 @media (min-width:  700px) {
   site-map nav {
     width:  50%;

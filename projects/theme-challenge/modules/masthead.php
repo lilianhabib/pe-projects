@@ -3,7 +3,7 @@
 
 	<nav class='site-menu'>
 		<a class='logo' href='#'>
-			<img src="images/logo.svg" alt="">
+			<img src="images/logo.png" alt="">
 			<!-- or you could actually use the SVG -->
 		</a>
 
@@ -31,9 +31,10 @@
 	</nav>
 
 
-	<nav class='user-menu' class='nav-link'>
+	<nav class='user-menu'>
 		<a href='#'>
-			<span>Sign-in</span>
+			<img src='images/login.png'>
+			<!-- <span>Sign-in</span> -->
 		</a>
 	</nav>
 
