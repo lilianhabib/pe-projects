@@ -11,12 +11,14 @@ product-grid ul {
 }
 
 product-card{
+	background-color: rgba(255,255,255,0.5);
 	display: block;
 	display: grid;
 	grid-template-areas: "stack";
 	place-items: center;
 	text-align: center;
 }
+
 
 product-card text-content{
 	display: block;
@@ -25,12 +27,13 @@ product-card text-content{
 	justify-content: center;
 	align-items: center;
 	grid-area: stack;
-	 /*  */
+	/*  */
 	background-color: rgba(255,255,255,0.5);
 	
 	padding-bottom: 0px;
 	width: 170px;
 	height: 170px;
+
 }
 
 product-card price{
@@ -88,12 +91,12 @@ product-grid h3{
 		display: none;
 	}
 
-	picture:hover+text-content{
+	product-card:hover text-content{
 		display: block;
-			display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
 

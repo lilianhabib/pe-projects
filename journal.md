@@ -687,6 +687,23 @@ Have a great Saturday!
 ## conclusion / major takeaways? 
 * No major takeaways
 
+## 10.17.2022 
+## Lesson 0111: Catch-Up Day 12
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I noticed an issue with the product section info. THe prouct info only appear when I hovered over the image, but would disappear when I hovered of the "buy now" link. I spent some time figuring that out and it's now fixed. 
+
+
+* Is there anything you are excited to learn? Today 
+
+* Blockers:
+
+## Lesson Notes
+* No lesson notes since I finished my layout 
+
+
+## conclusion / major takeaways? 
+* No major takeaways
 
 
 

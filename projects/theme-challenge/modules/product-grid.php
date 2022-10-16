@@ -8,20 +8,21 @@
 					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product1.jpg'>
 				</picture>
 
-				<text-content> 
-					<category>
-						<span>Newest Item</span>
-					</category>
 
-					<h3>Face Scrub</h3>
+					<text-content> 
+						<category>
+							<span>Newest Item</span>
+						</category>
 
-					<price>$14.99</price>
+						<h3>Face Scrub</h3>
 
-					<a href='#' class='buy-now'> 
-						<span>Buy Now</span>
-					</a>
+						<price>$14.99</price>
 
-				</text-content>
+						<a href='#' class='buy-now'> 
+							<span>Buy Now</span>
+						</a>
+
+					</text-content>
 
 
 
@@ -46,7 +47,8 @@
 					<a href='#' class='buy-now'> 
 						<span>Buy Now</span>
 					</a>	
-				</text-content>			
+				</text-content>	
+	
 			</product-card>
 		</li>
 
