@@ -649,4 +649,46 @@ Have a great day!
 
 
 
+## 10.14.2022 
+## Lesson 0110: Catch-Up Day 11
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spoke with Derek about my site and worked on a grid layout for my products. I created a new style tile based on the design feedback. I liked the way things looked on the tile and made changes to the colour and action and product section on my site.
+
+
+* Is there anything you are excited to learn? Today I will create a logo and make changes to the header and footer. Hopefully I can finish the site today and get feedback. Also maybe meet with Alpha 5.
+
+* Blockers: None 
+
+## Lesson Notes
+* Today I finalized my layout challenge. There were some challenges that took a while to solve that now looking back was not difficult. For example, I decided to have the product info appear on hover on larger screens and be kept as is on small screens. It just had to add the hover pseudo class on picture because the element was before the text content so that everything after the picture element will inherit the hover instructions. I also updated the copy with information that aligned with the site, added a favicon, updated the og:image, added info to the product image, updated the footer links, created icons, created and added the logo, added a banner, and reduced the height of the nav bar. Accomplished so many things! The time was well spent! I really liked the way the site turned out. 
+
+
+## conclusion / major takeaways? 
+* No major takeaways 
+
+
+## 10.15.2022 
+## Lesson 0111: Catch-Up Day 12
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spent majority of the day finishing up my challenge and finalizing all the small details. It took some time adjusting the info on the product section to appear on hover on larger screens. Looking back, it was pretty easy to do but for some reason it just wasn’t clicking last night. Pretty happy with how the site turned out!
+
+
+* Is there anything you are excited to learn? Today I want to update my goals page, work on my responsive layout, add the layout challenge to my projects page, and recode some of my site’s page/projects to PHP.
+Have a great Saturday!
+
+* Blockers:
+
+## Lesson Notes
+* No lesson notes since I finished my layout 
+
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+
+
+
 
