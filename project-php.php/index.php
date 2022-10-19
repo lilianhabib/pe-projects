@@ -7,7 +7,6 @@
 </section>
 
 
-
 <section class='footer'>
 
 	<?php include('footer.php');?>

@@ -687,25 +687,57 @@ Have a great Saturday!
 ## conclusion / major takeaways? 
 * No major takeaways
 
+
 ## 10.17.2022 
-## Lesson 0111: Catch-Up Day 12
+## Lesson 0113: Programming Exercises 
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday I noticed an issue with the product section info. THe prouct info only appear when I hovered over the image, but would disappear when I hovered of the "buy now" link. I spent some time figuring that out and it's now fixed. 
+* What is one thing you learned yesterday? Yesterday I noticed an issue with the product section info. THe prouct info only appeared when I hovered over the image, but would disappear when I hovered over the "buy now" link. I spent some time figuring that out and it's now fixed. I also spent some time recoding my project page to PHP. Then I updated my goals page and worked on my responsive layout. I've been working on the same responsive layout for a while so I made some changes to the CSS and HTMl based on what I have learned. As I was making these changes, I suddenly realized how much I've learned. 
 
 
-* Is there anything you are excited to learn? Today 
+* Is there anything you are excited to learn? Today I want to complete the programming exercises and revist PHP terms and concepts from previous weeks. I am going to write things out to make all these PHP concepts stick instead of just typing the solution out on Sublime. It might take a little longer but I find that it helps. Then I'm hoping to get started on the first chapter of the book. Then, if I have the time I want start writing a substack article for this week.
 
-* Blockers:
+* Blockers: None 
 
 ## Lesson Notes
-* No lesson notes since I finished my layout 
-
+* Exercises for Programmers Book Notes - Added to notes 
+* PHP is a server-side scripting language 
+* It's primary purpose is to generate HTML. So when a web page renders, it is rendering the HTML that the PHP created
+* PHP does not know anything about HTML. It just sees strings of characters. 
+* PHP allows you to save things in memory. Then creates references to point to those things in memory so you can reference them later. 
+* PHP runs top-down and eecutes in that order. 
+* So a reference must be declared first or else calling that reference would break the code 
+* Interpolation is adding variables in between strings
+* Brances are optional, but if you are using array elements, you much use braces e.g.: $greeting = "Welcome, {$user['name']}!";. So as a standard, braces are used if variable interpolation is used, instead of concatenation. 
+* Double quotes are required in interpolation 
 
 ## conclusion / major takeaways? 
 * No major takeaways
 
 
+## 10.18.2022 
+## Lesson 4: Thinking through problems with pseudo-code
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I read through Chapter 1 and made notes on it. There were quite a few things that resonated with me while reading this chapter. The first was how effective test-driven development and writing pesudocode was. Both are quick and easy and also provides an idea of the expected results and how one might achieve those results. I spent the rest of the day practicing early PHP concepts learned weeks ago and practiced some newers ones seen in the theme challenge. I did not get the chance to complete walkthrough part 3 because I wanted to make sure I was confident with the concepts in part 2. 
+
+* Is there anything you are excited to learn? Today I am looking forward to reading Chapter 2 of Exercises for Programmers and practicing concepts from walthrough part 2 and going over walkthrough part 3. I started my substack article today, so I want to continue that today. 
+
+* Blockers: None 
+
+## Lesson Notes
+* Exercises for Programmers Book Notes - Added to notes 
+* PHP is a server-side scripting language 
+* It's primary purpose is to generate HTML. So when a web page renders, it is rendering the HTML that the PHP created
+* PHP does not know anything about HTML. It just sees strings of characters. 
+* PHP allows you to save things in memory. Then creates references to point to those things in memory so you can reference them later. 
+* PHP runs top-down and eecutes in that order. 
+* So a reference must be declared first or else calling that reference would break the code 
+* Interpolation is adding variables in between strings
+* Brances are optional, but if you are using array elements, you much use braces e.g.: $greeting = "Welcome, {$user['name']}!";. So as a standard, braces are used if variable interpolation is used, instead of concatenation. 
+* Double quotes are required in interpolation 
+
+## conclusion / major takeaways? 
+* No major takeaways
 
 

@@ -5,9 +5,11 @@
 
 
 	<body>
-		<header class='nav-container inner-column'>
+		<header> 
+			<section class='nav-container inner-column'>
 
-			<?php include('modules/masthead.php');?>
+				<?php include('modules/masthead.php');?>
+			</section>
 
 		</header> 
 

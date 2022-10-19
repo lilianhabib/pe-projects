@@ -1,0 +1,22 @@
+activity-list {
+	display: block;
+	border: 2px solid lightgoldenrodyellow;
+	padding: 20px;
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+}
+
+
+
+activity-grid{
+	display: block;
+	border:  2px solid lightsteelblue;
+	display: flex; 
+	flex-direction: column; 
+	padding: 10px;
+}
+
+h2{
+	color: lightskyblue;
+}

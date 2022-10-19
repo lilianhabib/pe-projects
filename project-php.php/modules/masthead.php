@@ -1,20 +1,20 @@
-<masthead>
 
-	<nav>
+
 		<a href='#' class='header-logo'>
 			<img src='images/logo1.png' alt="">
 		</a>
 
+	<nav>
 		
-		<a href='home.html'>
+		<a href='../home.html'>
 			<span>Home</span>
 		</a>
 
-		<a href='projects.html'>
+		<a href='../projects.html'>
 			<span>Projects</span>
 		</a>
 
-		<a href='about.html'>
+		<a href='../about.html'>
 			<span>About</span>
 		</a>
 
@@ -22,10 +22,10 @@
 			<span>Resume</span>
 		</a>
 
-		<a href='goals.html'>
+		<a href='../goals.html'>
 			<span>Goals</span>
 		</a>
 	</nav>
 
 
-</masthead>
+

@@ -6,15 +6,11 @@
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
-}
 
-html{
-	--paper: #E5F0FB;
-	--ink: #E5F0FB;
 }
 
 body{
-	background-color: var(--paper);
+	background-color: #E5F0FB; /*#FFFAF5*/;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -100,7 +96,7 @@ h1{
 	
 }
 
-/*.resume-name{
+.resume-name{
 	display: block;
 	font-style: italic;
 	color: #24505B;
@@ -109,12 +105,12 @@ h1{
 	font-size: 60px;
 	text-decoration: none;
 	margin-left: 20px;
-}*/
+}
 
-/*.resume-name:hover{
+.resume-name:hover{
 	color: black;
 	font-style: normal;
-}*/
+}
 
 .job-container{
 	color: #24505B;
@@ -286,15 +282,12 @@ h3{
   padding-top: 5vh;
 }
 
-ul{
-	padding-left: 1em;
-}
-
 li{
   font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 15px;
 	color: black;
+	text-indent: 30px;
 }
 
 .goals-container p{
@@ -303,7 +296,6 @@ li{
 	font-size: 20px;
 	color: #A66C6C;
 }
-
 
 .goals-heading{
 	font-family: 'Avenir';
