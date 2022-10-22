@@ -219,9 +219,9 @@
 	<clothing-list> 
 		<?php foreach ($clothes as $clothingItem) {
 
-			// if ($clothingItem ['onSale']) {
-			// 	$banner = "<p class='sign'>On Sale</p>"; 
-			// }
+			if ($clothingItem ['onSale']) {
+				$banner = "<p class='sign'>On Sale</p>"; 
+			}
 
 		?>
 
@@ -231,7 +231,7 @@
 				<p><?=$clothingItem['item'] ?></p>
 				<p><?=$clothingItem['size'] ?></p>
 				<p><?=$clothingItem['price'] ?></p>
-
+				<?=$banner?>
 			</clothing-item>
 		<?php } ?>
 	</clothing-list>

@@ -23,24 +23,30 @@ graphic-diptych text-content .calm-voice{
 	text-align: center;
 }
 
-.attention-voice{
+call-to-action .attention-voice{
 	font-family: Avenir;
 	font-size: clamp(30px, 2vw, 2rem);
 }
 
-article-card .attention-voice{
+article-card .attention{
+	font-size: 30px;
 	text-align: center;
 }
 articles-intro .attention-voice{
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: bold; 
   	text-align: center;
 }
-product-grid .attention-voice{
-	font-size: 30px; 
-	font-weight: bold;
-  	padding-bottom: 20px;
-  	text-align: center;
+
+articles-intro .calm-voice{
+	font-family: Avenir;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+
+product-grid .calm-voice{
+	padding-bottom: 2vh;
 }
 
 .something-for-site-map-headings {
@@ -51,6 +57,7 @@ product-grid .attention-voice{
 	font-family: Avenir;
 	font-size: 1.2rem;
 	line-height: 1.4;
+	text-align: center;
 }
 
 article-card .calm-voice{

@@ -13,7 +13,7 @@
 		<img src='<?=$thumbnail?>' loading='lazy' alt='$todo' class='article-pic'>
 	</picture>
 
-	<h2 class='attention-voice'><?=$article["heading"]?></h2>
+	<h2 class='attention'><?=$article["heading"]?></h2>
 
 	<p class='calm-voice'><?=$article["description"]?></p>
 

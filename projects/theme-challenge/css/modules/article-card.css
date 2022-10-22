@@ -2,27 +2,32 @@
 article-card {
   display: block;
   /* */
-  border: 2px solid #A49C84;
-  padding: 15px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
 }
 
 
 article-card picture:hover {
-  opacity: 0.3;
   background: rgba(164, 156, 132, 0.5);
 } 
 
 article-card .link{
   border: 1.5px solid black;
-}
-
-article-card .link:hover{
+  text-decoration: none;
+  text-transform: uppercase;
   background-color: var(--black);
   color: var(--white);
 }
 
+article-card .link:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
+
+article-card .calm-voice{
+  padding-bottom: 2vh;
+}
 
 article-card h2 {
   padding-top: 20px;

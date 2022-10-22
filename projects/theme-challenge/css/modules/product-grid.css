@@ -11,12 +11,15 @@ product-grid ul {
 }
 
 product-card{
-	background-color: rgba(255,255,255,0.5);
 	display: block;
 	display: grid;
 	grid-template-areas: "stack";
 	place-items: center;
 	text-align: center;
+}
+
+product-grid picture{
+	opacity: 0.2;
 }
 
 
@@ -28,12 +31,18 @@ product-card text-content{
 	align-items: center;
 	grid-area: stack;
 	/*  */
-	background-color: rgba(255,255,255,0.5);
+/*	background-color: rgba(255,255,255,0.5);
 	
 	padding-bottom: 0px;
-	width: 170px;
-	height: 170px;
+	width: 500px;
+	height: 500px;*/
 
+}
+
+product-grid h2{
+	font-size: 50px;
+	font-weight: bold; 
+  	text-align: center;
 }
 
 product-card price{
@@ -50,10 +59,12 @@ product-card .buy-now{
 
 }
 
-product-card span{
+product-card category span{
 	text-transform: uppercase;
 	font-weight: lighter;
+	font-size: 10px;
 }
+
 
 product-card picture{
 	display: block;
@@ -61,11 +72,23 @@ product-card picture{
 }
 
 
+product-card text-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 product-grid h3{
-	font-size: 15px;
+	font-size: 17px;
 	padding: 15px;
 	font-weight: bolder;
 }
+
+product-grid category span{
+
+}
+
 
 
 
@@ -85,6 +108,14 @@ product-grid h3{
 	product-grid li:nth-of-type(1){
 		grid-column: span 2;
 		grid-row: span 2;
+	}
+
+	product-grid picture{
+		opacity: 1;
+	}
+
+	product-grid picture:hover{
+		opacity: 0.2;
 	}
 
 	product-card text-content{

@@ -35,8 +35,8 @@
 		<subsribe>
 			<h3>Get updates on the latest products, promotions, and more!</h3>
 			<label for="email"></label>
-			<input type="email" id="email" name="email" class='email'> 
-			<button>Subscribe</button>
+			<input type="email" name="email" class='email'> 
+			<a href='#' class='subsribe'>Subscribe</a>
 		</subsribe>
 	</nav>
 

@@ -1,6 +1,9 @@
 <product-grid>
 
-	<h2 class='attention-voice'>Collection</h2>
+
+	<h2 class='attention'>Collection</h2>
+	<p class='calm-voice'>View all of our popular products for the month of July!</p>
+
 	<ul>
 		<li>
 			<product-card>

@@ -716,7 +716,7 @@ Have a great Saturday!
 
 
 ## 10.18.2022 
-## Lesson 4: Thinking through problems with pseudo-code
+## Lesson 114: Thinking through problems with pseudo-code
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I read through Chapter 1 and made notes on it. There were quite a few things that resonated with me while reading this chapter. The first was how effective test-driven development and writing pesudocode was. Both are quick and easy and also provides an idea of the expected results and how one might achieve those results. I spent the rest of the day practicing early PHP concepts learned weeks ago and practiced some newers ones seen in the theme challenge. I did not get the chance to complete walkthrough part 3 because I wanted to make sure I was confident with the concepts in part 2. 
@@ -740,4 +740,254 @@ Have a great Saturday!
 ## conclusion / major takeaways? 
 * No major takeaways
 
+
+
+## 10.19.2022 
+## Lesson 115: Intro to server-side forms
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I read through Chapter 2 and worked through the problems using pseudocode. Then I spent some time practicing walkthrough Part 1, 2, and 3. I was able to complete an example without referencing the lesson but definitely still need more practice. 
+
+* Is there anything you are excited to learn? Today I am excited to get into forms. I experimented with making forms in the past, but I don't remember much, so it'll be nice to learn about it today and make one. I want to go over each of the PHP templating again. I hope to do this everyday until I feel completely confident in it. Also, excited to meet with everyone today! 
+
+* Blockers: None 
+
+## Lesson Notes
+* Input is a self-closing tag - <input> instead of <input/> 
+* To set the form up for PHP, each input gets a name and that is used as the key in the submitted Array of content
+* "POST" means you are SENDING data instead of requesting it
+* value attributes represents the data and the visual content as well. 
+* ISSET() is a way to tell if the variable has been assigned/has a value other than NULL. In other words, it helped determine whether you have used a variable in your code or not before. 
+* After you post/submit the form, the submitted data just hands around for you to use on the subsequent page visit. Like any other PHP associate array 
+* HTML inputs (even number inputs) end up with "Strings" for values 
+* Floatval(string) will turn the string into a float or a "floating-point integer". 
+* integer is a positive or negative whole number and floats are numbers with decimals. 
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+## 10.20.2022 
+## Lesson 116: Practice Practice Practice 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I had a really great meeting with alpha-5. We provided and gave feedback on each other's business card site and theme challenge. I also spent some time practicing forms and played around different types of input fields. Before ending the day, I went over php templating again and I've been feeling more confident with it. I was able to write everything out without referencing the lesson. 
+
+* Is there anything you are excited to learn? Today I am looking forward to choosing an exercise from the book and planning out the exercise. I also want to finish up my substack article and implement the feedback from yesterday to my business card site and theme challenge and update pages on my site.  
+
+* Blockers: None 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+
+
+
+
+## 10.21.2022 
+## Lesson 117: Another Exercises for Programmers practice day! 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I practiced forms and php templating. I am starting to feel more comfortable with both the more I practice. Then I implemented some of the feedback to my site and theme challenge. 
+
+* Is there anything you are excited to learn? Today I want to spend some time learning about array_push() and reading over the documents on userful built-in functions. Then I want to do a couple more challenges from the book and try to incorporate some of the new functions. I am going to end the night with php templating and implementing the feedbak to my site and theme challenge. 
+
+* Blockers: None 
+
+## Lesson Notes
+* array_push() is the function name 
+
+* PHP 4, PHP 5, PHP 7, PHP 8 are versions of PHP that include array_push().
+
+* array_push() pushes one more more elements onto th end of the array.
+
+* array_push() treats array as a stack and pushes the passed variables onto the end of array. The length of array increases by the number of variables pushed. In other words: array_push() takes an existing array and adds another variable that has been passed onto the end of an array. 
+
+* If you use array_() to add ONE element to the element, it's better to use $array[] = because there is no overhead of calling a function 
+
+* array_push() will raise a warning if the first argument is not an array. This is different from the $var[] behaviour where a new array was created 
+
+* array: the input array --> array & $array 
+
+* values: the values to push onto the end of the array --> mixed.... $values
+
+* return value: Returns the new number of elements in the array --> int 
+
+* example # 1 array_push()
+<?php 
+  $stack = array ("orange", "banana"); 
+  array_push($stack, "apple", "raspberry"); 
+  print_r($stack); 
+?>
+
+* the above example will output: 
+Array
+(
+  [0] => orange
+  [1] => banana
+  [2] => apple 
+  [3] => raspberry 
+)
+
+* array_pop() - pop the element off the end of the array 
+
+* array_shift() - Shift an element off the beginning of array 
+
+* array_unshift() - prepend one or more elements to the beginning of an array 
+
+* isset - determine if a variable is declared and is different than null 
+
+* unset - unset a given variable, in other words, destroys the specified variables. But, the behaviour of unset inside of a function can vary depending on what type of variable you are attempting to destroy. If a globalized variable is unset() inside of a function, only the local variable is destroyed. The variable in the calling environment will retain the same value as before unset() was called. 
+
+* strlen - get string length
+
+* strrev - reverse a string --> "Hello World" to "!dlrow olleH"
+
+* strtolower - make a string lowercase 
+
+* round - rounds a float --> var_dump (round(3.4)); to float (3) 
+
+* trim - strip whitespace (or other characters) from the beginning and end of a string 
+
+* explode - split a string by a string 
+
+* implode - join array elements with a string --> 
+$a1 = array ('one', 'two', 'three'); 
+$b1 = array ( '1st' => 'four', 'five', '3rd' => 'six' );
+ implode (',', $a), '/', implode (',', $b);
+ output: one, two, three / four, five, six 
+
+* substr - return part of a string 
+substr("abcdef", -1) // returns "f"
+substr("abcdef", -2) //returns "ef" 
+substr("abcdef", 1) //returns "b"
+substr("abcdef", 0, -1); // returns "abcde" > negative offset will start at the end 
+substr ("abcdef", 2, -1); removes "ab" and //return "cde"
+
+* count - counts all elements in an array or in a countable object 
+counts all elements in an array when used with an array. 
+$a[0] = 1; 
+$a[1] = 2;
+$a[2] = 3; 
+var_dump(count($a)); 
+ouput int(3)  
+
+* array_push - push one or more elements onto the end of array 
+treats array as a stack, and pushes the passed variables onto the end of array. The length of array increases by the number of variables pushed. 
+
+* array_rand - pick one or more random keys out of an array 
+
+* array_reverse - return an array with elements in reverse order 
+$input  = array("php", 4.0, array("green", "red"));
+$reversed = array_reverse($input);
+output: 
+[2] => Array
+        (
+            [0] => green
+            [1] => red
+        )
+
+    [1] => 4
+    [0] => php
+
+* array_slice - extract a slice of the array 
+-offset parameter denotes the position in the array, not the key. 
+-Offset is non-negative, the sequence will start at that offset and offset is negative, the sequence will start that far from the end of the array. 
+-$input = array("a", "b", "c", "d", "e");
+-$output = array_slice($input, 2);      // returns "c", "d", and "e"
+-$output = array_slice($input, -2, 1);  // returns "d"
+-$output = array_slice($input, 0, 3);   // returns "a", "b", and "c"
+
+* array_unique - removes duplicate values from an array 
+<?php
+$input = array("a" => "green", "red", "b" => "green", "blue", "red");
+$result = array_unique($input);
+print_r($result);
+?>
+output:     
+    [a] => green
+    [0] => red
+    [1] => blue
+
+* date - format a unix timestamp 
+$today = date("F j, Y, g:i a");                 // March 10, 2001, 5:16 pm
+$today = date("m.d.y");                         // 03.10.01
+$today = date("j, n, Y");                       // 10, 3, 2001
+$today = date("Ymd");                           // 20010310
+$today = date('h-i-s, j-m-y, it is w Day');     // 05-16-18, 10-03-01, 1631 1618 6 Satpm01
+$today = date('\i\t \i\s \t\h\e jS \d\a\y.');   // it is the 10th day.
+$today = date("D M j G:i:s T Y");               // Sat Mar 10 17:16:18 MST 2001
+$today = date('H:m:s \m \i\s\ \m\o\n\t\h');     // 17:03:18 m is month
+$today = date("H:i:s");                         // 17:16:18
+$today = date("Y-m-d H:i:s");                   // 2001-03-
+
+
+* mail - send mail 
+mail(
+    string $to,
+    string $subject,
+    string $message,
+    array|string $additional_headers = [],
+    string $additional_params = ""
+): bool
+-to: user@example.com
+user@example.com, anotheruser@example.com
+User <user@example.com>
+User <user@example.com>, Another User <anotheruser@example.com>
+-subject: subject of the email to be sent 
+-message: Each line should be separated with a CRLF (\r\n). Lines should not be larger than 70 characters.
+-additional-headers: string or array to be inserted at the end of the email header 
+-additional_params: The additional_params parameter can be used to pass additional flags as command line options to the program configured to be used when sending mail, as defined by the sendmail_path configuration setting. 
+$to      = 'nobody@example.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+mail($to, $subject, $message, $headers);
+
+
+
+
+## conclusion / major takeaways? 
+* How would you use $array[] to add one element to the array
+* A potential answer
+$arr = array (); 
+array_push($arr, "stackoverflow"); 
+print_r($arr); 
+* vs 
+$arr[] = "stackoverflow"; 
+print_r($arr); 
+
+
+
+
+
+## 10.22.2022 
+## Lesson 118: Another Exercises for Programmers practice day!
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I read through all of the built-in function websites and made some notes. THen I finished implemennting the feedback to my site. 
+
+* Is there anything you are excited to learn?  Today I am going to go over two problems from the book. I didn't do that yesterday because I decided to take a mini break from php after a week of practicing. Then I'll work updating my projects/removing them and finish my resume. 
+
+* Blockers: None 
+
+## Lesson Notes
+* Input is a self-closing tag - <input> instead of <input/> 
+* To set the form up for PHP, each input gets a name and that is used as the key in the submitted Array of content
+* "POST" means you are SENDING data instead of requesting it
+* value attributes represents the data and the visual content as well. 
+* ISSET() is a way to tell if the variable has been assigned/has a value other than NULL. In other words, it helped determine whether you have used a variable in your code or not before. 
+* After you post/submit the form, the submitted data just hands around for you to use on the subsequent page visit. Like any other PHP associate array 
+* HTML inputs (even number inputs) end up with "Strings" for values 
+* Floatval(string) will turn the string into a float or a "floating-point integer". 
+* integer is a positive or negative whole number and floats are numbers with decimals. 
+
+## conclusion / major takeaways? 
+* No major takeaways
 

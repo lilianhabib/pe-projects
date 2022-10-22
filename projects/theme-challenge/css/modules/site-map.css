@@ -11,7 +11,7 @@ site-map {
   justify-content: space-between;
 }
 
-h3{
+site-map h3{
   font-weight: bold;
 }
 
@@ -61,15 +61,24 @@ site-map subsribe h3{
 
 site-map subsribe .email{
   border: none;
-  max-width: 175px;
-
+  max-width: 300px;
+  padding: 5px;
 
 }
 
-site-map subsribe button{
+site-map subsribe a{
   background-color:  rgba(139,132,114,1);
   border: none;
   color: var(--white);
+  padding: 5px;
+  max-width: 100px;
+  margin-top: 10px;
+  
+  /*  */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media (min-width:  700px) {

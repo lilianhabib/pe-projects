@@ -6,11 +6,12 @@
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
-
+	font-family: Avenir;
+	color: #000;
 }
 
 body{
-	background-color: #E5F0FB; /*#FFFAF5*/;
+	background-color: #FFF;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -18,13 +19,14 @@ body{
 }
 
 main{
-	padding:  3vh;
 }
 
 .inner-column{
 	max-width: 900px;
 	margin-left:  auto;
 	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
@@ -37,8 +39,8 @@ header{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 20px;
+	padding-top: 4vh;
 }
 
 
@@ -47,17 +49,35 @@ nav{
 	flex-direction: row;
 	justify-content: end;
 	align-items: center;
-	gap: 50px;
+	gap: 60px;
 }
 
 .nav-container a{
-/*	border: 2px solid hotpink;*/
-	text-decoration: none;
-	color: #24505B;
+ 	position: relative;
+  text-decoration: none;
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 17px;
 }
+
+.nav-container a::after{
+	content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+.nav-container a:hover::after{
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
 
 .header-logo{
 	width: 50px;
@@ -74,15 +94,14 @@ nav{
 }
 
 h1{
-	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: black;
 	font-size: 60px;
   
 	 display: flex; 
 	 flex-direction: row; 
-	 justify-content: center;
-	 align-items: center;
+	 justify-content: start;
+	 align-items: start;
 
 }
 
@@ -90,105 +109,82 @@ h1{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	min-height: 65vh;
-	padding: 10px;
-	
+	padding-top: 25vh;
 }
 
-.resume-name{
-	display: block;
+.calm-voice{
 	font-style: italic;
-	color: #24505B;
-	font-family: 'Avenir';
 	font-weight: black 900;
-	font-size: 60px;
 	text-decoration: none;
-	margin-left: 20px;
+	padding-left: 5px;
 }
 
-.resume-name:hover{
-	color: black;
-	font-style: normal;
-}
+
 
 .job-container{
-	color: #24505B;
 	font-size: 30px;
-	font-family: 'Avenir';
-	font-weight: regular;
-	text-align: center;
+	text-align: left;
 	line-height: 1.5;
 	margin-top: 10px;
 }
 
 
 
-.about-container{
-	max-width: 95%;
-	display: flex; 
-	flex-direction: row; 
-	justify-content: start;
-	align-items: start;
-}
-
-.about-paragraph{
-	text-align: left;
-	font-family: 'Avenir';
-	font-weight: regular;
-	font-size: 15px;
-	color: #24505B;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	overflow: hidden;
-}
-	
-
 socials{
-	display: block;
-
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	padding-top: 50px;
-	
+	justify-content: start;
+	gap: 50px;
+	padding-top: 25vh;
 }
 
 socials a{
-	text-decoration: none;
-	color: #24505B;
-	font-family: 'Avenir';
-	font-weight: regular;
+  text-decoration: none;
+  position: relative;
+  padding-top: 30px;
+/*  */
 	font-size: 17px;
+
 }
 
-socials a:hover{
-	color: #E5F0FB;
+
+socials a::after{
+	content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+socials a:hover::after{
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 
 
 h2{
-	font-family: 'Avenir';
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
-	color: #24505B;
 }
 
 /*PROJECTS*/
 .project-heading{
-	color: #A66C6C;
 	font-family: 'Avenir';
 	font-weight: black;
 	font-size: 50px;
-  
 	text-align: center;
 }
 
 .project-container{
-/*	border: 4px solid blue;*/
 	min-height: 65vh;
 	padding-bottom: 10vh;
 	padding-top:  5vh;
@@ -240,7 +236,6 @@ h3{
 	font-size: 15px;
 	font-weight: bolder;
 	transform: translate(0px, 115px);
-	color: #A66C6C;
 }
 
 
@@ -252,26 +247,18 @@ h3{
 
 /*ABOUT*/
 .about-container{
-	display: flex; 
-	flex-direction: row; 
-	justify-content: center;
-	align-items: center;
-	padding-top: 10vh;
+	padding-top: 7vh;
 	padding-bottom: 10vh;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 
 .about-container p{
-  	font-family: 'Avenir';
-	font-weight: regular;
+  font-family: 'Avenir';
 	font-size: 15px;
-	color: #24505B;
-	text-align: left;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-/*	overflow:  visible;*/
+	text-align: justify;
+	line-height: 1.4;
+	letter-spacing: 0.01em;
+	overflow: visible;
 }
 
 
@@ -282,19 +269,20 @@ h3{
   padding-top: 5vh;
 }
 
+ul{
+	padding-left: 7vh;
+}
+
 li{
   font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 15px;
-	color: black;
-	text-indent: 30px;
 }
 
 .goals-container p{
   font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 20px;
-	color: #A66C6C;
 }
 
 .goals-heading{
@@ -302,11 +290,9 @@ li{
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
-	color: #24505B;
 }
 
 .sub-heading{
-	color: #24505B;
 	font-family: 'Avenir';
 	font-weight: bold;
 	font-size: 30px;
@@ -318,17 +304,13 @@ li{
 	font-family: 'Avenir';
 	font-weight: regular;
 	font-size: 20px;
-	color: #24505B;
 }
 
 
 
 
-/*footer */
+/*footer 
 
-footer{
-	background-color: #24505B/*#A66C6C*/;
-}
 
 .footer-header{
 	text-align: center;
@@ -393,20 +375,33 @@ footer{
 }
 
 
+*/
 
-
-@media (max-width: 600px){
-	nav{
-		gap: 20px;
+@media (max-width: 500px){
+	.nav-container{
+		padding-left: 20px;
 	}
+
+	socials{
+		padding-top: 20vh;
+	}
+
+	.intro-container{
+		padding-top: 20vh;
+	}	
 
 }
 
 @media (min-width: 700px){
 	project-list{
 		flex-direction: row;
+	}
 
-	}	
+	.nav-container{
+		padding-left: 20px;
+	}
+
+
 }
 
 
