@@ -77,10 +77,9 @@
 		if (isset ($_POST["attending"])){
 			$attending = $_POST ["attending"]; 
 		}
-
-		echo "<p class='message'>You have submitted</p>"; 
 	}
 	
+		echo "<p class='message'>You have submitted</p>"; 
 ?>
 
 
@@ -141,11 +140,11 @@
 	}
 
 	label{
-		max-width: 150px;
+		max-width: 200px;
 		padding-left: 0;
 	}
 
-	button [type='submit']{
+	button{
 		margin-left: auto; 
 		margin-right: auto;
 	}
@@ -185,6 +184,88 @@
 	</div>
 
 	<button type='submit' name='submitted' required>Submit</button>
+</form>
+
+
+
+<?php 
+
+	$name = ""; 
+	$number = ""; 
+	$email = ""; 
+	$address = ""; 
+	$people = ""; 
+	
+	if (isset($_POST["submitted"])) {
+
+		if (isset($_POST["name"])) {
+			$name = $_POST["name"]; 
+		}
+
+		if (isset($_POST["number"])){
+			$number = $_POST["number"]; 
+		}
+
+		if (isset($_POST["email"])){
+			$email = $_POST["email"];
+		}
+
+		if (isset($_POST['address'])){
+			$address = $_POST["address"]; 
+		}
+
+		if (isset ($_POST["pickup"])){
+			$pickup = $_POST ["pickup"]; 
+		}
+
+		if (isset ($_POST["people"])){
+			$people = $_POST["people"]; 
+		}
+
+	}
+
+	echo "<p>Thank you submitting the form</p>"; 
+
+?>
+
+
+
+
+<form method="POST">
+	
+	<h1>Cake form</h1>
+
+	<div class='field'> 
+		<label>Full Name</label>
+		<input type="text" name="name" value="<?=$name?>">
+	</div>
+
+	<div class="field"> 
+		<label>Number</label>
+		<input type="tel" name="number" value="<?=$number?>">
+	</div>
+
+	<div class="field">
+		<label>Email</label>
+		<input type="email" name="email" value="<?=$email?>"> 
+	</div>
+
+	<div class="field">
+		<label>Address</label>
+		<input type="text" name="address" value="<?=$address?>"> 
+	</div>
+
+	<div class="field">
+		<label>Pick-Up or delivery date</label>
+		<input type="datetime-local" name="pickup" value="<?=$pickup?>" required>  
+	</div>
+
+	<div class="field">
+		<label>Number of People</label>
+		<input type="number" name="people" min="0" value="<?=$people?>">  
+	</div>
+
+	<button type="submit" name="submitted">Submit</button>
 </form>
 
 

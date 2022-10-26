@@ -1,0 +1,30 @@
+@import "reset.css"; 
+@import "set.css"; 
+@import "detail.css"; 
+
+body{
+	background-color: lightseagreen;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: underline;
+}
+
+nav{
+	display: flex;
+}
+
+nav a{
+	padding: flex;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.page-content{
+	border:  1px solid lightyellow;
+}
+
+

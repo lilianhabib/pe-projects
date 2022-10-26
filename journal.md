@@ -991,3 +991,69 @@ print_r($arr);
 ## conclusion / major takeaways? 
 * No major takeaways
 
+
+
+
+## 10.24.2022 
+## Lesson 120: Routing with URL Querystrings
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I did not get the chance to do as much as I wanted with forms and php templating because I got what I think was a stomach bug. I did edit my project page locally and removed some projects, but did not get the chance to edit the projects. I also went over a list of useful built-in functions and completed two more challenges. 
+
+* Is there anything you are excited to learn?  Today am looking forward to learning about query strings and start thinking about and building my project. If I get the chance today, I want to go over the exercises for programmers part 1 video. I'll be going to the mainland tommorrow and spending the rest of the week there so today and tomorrow are going to be more busy than unusual, but I am going to be available as much as possible. 
+
+* Blockers: None 
+
+## Lesson Notes
+* https://site.com?someKey=someValue
+$thingYouCanUse=$ _ GET["someKey"];
+* ? will signify the start of the querystring. The = will connect the pair. You can send many pairs by putting a & between each 
+* When you post your form, it gets stored in the $ _ POST array. POST is used to collect form data after submitting a HTML form. 
+* When you get a URL and send along some data, it gets stored in the $ _ GET array. 
+* Project ideas: 
+ -restaurant - vietnamese 
+ -cat adoption site 
+ -bc trip itinerary - hikes 
+ -food itinerary - in toronto 
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+
+
+
+
+
+## 10.25.2022 
+## Lesson 120: Dynamic Detail Templates 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I learned about $_ GET and started thinking about and building my project. I created a layout on whimsical and created a pho template.
+
+* Is there anything you are excited to learn?  Today I’m hoping to post my code and continue building my website
+
+* Blockers: None
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

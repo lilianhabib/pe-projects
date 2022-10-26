@@ -1,48 +1,36 @@
 <?php
 
-$shows = [
-
-	$friends = [
-		"name" => "Friends",
-		"year" => "1995", 
-		"category" => "comedy", 
-		"award" => true, 
+$dishes = [
+	[
+		"name" => "Thai Curry",
+		"ingredient" => ["milk","vegetables", "curry paste", "fish sauce"],
+		"vegetarian" => true, 
 	], 
-
-	$gilmoreGirls = [
-		"name" => "Gilmore Girls", 
-		"year" => "2000", 
-		"category" => "drama", 
-		"award" => false, 
+	[
+		"name" => "Pizza", 
+		"ingredient" => ["cheese","tomato", "dough", "pineapple"],
+		"vegetarian" => true, 
 	], 
-
-	$goodGirls = [
-		"name" => "Good Girls", 
-		"year" => "2019", 
-		"category" => "action", 
-		"award" => false,
+	[
+		"name" => "Noodles", 
+		"ingredient" => ["broth","noodles", "vegetables", "chicken"],
+		"vegetarian" => false, 
 	], 
-
-	$show1 = [
-		"name" => "House hunting",
-		"year" => "1995", 
-		"category" => "comedy", 
-		"award" => false,
+	[
+		"name" => "Fried Rice", 
+		"ingredient" => ["rice","seasoning", "vegetables", "soy sauce"],
+		"vegetarian" => true, 
 	], 
-
-	$show2 = [
-		"name" => "Tidy", 
-		"year" => "2000", 
-		"category" => "drama",
-		"award" => true,  
-	], 
-
-	$show3 = [
-		"name" => "How to get away with muder", 
-		"year" => "2019", 
-		"category" => "action",
-		"award" => true,  
-	], 
+	[
+		"name" => "Curry", 
+		"ingredient" => ["beef", "curry flavours", "vegetables", "broth"],
+		"vegetarian" => false, 
+	],
+	[
+		"name" => "Shrimp Pasta", 
+		"ingredient" => ["shrimp", "pasta", "milk", "broth"],
+		"vegetarian" => false, 
+	],  
 
 ];
 

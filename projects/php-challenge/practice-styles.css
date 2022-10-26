@@ -1,4 +1,4 @@
-show-list {
+dish-list {
 	display: block;
 	border: 2px solid paleturquoise;
 	padding: 20px;
@@ -9,7 +9,7 @@ show-list {
 
 
 
-show-grid{
+dish-grid{
 	display: block;
 	border:  2px solid lightsteelblue;
 	display: flex; 
@@ -17,8 +17,15 @@ show-grid{
 	padding: 10px;
 }
 
+.ingredients{
+	color: black;
+}
+
+
 h2{
 	color: lightskyblue;
+	font-weight: bolder;
+	text-align: center;
 }
 
 .questions{
@@ -28,4 +35,9 @@ h2{
 
 span{
 	font-weight: bold;
+}
+
+.dish{
+	font-weight: bolder;
+	font-size: 20px;
 }
