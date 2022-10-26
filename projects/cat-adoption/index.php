@@ -17,7 +17,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link ref="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="css/site.css">
 		<title>Catoption - <?=$page?></title>
 	</head>
 
