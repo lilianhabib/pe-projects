@@ -3,6 +3,7 @@
 @import "detail.css"; 
 @import "masthead.css"; 
 @import "faq.css";
+@import "about.css"; 
 
 *{
 	font-family: Avenir;
@@ -10,7 +11,7 @@
 
 
 body{
-	background-color: lightsteelblue;
+	background-color: lightgrey;
 	padding: 20px;
 }
 
@@ -35,7 +36,12 @@ h1{
 }
 
 
-/*detail*/
+/*type*/
+
+.loud-voice{
+	text-align: center;
+	padding: 10px;
+}
 
 
 
