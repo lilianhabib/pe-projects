@@ -12,7 +12,7 @@
 
 body{
 	background-color: lightgrey;
-	padding: 20px;
+	padding: 20 px;
 }
 
 nav a {
@@ -41,6 +41,10 @@ h1{
 .loud-voice{
 	text-align: center;
 	padding: 10px;
+}
+
+.welcome-voice{
+	text-align: left;
 }
 
 

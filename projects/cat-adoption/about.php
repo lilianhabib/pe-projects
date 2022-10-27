@@ -6,7 +6,7 @@
 
 The Catoption is the only animal welfare organization in B.C. with the authority to enforce animal cruelty laws under the Prevention of Cruelty to Animals Act (PCA Act). We are the largest animal welfare organization of our kind in North America and the largest animal sheltering society in the world. We have 42 locations across B.C. including:
 <br> 
-<ul> 
+<ul class='about-location'> 
 	<li>36 branches which care for abused and homeless animals, until they are adopted into new homes (including three facilities with large animal barns)</li>
 
 	<li>Two animal hospitals (Vancouver and Penticton)</li>
@@ -14,6 +14,8 @@ The Catoption is the only animal welfare organization in B.C. with the authority
 	<li>Wild ARC, our wildlife rehabilitation centre in Metchosin</li>
 	<li>A provincial Animal Helpline in Victoria</li>
 	<li>Our provincial office in Vancouver, which oversees animal cruelty investigations, advocacy and education for youth and adults and other key activities across B.C.</li>
+</ul>
+
 <br> 
 <br> 
 We assist more than 118,917 animals in need every year and are funded by compassionate animal lovers who support our work and partner with us to protect and enhance the quality of life for domestic, farm and wild animals in B.C. See more stats at a glance.

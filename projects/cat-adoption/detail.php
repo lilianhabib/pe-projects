@@ -14,13 +14,18 @@
 	echo $cat_name; 
 
 	foreach ($adoption_data as $adoption){
-		echo $adoption["name"];
+		if ($cat_name == $adoption["name"]){
+			$cat_adopt = $adoption;
+		}
 	}
 
 ?>
+
+<?php if (isset($cat_adopt)) { ?>  
+
 </h1>
 
-<!-- <h1><?=$adoption['name']?></h1> -->
+<h1><?=$adoption['name']?></h1>
 
 <picture class='cat-img'> 
 	<img src="https://peprojects.dev/images/square.jpg" alt='$todo'> 
@@ -34,6 +39,11 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <a href="adoption_form.php">Adopt</a>
+
+<?php } else { ?>
+	<h1>No pets found</h1>
+
+<?php } ?>
 
 
 

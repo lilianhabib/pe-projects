@@ -5,7 +5,7 @@
 
 	<header>
 
-		<h1>Catoption</h1>
+		<h1 class='welcome-voice'>Catoption</h1>
 
 	</header>
 
