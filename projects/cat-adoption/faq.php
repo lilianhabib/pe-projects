@@ -1,7 +1,7 @@
 <h1 class='faq-title'>Frequently Asked Questions</h1>
 
 
-<ul> 
+<ul class='list-faq'> 
 	<li class="question">
 		<h2>Am I able to care for a cat?</h2>
 		<p>This may seem like a no-brainer, but it’s a question whose answer many people don’t listen to. Go through your day from the moment you wake up to the moment you go to sleep. Can your life and your home accommodate a new family member?</p>

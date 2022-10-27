@@ -6,7 +6,7 @@
 
 .question h2{
 	font-weight: bolder;
-	padding: 10px;
+	padding-left: 10px;
 	padding-bottom: 2px;
 }
 
@@ -17,4 +17,8 @@
 .subtitle-faq{
 	padding-top: 15px;
 	padding-left: 10px;
+}
+
+.list-faq{
+	list-style: none;
 }
