@@ -1,9 +1,16 @@
 @import "reset.css"; 
-@import "set.css"; 
+@import "setup.css"; 
 @import "detail.css"; 
+@import "masthead.css"; 
+@import "faq.css";
+
+*{
+	font-family: Avenir;
+}
+
 
 body{
-	background-color: lightseagreen;
+	background-color: lightsteelblue;
 	padding: 20px;
 }
 
@@ -26,5 +33,11 @@ h1{
 .page-content{
 	border:  1px solid lightyellow;
 }
+
+
+/*detail*/
+
+
+
 
 

@@ -47,11 +47,15 @@
 				}
 
 				if ($page == "faq") {
-					include ('faq.php');
+					include ("faq.php");
 				}
 
 				if ($page == 'detail'){
 					include ("detail.php");
+				}
+
+				if ($page == "adoption_form") {
+					include ("adoption_form.php"); 
 				}
 			?>
 

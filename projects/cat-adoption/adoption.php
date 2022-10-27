@@ -6,6 +6,9 @@
 	<?php foreach ($adoption_data as $adoption) { ?>
 
 		<adoption-list>
+			<picture>
+				<img src="https://peprojects.dev/images/square.jpg">
+			</picture>
 			<h5 class='id'><?=$adoption["id"]?></h5> 
 			<h2 class="name"><?=$adoption["name"]?></h2>
 			<h3 class="gender"><?=$adoption["gender"]?></h3>
@@ -19,57 +22,4 @@
 
 
 
-	<!-- <li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-
-	<li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-
-	<li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-
-	<li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-
-	<li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-
-	<li class='cats'>
-		<cat-list>
-			<h2 class="name">Name</h2>
-			<h3 class="gender">Gender</h3>
-			<h4 class="available">Available</h4>
-			<a href="#">View more</a>
-		</cat-list>
-	</li>
-</ul> -->
+	

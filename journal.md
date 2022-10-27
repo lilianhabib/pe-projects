@@ -1029,9 +1029,9 @@ $thingYouCanUse=$ _ GET["someKey"];
 ## Lesson 120: Dynamic Detail Templates 
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday I learned about $_ GET and started thinking about and building my project. I created a layout on whimsical and created a pho template.
+* What is one thing you learned yesterday? Yesterday I watched half of the video and add more code to my site. 
 
-* Is there anything you are excited to learn?  Today I’m hoping to post my code and continue building my website
+* Is there anything you are excited to learn?  Today I am going to watch the other half of yesterday's video and continue to build on what I did yesterday for my site. 
 
 * Blockers: None
 

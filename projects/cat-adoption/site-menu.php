@@ -7,5 +7,5 @@
 	<a href="?page=home">Home</a>
 	<a href="?page=about">About</a>
 	<a href="?page=adoption">Adoption</a>
-	<a href="?page=FAQ">FAQ</a>
+	<a href="?page=faq">FAQ</a>
 </nav>
