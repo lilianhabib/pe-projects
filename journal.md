@@ -1036,7 +1036,48 @@ $thingYouCanUse=$ _ GET["someKey"];
 * Blockers: None
 
 ## Lesson Notes
+* Worked on my site 
+
+## conclusion / major takeaways? 
+* No major takeaways
+
+
+
+## 10.26.2022 
+## Lesson 122: CRUD: Database ideas and medley 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday  
+
+* Is there anything you are excited to learn?  Today 
+* Blockers: None
+
+## Lesson Notes
+* CRUD: Create, Read, Update, Delete 
+* each piece of data that you want to store is referred to as a recor. It's a recording of the data. 
+* To make the data exist, it can be done via button, a set of form fields or something automated. 
+* Either way the record is created
+* The system(?) would be reading the record submitted and maybe even displaying it. 
+* If you want to update the address or name, this updating the record (the U in CRUD)
+* And you can also delete the record if you are done with it. 
+* JSON = Javascript Object Notation but in our case, it is just a slightly different version of PHP associative array 
 * 
+
+## conclusion / major takeaways? 
+* App idea: an app that includes all the cafes that have wifi. It will include pictures and the type of amenities (plugs, bar stools), and even eventually tell you how many seats are avilable. 
+
+
+## 10.27.2022 
+## Lesson 123: CRUD: Thinking Through Form Validation 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday  
+
+* Is there anything you are excited to learn?  Today 
+* Blockers: None
+
+## Lesson Notes
+* Working through Wednesday's lesson 
 
 ## conclusion / major takeaways? 
 * No major takeaways
