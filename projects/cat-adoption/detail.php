@@ -1,51 +1,33 @@
 
 <?php include ('adoption_data.php'); ?>
 
-<h1>
-
-<?php
-
-
-	$cat_name = "";
-	if (isset($_GET["name"])){
-		$cat_name = $_GET["name"]; 
+<?php 
+	if (isset($_GET["name"]) ) {
+		$cat = $_GET["name"]; 
 	}
-
-	echo $cat_name; 
+	echo $cat;
 
 	foreach ($adoption_data as $adoption){
-		if ($cat_name == $adoption["name"]){
-			$cat_adopt = $adoption;
+		if ($cat == $adoption["name"]) {
+			$adopt_detail = $adoption;
 		}
 	}
-
 ?>
 
-<?php if (isset($cat_adopt)) { ?>  
-
-</h1>
-
-<h1><?=$adoption['name']?></h1>
+<!-- <?php if ( isset($adopt_detail) ) { ?>
+ --><h1><?=$adopt_detail["name"]?></h1>
 
 <picture class='cat-img'> 
 	<img src="https://peprojects.dev/images/square.jpg" alt='$todo'> 
 </picture>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<a href="adoption_form.php">Adopt</a>
+<a href="?page=adoption">Adopt</a>
 
 <?php } else { ?>
-	<h1>No pets found</h1>
-
+	<h1>No cat found</h1>
 <?php } ?>
-
-
 
 
 

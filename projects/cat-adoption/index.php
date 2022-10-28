@@ -4,9 +4,13 @@
 	$page = null; 
 
 	if ( isset ($_GET["page"])) {
-		$page = $_GET["page"];
+		$page = $_GET["page"]; //url?page=string
 	} else {
-		$page == "home"; 
+		$page == "home"; //default
+	}
+
+	function getTemplate($page) {
+		include($page . ".php");
 	}
 
 ?>
@@ -26,7 +30,7 @@
 
 		<header>
 
-			<?php include ('site-menu.php') ?>
+			<?php include ('site-menu.php'); ?>
 
 		</header>
 
@@ -34,29 +38,35 @@
 		<main class='page-content'>
 
 			<?php 
-				if ($page == "home"){
-					include ('home.php');
-				}
 
-				if ($page == "about"){
-					include ('about.php');
-				}
+				getTemplate ($page); 
+				// if ($page == "home"){
+				// 	include ('home.php');
+				// }
 
-				if ($page == "adoption"){
-					include ('adoption.php'); 
-				}
+				// if ($page == "about"){
+				// 	include ('about.php');
+				// }
 
-				if ($page == "faq") {
-					include ("faq.php");
-				}
+				// if ($page == "adoption_data"){
+				// 	include ('adoption_data.php'); 
+				// }
 
-				if ($page == 'detail'){
-					include ("detail.php");
-				}
+				// if ($page == "adoption"){
+				// 	include ('adoption.php'); 
+				// }
 
-				if ($page == "adoption_form") {
-					include ("adoption_form.php"); 
-				}
+				// if ($page == "faq") {
+				// 	include ("faq.php");
+				// }
+
+				// if ($page == 'detail'){
+				// 	include ("detail.php");
+				// }
+
+				// if ($page == "adoption_form") {
+				// 	include ("adoption_form.php"); 
+				// }
 			?>
 
 		</main>

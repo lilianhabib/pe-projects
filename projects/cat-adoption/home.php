@@ -11,7 +11,7 @@
 
 	<main>
 
-		<a href='adoption.php'>Adopt Now</a>
+		<a href=?page=adoption>Adopt Now</a>
 
 	</main>
 

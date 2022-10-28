@@ -3,8 +3,9 @@
 
 
 <p>The mission of the Catoption is to protect and enhance the quality of life for domestic, farm and wild animals in British Columbia.
-
-The Catoption is the only animal welfare organization in B.C. with the authority to enforce animal cruelty laws under the Prevention of Cruelty to Animals Act (PCA Act). We are the largest animal welfare organization of our kind in North America and the largest animal sheltering society in the world. We have 42 locations across B.C. including:
+<br>
+<br>
+The Catoption is the only animal welfare organization in B.C. with the authority to enforce animal cruelty laws under the Prevention of Cruelty to Animals Act (PCA Act). We are the largest animal welfare organization of our kind in North America and the largest animal sheltering society in the world. We have 42 locations across B.C. including:</p>
 <br> 
 <ul class='about-location'> 
 	<li>36 branches which care for abused and homeless animals, until they are adopted into new homes (including three facilities with large animal barns)</li>
