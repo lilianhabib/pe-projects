@@ -1047,10 +1047,11 @@ $thingYouCanUse=$ _ GET["someKey"];
 ## Lesson 122: CRUD: Database ideas and medley 
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday  
+* What is one thing you learned yesterday? Yesterday I watched half of the video and added more code to my site.  
 
-* Is there anything you are excited to learn?  Today 
-* Blockers: None
+* Is there anything you are excited to learn?  Today I am going to watch the other half of yesterday's video and continue to build on my site. Hopefully I can get the framework today and just focus on the styles afterwards.
+
+* Blockers: Things have just been hectic and busy and I am not in my usual office space so feel disorganized
 
 ## Lesson Notes
 * CRUD: Create, Read, Update, Delete 
@@ -1071,9 +1072,10 @@ $thingYouCanUse=$ _ GET["someKey"];
 ## Lesson 123: CRUD: Thinking Through Form Validation 
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday  
+* What is one thing you learned yesterday? Yesterday I finished Tuesday's video and worked on my site. I did not get a chance to do much unfortunately.
 
-* Is there anything you are excited to learn?  Today 
+* Is there anything you are excited to learn?  Today I had a stressful morning. Things on my site kept breaking. Took a break from my site for a couple of hours and started all over. When I first watched the video, I replaced the file names and key=value pairs with ones that were more geared towards a cat adoption site. So I think something went with one of the files. After starting over and following the video exactly, everything works! I should have followed the way Derek did it originally and then made the changes. Now moving on to CRUD! 
+
 * Blockers: None
 
 ## Lesson Notes
@@ -1083,10 +1085,42 @@ $thingYouCanUse=$ _ GET["someKey"];
 * No major takeaways
 
 
+## 10.28.2022 
+## Lesson 124: Using Root Based Info for styling 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I went over the CRUD video and had a better understanding of forms 
+
+* Is there anything you are excited to learn?  Today I will be meeting with Derek and completing today's lesson. 
+
+* Blockers: None
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* No major takeaways
 
 
 
 
+
+
+## 10.29.2022 
+## Lesson 125: JSON and trying to save data.
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I had a meeting with Derek and went over form validation. 
+
+* Is there anything you are excited to learn?  Today I am finally back home. Hoping to get back on track before the end of this week. I am only a lesson behind so I definitely think I can do it. Going to tackle Friday's lesson today and Saturday's lesson tomorrow. This week has been busy and stressful. So after catching up, I want to take the time this weekend to start the project from sratch again just to solidify my understanding of everything we have been learning. Also, going to upgrade my laptop today. Been hanging on to an older version of the air for sentimental reasons but I think it is finally time for a trade-in. 
+
+* Blockers: None
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* No major takeaways
 
 
 
