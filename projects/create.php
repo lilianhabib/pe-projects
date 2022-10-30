@@ -60,7 +60,7 @@
 
 <form method="POST">
 	<ield>
-		<label>Type</label>
+		<label>Cafè</label>
 		<input name="type" value="<?=$type?>">
 		<?php if ($typeError) { ?>
 			<p class="error"><?=$typeError?></p>
@@ -68,7 +68,7 @@
 	</field>
 
 	<field>
-		<lable>Range</lable>
+		<lable>Rating</lable>
 		<input type="range" min="1" max="5" value="<?=$condition?>" name="condition">
 	</field>
 

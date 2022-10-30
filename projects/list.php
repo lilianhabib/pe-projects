@@ -4,7 +4,7 @@
 
 <ul>
 
-	<?php foreach ($car_data as $car) {?>
+	<?php foreach ($data as $car) {?>
 
 		<?php 
 			$price = "$" . number_format($car["price"], 2, ".", ",");

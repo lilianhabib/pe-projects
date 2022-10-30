@@ -10,7 +10,7 @@
 	echo $this_car_id;
 
 
-	foreach ($car_data as $car) {
+	foreach ($data as $car) {
 		if ($this_car_id == $car["id"] ) {
 			$detail = $car; 
 		} 
