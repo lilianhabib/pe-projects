@@ -6,11 +6,13 @@
 @import "components.css";
 @import "forms.css";
 @import "menu.css"; 
+@import "home.css"; 
+@import "list.css";
 
-/*body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+body {
+	/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+/*	animation: gradient 500s ease infinite;*/
 	height: 100vh;
 	min-height: 100vh;
 }
@@ -29,36 +31,34 @@
 
 html{
 	--swing-white:  #F9F6EE;
-}*/
+	--universal: #255756;
+	--black: #000000; 
+	--white: #FFFFFF;
+
+}
+
+inner-column{
+	display: block;
+	max-width: 700px; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.home {
+	background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/dynamic-template/images/home-background2.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.list { 
+	background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/dynamic-template/images/list-background-bw.png);
+	background-size: cover;
+	background-position: center;
+}
 
 .page-content{
 	padding: 15px;
 }
 
-car-card{
-	display: block;
-	border: 1px solid grey;
-	padding: 10px;
-}
 
-.car + .car{
-	margin-top: 30px;
-}
-
-ul{
-	list-style: none;
-}
-
-car-card a{
-	text-decoration: underline;
-}
-
-picture{
-	width: 200px;
-}
-
-img{
-	width: 100%;
-	height: auto;
-}
 

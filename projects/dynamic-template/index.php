@@ -15,18 +15,20 @@
 		<link rel="stylesheet" href="css/site.css">
 		<title><?=$page?></title>
 	</head>
-	<body>
-		<?php echo queryString();
+	<body class='<?=$page?>'>
+		<inner-column> 
+	<!-- 	<?php echo queryString();
 
-		?>
-		<header>
-			<?php include ('site-menu.php')?>
-		</header>
+		?> -->
+			<header>
+				<?php include ('site-menu.php')?>
+			</header>
 
-		<main class='page-content'>
+			<main class='page-content'>
 
-			<?php getTemplate($page); ?>
+				<?php getTemplate($page); ?>
 
-		</main>
+			</main>
+		</inner-column>
 	</body>
 </html>
