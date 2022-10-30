@@ -56,7 +56,7 @@
 	}
 ?>
 
-<h1>Create</h1>
+<h1>Add a Java</h1>
 
 <form method="POST">
 	<ield>

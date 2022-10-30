@@ -1,17 +1,17 @@
-<?php include ("car_data.php"); ?>
+<?php include ("data.php"); ?>
 
 
 <?php 
 	
-	if ( isset($_GET["car"]) ){
-		$this_car_id = $_GET["car"];
+	if ( isset($_GET["name"]) ){
+		$cafe_id = $_GET["name"];
 	}
 
-	echo $this_car_id;
+	echo $cafe_id;
 
 
-	foreach ($data as $car) {
-		if ($this_car_id == $car["id"] ) {
+	foreach ($data as $cafe) {
+		if ($cafe_id == $cafe["id"] ) {
 			$detail = $car; 
 		} 
 	}
@@ -21,7 +21,7 @@
 
 <?php if (isset ($detail) ) { ?>
 
-		<h1 class="detail"><?=$detail["make"]?></h1>
+		<h1 class="detail"><?=$detail["name"]?></h1>
 
 		<picture class="image">
 			<img src="https://peprojects.dev/images/landscape.jpg" alt="$too">
