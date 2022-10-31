@@ -1,86 +1,64 @@
 <?php 
 
-	$type= "";
-	$condition= 3;
-	$price= 0;
+	$cafeData = file_get_contents("cafe.json");
+	var_dump($cafeData);
+	
+	$name= "";
 
-	$hasprice = false;
-	$hasType = false;
+	$hasName = false;
+	$nameError = false;
+
+	$formSubmitted = isset($_POST["submitted"]); 
+
+		if ($formSubmitted) {
+
+			if (isset ($_POST["name"]) ) {
+				$name = $_POST["name"]; 
+				
+				if (strlen($name) > 0 ) {
+					$hasName = true;
+
+					
+
+					
+					//Create cafe
+
+					$newCafe = [
+						"name" => $name, 
+					];
+					var_dump($newCafe);
+
+				
+					$cafe_Json = json_encode($newCafe); 
+
+					// save json
+					file_put_contents('cafe.json', $cafe_Json);
 
 
-	$priceError = false;
-	$typeError = false;
-	if (isset($_POST["add"])){
 
-
-		if (isset ($_POST["type"]) ) {
-			$type = $_POST["type"]; 
-			
-			if (strlen($type) > 0 ) {
-				$hasType = true;
-			} else {
-				$typeError = "Please add a bone type"; 
+				} else {
+					$nameError = "Please add a cafe name"; 
+				}
+		
 			}
-	
-		}
-
-
-		if (isset ($_POST["condition"]) ) {
-			$condition = $_POST["condition"]; 
-	
-		}
-
-		if (isset ($_POST["price"]) ) {
-			$price = $_POST["price"]; 
-	
-			if ( intval ($price > 0) ) {
-				$hasPrice = true;
-
-			} else {
-				$priceError = "Please add a price."; 
-			}
-	
-		}
-
-		if ($hasType && $hasPrice) {
-			$bone = [
-				$type => $_POST["type"], 
-				$id => $_POST["id"], 
-				$condition => $_POST["condition"], 
-				$price => $_POST["price"], 
-			]; 
-		} else {
 
 		}
-
-	}
+	
 ?>
 
-<h1>Add a Java</h1>
+<h1 class="loud-voice">Add a Java</h1>
 
 <form method="POST">
-	<ield>
-		<label>Type</label>
-		<input name="type" value="<?=$type?>">
-		<?php if ($typeError) { ?>
-			<p class="error"><?=$typeError?></p>
+	<field>
+		<label>Cafè Name</label>
+		<input type="text" name="name" value="<?=$name?>" placeholder="Name of the Cafè">
+		<?php if ($nameError) { ?>
+			<p class="error"><?=$nameError?></p>
 		<?php } ?>
 	</field>
 
-	<field>
-		<lable>Range</lable>
-		<input type="range" min="1" max="5" value="<?=$condition?>" name="condition">
-	</field>
 
-	<field>
-		<label>Price</label>
-		<input type="number" name="price"value="<?=$price?>"> 
-		<?php if ($priceError) { ?>
-			<p class="error"><?=$priceError?></p>
-		<?php } ?>
-	</field>
-
-	<button type="submit" name="add" class="button">Submit</button>
+	<button type="submit" name="submitted" class="button">Submit</button>
 
 
 </form>

@@ -1,9 +1,10 @@
 <?php 
 
+
 $cafe_data = [
 
 	[
-		"id" => "01",
+		"id" => 1,
 		"name" => "Their There", 
 		"address" => "574 Yale St., Vancouver", 
 		"wifi" => "yes",
@@ -12,7 +13,7 @@ $cafe_data = [
 	],
 
 	[
-		"id" => "02",
+		"id" => 2,
 		"name" => "Breka Bakery", 
 		"address" => "855 Davie St., Vancouver", 
 		"hours" => "9:00am - 5:00pm",
@@ -21,7 +22,7 @@ $cafe_data = [
 	],
 
 	[
-		"id" => "03",
+		"id" => 3,
 		"name" => "Incognito Coffee", 
 		"address" => "843 Seymour St., Vancouver", 
 		"wifi" => "no", 
@@ -30,7 +31,7 @@ $cafe_data = [
 	],
 
 	[
-		"id" => "03",
+		"id" => 4,
 		"name" => "Giovane Cafe", 
 		"address" => "855 Davie St., Vancouver", 
 		"wifi" => "no", 

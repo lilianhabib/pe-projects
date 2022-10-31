@@ -2,17 +2,31 @@
 
 
 <?php 
-	if ( isset($_GET["name"]) ) {
-		$cafe_id = $_GET["name"];
+
+	$cafe_id = ""; 
+	$detail = " "; 
+	$cafe_info = ""; 
+	$cafe_data = "";
+
+
+	if ( isset($_GET["cafe"]) ) {
+		$cafe_id = $_GET["cafe"];
 	}
 
 	echo $cafe_id;
+
+
+	foreach ($cafe_data as $cafe_info) {
+	 	if ($cafe_id == $cafe_info["cafe"] ) {
+	 		$detail = $cafe_info; 
+	 	} 
+	 }
 ?>
 
  
-<?php if (isset($cafe_detail) ) { ?>
+<?php if (isset($detail) ) { ?>
 
-	<h1 class="detail"><?=$cafe_detail["name"]?></h1>  
+	<h1><?=$detail["name"]?></h1>  
 
 
 	<picture class="image">
