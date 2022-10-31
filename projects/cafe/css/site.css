@@ -1,0 +1,64 @@
+
+@import "reset.css"; 
+@import "setup.css";
+
+@import "typography.css"; 
+@import "components.css";
+@import "forms.css";
+@import "menu.css"; 
+@import "home.css"; 
+@import "list.css";
+
+body {
+	/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+	background-size: 400% 400%;
+/*	animation: gradient 500s ease infinite;*/
+	height: 100vh;
+	min-height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+html{
+	--swing-white:  #F9F6EE;
+	--universal: #255756;
+	--black: #000000; 
+	--white: #FFFFFF;
+
+}
+
+inner-column{
+	display: block;
+	max-width: 700px; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.home {
+	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/home-background2.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.list { 
+	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/list-background-bw.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.page-content{
+	padding: 15px;
+}
+
+
+

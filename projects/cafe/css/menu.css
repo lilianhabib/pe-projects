@@ -1,0 +1,26 @@
+
+.site-menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 20px;
+}
+
+nav a { 
+	color: var(--black);
+	text-decoration: none;
+	font-size: 15px;
+	font-family: avenir;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+nav a.active {
+	color: var(--universal);
+	border-bottom: 2px solid var(--universal);
+}
+
+
+

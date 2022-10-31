@@ -1,0 +1,88 @@
+*{ 
+	font-family: avenir;
+}
+
+/*h1*/
+.loud-voice{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+/*list title*/
+.calm-voice{
+	font-weight: bolder;
+	font-size: 15px;
+	padding: 3px;
+	padding-bottom: 10px;
+}
+
+.detail-voice{
+	font-weight: normal;
+
+}
+
+/*list see more*/
+cafe-card a{
+	text-decoration: none;
+}
+
+cafe-card a:hover{
+	color: var(--universal);
+}
+
+
+/*home*/
+
+.big-voice{
+	font-size: 70px;
+	font-weight: bolder;
+	padding-top: 35vh;
+	padding-bottom: 35vh;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--universal);
+}
+
+
+/*Create*/
+
+
+.create .loud-voice{
+	font-size: 40px;
+	text-align: left;
+	color: var(--universal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
