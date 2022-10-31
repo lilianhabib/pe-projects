@@ -166,11 +166,11 @@ No blockers
 ##Lesson 083: Visual Language Intro 
 
 ###Standup 
-**Yesterday**
+** Yesterday **
 * Completed day 3 of TAD 
 * Worked on researching and analyzing a website 
 
-**Today**
+** Today **
 * Post day 3 of TAD
 * Finalize the research and employ exercise 
 * Get started on today's lesson 
@@ -180,7 +180,7 @@ No blockers
 Have a great day! 
 
 ## Lesson Notes
-**Website elements** 
+** Website elements ** 
 * Name 
 * Biography/About page 
 * Links to projects 
@@ -204,14 +204,14 @@ Have a great day!
 ## Lesson 085: Postcard Challenge  
 
 ### Standup 
-**Weekend**
+** Weekend **
 * Completed the research and employ assignment 
 * Completed day 4 and 5 of TAD 
 * Completed a visual design mood board and two style tiles for my site 
 * Started the postcard assignment 
 
 
-**Today**
+** Today **
 * Completed a couple of TAD
 * Uploaded day 4 and 5 
 * Completed the postcard assignment 
@@ -235,7 +235,7 @@ Have a great day!
 ## Lesson 086: Constraint-Secret word graphic  
 
 ### Standup 
-**Yesterday**
+** Yesterday **
 * Completed day 6 of TAD 
 * Uploaded day 4 and 5 
 * Completed the postcard assignment 
@@ -243,7 +243,7 @@ Have a great day!
 * Uploaded substack article 
 * Updated files in my git and github 
 
-**Today**
+** Today **
 * Complete day 7 of TAD and upload day 6
 * Complete today’s secret word graphic assignment 
 * Practice responsive layout 
@@ -1117,7 +1117,8 @@ $thingYouCanUse=$ _ GET["someKey"];
 * Blockers: None
 
 ## Lesson Notes
-* 
+* Video Notes: 
+* JSON : Javascript Object Notation 
 
 ## conclusion / major takeaways? 
 * No major takeaways
