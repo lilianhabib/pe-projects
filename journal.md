@@ -1126,6 +1126,33 @@ $thingYouCanUse=$ _ GET["someKey"];
 
 
 
+## 10.30.2022
+## Day off
+
+
+## 10.31.2022
+## Lesson 127: Install Wordpress
+
+### Standup
+* What is one thing you learned yesterday? Over the weekend I worked through Friday and Saturday's lesson. I also fixed the issue I had with the details page. I was able to get the image and paragraph to appear on each page (yay!) after setting up defaults for my variables. I spent the rest of the evening working on my resume. I also decided to upgrade my laptop to the M2 so I also spent the time installing different programs.
+* Is there anything you are excited to learn?  Today, I purged and organized my files and folder and updated some links since I moved things around. I am looking forward to today's lesson about Wordpress. I ran into another issue that I overlooked yesterday. The h1 on my detail page isn't working. So I need to get together with Derek to get that resolved.
+* Blockers: None
+
+## Lesson Notes
+*
+
+## conclusion / major takeaways?
+* No major takeaways
+
+
+
+
+
+
+
+
+
+
 
 
 
