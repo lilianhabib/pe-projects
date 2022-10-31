@@ -1142,7 +1142,7 @@ $thingYouCanUse=$ _ GET["someKey"];
 *
 
 ## conclusion / major takeaways?
-* No major takeaways
+* 
 
 
 
