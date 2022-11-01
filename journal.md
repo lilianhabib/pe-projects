@@ -1139,11 +1139,38 @@ $thingYouCanUse=$ _ GET["someKey"];
 * Blockers: None
 
 ## Lesson Notes
-*
+*  A hosted website is one that is built on a website builder such as Wix, Squarespace or Wordpress. These are Software as a Service platforms offering an all-in-one website solution. They provide the hosting (the servers that house all your website files) and the software to build your website. You are limited to using their tools and templates. 
+* Wordpress.org is a self-hosted website option. It's open source software, which means you can download it and then modify it as you like. The software is free, but you have to open an account with a website host in order to have your files housed on their servers and purchased on a domain. 
+* Hosted and self-hosted websites is the difference as owning and renting a house. A hosted website is like a rental. You have a home to house your belongings, but you don't own the land or the building. You're limited in the sorts of improvements and customizations you can make, but when something breaks, the landlord is responsible for repeairs. Having a self-hosted site is like owning your own home. Having a self-hosted site is like owning your own home. Every part of it belongs to me. If anything breaks, it is up to you to fix it. 
+* Hosting gives you the advantage of giving you everything you need in one place: the hosting, the domain registration, the software and the maintenand security. 
+* A self-hosted Wordpress site, by contrast give you the freedom to create whatever you want and gives you more functionality. If you plan to grow your business, Wordpress is a good option. 
+* Where does the database live? 
+When setting up a database, one of the things you have to do is select a directory where the database will be stored. The databse will create files for the database and store the data in there.
+The data can live anywhere it wants. Almost all modern database have a network API (Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. So each time you use apps like Facebook, messanger, or weather checker, you're using an API. It is like sitting at a table in a restaurant with a menu of choices to order from. The kitchen is part of the system that will prepare your order. But you need that link to communicate your order to the kitchen. The waiter is the API commmunicates your order/takes the request and tells the kitchen - the system - what meals to make. Then the waiter - API - will delivery the food to you).
+* The API can be connected to any client in the network that has permission to connect. Database can be local or remote, anywhere that is required to be. 
+* The databse system is actually composed of two components. The databse engine which controls the data storage (filesystem) as well external interface (SQL). 
 
 ## conclusion / major takeaways?
 * 
 
+
+
+
+## 11.01.2022 
+## Lesson 128: Exploring the WordPress docs and a first loop
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday fixed my site issue with Derek's help, took a while to set up tower, but finally did it, organized my files, installed wordpress and got it running. Installed the plugins and researched self-hosted and hosted sites and learn about where database live. Explored different themes and planned out my project on whimsical. 
+
+* Is there anything you are excited to learn?  Today 
+
+* Blockers: None
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
 
 
 
