@@ -1178,8 +1178,28 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.02.2022 
+## Lesson 129: Using ACFs in Templates and creating custom post types 
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I finished the Wordpress docs and first loop exercise and did not do too much afterwards. I did brainstorm some ideas and I think I found one that I want to focus on. 
 
+* Is there anything you are excited to learn?  Today I'm looking forward to getting into ACFs and creating custom post types. I'll be getting on a call with Derek to talk about project ideas. 
+
+* Blockers: I think I'm starting to feel a little burnt out. I think it's a mix of putting too much pressure on myself and feeling like I'm not doing enough but also feeling like I am doing too much. 
+
+## Lesson Notes
+* WP is a PHP framework that used to be a blogging platform 
+* Woo commerce is a third party group that makes ecommerce sites 
+* WP takes the data that you type in (FB, TWitter) saves it somewhere and when you need it you $_ GET the information and post it somewhere. 
+* WP has the ability to have users/roles. Uses an if statement (i.e if it is a student, get this page). 
+* Relationship field type means that maybe there is a post such as monster and they have their favourite band or book. 
+* Taxonomy: categories 
+* A post type is just a data resource
+* The custom fields created today is data points that define the idea of cafes for the rest of our application 
+
+## conclusion / major takeaways? 
+* 
 
 
 
