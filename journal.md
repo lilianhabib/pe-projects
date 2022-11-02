@@ -1160,14 +1160,17 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## Lesson 128: Exploring the WordPress docs and a first loop
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday fixed my site issue with Derek's help, took a while to set up tower, but finally did it, organized my files, installed wordpress and got it running. Installed the plugins and researched self-hosted and hosted sites and learn about where database live. Explored different themes and planned out my project on whimsical. 
+* What is one thing you learned yesterday? Yesterday fixed my h1 issue with Derek's help (yay!). I spent a good amount of time setting up tower, but finally did it. I also organized and purged all of my folders/files. Then I started the lesson and got wordpress installed and running. I explored some features and installed the plugins installed wordpress and got it running. I spent some time researching where data lives and the difference between self-hosted and hosted sites. I explored different themes and planned out my project on whimsical. 
 
-* Is there anything you are excited to learn?  Today 
+* Is there anything you are excited to learn?  Today’s standup is pretty late!  Took on a job to help a friend, and I’ll be doing that once a week for 8 hours. Thankfully, I started on the lesson yesterday and got to work on it this morning. So I am excited to continue building my own theme on wordpress. Also hoping to brainstorm some ideas for my project and talk to Derek about it.
 
 * Blockers: None
 
 ## Lesson Notes
-* 
+* HTaccess in the wordpress file is like a gatekeeper so when you request a page, the page might have some rules for that page.
+*  Wordpresses uses comments in the CSS as metadata for the theme
+* Function file is a generic place to put functions throughout the theme. So put functions in here 
+* wp_enqueue_style( 'style', get_stylesheet_uri() ); - this is a function that is located in the function.php file that will get the styles.css loaded whenever the theme is loaded 
 
 ## conclusion / major takeaways? 
 * 
