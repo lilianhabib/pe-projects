@@ -6,20 +6,26 @@
 		echo "<h1>Home</h1>";
 	}
 
-	if (is_page ('list') ) {
-		$args = array(  
-	        'post_type' => 'cafes',
+	if (is_page('cafe') ) {
+
+
+		$parameters = array(  
+	        'post_type' => 'cafe',
 	    );
 
-	    $loop = new WP_Query( $args ); 
+	    $query = new WP_Query( $parameters ); 
 	        
-	    while ( $loop->have_posts() ) : $loop->the_post(); 
-	        echo "<h2>" . get_the_title() . "</h2>"; 
- 
+	    while ( $query->have_posts() ) : $query->the_post(); 
+	        include('templates/components/cafe-card.php');  
 	    endwhile;
 
 	    wp_reset_postdata(); 
-		}
+	}
+
+	if (is_singular ('cafe') ){
+		echo "<h1>" . the_field('name') . "</h1>"; 
+	}
+	
 ?>
 
 <?php get_footer();?>
