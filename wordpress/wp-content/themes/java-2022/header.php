@@ -14,7 +14,7 @@
 
 
 		<header>
-			<h1>Header</h1>
+			<h1>Java Finder</h1>
 		</header>
 
 		<main class='page-content'>

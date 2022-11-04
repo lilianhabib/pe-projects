@@ -71,7 +71,8 @@ function the_field( $selector, $post_id = false, $format_value = true ) {
 	$value = get_field( $selector, $post_id, $format_value );
 
 	if ( is_array( $value ) ) {
-		$value = implode( ', ', $value );
+		$value = implode( ', ', array() );
+
 	}
 
 	echo $value;

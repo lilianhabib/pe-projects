@@ -4,11 +4,9 @@ add_filter('show_admin_bar' , '__return_false' );
 
 
 //load css into the website's front-end
-function mytheme_enqueue_style() {
-	wp_enqueue_style ('mytheme-style', get_stylesheet_uri() ); 
+
+function site_styles() {
+  wp_enqueue_style('my-styles', get_stylesheet_directory_uri() .'/style.css' . "?ver=" . date("His")); // adding a version - to ensure that cache is busted
 }
-add_action ( 'wp_enqueue_scripts', 'mytheme_enqueue_style' ); 
+add_action( 'wp_enqueue_scripts', 'site_styles' );
 
-
-
-?>

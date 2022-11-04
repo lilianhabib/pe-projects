@@ -1,0 +1,41 @@
+
+/*
+Theme Name: Java-2022
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: lilianhabib
+Author URI: 
+Description: Theme for coffee finder
+Version: 0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: java-2022
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{ 
+	font-family: Avenir;
+	background-color: lightblue;
+ }
+
+ h1{
+ 	text-align: center;
+ }
+
+ recipe-card{
+ 	display: block;
+ 	border: 1px solid lightsteelblue;
+ 	margin: 10px;
+ }
+
+ .recipe-title {
+ 	text-align: center;
+ 	color: darkcyan;
+ }
+
+ .time-and-yield{
+ 	font-size: 10px;
+ }
