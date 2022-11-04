@@ -1202,6 +1202,22 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 
+## 11.03.2022 
+## Lesson 130: Using ACFs in Templates and creating custom post types 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday was a blur. I know that I was in a quick meeting with Derek to discuss my project idea and then I worked through yesterday’s lesson.
+
+* Is there anything you are excited to learn?  Today I haven’t started today’s lesson yet. I instead started the morning playing around with custom fields and CPT UI on wordpress. Feeling more comfortable with both plug-ins. Now just need to get comfortable with the code.
+
+* Blockers: 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
+
 
 
 
