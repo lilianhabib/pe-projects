@@ -28,7 +28,7 @@
 
 	if (is_page('recipe') ) {
 
-		echo "<h1>" . "Coffee Recipe" . "</h1>"; 
+		echo "<h2 class='recipe-title'>" . "Coffee Recipe" . "</h2>"; 
 
 		$parameters = array(  
 	        'post_type' => 'recipe',

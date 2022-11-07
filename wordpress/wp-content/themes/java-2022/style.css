@@ -25,17 +25,27 @@ body{
  	text-align: center;
  }
 
+ .recipe-title{
+ 	text-align: center;
+ 	color: darkgreen;
+ }
+
  recipe-card{
  	display: block;
  	border: 1px solid lightsteelblue;
  	margin: 10px;
+ 	padding: 10px;
  }
 
- .recipe-title {
- 	text-align: center;
+ .coffee-name {
+ 	text-align: left;
  	color: darkcyan;
  }
 
  .time-and-yield{
- 	font-size: 10px;
+ 	font-size: 12px;
  }
+
+ol li {
+	list-style: none;
+}
