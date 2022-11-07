@@ -1,14 +1,20 @@
 product-grid{
 	display: block;
-	padding-top: 5vh; 
-	padding-bottom: 3vh;
+	padding-top: 10vh; 
+	padding-bottom: 5vh;
+	margin: 0px;
 }
 
+
 product-grid ul {
+	list-style: none;
 	display: block;
 	display: grid;
 	gap: 20px;
+	margin-top: 4vh;
+	padding: 5px;
 }
+
 
 product-card{
 	display: block;
@@ -39,11 +45,21 @@ product-card text-content{
 
 }
 
-product-grid h2{
+product-grid .attention{
+	display: block;
 	font-size: 50px;
 	font-weight: bold; 
   	text-align: center;
+  	margin: 0px;
+  	margin-top: 15px;
+  	padding: 0px;
 }
+
+product-grid p{
+  	margin: 0px;
+  	padding: 0px;
+}
+
 
 product-card price{
 	padding: 7px;

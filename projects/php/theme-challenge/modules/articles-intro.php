@@ -4,7 +4,7 @@
   <header>
     <h2 class='attention-voice'>Learn more about your skin</h2>
 
-    <p class='calm-voice'>Read our articles to learn more about skin beauty secrets</p>
+    <p class='caption-voice'>Read our articles to learn more about skin beauty secrets</p>
   </header>
 
   <article-grid>

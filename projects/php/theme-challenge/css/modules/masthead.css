@@ -1,6 +1,8 @@
 
 mast-head {
   display: block;
+  margin: 0px;
+  padding: 0px;
 }
 
 mast-head nav {

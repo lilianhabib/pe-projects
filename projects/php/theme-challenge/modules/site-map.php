@@ -27,16 +27,16 @@
 		<h3>Stay Connected</h3>
 
 		<icon>
-			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/twitter.png'></a>
-			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/instagram.png'></a>
-			<a href='#'><img src='http://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/facebook.png'></a>
+			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/twitter.png'></a>
+			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/instagram.png'></a>
+			<a href='#'><img src='http://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/facebook.png'></a>
 		</icon>
 
 		<subsribe>
-			<h3>Get updates on the latest products, promotions, and more!</h3>
+			<h4>Get updates on the latest products, promotions, and more!</h4>
 			<label for="email"></label>
 			<input type="email" name="email" class='email'> 
-			<a href='#' class='subsribe'>Subscribe</a>
+			<a href='#' class='subscribe'>Subscribe</a>
 		</subsribe>
 	</nav>
 

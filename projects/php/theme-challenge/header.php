@@ -5,13 +5,9 @@
 
 	<body>
 
+		<?php include ('modules/banner.php'); ?>
+
 		<header class='site-header'>
-
-			<banner class='announcement'> 
-
-				<h2>Summer <span>Sale</span> On All Products</h2>
-
-			</banner>
 		<inner-column>
 
 			<?php include('modules/masthead.php'); ?>

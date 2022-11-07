@@ -56,6 +56,11 @@ html {
 	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
 }
 .site-header inner-column {
+
+}
+
+inner-column { 
+	display: block;
 	padding: 5px;
 }
 
@@ -70,7 +75,7 @@ html {
 }
 
 .welcome {
-		background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/welcome.jpg);
+		background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/welcome.jpg);
 		background-size: cover;
 		height: 100%;
 		background-position: center;
@@ -85,7 +90,7 @@ html {
 .get-involved {
 /*  background-color:  var(--highlight);
   background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
-  background-image: url("https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/action4.jpg");
+  background-image: url("https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/action4.jpg");
 	background-size: cover;
 	height: 100%;
 	background-position: center;
@@ -108,7 +113,7 @@ html {
 }
 
 .help-us {
-  background-image: url(https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/action3.jpg);
+  background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/action5.jpg);
   background-size: cover;
   height: 100%;
   background-position: center;
@@ -120,6 +125,16 @@ html {
 .site-footer {
 	background-color: var(--color);
 	color: var(--white);
+	margin: 0px;
+}
+
+.site-footer inner-column {
+	display: block;
+	padding: 5px;
+}
+
+.site-footer{
+	padding: 5px;
 }
 
 .site-footer .logo {

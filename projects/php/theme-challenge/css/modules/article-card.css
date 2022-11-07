@@ -5,6 +5,13 @@ article-card {
   padding: 5px;
   display: flex;
   flex-direction: column;
+  margin: 5px;
+  margin-top: 4vh;
+}
+
+article-card .attention{
+  padding: 0px;
+  margin: 5px;
 }
 
 
@@ -26,11 +33,13 @@ article-card .link:hover{
 }
 
 article-card .calm-voice{
-  padding-bottom: 2vh;
+  padding: 0.5vh;
+  margin: 5px;
+
 }
 
 article-card h2 {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 article-card a {

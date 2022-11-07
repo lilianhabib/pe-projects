@@ -8,7 +8,7 @@
 		<li>
 			<product-card>
 				<picture>
-					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product1.jpg'>
+					<img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/product1.jpg'>
 				</picture>
 
 
@@ -35,7 +35,7 @@
 		<li>
 			<product-card>
 				<picture>
-					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product2.jpg'>
+					<img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/product2.jpg'>
 				</picture>
 
 				<text-content>
@@ -58,7 +58,7 @@
 		<li>
 			<product-card>
 				<picture>
-					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product3.jpg'>
+					<img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/product3.jpg'>
 				</picture>
 
 				<text-content>
@@ -82,7 +82,7 @@
 		<li>
 			<product-card>
 				<picture>
-					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product7.jpg'>
+					<img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/product7.jpg'>
 				</picture>
 
 				<text-content>
@@ -105,7 +105,7 @@
 		<li>
 			<product-card>
 				<picture>
-					<img src='https://peprojects.dev/alpha-5/lilian/pe-projects/theme-challenge/images/product6.jpg'>
+					<img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/product5.jpg'>
 				</picture>
 
 				<text-content>

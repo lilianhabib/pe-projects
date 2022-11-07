@@ -1,5 +1,6 @@
 
 site-map {
+  margin: 0px;
   display: block;
   /* */
   padding-top: 40px;
@@ -47,27 +48,28 @@ site-map .social-menu img{
   max-width: 30px;
 }
 
-site-map subsribe{
+site-map subscribe{
   display: block;
   margin-top: 20px;
 }
 
-site-map subsribe h3{
+site-map .subscribe h4{s
   font-size: 15px;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   line-height: 1.2;
 }
 
-site-map subsribe .email{
+site-map .email{
   border: none;
-  max-width: 300px;
-  padding: 5px;
+  max-width: 400px;
+  max-height: 30px;
+  padding: 10px;
 
 }
 
-site-map subsribe a{
-  background-color:  rgba(139,132,114,1);
+site-map .subscribe{
+  background-color: rgba(139,132,114,1);
   border: none;
   color: var(--white);
   padding: 5px;
