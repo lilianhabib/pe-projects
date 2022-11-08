@@ -1247,6 +1247,23 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.08.2022 
+## Lesson 135: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I had a meeting with Ivy about my goals for this week. From the list of goals, I selected a few that I wanted to accomplish. I fixed my broken link on my site, finalized my theme challenge, and worked on my responsive layout. My responsive layout skills were a little rusty, but I'm sure with time, I'll feel more comfrotable. 
+
+* Is there anything you are excited to learn?  Today I am hoping to update and finalize my CRUD site, finish my responsive layout from yesterday and add it to my garden, start planning out how I want my responsive layout page to look like, and add my project page back and include my theme challenge. 
+
+* Blockers: 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
+
+
 
 
 
