@@ -16,4 +16,4 @@
 	</ol>
 
 
-	
+	http://localhost:8888/wp-content/uploads/2022/11/avocado-coffee.png

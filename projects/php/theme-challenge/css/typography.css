@@ -71,6 +71,17 @@ article-card .calm-voice{
 }
 
 
+/*forms*/
+
+.submitted{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+form h2{
+	font-size: 15px;
+	
+}
 
 
 /* these would be scoped to section or to an article element */

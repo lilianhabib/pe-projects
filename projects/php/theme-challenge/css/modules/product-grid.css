@@ -10,9 +10,9 @@ product-grid ul {
 	list-style: none;
 	display: block;
 	display: grid;
-	gap: 20px;
+	gap: 10px;
 	margin-top: 4vh;
-	padding: 5px;
+	padding: 0px;
 }
 
 

@@ -32,6 +32,8 @@
 @import 'modules/site-map.css';
 @import 'modules/product-grid.css';
 @import 'modules/banner.css';
+@import 'modules/quiz.css'; 
+@import 'modules/quiz-form.css'; 
 /* should everything/nothing be in it's own file? */
 
 
@@ -60,8 +62,11 @@ html {
 }
 
 inner-column { 
+	margin-left: auto; 
+	margin-right: auto;
+	max-width: 900px;
 	display: block;
-	padding: 5px;
+	padding: 10px;
 }
 
 
@@ -83,6 +88,17 @@ inner-column {
 		opacity: 0.8; 
 		background-attachment: fixed;
 }
+
+.welcome-quiz {
+		background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/welcome-quiz.jpg);
+		background-size: cover;
+		height: 100%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		opacity: 0.7; 
+}
+
+
 
 /* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
 

@@ -11,28 +11,14 @@
 			<span>Home</span>
 		</a>
 
-
-		<a href='#' class='nav-link'>
-			<span>Shop All</span>
-		</a>
-
-		<a href='#' class='nav-link'>
-			<span>About</span>
-		</a>
-
-		<a href='#' class='nav-link'>
-			<span>Blog</span>
-		</a>
-
-
-		<a href='#' class='nav-link'>
+		<a href='modules/quiz.php' class='nav-link'>
 			<span>Skin Quiz</span>
 		</a>
 	</nav>
 
 
 	<nav class='user-menu'>
-		<a href='#'>
+		<a href='?page=signin'>
 			<img src='images/login.png'>
 			<!-- <span>Sign-in</span> -->
 		</a>

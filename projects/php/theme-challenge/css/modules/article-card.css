@@ -2,7 +2,6 @@
 article-card {
   display: block;
   /* */
-  padding: 5px;
   display: flex;
   flex-direction: column;
   margin: 5px;

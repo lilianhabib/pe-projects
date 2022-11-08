@@ -1,8 +1,8 @@
 call-to-action {
   margin: 0px;
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   /* */
   display: flex;
   flex-direction: column;
@@ -15,11 +15,7 @@ call-to-action a {
 
 
 
-@media (min-width: 600px) {
-  call-to-action {
-    padding: 100px;
-  }
-}
+
 call-to-action text-content{
   display: block;
   max-width: 500px; 

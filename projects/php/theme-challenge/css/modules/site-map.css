@@ -53,7 +53,7 @@ site-map subscribe{
   margin-top: 20px;
 }
 
-site-map .subscribe h4{s
+site-map h4 { 
   font-size: 15px;
   font-weight: lighter;
   margin-bottom: 5px;
