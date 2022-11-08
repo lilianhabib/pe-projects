@@ -1,6 +1,7 @@
 
-
+<text-content>
 <h1 class="big-voice">Java Finder</h1>
 
-<!-- <p class="calm-voice">Find a cafe that has everyhing you need</p> -->
+<p class="intro-voice">Find a cafe that has everyhing you need - wifi, seats, parking, and more</p>
 
+</text-content>

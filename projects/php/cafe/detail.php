@@ -1,12 +1,10 @@
 <?php include ("cafe_data.php"); ?>
 
 
+<a href="?page=list">Back</a>
+
 <?php 
 
-	$cafe_id = ""; 
-	$detail = ""; 
-	$cafe = ""; 
-	$cafe_data = "";
 
 
 	if ( isset($_GET["cafe"]) ) {
@@ -22,11 +20,10 @@
 	 	} 
 	 }
 ?>
-
  
 <?php if (isset($detail) ) { ?>
 
-	<h1><?=$detail["name"]?></h1>  
+
 
 
 	<picture class="image">

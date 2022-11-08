@@ -4,9 +4,13 @@
 	var_dump($cafeData);
 
 	$name= "";
+	$address = "";
 
 	$hasName = false;
 	$nameError = false;
+	$addressError = false;
+
+
 
 	$formSubmitted = isset($_POST["submitted"]); 
 
@@ -19,13 +23,12 @@
 					$hasName = true;
 
 					
-
-					
-					//Create cafe
+					//Create cafe name 
 
 					$newCafe = [
 						"name" => $name, 
 					];
+
 					var_dump($newCafe);
 
 				
@@ -37,14 +40,44 @@
 
 
 				} else {
-					$nameError = "Please add a cafe name"; 
+					$nameError = "Please fill in name the field."; 
 				}
 		
 			}
 
-		}
+			if (isset ($_POST["address"]) ) {
+				$address = $_POST["address"]; 
+					
+				if (strlen($address) > 0 ) {
+					$hasAddress = true;
+
+
+					//Create cafe address 
+
+					$newAddress = [
+						"address" => $address,
+					];
+
+					var_dump($newAddress);
+
+					$cafe_Json = json_encode($newAddress);
+
+					//Save json
+					file_put_contents ('cafeAddress.json', $cafe_Json);
+
+				} else {
+					$addressError = "Please fill in address fields.";
+				}
+			
+				}
+			}
+
+
+
 	
 ?>
+
+
 
 <h1 class="loud-voice">Add a Java</h1>
 
@@ -56,6 +89,15 @@
 			<p class="error"><?=$nameError?></p>
 		<?php } ?>
 	</field>
+
+	<field>
+		<label>Address</label>
+		<input type="address" name="address"value="<?=$address?>" placeholder="Cafe Address"> 
+		<?php if ($addressError) { ?>
+			<p class="error"><?=$addressError?></p>
+		<?php } ?>
+	</field>
+
 
 
 	<button type="submit" name="submitted" class="button">Submit</button>

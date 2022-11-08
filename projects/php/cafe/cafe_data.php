@@ -12,7 +12,7 @@ $cafe_data = [
 
 	[
 		"id" => 2,
-		"cafe" => "Breka Bakery", 
+		"name" => "Breka Bakery", 
 		"busy" => "yes", 
 		"wifi" => "yes", 
 
