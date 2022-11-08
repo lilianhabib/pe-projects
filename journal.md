@@ -1218,6 +1218,60 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 * 
 
+## 11.04.2022 
+## Lesson 131: Break 
+
+## 11.05.2022 
+## Lesson 132: Break 
+
+## 11.06.2022 
+## Lesson 133: Break 
+
+
+
+## 11.07.2022 
+## Lesson 134: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday? Over the last couple of days, I took some time for myself, which was much needed. Although, I did spend evenings redoing some of the lessons, working on my wordpress site, and updating my projects since I moved my files around. 
+
+* Is there anything you are excited to learn?  Today I had a good conversation with Ivy about my goals for this week. I am hoping to tackle my Theme Challenge today and update one of the pages (skin quiz page) before I officially make it part of my portfolio. I am also hoping to fix a link on my site and spend an extra hour today working on my responsive layout. My goal is to complete at least one responsive layout by the end of this week. 
+
+* Blockers: 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
