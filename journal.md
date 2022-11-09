@@ -1210,10 +1210,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 * Is there anything you are excited to learn?  Today I haven’t started today’s lesson yet. I instead started the morning playing around with custom fields and CPT UI on wordpress. Feeling more comfortable with both plug-ins. Now just need to get comfortable with the code.
 
-* Blockers: 
+* Blockers: No blockers
 
 ## Lesson Notes
-* 
+* No lesson
 
 ## conclusion / major takeaways? 
 * 
@@ -1237,10 +1237,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 * Is there anything you are excited to learn?  Today I had a good conversation with Ivy about my goals for this week. I am hoping to tackle my Theme Challenge today and update one of the pages (skin quiz page) before I officially make it part of my portfolio. I am also hoping to fix a link on my site and spend an extra hour today working on my responsive layout. My goal is to complete at least one responsive layout by the end of this week. 
 
-* Blockers: 
+* Blockers: No blockers
 
 ## Lesson Notes
-* 
+* No lesson
 
 ## conclusion / major takeaways? 
 * 
@@ -1255,10 +1255,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 * Is there anything you are excited to learn?  Today I am hoping to update and finalize my CRUD site, finish my responsive layout from yesterday and add it to my garden, start planning out how I want my responsive layout page to look like, and add my project page back and include my theme challenge. 
 
-* Blockers: 
+* Blockers: No blockers
 
 ## Lesson Notes
-* 
+* No lesson
 
 ## conclusion / major takeaways? 
 * 
@@ -1272,10 +1272,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 * Is there anything you are excited to learn?  Today I am hoping to finish my responsive layout stuff: my layout on codepen, creating and styling responsive layout page, adding responsive layout to my projects page. If I have completed all of that within a reasonable amount of time, I want to organize my e4p. 
 
-* Blockers: 
+* Blockers: There are no blockers
 
 ## Lesson Notes
-* 
+* No lesson
 
 ## conclusion / major takeaways? 
 * 
