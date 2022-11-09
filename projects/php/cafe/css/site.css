@@ -8,6 +8,7 @@
 @import "menu.css"; 
 @import "home.css"; 
 @import "list.css";
+@import "detail.css";
 
 body {
 	/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
@@ -31,7 +32,7 @@ body {
 
 html{
 	--swing-white:  #F9F6EE;
-	--universal: #255756;
+	--universal: #CF8838;
 	--black: #000000; 
 	--white: #FFFFFF;
 
@@ -39,22 +40,35 @@ html{
 
 inner-column{
 	display: block;
-	max-width: 700px; 
+	max-width: 900px; 
 	margin-right: auto; 
 	margin-left: auto;
 }
 
 .home {
-	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/home-background2.png);
+	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/background.png);
 	background-size: cover;
 	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
 }
 
 .list { 
-	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/list-background-bw.png);
+	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/background2.png);
 	background-size: cover;
 	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
 }
+
+.create { 
+	background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/cafe/images/background2.png);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
 
 .page-content{
 	padding: 15px;

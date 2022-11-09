@@ -1,7 +1,7 @@
 <?php include ("cafe_data.php"); ?>
 
 
-<a href="?page=list">Back</a>
+<a href="?page=list" class='back-link'>Back</a>
 
 <?php 
 
@@ -11,7 +11,7 @@
 		$cafe_id = $_GET["cafe"];
 	}
 
-	echo $cafe_id;
+	// echo $cafe_id;
 
 
 	foreach ($cafe_data as $cafe) {
@@ -24,13 +24,16 @@
 <?php if (isset($detail) ) { ?>
 
 
+	<h1 class='cafe_name'><?=$detail['name']?></h1>
 
 
-	<picture class="image">
-		<img src="https://peprojects.dev/images/landscape.jpg" alt="$too">
-	</picture>
+	<div class="cafe_content">
+		<picture class="image">
+			<img src="<?=$detail['image']?>" alt="$too">
+		</picture>
 
-	<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="description"><?=$detail["cafe-info"]?></p>
+	</div>
 
 
 

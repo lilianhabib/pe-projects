@@ -1,0 +1,8 @@
+text-content{
+	min-height: 550px;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

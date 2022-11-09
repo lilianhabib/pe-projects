@@ -1264,6 +1264,23 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 
+## 11.09.2022 
+## Lesson 136: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I wasn't feeling too well so I did not get the chance to complete my responsive layout stuff. I did finalize my CRUD site, added a projects page to my site, and styled it. 
+
+* Is there anything you are excited to learn?  Today I am hoping to finish my responsive layout stuff: my layout on codepen, creating and styling responsive layout page, adding responsive layout to my projects page. If I have completed all of that within a reasonable amount of time, I want to organize my e4p. 
+
+* Blockers: 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+* 
+
+
 
 
 

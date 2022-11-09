@@ -3,18 +3,28 @@
 }
 
 .cafe-list{
+	margin: 10px;
 	display: grid;
-	grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+	grid-template-columns: repeat(3, minmax(175px, 1fr));
 	gap: 10px;
 }
 
+@media (max-width: 600px){
+	.cafe-list {
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
+	
+}
+
+
 cafe-card{
 	display: block;
-	border: 1px solid grey;
+	border: 1px solid var(--universal);
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
-	max-width: 400px;
+	max-width: 300px;
+	min-height: 150px;
 }
 
 /*.cafe + .cafe{

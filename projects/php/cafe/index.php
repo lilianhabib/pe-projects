@@ -16,19 +16,22 @@
 		<title><?=$page?></title>
 	</head>
 	<body class='<?=$page?>'>
-		<inner-column> 
+		
 	<!-- 	<?php echo queryString();
 
 		?> -->
 			<header>
-				<?php include ('site-menu.php')?>
+				<inner-column> 
+					<?php include ('site-menu.php')?>
+				</inner-column>
 			</header>
 
 			<main class='page-content'>
+				<inner-column>
 
-				<?php getTemplate($page); ?>
+					<?php getTemplate($page); ?>
+				</inner-column>
 
 			</main>
-		</inner-column>
 	</body>
 </html>

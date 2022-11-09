@@ -40,23 +40,12 @@ cafe-card a:hover{
 	color: var(--universal);
 }
 
-text-content{
-	padding-top: 100px;
-	padding-bottom: 100px;
-	margin-top: 120px;
-	margin-bottom: 100px;
-	display: block;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
 
 .intro-voice{
 	font-size: 15px;
 	font-weight: bolder;
 	padding-top: 10px;
-	color: var(--black;
+	color: var(--black);
 }
 
 
@@ -70,6 +59,19 @@ text-content{
 }
 
 
+/*detail*/
+.back-link{ 
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+ }
+
+ .cafe_name{
+ 	font-size: 20px;
+ 	text-align: center;
+ 	font-weight: bolder;
+ 	margin: 20px;
+ }
 
 
 
