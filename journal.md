@@ -1283,6 +1283,24 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.10.2022 
+## Lesson 137: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday I finished my responsive layout stuff: finished my layout on codepen, created and styled responsive layout page, added responsive layout to my projects page, and transferred my responsive layouts from codepen to sublime. Then I organized my e4p folder. I also fixed a minor Tower/Git issue yesterday. I couldn’t push one of my big files through. So I deleted the file and used Terminal to squash my files and now it’s fixed :slightly_smiling_face: .
+
+* Is there anything you are excited to learn?  Today I am looking forward to creating/setting up my case study page, spend some time on my resume page, and if there is time left, start another responsive layout.
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+* 
+
+
+
 
 
 
