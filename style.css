@@ -1,11 +1,11 @@
 @import 'meyer-reset.css';
 @import 'projects/project-grid.css';
 @import 'projects/responsive-layout-garden/layout-garden.css';
-@import 'projects/responsive-layout-garden/layout/layout1/layout1.css';
+/*@import 'projects/responsive-layout-garden/layout/layout1/layout1.css';
 @import 'projects/responsive-layout-garden/layout/layout2/layout2.css';
 @import 'projects/responsive-layout-garden/layout/layout3/layout3.css';
 @import 'projects/responsive-layout-garden/layout/layout4/layout4.css';
-
+*/
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -49,7 +49,7 @@ header{
 
 .nav-container{
 	padding-right: 20px;
-	padding-top: 4vh;
+	padding-top: 5vh;
 }
 
 
@@ -367,9 +367,6 @@ li{
 */
 
 @media (max-width: 500px){
-	.nav-container{
-		padding-left: 20px;
-	}
 
 	socials{
 		padding-top: 20vh;
@@ -384,10 +381,6 @@ li{
 @media (min-width: 700px){
 	project-list{
 		flex-direction: row;
-	}
-
-	.nav-container{
-		padding-left: 20px;
 	}
 
 
