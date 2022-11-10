@@ -1,6 +1,10 @@
 @import 'meyer-reset.css';
 @import 'projects/project-grid.css';
-
+@import 'projects/responsive-layout-garden/layout-garden.css';
+@import 'projects/responsive-layout-garden/layout/layout1/layout1.css';
+@import 'projects/responsive-layout-garden/layout/layout2/layout2.css';
+@import 'projects/responsive-layout-garden/layout/layout3/layout3.css';
+@import 'projects/responsive-layout-garden/layout/layout4/layout4.css';
 
 *{
 	box-sizing: border-box;
