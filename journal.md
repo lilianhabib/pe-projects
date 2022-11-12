@@ -1302,6 +1302,22 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.11.2022 
+## Lesson 137: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday I added a resume page to my site, started another responsive layout, and updated my goals page for this month. I updated the nav, background colour, and text. I also spent some time looking for the food truck case study as it wasn't where I thought it was. So now I'm wondering if I actually did it. I remember gathering all the information for it and putting everything together on Affinity Designer. 
+
+* Is there anything you are excited to learn?  Today I'll be dedicating 3 hours to redoing my food truck case study and completing a case study page and adding it to my site. If I have time left, I'll work on an about page. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+* 
+
 
 
 
