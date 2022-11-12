@@ -77,7 +77,7 @@ nav{
  	position: relative;
   text-decoration: none;
 	font-weight: regular;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .nav-container a::after{
@@ -99,8 +99,8 @@ nav{
 }
 
 .intro-container{
-	padding-top: 30vh;
-	padding-bottom: 30vh;
+	padding-top: 17.5vh;
+	padding-bottom: 17.5vh;
 }
 
 .intro-container inner-column{
@@ -137,7 +137,7 @@ text-info{
   text-decoration: none;
   position: relative;
 /*  */
-	font-size: 12px;
+	font-size: 15px;
 
 }
 
@@ -261,7 +261,7 @@ picture{
 }
 
 .about-container p{
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .about-gallery{
@@ -309,31 +309,31 @@ hr{
 	display: inline-block;
 	text-align: left;
 	font-weight: bolder;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .tiny-voice{
 	display: inline-block;
 	text-align: left;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 15px;
 }
 .small-voice {
 	text-align: left;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .quiet-voice{
 	text-align: left;
 	font-weight: bolder;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .task-list{
 	list-style: circle;
 	/*adding-left: 20px;*/
-	font-size: 12px;
+	font-size: 15px;
 }
 .list{
 	padding-left: 30px;
@@ -344,11 +344,9 @@ hr{
 .goals-container{
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-  border: 2px double black;
   margin-left: auto;
   margin-right: auto;
   max-width: 550px;
-  padding-bottom: 10px;
 }
 
 .goals-list{
@@ -358,7 +356,7 @@ hr{
 
 .goals-item{
 	font-weight: regular;
-	font-size: 12px;
+	font-size: 15px;
 	list-style: circle;
 }
 
