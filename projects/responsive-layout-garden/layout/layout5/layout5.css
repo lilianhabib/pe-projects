@@ -1,0 +1,59 @@
+@import meyer-reset.css; 
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+inner-column{
+  display: block;
+  max-width: 1000px; 
+  margin-left: auto; 
+  margin-right: auto; 
+ 
+}
+
+
+body{
+ 
+}
+
+.introduction{
+  text-align: center;
+}
+
+.introduction h1{
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.introduction p{
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.introduction .button{
+  border: 2px solid lightgreen;
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 3px; 
+}
+
+.introduction a{
+  text-decoration: none;
+  color: white;
+}
+
+.intro1{
+  background-color: darkgray;
+  min-height: 55vh;
+  padding:  15px;
+}
+
