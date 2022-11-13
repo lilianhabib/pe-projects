@@ -1320,6 +1320,24 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.12.2022 
+## Lesson 138: Generic Work Day 
+
+### Standup 
+* What is one thing you learned yesterday?  Yesterday I redid my food truck case study, completed my about page, and finalized the nav and home page. 
+
+* Is there anything you are excited to learn?  Today I'll be finalizing my case study page and finish my responsive layout. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+* 
+
+
+
 
 
 
