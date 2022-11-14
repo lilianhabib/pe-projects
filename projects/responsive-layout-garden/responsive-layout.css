@@ -77,7 +77,7 @@ project-card .project-img {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #000;
+	background-color: #F1CD81;
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 	transform: scaleX(0);

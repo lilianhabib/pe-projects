@@ -51,7 +51,6 @@ img {
 }
 
 .header-nav inner-column {
-  border: 2px solid blue;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -61,7 +60,6 @@ img {
 
 main-nav {
   padding: 10px;
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -70,12 +68,10 @@ main-nav {
 }
 
 main-nav a {
-  border: 2px solid black;
   padding: 10px;
 }
 
 sign-in {
-  border: 2px solid black;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -85,7 +81,6 @@ sign-in {
 }
 
 sign-in a {
-  border: 2px solid black;
   padding: 10px;
 }
 
@@ -102,7 +97,6 @@ sign-in a {
 }
 
 .welcome-info {
-  border: 2px solid black;
   max-width: 70%;
   padding: 10px;
   display: flex;
@@ -113,12 +107,10 @@ sign-in a {
 }
 
 picture {
-  border: 2px solid black;
   padding: 10px;
 }
 
 img {
-  border: 2px solid black;
   padding: 10px;
 }
 
@@ -153,7 +145,6 @@ p {
 }
 
 action-info {
-  border: 2px solid black;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -163,7 +154,6 @@ action-info {
 }
 
 h2 {
-  border: 2px solid black;
   font-size: 25px;
   padding: 10px;
   text-align: left;
@@ -200,7 +190,6 @@ button a {
 }
 
 article {
-  border: 2px solid black;
   width: 100%;
   display: flex;
   flex-direction: column;
