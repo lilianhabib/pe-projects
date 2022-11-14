@@ -71,8 +71,7 @@ function the_field( $selector, $post_id = false, $format_value = true ) {
 	$value = get_field( $selector, $post_id, $format_value );
 
 	if ( is_array( $value ) ) {
-		$value = implode( ', ', array() );
-
+		$value = implode( ', ', $value );
 	}
 
 	echo $value;
@@ -290,7 +289,7 @@ function get_field_objects( $post_id = false, $format_value = true, $load_value 
 	foreach ( $meta as $key => $value ) {
 
 		// bail if reference key does not exist
-		if ( ! isset( $meta[ "_$key" ] ) ) {
+		if ( ! isset( $meta[ "_$key" ] ) || ( ! is_string( $meta[ "_$key" ] ) && ! is_numeric( $meta[ "_$key" ] ) ) ) {
 			continue;
 		}
 
