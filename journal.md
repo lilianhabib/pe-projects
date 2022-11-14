@@ -1337,6 +1337,26 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 
+## 11.14.2022 
+## Lesson 141: Installing PHP
+
+### Standup 
+* What is one thing you learned yesterday?  Over the weekend, I completed my case study for the food truck project, completed my responsive layout, and completed my about page. I also made changes to my site's index page (added more text, changed spacing, and colour). 
+
+* Is there anything you are excited to learn?  Today I am looking forward to making those changes Ivy suggested to my site, substack, and linkedin. Then, I am looking forward to getting into PHP and Wordpress again. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+* 
+
+
+
+
+
 
 
 
