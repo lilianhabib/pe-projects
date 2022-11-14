@@ -99,8 +99,8 @@ nav{
 }
 
 .intro-container{
-	padding-top: 17.5vh;
-	padding-bottom: 17.5vh;
+	padding-top: 15.5vh;
+	padding-bottom: 15.5vh;
 }
 
 .intro-container inner-column{
@@ -121,6 +121,7 @@ text-info{
 }
 
 .excited-voice{
+	margin-top: 10px;
 }
 
 .descriptive-container{
