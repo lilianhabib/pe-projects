@@ -1355,7 +1355,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.15.2022 
+## Lesson 142: Exploring the WordPress docs and a first loop
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I completed a mind map of my project. The mind map helped make my ideas easier to conceptualize . I also played around with the post type and field plugins and created some for my project. I am feeling more comfortable navigating Wordpress and its file structure. 
+
+* Is there anything you are excited to learn?  Today I am looking forward to diving into WordPress docs and first loop again. I remember doing this prior to the break, so it'll be nice to get another chance to practice this. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+* 
 
 
 
