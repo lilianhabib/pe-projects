@@ -8,9 +8,23 @@
 		echo "<h1>Home</h1>";
 	}
 
-	if (is_page('details')){
+	if (is_page('list')){
 		$parameters = array(  
 	        'post_type' => 'recipe',
+	    );
+
+	    $query = new WP_Query( $parameters ); 
+	        
+	    while ( $query->have_posts() ) : $query->the_post();  
+	       include('templates/components/recipe-card.php');
+	    endwhile;
+
+	    wp_reset_postdata();
+	}
+
+	if (is_page('details')){
+		$parameters = array(  
+	        'post_type' => 'instructions',
 	    );
 
 	    $query = new WP_Query( $parameters ); 
@@ -22,18 +36,19 @@
 	    wp_reset_postdata();
 	}
 
-	if (is_page('list')){
-		$args = array(  
-	        'post_type' => 'ingredients',
-	    );
+	if (is_singular('recipe') ){
+		echo "<h1>" . the_field('name') . "</h1>";
+	}
 
-	    $loop = new WP_Query( $args ); 
-	        
-	    while ( $loop->have_posts() ) : $loop->the_post(); 
-	       echo "<h2>" . get_the_title() . "</h2>";   
-	    endwhile;
+	if (is_singular('recipe') ){
+		echo "<p>" . the_field('instructions') . "</p>";
+	}
 
-	    wp_reset_postdata();
+	if (is_singular('recipe') ){
+		echo "<p>" . the_field('images') . "</p>";
+	}
+	if (is_singular('recipe') ){
+		echo "<li>" . the_field('ingredients') . "</li>";
 	}
 ?>
 
