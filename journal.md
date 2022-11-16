@@ -1372,6 +1372,25 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 
+## 11.16.2022 
+## Lesson 143: Using ACFs in templates and creating custom post types
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I included from loops in my code and played around with the different custom fields and post types. 
+
+* Is there anything you are excited to learn?  Today I am excited to get into custom fields (the proper way). I watched the video the week before but forgot some stuff. So I’ll be deleting all the fields I created and starting from scratch. I also want to look more into the relationship field type since I’ll be using that for my ingredients post type.
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* No lesson
+
+## conclusion / major takeaways? 
+*  
+
+
+
+
 
 
 
