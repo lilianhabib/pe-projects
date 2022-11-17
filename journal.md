@@ -1383,7 +1383,20 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * Blockers: There are no blockers
 
 ## Lesson Notes
-* No lesson
+* Wordpress will automatically add a unique identifier
+* field label is for the admin to see 
+* field name is used for the application and developer 
+* Hide screen option: Content editor 
+* get_field: Returns the value of a specific field 
+* the_field: Displays the value of a specific field 
+  * Both get_field and the_field outputs the value of any field from any location 
+  * the_field() automatically displays the field value on your page, where get_field() does not. Use get_field() when assigning field values to variables, or when manipulating the returned content in your code.
+
+* Goals for today 
+  * set up my custom fields (text, text area, image, relationship)
+  * Fill in each custom field 
+  * Write code that will output the recipe information on the web page
+  * style the paragraph and headings
 
 ## conclusion / major takeaways? 
 *  
@@ -1391,8 +1404,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.17.2022 
+## Lesson 144: Resource relationships and menus
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I learned how to upload an image onto my webpage but I'm still having some issues with it that. Hoping to get the image and ingredients up on my site today. 
 
+* Is there anything you are excited to learn?  Today I am looking forward to setting up a menu, connecting different post types/resources, and learning about permalinks
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
 
 
 
