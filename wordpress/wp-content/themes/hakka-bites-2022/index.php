@@ -22,34 +22,17 @@
 	    wp_reset_postdata();
 	}
 
-	if (is_page('details')){
-		$parameters = array(  
-	        'post_type' => 'instructions',
-	    );
-
-	    $query = new WP_Query( $parameters ); 
-	        
-	    while ( $query->have_posts() ) : $query->the_post();  
-	       echo "<h2>" . get_the_title() . "</h2>";   
-	    endwhile;
-
-	    wp_reset_postdata();
+	if (is_singular('recipe') ){
+		echo "<h2 class='name'>" . get_field('name') . "</h2>";
 	}
 
 	if (is_singular('recipe') ){
-		echo "<h1>" . the_field('name') . "</h1>";
+		echo "<p class='instructions'>" . get_field('instructions') . "</p>";
 	}
 
-	if (is_singular('recipe') ){
-		echo "<p>" . the_field('instructions') . "</p>";
-	}
-
-	if (is_singular('recipe') ){
-		echo "<p>" . the_field('images') . "</p>";
-	}
-	if (is_singular('recipe') ){
-		echo "<li>" . the_field('ingredients') . "</li>";
-	}
+	$image = get_field('image'); 
+	get_field('image');
+	echo var_dump ($image);
 ?>
 
 <?php get_footer(); ?>
