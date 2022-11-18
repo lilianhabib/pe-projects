@@ -25,7 +25,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 body {
 	background: lightsteelblue;
-	padding: 10px;
 	/**/
 	display: flex;
 	flex-direction: column;
@@ -38,6 +37,10 @@ inner-column {
 	margin-right: auto;
 	max-width: 900px;
 	padding: 10px;
+}
+
+header inner-column {
+	max-width: 600px;
 }
 
 .bold-voice {
@@ -86,7 +89,13 @@ picture {
 	text-align: center;
 }
 
+footer {
+	background-color: darkseagreen;
+	margin: 0px;
+}
 
+footer inner-column {
+}
 
 
 

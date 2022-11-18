@@ -22,7 +22,8 @@
 		<?php
 		$featured_posts = get_field('ingredients');
 		if( $featured_posts ): ?>
-		<ul class='detail-list'>
+		
+		<ul class='ingredient-list'>
 		<?php foreach( $featured_posts as $post ): 
 
 		setup_postdata($post); ?>

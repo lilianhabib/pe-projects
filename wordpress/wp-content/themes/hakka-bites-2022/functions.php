@@ -4,6 +4,7 @@
 add_filter('show_admin_bar' , '__return_false' ); 
 
 
+// style css 
 wp_enqueue_style('style', get_stylesheet_uri() ); 
 
 function site_styles() {
