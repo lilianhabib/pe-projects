@@ -1415,11 +1415,28 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * Blockers: There are no blockers
 
 ## Lesson Notes
-* 
+* Use ACF for help with any custom fields
 
 ## conclusion / major takeaways? 
 *  
 
+
+## 11.18.2022 
+## Lesson 145: WP recap and menus
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I met up with alpha-5 and got some help with coding the relationship and images field types onto the webpage. Finally got those to work. Then finished styling the list and detal pages. 
+
+
+* Is there anything you are excited to learn?  Today I am looking forward to styling my home page and site menu and reviewing what I've learned so far. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
 
 
 
