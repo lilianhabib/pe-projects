@@ -12,9 +12,13 @@
 
 	<body <?php body_class();?>>
 
-
 		<header>
-			<h1>Hakka Bites</h1>
+			<inner-column> 
+				<h1 class='bold-voice'>Hakka Bites</h1>
+
+
+				<?php include('templates/components/site-menu.php');?>
+			</inner-column>
 		</header>
 
 		<main class='page-content'>

@@ -14,6 +14,9 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+@import "css/recipe-card.css";
+@import "css/detail-card.css"; 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -21,36 +24,69 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-family: avenir;
 }
 body {
-	background: lightblue;
+	background: lightsteelblue;
 	padding: 10px;
 	/**/
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-
 }
 
-h1 {
-	color: indianred;
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	padding: 10px;
 }
 
-h2 {
+.bold-voice {
+	color: darkgreen;
+	text-align: center;
+}
+
+.loud-voice {
 	font-size: 20px;
-	color: darkseagreen;
+	color: darkgreen;
 	padding-top: 10px;
+	text-align: center;
 }
 
 .link {
 	text-decoration: none;
-	color: darkred;
+	color: darkgreen;
 	padding-top: 20px;
+	text-align: center;
 }
 
 .link:hover {
 	font-weight: bolder;
 }
 
+
 .ingredients {
 	padding-top: 20px;
 }
+
+
+/*menu*/
+.current_page_item a {
+	color: red;
+}
+
+
+/*picture*/
+picture {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.small-voice {
+	text-align: center;
+}
+
+
+
+
 

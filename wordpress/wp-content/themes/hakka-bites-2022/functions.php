@@ -12,4 +12,8 @@ function site_styles() {
 add_action( 'wp_enqueue_scripts', 'site_styles' );
 
 
-//image 
+//menus
+function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
