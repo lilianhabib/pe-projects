@@ -1,5 +1,9 @@
 <?php 
 
+function getFile($path) {
+  return dirname(__FILE__) . '/' . $path; 
+}
+
 /*Disable WordPress Admin Bar for all users - reset*/ 
 add_filter('show_admin_bar' , '__return_false' ); 
 
@@ -15,6 +19,6 @@ add_action( 'wp_enqueue_scripts', 'site_styles' );
 
 //menus
 function register_my_menu() {
-  register_nav_menu('header-menu',__( 'Header Menu' ));
+  register_nav_menu('site-menu',__( 'Site menu' ));
 }
 add_action( 'init', 'register_my_menu' );

@@ -26,26 +26,19 @@ detail-card .soft-voice {
 	margin-top: 5px;
 }
 
- {
-	font-size: 30px;
-}
-
 detail-card .bold-voice{
 	padding-top: 10px;
 }
 
 .ingredient-list {
-	display: grid;
-  	grid-template-columns: repeat(2, 250px);
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	gap: 10px;
-	padding: 10px;
+	gap: 15px;
+	padding: 20px;
 }
 
 .ingredient-list li {
-	font-size: 13px;
 	max-width: 400px;
 	list-style: circle;
 }
@@ -53,3 +46,4 @@ detail-card .bold-voice{
 .instruction-list {
 	padding: 15px;
 }
+

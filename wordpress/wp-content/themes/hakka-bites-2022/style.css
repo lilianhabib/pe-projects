@@ -13,22 +13,33 @@ Text Domain: hakka-bites-2022
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import "css/meyer.css"; 
+@import "css/setup.css"; 
+@import "css/settings.css"; 
+/*@import "css/developer.css";*/
+@import "css/typography.css";
 
+/*components*/
 @import "css/recipe-card.css";
 @import "css/detail-card.css"; 
+@import "css/list.css"; 
+
+
+/*module*/
+@import "css/site-header.css"; 
+@import "css/home.css"; 
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: avenir;
 }
 body {
 	background: lightsteelblue;
 	/**/
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+
 }
 
 inner-column {
@@ -44,13 +55,13 @@ header inner-column {
 }
 
 .bold-voice {
-	color: darkgreen;
+	color: #FFF;
 	text-align: center;
 }
 
 .loud-voice {
 	font-size: 20px;
-	color: darkgreen;
+	color: #FFF;
 	padding-top: 10px;
 	text-align: center;
 }
@@ -62,6 +73,7 @@ header inner-column {
 	text-align: center;
 }
 
+
 .link:hover {
 	font-weight: bolder;
 }
@@ -72,10 +84,18 @@ header inner-column {
 }
 
 
-/*menu*/
-.current_page_item a {
-	color: red;
+
+
+.recipe-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 1em;
 }
+.recipe-list a span{
+	display: block;
+	align-self: end;
+}
+
 
 
 /*picture*/

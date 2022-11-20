@@ -1,26 +1,23 @@
 recipe-card {
 	display: block;
-	padding: 10px;
-	margin: 10px;
+	padding: 20px;
 	border:  1px solid darkgreen;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 600px;
 	/**/
-
-}
-
-recipe-card inner-column {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-
+	height: 100%;
 }
 
+recipe-card a {
+	margin-top: auto;
+}
 
 .description {
 	text-align: center;
+	padding-top: 10px;
 }
 
 recipe-card .image {
@@ -32,4 +29,15 @@ recipe-card .image {
 img{ 
 	width: 100%;
 	height: auto;
+}
+
+recipe-card .bold-voice {
+	padding-top: 10px;
+}
+
+recipe-card .image {
+	height: 0;
+	padding-bottom: 60%;
+	background-size: cover;
+	background-position: center;
 }

@@ -2,42 +2,28 @@
 <?php get_header(); ?> 
 
 
-
 <?php 
 	if (is_page('home') ){
 		include ('templates/pages/home.php');
 	}
 
 	if (is_page('list')){
-		$parameters = array(  
-	        'post_type' => 'recipe',
-	    );
-
-	    $query = new WP_Query( $parameters ); 
-	        
-	    while ( $query->have_posts() ) : $query->the_post();  
-	       include('templates/components/recipe-card.php');
-	    endwhile;
-
-	    wp_reset_postdata();
+	      include('templates/pages/list.php');
+	
 	}
-
+	    
 	if (is_page('detail')){
-		$parameters = array(  
-	        'post_type' => 'recipe',
-	    );
+		include('templates/pages/detail.php');
 
-	    $query = new WP_Query( $parameters ); 
-	        
-	    while ( $query->have_posts() ) : $query->the_post();  
-	       include('templates/pages/detail.php');
-	    endwhile;
-
-	    wp_reset_postdata();
 	}
 
 	if (is_singular('recipe') ){
-		include ('templates/pages/detail.php');
+		include ('templates/components/recipe-item.php');
+	}
+	
+
+	if (is_404()) {
+		include('templates/pages/page-not-found.php');
 	}
 
 

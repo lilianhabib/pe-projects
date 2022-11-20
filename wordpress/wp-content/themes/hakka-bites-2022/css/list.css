@@ -1,0 +1,9 @@
+.intro .soft-voice { 
+	text-align: center;
+	padding: 15px;
+}
+
+.intro {
+	border: 1px solid #000;
+	margin-bottom: 10px;
+}
