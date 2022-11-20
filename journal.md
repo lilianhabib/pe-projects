@@ -1433,7 +1433,14 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * Blockers: There are no blockers
 
 ## Lesson Notes
-* 
+* wp_head() - framwork specific function that goes in that puts things in the head that needs to be there before it run the page. Same as the wp_footer. 
+* The middle part of the index.php is what will go on the page that is visible. 
+* if (this) {
+    do this
+} (or) else
+  do this 
+* The recipe detail pages do not exist becuse they are dynamically generated when you visit the recipe. They do not have a specific page in the admin panel because they are their own post type. The post type data is what will generate the page based on the template we give it. 
+
 
 ## conclusion / major takeaways? 
 *  
