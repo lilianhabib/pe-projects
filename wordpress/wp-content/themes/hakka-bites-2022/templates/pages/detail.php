@@ -18,6 +18,7 @@
 
 		    wp_reset_postdata();
 		?>
+
 		</ul>
 	</inner-column>
 </section>

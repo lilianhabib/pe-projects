@@ -23,6 +23,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "css/recipe-card.css";
 @import "css/detail-card.css"; 
 @import "css/list.css"; 
+@import "css/ingredient-card.css";
 
 
 /*module*/
@@ -112,6 +113,8 @@ picture {
 footer {
 	background-color: darkseagreen;
 	margin: 0px;
+	height: 15vh;
+
 }
 
 footer inner-column {

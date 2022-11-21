@@ -16,10 +16,20 @@
 		include('templates/pages/detail.php');
 
 	}
-
 	if (is_singular('recipe') ){
 		include ('templates/components/recipe-item.php');
 	}
+
+
+	if (is_page('ingredient')){
+		include('templates/pages/ingredient.php');
+
+	}
+
+	if (is_singular('ingredient') ){
+		include ('templates/components/ingredient-card.php');
+	}
+	
 	
 
 	if (is_404()) {
