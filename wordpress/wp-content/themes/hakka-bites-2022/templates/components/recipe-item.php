@@ -39,7 +39,7 @@
 			?>
 
 			<?php if( $featured_posts ): ?>
-			<ul class='ingredient-link'> 
+			<ul class='ingredient-list'> 
 				
 				<?php foreach( $featured_posts as $post ): 
 
