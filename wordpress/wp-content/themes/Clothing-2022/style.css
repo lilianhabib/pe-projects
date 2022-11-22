@@ -1,0 +1,78 @@
+/*
+Theme Name: Lilian's Clothing
+Author: Lilian Habib
+Author URI: https://
+Description: Theme for Lilian's Clothing 
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 0.1
+Requires at least: 5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Lilian's Clothing
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "css/meyer.css"; 
+@import "css/setup.css"; 
+@import "css/settings.css"; 
+/*@import "css/developer.css";*/
+@import "css/typography.css";
+
+/*components*/
+@import "css/shop-card.css"; 
+@import "css/pants-item.css";
+
+/*module*/
+@import "css/site-header.css"; 
+@import "css/shop.css";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: lightgray;
+	/**/
+	display: flex;
+	flex-direction: column;
+
+}
+
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	padding: 10px;
+}
+
+
+.menu{
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu a {
+	text-align: left;
+}
+
+
+/*header */
+header {
+	border: 2px solid green;
+	display: block;
+}
+
+header inner-column {
+		display: flex; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+

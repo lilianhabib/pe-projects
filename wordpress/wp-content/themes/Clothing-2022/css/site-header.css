@@ -1,0 +1,20 @@
+
+
+/*menu*/
+.menu_class {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.menu_class a{
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu_class a:hover {
+	color: darkseagreen;
+}

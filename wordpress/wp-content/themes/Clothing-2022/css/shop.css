@@ -1,0 +1,23 @@
+.shop-list {
+	display: block;
+	border: 2px solid red;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 1em;
+	/*  */
+	padding: 10px; 
+}
+
+.shop-section inner-column {
+	border: 2px solid blue;
+}
+
+.shop-item {
+	border: 2px solid green;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+

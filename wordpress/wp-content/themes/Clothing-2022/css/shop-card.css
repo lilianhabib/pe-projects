@@ -1,0 +1,19 @@
+.product-img {
+	width: 150px;
+
+}
+
+.product-img img {
+	widht: 100%; 
+	height: auto;
+}
+
+pants-card {
+	display: block;
+	height: 100%;
+}
+
+.link {
+	font-size: 12px;
+	text-align: center;
+}
