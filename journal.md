@@ -1450,10 +1450,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## Lesson 148: Holiday
 
 ### Standup 
-* What is one thing you learned yesterday? I didn't get too much done on Saturday but on Sunday I worked on Wordpress site. I had issues with my detail page but after some trial and error, I realized that I was putting my code in the wrong file. After chatting with Derek, I also made each ingredient a link with its own detail page. It took some time nagivating through that but I was able to get it working. 
+* What is one thing you learned yesterday?
 
 
-* Is there anything you are excited to learn?  Although we have this week off, I want to start another Wordpress project. Not sure what the theme will be but I want to go through everything again just to solidify everything I have learned. 
+* Is there anything you are excited to learn?  
 
 * Blockers: There are no blockers
 
@@ -1462,6 +1462,118 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 ## conclusion / major takeaways? 
 *  
+
+
+
+## 11.22.2022 
+## Lesson 149: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+
+## 11.23.2022 
+## Lesson 150: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+## 11.24.2022 
+## Lesson 151: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+## 11.25.2022 
+## Lesson 152: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+## 11.26.2022 
+## Lesson 153: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+## 11.27.2022 
+## Lesson 157: Holiday
+
+### Standup 
+* What is one thing you learned yesterday?
+
+
+* Is there anything you are excited to learn?  
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+
 
 
 
