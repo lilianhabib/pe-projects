@@ -152,169 +152,357 @@
 
 // LOGICAL OPERATORS 
 
-let hasCompletedCourse = true
-let givesCertificate = true 
+// let hasCompletedCourse = true
+// let givesCertificate = true 
 
-if (hasCompletedCourse && givesCertificate === true) {
-	generateCertificate()
-}
+// if (hasCompletedCourse && givesCertificate === true) {
+// 	generateCertificate()
+// }
 
-function generateCertificate() {
-	console.log("Generating certificate... ") 
+// function generateCertificate() {
+// 	console.log("Generating certificate... ") 
 	
-} 
+// } 
 
 
-let hasSolvedChallenge = true 
-let hasHintsLeft = false
+// let hasSolvedChallenge = true 
+// let hasHintsLeft = false
 
-if (hasSolvedChallenge === false && hasHintsLeft === false) {
-	showSolution()
-}
-
-
-function showSolution() {
-	console.log("Showing the solution...")
-}
+// if (hasSolvedChallenge === false && hasHintsLeft === false) {
+// 	showSolution()
+// }
 
 
-let likesDocumentaries = true 
-let likesStartups = false
-
-if (likesDocumentaries === true || likesStartups === true) {
-	recommendMovie()
-}
-
-function recommendMovie() {
-	console.log("Hey, check out this new film we think you will like!")
-}
+// function showSolution() {
+// 	console.log("Showing the solution...")
+// }
 
 
-let course = {
-	title: "Learn CSS Grid for free",
-	lesson: 16, 
-	length: 63,
-	creator: "Per", 
-	level: 2,
-	isFree: true,
-	tags: ["html", "css"]
-}
+// let likesDocumentaries = true 
+// let likesStartups = false
+
+// if (likesDocumentaries === true || likesStartups === true) {
+// 	recommendMovie()
+// }
+
+// function recommendMovie() {
+// 	console.log("Hey, check out this new film we think you will like!")
+// }
 
 
-console.log(course.tags)
-
-let listing = {
-	title: "Live like a King in my Castle", 
-	accommodations: ["4 guests", "1 bedroom", "Private half-bath"], 
-	rating: 4.95, 
-	cost: "$190 / night", 
-	superhost: true
-}
-
-console.log(listing.title)
-console.log(listing.accommodations)
+// let course = {
+// 	title: "Learn CSS Grid for free",
+// 	lesson: 16, 
+// 	length: 63,
+// 	creator: "Per", 
+// 	level: 2,
+// 	isFree: true,
+// 	tags: ["html", "css"]
+// }
 
 
+// console.log(course.tags)
 
-let person = {
-	name: "Lilian", 
-	age: 27, 
-	country: "Canada"
-}
+// let listing = {
+// 	title: "Live like a King in my Castle", 
+// 	accommodations: ["4 guests", "1 bedroom", "Private half-bath"], 
+// 	rating: 4.95, 
+// 	cost: "$190 / night", 
+// 	superhost: true
+// }
 
-function logData() {
-	console.log (person.name + " is " + person.age + " years old and lives in " + person.country + ".")
+// console.log(listing.title)
+// console.log(listing.accommodations)
+
+
+
+// let person = {
+// 	name: "Lilian", 
+// 	age: 27, 
+// 	country: "Canada"
+// }
+
+// function logData() {
+// 	console.log (person.name + " is " + person.age + " years old and lives in " + person.country + ".")
 	
-}
+// }
 
 
-logData()
+// logData()
+
+
+// // 
+
+// let age = 67
+
+// function discount() {
+// 	if (age < 6) {
+// 		console.log ("Free")
+		
+// 	} else if (age <= 17) {
+// 		console.log ("Child discount will be applied")
+
+// 	} else if (age <= 26) {
+// 		console.log("Student discount will be applied")
+// 	} else if (age <= 66) {
+// 		console.log("Full price of tickets will be applied")
+// 	} else {
+// 		console.log("Senior citizen discount will be applied")
+// 	}
+// }
+
+// discount()
+
+
+
+// let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+
+// console.log("The 5 largest countries in the world:")
+// for (let c = 0; c < largeCountries.length; c++) {
+// 	console.log( "- " + largeCountries[c])
+
+// }
+
+// let largeCountries2 = ["Tuvalu", "India", "USA", "Indonesia", "Monoco"]
+
+
+	
+// largeCountries2.pop()
+
+// largeCountries2.push("Pakistan")
+
+
+// console.log (largeCountries2)
+
+// largeCountries2.shift()
+// largeCountries2.unshift("China")
+
+// console.log (largeCountries2)
+
+
+// let dayOfMonth = 31
+// let weekday = "Friday"
+
+// if (dayOfMonth === 13 && weekday === "Friday") {
+// 	console.log ("spooky")
+// }
+
+
+// let hands = ["rock", "paper", "scissor"]
+
+// function results() {
+// 	let randomIndex = Math.floor (Math.random() * 3)
+// 	console.log(hands[randomIndex])
+// }
+
+
+// results()
+
+// let fruit = ["apple", "orange", "apple", "apple", "orange"]
+// let appleShelf = document.getElementById('apple-shelf')
+// let orangeShelf = document.getElementById("orange-self") 
+
+
+
+// function fruitArray() {
+// 	for (let f = 0; f < fruit.length; f++) {
+// 		if (fruit[f] === "apple") {
+// 			appleShelf.textContent += "apple"
+// 		} else if (fruit[f] === "orange") {
+// 			orangeShelf.textContent += "orange"
+// 		}
+// }	}
+
+
+// fruitArray()
+
+
+
+//  addEventListener
+
+
+
+
+// let box = document.getElementById("box")
+
+// box.addEventListener("click", function() {
+// 	console.log("I want to open the box!")
+// })
+
+
 
 
 // 
 
-let age = 67
+// const basePrice = 520 //const
+// const discount = 120 //const
+// let shippingCost = 12 
+// let shippingTime = "5-12 days"
 
-function discount() {
-	if (age < 6) {
-		console.log ("Free")
-		
-	} else if (age <= 17) {
-		console.log ("Child discount will be applied")
+// shippingCost = 15 
+// shippingTime = "7-14 days"
 
-	} else if (age <= 26) {
-		console.log("Student discount will be applied")
-	} else if (age <= 66) {
-		console.log("Full price of tickets will be applied")
-	} else {
-		console.log("Senior citizen discount will be applied")
-	}
-}
-
-discount()
+// const fullPrice = basePrice - discount + shippingCost 
 
 
 
-let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
-
-console.log("The 5 largest countries in the world:")
-for (let c = 0; c < largeCountries.length; c++) {
-	console.log( "- " + largeCountries[c])
-
-}
-
-let largeCountries2 = ["Tuvalu", "India", "USA", "Indonesia", "Monoco"]
 
 
-	
-largeCountries2.pop()
+// 
 
-largeCountries2.push("Pakistan")
+// const divEl = document.getElementById("div-el") 
 
-
-console.log (largeCountries2)
-
-largeCountries2.shift()
-largeCountries2.unshift("China")
-
-console.log (largeCountries2)
+// divEl.innerHTML = "<buttton onclick='buy()'>Buy!</button>"
 
 
-let dayOfMonth = 31
-let weekday = "Friday"
-
-if (dayOfMonth === 13 && weekday === "Friday") {
-	console.log ("spooky")
-}
-
-
-let hands = ["rock", "paper", "scissor"]
-
-function results() {
-	let randomIndex = Math.floor (Math.random() * 3)
-	console.log(hands[randomIndex])
-}
-
-
-results()
-
-let fruit = ["apple", "orange", "apple", "apple", "orange"]
-let appleShelf = document.getElementById('apple-shelf')
-let orangeShelf = document.getElementById("orange-self") 
+// function buy() {
+// 	divEl.innerHTML += "<p>Thank you for buying!</p>"
+// }
 
 
 
-function fruitArray() {
-	for (let f = 0; f < fruit.length; f++) {
-		if (fruit[f] === "apple") {
-			appleShelf.textContent += "apple"
-		} else if (fruit[f] === "orange") {
-			orangeShelf.textContent += "orange"
-		}
-}	}
+
+// template strings/literals 
+
+// const recipient = "James" 
+// const sender = "Lilian"
+
+// const email = ` Hey ${recipient}! 
+				
+// 				How is it going? 
+ 
+// 				Cheers ${sender}`
+
+// console.log(email)
 
 
-fruitArray()
+
+
+// 
+
+
+
+// localStorage.setItem("myArray", "www.youtube.com")
+
+localStorage.getItem("myArray")
+
+localStorage.clear()
+
+
+
+//
+
+
+// let myLeads = `["www.google.com"]`
+
+// myLeads = JSON.parse(myLeads) //turn the string above into an array(object as arrays are objects) 
+
+// myLeads.push('www.youtube.com')// push an object into an array 
+
+// myLeads = JSON.stringify(myLeads)//turns the array into a string again to be stored at localStorage 
+
+// console.log(typeof myLeads)
+
+// console.log(myLeads)
+
+
+
+// function greetUser(greeting, name) {
+// 	welcomeEl.textContent = `${greeting}, ${name}`
+// }
+
+// greetUser("Howdy", "James")
+
+// console.log(greetingUser)
+
+
+
+
+
+// function add(sum1, sum2) {
+	 // return sum1 + sum2
+
+
+// }
+
+
+// 	console.log( add (3,4))
+// 	console.log( add (9, 102) ) 
+
+
+
+// function getFirst(arr) {
+
+// 	return arr[5]
+// }
+
+// let firstCard =  getFirst([1, 2, 3, 4, 5, 6])
+
+// console.log(firstCard)
+
+
+
+// function getName(name) {
+// 	return name[3]
+// }
+
+
+// let theName = getName(["a", "t", "h", "t", "o", "p"," e"])
+
+// console.log(theName)
+
+
+
+// function theShow(show) {
+// 	return show[3]
+// }
+
+
+// let thirdShow = theShow(["girl", "four", "five", 6, "sev", "eighty"])
+
+// console.log(thirdShow)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -36,7 +36,6 @@ function getRandomCard() {
 	}
 }
 
-
 function startGame() {
 	isAlive = true
 
@@ -48,8 +47,6 @@ function startGame() {
 
 	renderGame()
 }
-
-
 
 function renderGame() {
 	sumEl.textContent = "Sum: " + sum
@@ -75,8 +72,6 @@ function renderGame() {
 }
 
 
-
-
 function newCard() {
 
 	if (isAlive === true && hasBlackJack === false) {
@@ -87,9 +82,6 @@ function newCard() {
 
 		renderGame()
 	}
-
-
-
 
 }
 
