@@ -1,0 +1,16 @@
+{
+	"id": "home", 
+
+	"title": "Welcome", 
+	"intro": "You've made it", 
+
+	"sections": [
+		{
+			"heading": "My latest work", 
+		},
+		{
+			"heading": "Think I like", 
+		},
+	]
+
+}
