@@ -1577,7 +1577,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## Lesson 157: Medley week 1/6
 
 ### Standup 
-* What is one thing you learned yesterday? The break was much needed. I reviewed Wordpress again and went over Post types and custom fields and output everything onto the page, though I did not finish the project because it was more for the purpose of reviewing the concepts learned. 
+* What is one thing you learned yesterday? I reviewed Wordpress again and went over Post types and custom fields and output everything onto the page, though I did not finish the project because it was more for the purpose of reviewing the concepts learned. 
 
 
 * Is there anything you are excited to learn?  Today I am looking forward to getting into the challenges. For the E4P, I'm hoping to work on the Pizza Party and Self-Checkout exercises. 
