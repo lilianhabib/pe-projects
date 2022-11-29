@@ -1594,6 +1594,26 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 11.29.2022 
+## Lesson 158: Medley week 2/6
+
+### Standup 
+* What is one thing you learned yesterday? Completed a layout, two E4Ps and went over and followed along the video for Dynamic Portfolio Adventure challenge. 
+
+
+* Is there anything you are excited to learn?  Today I am looking forward completing Computing Simple Interest and Paint Calculator exercises, completing another layout challenge, and working through part 2 of the Dynamic Portfolio Adventure. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+*  
+
+
+
+
 
 
 
