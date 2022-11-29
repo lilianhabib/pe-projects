@@ -1,9 +1,9 @@
-/*@import"../css/meyer-reset.css"; 
+@import"../css/meyer-reset.css"; 
 @import"../css/developer.css"; 
 @import"../css/settings.css"; 
 @import"../css/setup.css"; 
 
-*/
+
 
 html {
 	--black: #111111;
