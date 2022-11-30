@@ -40,54 +40,69 @@
   </head> 
 
 
-<?php 
+  <?php 
 
-  $length = " "; 
-  $width = " "; 
-  $oneGallon = 350; 
-  $gallonAmount = ""; 
-  $sqftAmount = ""; 
+    $username = ""; 
+    $password = "abc$123"; 
+    $userInputPassword = ""; 
 
-  if (isset ($_POST["submitted"]) ){
+    if (isset($_POST["submitted"]) ){
 
-    if (isset($_POST["length"]) ) {
-      $length = $_POST["length"];
-    }
 
-    if (isset ($_POST["width"]) ){
-      $width = $_POST["width"]; 
-    }
+
+      if (isset($_POST["username"]) ){
+        $username = $_POST["username"]; 
+      }
+
+      if (isset($_POST["userInputPassword"]) ){
+        $userInputPassword = $_POST["userInputPassword"];
+  
+      }
+
+
+      if ($userInputPassword === $password){
+        echo "Welcome!";
+      } else if ($userInputPassword === ""){
+        echo ""; 
+      } else {
+        echo "I don't know you"; 
+      }
   }
 
-  $sqftAmount = floatval($length) * floatval($width);
 
-  $gallonAmount = floatval($sqftAmount) / floatval($oneGallon);
-
-  $gallonAmountRounded = ceil($gallonAmount);
+  ?>
 
 
-  $message = "You will need to purchase $gallonAmountRounded of paint to cover $sqftAmount square feet."
+  <form method="POST">
+    <h1>Password Validation</h1>
+
+    <div class="field"> 
+      <label>What is the username?</label>
+      <input type="text" name="username" value="<?=$username?>"> 
+    </div>
+
+    <div class="field">
+      <label>What is the password?</label>
+      <input type="password" name="userInputPassword" value="<?=$userInputPassword?>">
+    </div>
+
+    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+  </form>
 
 
 
-?>
 
-<form method="POST">
 
-  <h1>Paint Calculator</h1>
 
-  <div class="field"> 
-    <label>What is the length of the room in square feet?</label>
-    <input type="text" name="length" value="<?=$length?>">
-  </div>
 
-  <div class="field"> 
-    <label>What is the width of the room in square feet</label>
-    <input type="text" name="width" value="<?=$width?>">
-  </div>
 
-  <button type="submit" name="submitted">Submit</button>
 
-</form>
 
-<p><?=$message?></p>
+
+
+
+
+
+
+
+

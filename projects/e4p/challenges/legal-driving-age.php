@@ -39,55 +39,45 @@
     <title>Exercises for Programmers</title>
   </head> 
 
+  <?php 
 
-<?php 
+    $age = ""; 
 
-  $length = " "; 
-  $width = " "; 
-  $oneGallon = 350; 
-  $gallonAmount = ""; 
-  $sqftAmount = ""; 
+    if(isset($_POST["submitted"]) ){
 
-  if (isset ($_POST["submitted"]) ){
 
-    if (isset($_POST["length"]) ) {
-      $length = $_POST["length"];
+      if (isset($_POST["age"]) ){
+        $age = $_POST["age"]; 
+      }
+
+      if (isset($_POST["clear"]) ){
+      $_POST = array();
+    }
+      if ($age >= 16) {
+        echo "You are old enough to legally drive";  
+      } else {
+        echo "You are NOT old enough to legally drive"; 
+      }
+
     }
 
-    if (isset ($_POST["width"]) ){
-      $width = $_POST["width"]; 
-    }
-  }
-
-  $sqftAmount = floatval($length) * floatval($width);
-
-  $gallonAmount = floatval($sqftAmount) / floatval($oneGallon);
-
-  $gallonAmountRounded = ceil($gallonAmount);
-
-
-  $message = "You will need to purchase $gallonAmountRounded of paint to cover $sqftAmount square feet."
 
 
 
-?>
+  ?>
 
-<form method="POST">
 
-  <h1>Paint Calculator</h1>
 
-  <div class="field"> 
-    <label>What is the length of the room in square feet?</label>
-    <input type="text" name="length" value="<?=$length?>">
-  </div>
+  <form method="POST">
+    <h1>Legal Driving Age</h1>
 
-  <div class="field"> 
-    <label>What is the width of the room in square feet</label>
-    <input type="text" name="width" value="<?=$width?>">
-  </div>
+    <div class="field">
+      <label>What is your age?</label>
+      <input type="text" name="age" value="<?=$age?>"> 
+    </div>
 
-  <button type="submit" name="submitted">Submit</button>
+    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
 
-</form>
 
-<p><?=$message?></p>
+  </form>
