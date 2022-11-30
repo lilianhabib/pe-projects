@@ -1,50 +1,45 @@
-<style>
+<!doctype html> 
 
-	
-	* {
-		background-color: lightblue;
-	}
-	h1 {
-		color: lightseagreen;
-		font-size: 20px;
-		font-family: Avenir;
-		text-align: center;
-	} 
+<html>
 
-	form {
-		border: 2px solid lightgoldenrodyellow;
-		padding: 5px;;
-		margin-top: 50px;
-		margin: 20px;
-		max-width: 500px;
-	}
+    <meta name="author" content="Lilian Habib">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
 
-	.field {
-		display: flex;
-		flex-direction: column;
-		max-width: 500px;
-	}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  
 
-	label, input, button {
-		padding: 5px; 
-	}
+    <meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/lilian1.png">
+    
 
-	input {
-		margin-top: 10
-		px;
-		border: 1px solid lightslategray;
-	}
-	button {
-		margin-top: 10px;
-		display: flex; 
-		flex-direction: row;
-		justify-content: center;
-		margin-left: auto;
-		margin-right: auto;
-		border: 1px solid lightslategray;
-	}
+    <link rel="shortcut icon" href="images/lilian1.png" type="image/png">
 
-</style>
+    <link rel='stylesheet' href='style.css'>
+    
+    <!-- font --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap" rel="stylesheet">
+
+  
+    <!-- Facebook Meta Tags -->
+      <meta property="og:url" content="https://peprojects.dev/alpha-5/lilian/">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content=" index ">
+      <meta property="og:description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
+      <meta property="og:image" content="https://peprojects.devimages/metalilian.png?hello">
+
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="twitter:domain" content="peprojects.dev">
+      <meta property="twitter:url" content="https://peprojects.dev/alpha-5/lilian">
+      <meta name="twitter:title" content=" index ">
+      <meta name="twitter:description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
+      <meta name="twitter:image" content="https://peprojects.devimages/metalilian.png">
+
+    <title>Exercises for Programmers</title>
+  </head> 
 
 
 <?php 
@@ -93,12 +88,12 @@
 	$tax = 5.5 / 100.0; 
 	$totalTax = floatval($subtotal) * floatval($tax); 
 	$totalTaxFormat = round($totalTax, 2);
-	$message2 = "<p>Tax: $$totalTaxFormat</p>"; 
+	$message2 = "Tax: $$totalTaxFormat"; 
 
 
 	$totalCost = floatval($totalTaxFormat) + floatval($subtotal); 
 	$totalCostFormat = round($totalCost, 2);
-	$message3 = "<p>Total: $$totalCostFormat</p>"; 
+	$message3 = "Total: $$totalCostFormat"; 
 
 
 ?>

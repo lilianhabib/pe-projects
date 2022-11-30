@@ -1,4 +1,3 @@
-<!doctype html> 
 
 <html>
 
@@ -42,56 +41,56 @@
   </head> 
 
 
-<?php
+<?php 
 
-	$num1 = "1"; 
-	$num2 = "1"; 
-	
-	if (isset ($_POST["submitted"]) ){
+  $principleAmount = "1500"; 
+  $rate = "5.4"; 
+  $years = "5"; 
+  $amountAccrued = ""; 
 
-		if (isset($_POST["num1"]) ) {
-			$num1 = $_POST["num1"];
-		}
+  if (isset($_POST["submitted"]) ){
 
-		if (isset ($_POST["num2"]) ){
-			$num2 = $_POST["num2"]; 
-		}
-	}
+    if(isset($_POST["principleAmount"]) ){
+      $principleAmount = $_POST["principleAmount"];
+    }
 
-	echo "<p>What is the first number? $num1</p>";
-	echo "<p>What is the second number? $num2</p>"; 
+    if (isset($_POST["rate"]) ){
+      $rate = $_POST["rate"]; 
+    }
 
-	$addTotal = floatval($num1) + floatval($num2); 
-	$subTotal = floatval($num1) - floatval($num2); 
-	$divideTotal = floatval($num1)/floatval($num2); 
-	$multiplyTotal = floatval($num1) * floatval($num2); 
-	
-	echo "<p>$num1 + $num2= $addTotal</p> ";
-	echo "\r\n"; 
-	echo "<p>$num1 - $num2 = $subTotal</p>";
-	echo "\r\n";
-	echo "<p>$num1 / $num2 = $divideTotal</p>";
-	echo "\r\n";
-	echo "<p>$num1 * $num2 = $multiplyTotal</p>";
+    if (isset($_POST["years"]) ){
+      $years = $_POST["years"]; 
+    }
+  }
+
+  $amountAccrued = floatval($principleAmount) * (1 + floatval($rate) * floatval($years)); 
+
+  $message = "After $years at $rate%, the investment will be worth $$amountAccrued. "
 
 ?>
 
 
-
-
 <form method="POST">
-	<h1>Simple Math</h1>
 
-	<div class='field'> 
-		<label>What is the first number?</label>
-		<input type="text" name="num1" value="<?=$num1?>">
-	</div>
+  <h1>Computing Simple Interest</h1>
 
-	<div class='field'>
-		<label>What is the second number?</label>
-		<input type="text" name="num2" value="<?=$num2?>">  
-	</div>
+  <div class="field">
+    <label>What is the principle amount</label>
+    <input type='text' name="principleAmount" value="<?=$principleAmount?>">
+  </div>
 
-	<button type="submit" name="submitted">Submit</button>
+  <div class="field">
+    <label>What is the rate</label>
+    <input type="text" name="rate" value="<?=$rate?>">
+  </div>
+
+  <div class="field">
+    <label>Enter the number of years</label>
+    <input type="text" name="years" value="<?=$years?>">
+  </div>
+
+  <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+
 </form>
 
+<p><?=$message?></p>

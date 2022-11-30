@@ -1,4 +1,4 @@
-<!doctype html> 
+
 
 <html>
 
@@ -42,56 +42,54 @@
   </head> 
 
 
-<?php
+<?php 
 
-	$num1 = "1"; 
-	$num2 = "1"; 
-	
-	if (isset ($_POST["submitted"]) ){
+  $length = " "; 
+  $width = " "; 
+  $oneGallon = 350; 
+  $gallonAmount = ""; 
+  $sqftAmount = ""; 
 
-		if (isset($_POST["num1"]) ) {
-			$num1 = $_POST["num1"];
-		}
+  if (isset ($_POST["submitted"]) ){
 
-		if (isset ($_POST["num2"]) ){
-			$num2 = $_POST["num2"]; 
-		}
-	}
+    if (isset($_POST["length"]) ) {
+      $length = $_POST["length"];
+    }
 
-	echo "<p>What is the first number? $num1</p>";
-	echo "<p>What is the second number? $num2</p>"; 
+    if (isset ($_POST["width"]) ){
+      $width = $_POST["width"]; 
+    }
+  }
 
-	$addTotal = floatval($num1) + floatval($num2); 
-	$subTotal = floatval($num1) - floatval($num2); 
-	$divideTotal = floatval($num1)/floatval($num2); 
-	$multiplyTotal = floatval($num1) * floatval($num2); 
-	
-	echo "<p>$num1 + $num2= $addTotal</p> ";
-	echo "\r\n"; 
-	echo "<p>$num1 - $num2 = $subTotal</p>";
-	echo "\r\n";
-	echo "<p>$num1 / $num2 = $divideTotal</p>";
-	echo "\r\n";
-	echo "<p>$num1 * $num2 = $multiplyTotal</p>";
+  $sqftAmount = floatval($length) * floatval($width);
+
+  $gallonAmount = floatval($sqftAmount) / floatval($oneGallon);
+
+  $gallonAmountRounded = ceil($gallonAmount);
+
+
+  $message = "You will need to purchase $gallonAmountRounded of paint to cover $sqftAmount square feet."
+
+
 
 ?>
 
-
-
-
 <form method="POST">
-	<h1>Simple Math</h1>
 
-	<div class='field'> 
-		<label>What is the first number?</label>
-		<input type="text" name="num1" value="<?=$num1?>">
-	</div>
+  <h1>Paint Calculator</h1>
 
-	<div class='field'>
-		<label>What is the second number?</label>
-		<input type="text" name="num2" value="<?=$num2?>">  
-	</div>
+  <div class="field"> 
+    <label>What is the length of the room in square feet?</label>
+    <input type="text" name="length" value="<?=$length?>">
+  </div>
 
-	<button type="submit" name="submitted">Submit</button>
+  <div class="field"> 
+    <label>What is the width of the room in square feet</label>
+    <input type="text" name="width" value="<?=$width?>">
+  </div>
+
+  <button type="submit" name="submitted">Submit</button>
+
 </form>
 
+<p><?=$message?></p>
