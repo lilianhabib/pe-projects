@@ -1,1 +1,1 @@
-<h1>404</h1>
+<?php include ('page-header.php');?>

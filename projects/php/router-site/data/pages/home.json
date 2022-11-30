@@ -6,11 +6,12 @@
 
 	"sections": [
 		{
-			"heading": "My latest work", 
+			"heading": "My latest work"
 		},
+
 		{
-			"heading": "Think I like", 
-		},
+			"heading": "Think I like"
+		}
 	]
 
 }
