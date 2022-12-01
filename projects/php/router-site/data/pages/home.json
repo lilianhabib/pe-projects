@@ -1,17 +1,15 @@
 {
-	"id": "home", 
-
-	"title": "Welcome", 
-	"intro": "You've made it", 
-
-	"sections": [
-		{
-			"heading": "My latest work"
-		},
-
-		{
-			"heading": "Think I like"
-		}
-	]
-
+    "id": "home",
+    "title": "Welcome",
+    "intro": "You've made it",
+    "sections": [
+        {
+            "module": "generic_text",
+            "heading": "My latest work"
+        },
+        {
+            "module": "generic_text",
+            "heading": "Think I like"
+        }
+    ]
 }
