@@ -1,0 +1,112 @@
+@import"../css/meyer-reset.css"; 
+/*@import"../css/developer.css"; */
+@import"../css/settings.css"; 
+@import"../css/setup.css"; 
+
+html {
+  --black: #111111;
+  --white: #FFFFFF;
+  --color: #FE11A8;
+  --highlight: #DCDCDC;
+
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+
+.intro {
+	background-color: var(--black);
+	color: var(--white);
+	padding: 15px;
+	padding-top: 10vh;
+	padding-bottom: 2vh;
+	margin-bottom: 5vh;
+}
+
+
+.detail2-section {
+	margin-bottom: 10vh;
+	margin-top: 5vh;
+}
+
+.loud-voice {
+	font-weight: bolder;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px
+}
+
+.intro-voice {
+	font-size: 14px;
+	line-height: 1.2em;
+	font-weight: lighter;
+}
+
+
+details {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+}
+
+details > summary {
+	border-bottom: 1px solid #aaa;
+  cursor: pointer;
+  list-style: none;
+}
+
+details[open] {
+	padding: 0.5em;
+}
+
+details[open] summary {
+		border-bottom: 1px solid #aaa;
+	margin-bottom: .5em;
+}
+
+svg {
+	max-width:  20px;
+	display: inline-block;
+}
+
+
+.detail {
+	padding: 15px;
+	padding-top: 2vh;
+	background-color: var(--white);
+}
+
+.bold-voice {
+	font-weight: bolder;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.quiet-voice {
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+.little-voice {
+	color: var(--color);
+	font-weight: bolder;
+	font-size: 12px;
+
+
+}
