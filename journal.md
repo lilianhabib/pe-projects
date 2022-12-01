@@ -1653,7 +1653,23 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * Blockers: There are no blockers
 
 ## Lesson Notes
-* 
+* Layout video 
+  * Plan things out by putting boxes around the elements to determine the what is an h1, h2, h3, p, img, sections, div, etc. 
+  * module > one-paragraph > parapgraph/heading 
+  * use dash for custom elements 
+  * media-overview > section > header> h2 and p
+  * within media-overview > ol (article-list class) > li (article class) for the articles > article (card class) > h1 and p 
+  * the article section use a foreach loop to loop through each article/image rather than right out each section  
+  * the array within the foreach loop can be anything - true, null, "three"
+  * writing selectors in CSS: media-overview .(class) 
+  * duplicate the window - one tester window and the other is a developer tools window 
+  * use grid to create even space between elements/groups 
+  * use css variables to quickly turn off and on borders
+  * grid-column or grid-row: 1 / 2 (span from line 1 to line 2)
+  * flexbox is one dimensional and grid is two dimensional
+  * grid cells are only as big as the content in them 
+  * Screenshots in responsive-layout > layout > layout6
+  * video in Meldley 4/6 lesson 
 
 ## conclusion / major takeaways? 
 
