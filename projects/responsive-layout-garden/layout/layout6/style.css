@@ -30,7 +30,14 @@ body {
 	flex-direction: column;
 }
 
+.detail {
+	border: 2px solid green;
+}
 
+.detail-section {
+	display: grid;
+	grid-gap: 10px;
+}
 
 .intro {
 	padding-bottom: 5vh;
@@ -49,6 +56,7 @@ body {
 .loud-voice {
 	font-size: 15px;
 	padding-bottom: 1vh;
+	padding-top: 1vh;
 }
 
 .tiny-voice {
@@ -67,6 +75,10 @@ body {
 	font-size: 11px;
 }
 
+hr {
+	border: 0.5px solid var(--black);
+	background-color: var(--black);
+}
 
 
 /*image-section*/
@@ -110,9 +122,8 @@ img {
 	}
 
 	.detail-section {
-		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 10px;
+		padding-bottom: 5vh;
 	}
 
 	.page-section {
@@ -153,7 +164,12 @@ img {
 		height: 100%;
 	}
 
+	.detail-section {
+		padding-bottom: 0px;
+	}
+
 	.image-section {
+		align-self: flex-end;
 		padding-top: 10vh;
 	}
 
