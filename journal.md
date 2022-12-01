@@ -87,7 +87,7 @@ Blockers: feeling slightly overwhelmed with the number of tasks I expect myself 
 For other uses, use 3x or 4x the point size for something more dramatic 
 
 5. Align to One Axis 
-*Build your type along one primary axis and align the element to this grid line. For a vertical axis, align the left edge of your type. This will work regardless of font type or size. For the horizontal axis, align on the strongest horizontal element.
+* Build your type along one primary axis and align the element to this grid line. For a vertical axis, align the left edge of your type. This will work regardless of font type or size. For the horizontal axis, align on the strongest horizontal element.
 
 6. Pick any Typeface
 * Akzidenz Grotesk, Avenir, Avant Garde, Baskerville, Bembo, Bodoni, Bookman, Caslon, Century, Clarendon, Courier, DIN, Franklin Gothic, Frutiger, Futura, Garamond, Gill Sans, Gotham, Helvetica, Letter Gothic, Memphis, Meta, Mrs. Eaves, OCRB, Rockwell, Sabon, Times New Roman, Trade Gothic, Trajan, and Univers.
@@ -99,7 +99,7 @@ For other uses, use 3x or 4x the point size for something more dramatic
 * Don’t place elements along the edge or corners of a page unless to deliberately cut elements off. Negative space is a good thing 
 
 9. Mind the Gap 
-*Typography is all about spacing. Never force justify type because of the inherent rivers that it’ll create. 
+* Typography is all about spacing. Never force justify type because of the inherent rivers that it’ll create. 
 * Avoid having a single word on the last line of a paragraph, otherwise known as a widow. 
 * Don’t allow a new page or column to begin with the final word or line from a previous paragraph, therefore, separating it from the rest of its paragraph - known as orphan
 * Use a single space after punctuation in a sentence. Pay attention to the shape the rag creates to avoid undesired shapes/angles 
@@ -1629,6 +1629,40 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 ## conclusion / major takeaways? 
+
+
+
+
+
+## 12.1.2022 
+## Lesson 160: Medley week 4/6
+
+### Standup 
+* What is one thing you learned yesterday? 
+  * Completed the Password Validation and Legal Driving Age exercises 
+  * completed another layout challenge
+  * tried to figure out how to get the plus and minus sign to work in Layout 2
+  * worked through part 3 of the Dynamic Portfolio Adventure 
+
+
+* Is there anything you are excited to learn?  
+  * Complete tax calculator and BMI calcuator 
+  * Find 2 responsive layouts to do 
+  * work on the dark mode 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+
 
 
 
