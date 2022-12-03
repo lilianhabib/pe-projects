@@ -1537,6 +1537,8 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 *  
 
+
+
 ## 11.26.2022 
 ## Lesson 153: Holiday
 
@@ -1555,8 +1557,10 @@ The data can live anywhere it wants. Almost all modern database have a network A
 *  
 
 
+
+
 ## 11.27.2022 
-## Lesson 157: Holiday
+## Lesson 154: Holiday
 
 ### Standup 
 * What is one thing you learned yesterday?
@@ -1574,7 +1578,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 11.28.2022 
-## Lesson 157: Medley week 1/6
+## Lesson 155: Medley week 1/6
 
 ### Standup 
 * What is one thing you learned yesterday? I reviewed Wordpress again and went over Post types and custom fields and output everything onto the page, though I did not finish the project because it was more for the purpose of reviewing the concepts learned. 
@@ -1595,7 +1599,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 11.29.2022 
-## Lesson 158: Medley week 2/6
+## Lesson 156: Medley week 2/6
 
 ### Standup 
 * What is one thing you learned yesterday? Completed a layout, two E4Ps and went over and followed along the video for Dynamic Portfolio Adventure challenge. 
@@ -1615,7 +1619,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 11.30.2022 
-## Lesson 159: Medley week 3/6
+## Lesson 157: Medley week 3/6
 
 ### Standup 
 * What is one thing you learned yesterday? Completed a layout, two E4Ps and went over and followed along the video for Dynamic Portfolio Adventure Part 2. 
@@ -1635,7 +1639,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.1.2022 
-## Lesson 160: Medley week 4/6
+## Lesson 158: Medley week 4/6
 
 ### Standup 
 * What is one thing you learned yesterday? 
@@ -1677,6 +1681,40 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.2.2022 
+## Lesson 159: Medley week 5/6
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday completed two exercises. I had an issue with the BMI calculator. Not sure why but it ended up working after opening the project hours later. I worked on a responsive layout but did not get the chance to complete it. 
+
+
+* Is there anything you are excited to learn?  Today I am going to get on a meeting with Derek, work through two more exercises (Numbers to Names and Temperature Converter), and work on my repsonsive layout. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 12.3.2022 
+## Lesson 160: Medley week 6/6
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I completed two exercises. While completing Numbers to Names, I learnred about switch/case statements and when to use it. I also spent some time figuring out CSS grid. It was challenging at first. Instead of setting the grid's rows and columns, I thought I had to set a fixed width and height. I later learned that I could set the rows and columns, but not sure if I did it right. 
+
+* Is there anything you are excited to learn?  Today I am going to work on two more challenges and review Derek's version of CSS grids and comparing it to mine. 
+ 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
