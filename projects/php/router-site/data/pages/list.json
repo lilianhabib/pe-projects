@@ -4,39 +4,10 @@
     "intro": "View it now!",
     "sections": [
         {
-            "module": "things_grid",
-            "heading": "Grid of things",
-            "items": [
-                {
-                    "title": "Thing 1",
-                    "copy": "Copy will be here..."
-                },
-
-                {
-                    "title": "Thing 2",
-                    "copy": "Copy will be here..."
-                },
-
-                {
-                    "title": "Thing 3",
-                    "copy": "Copy will be here..."
-                },
-
-                {
-                    "title": "Thing 4",
-                    "copy": "Copy will be here..."
-                },
-
-                {
-                    "title": "Thing 5",
-                    "copy": "Copy will be here..."
-                },
-
-                {
-                    "title": "Thing 6",
-                    "copy": "Copy will be here..."
-                }
-            ]
+            "module": "big-heading",
+            "heading": "Welcome to the list page",
+            "detail": "This is the detail section"
+            
         }
     ]
 }

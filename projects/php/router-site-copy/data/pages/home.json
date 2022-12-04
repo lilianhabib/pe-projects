@@ -1,6 +1,7 @@
 {
     "id": "home",
     "title": "Welcome",
+    "template": "standard", //explains what type of template is needed for this page
     "intro": "You've made it",
     "sections": [
         {

@@ -4,7 +4,7 @@
 <header class='site-header'>
 	<p><?=queryString();?></p>
 
-	<?php include('partials/site-menu.php');?>
+	<?php include('templates/partials/site-menu.php');?>
 
 </header>
 
