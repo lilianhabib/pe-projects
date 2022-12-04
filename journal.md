@@ -1712,7 +1712,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * Blockers: There are no blockers
 
 ## Lesson Notes
-* 
+* a library is a useful set of functions that you can use much like the built-in function PHP has. React is a library, Jquery is a library. Rails, Jango, Angular are all Frameworks 
 
 ## conclusion / major takeaways? 
 
