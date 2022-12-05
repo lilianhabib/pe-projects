@@ -1719,7 +1719,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.5.2022 
+## Lesson 162: Personal site "PRO" (the content)
 
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I completed Saturday's lesson and decided to emulate what Derek did in the video for my personal site. I wanted to get a better understanding of the functions, php code, and how they are all conected. Then I spent some time figuring out the mondrian CSS grid challenge. The shapes were a little off in size but I now have a better understanding of CSS grids. I also figured out how to change the plus and minus toggle from Wednesday's layout
+
+* Is there anything you are excited to learn?  Today I will be meeting with Derek and completing today's lesson on planning out my personal site and gathering A LOT of content. 
+ 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
