@@ -1723,7 +1723,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## Lesson 162: Personal site "PRO" (the content)
 
 ### Standup 
-* What is one thing you learned yesterday? Over the weekend, I completed Saturday's lesson and decided to emulate what Derek did in the video for my personal site. I wanted to get a better understanding of the functions, php code, and how they are all conected. Then I spent some time figuring out the mondrian CSS grid challenge. The shapes were a little off in size but I now have a better understanding of CSS grids. I also figured out how to change the plus and minus toggle from Wednesday's layout
+* What is one thing you learned yesterday? Over the weekend, I completed Saturday's lesson and decided to emulate what Derek did in the video for my personal site. I wanted to get a better understanding of the functions, php code, and how they are all conected. Then I spent some time figuring out the CSS grid challenge. The shapes were a little off in size but I now have a better understanding of CSS grids. I also figured out how to change the plus and minus toggle from Wednesday's layout
 
 * Is there anything you are excited to learn?  Today I will be meeting with Derek and completing today's lesson on planning out my personal site and gathering A LOT of content. 
  
@@ -1734,6 +1734,52 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 ## conclusion / major takeaways? 
+
+
+
+
+
+## 12.6.2022 
+## Lesson 163: Putting the content in context 
+
+### Standup 
+* What is one thing you learned yesterday? I spent some time creating a list of content for my site. It was difficult at first to think about content outside what I already have but I think I managed to create something sufficient. While creating the list, I did think of more things to add that I didn't think of prior. The list helped break down the components of my site into smaller chunks which I think will definitely later on.  
+
+* Is there anything you are excited to learn? Today I'm looking forward to getting the content into a form and laying things out in AD. 
+ 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
