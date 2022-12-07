@@ -12,7 +12,7 @@
 }
 
 body{
-	background-color: #08070a;
+	background-color: #FFF; /*#08070a*/;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

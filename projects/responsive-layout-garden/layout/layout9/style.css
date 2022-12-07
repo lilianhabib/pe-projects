@@ -26,6 +26,8 @@ inner-column {
 	max-width: 1000px;
 }
 
+.detail-section {
+}
 
 .intro {
 	background-color: var(--black);
@@ -84,6 +86,20 @@ svg {
 	display: inline-block;
 }
 
+summary::after {
+	float: right;
+	right: 10%;
+	content: "+";
+}
+
+details[open] > summary::after {
+	float: right;
+	right: 10%;
+	content: "-";
+}
+
+
+
 
 .detail {
 	padding: 15px;
@@ -104,9 +120,15 @@ svg {
 }
 
 .little-voice {
+	padding: 10px;
 	color: var(--color);
 	font-weight: bolder;
 	font-size: 12px;
+}
 
-
+.calm-voice {
+	padding: px;
+	color: var(--color);
+	font-weight: bolder;
+	font-size: 12px;
 }
