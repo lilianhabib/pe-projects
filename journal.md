@@ -1774,6 +1774,20 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 
 
+## 12.8. 2022 
+## Lesson 165: Catching Up 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I was away from my computer for majority of the day. I did manage to add more content 
+
+* Is there anything you are excited to learn? Today I am thinking of going back to the dynamic adventure portfolio and adding more content and style to it. Also hoping to explore Wednesday's type lesson 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
 
 
 
