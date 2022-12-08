@@ -1758,6 +1758,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.7.2022 
+## Lesson 164: Catching Up 
+### Standup 
+* What is one thing you learned yesterday? I spent some time playing around with my contents. Made several versions of most pages. It was nice being able to play around with the different elements without having to fully commit to it with code. I think I have a better sense of how I want my site to look after creating 
+
+* Is there anything you are excited to learn? Today I spent all day helping a friend. Did not get a chance to check in until later afternoon. Today I want to go back to the layouts I worked on yesterday and replace blank shapes/spaces with exact content. 
+ 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
 
 
 
