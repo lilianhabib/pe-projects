@@ -1790,6 +1790,20 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.9.2022 
+## Lesson 165: Working through type details  
+### Standup 
+* What is one thing you learned yesterday? Yesterday I went back to my layout and added the drawings. Instead of going back to the dyanmic adventure portfolio, I went back to my pe projects folder that I am changed to php and played around with it. I also started on the type exercise. 
+
+* Is there anything you are excited to learn? Today I will continue with the type exercise and also want to continue what I was doing yesterday with pe-projects folder and condense my code with functions. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
 
 
 
