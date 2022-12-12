@@ -1791,11 +1791,11 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.9.2022 
-## Lesson 165: Working through type details  
+## Lesson 166: Working through type details  
 ### Standup 
-* What is one thing you learned yesterday? Yesterday I went back to my layout and added the drawings. Instead of going back to the dyanmic adventure portfolio, I went back to my pe projects folder that I am changed to php and played around with it. I also started on the type exercise. 
+* What is one thing you learned yesterday? 
 
-* Is there anything you are excited to learn? Today I will continue with the type exercise and also want to continue what I was doing yesterday with pe-projects folder and condense my code with functions. 
+* Is there anything you are excited to learn? 
 
 * Blockers: There are no blockers
 
@@ -1806,8 +1806,52 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.10.2022 
+## Lesson 167: Catching Up  
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
+
+## 12.11.2022 
+## Lesson 168: Day off
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 12.12.2022 
+## Lesson 169: Personal site "PRO" (layout)  
+### Standup 
+* What is one thing you learned yesterday? The weekend is a little bit of a blur. I was not feeling too well on Sunday. On Saturday, I worked on the type assignment and finished it. I also spent some time updating JSON and PHP for my personal site. Though I did not get as much as I originally wanted because I realized that I want to reorganize/redesign my pages. I don't know what the pages are going to look like yet, so I took a break from that. I also worked on the Personal Site Layout assignment. 
+
+* Is there anything you are excited to learn? I am still not feeling the best so going to take it slow today. I am going to continue work on the layout assignment. I think I am done, but it doesn't look like it. I might update layout with the new home page from the type details assignment. 
+
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
