@@ -1856,6 +1856,25 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.13.2022 
+## Lesson 169: Generic Work Day 
+### Standup 
+* What is one thing you learned yesterday? Yesterday spent the time making layouts for each web page using the content gathered from the week before. It was a great way to see everything come together.
+
+* Is there anything you are excited to learn? Today I want to spend some time with my layouts again. I am hoping to get some inspiration from other sites and see if there are other ways to organize my content. Like Ben, I want a minimalist look. Maybe a nice pop of colour would be nice too.
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
 
 
 
