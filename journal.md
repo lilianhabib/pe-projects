@@ -1872,7 +1872,19 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.14.2022 
+## Lesson 170: Details and Critque 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spent majority of the day looking for inspiration and creating new layouts. I kept the h1 the same but made some changes to other content and added colour.
 
+* Is there anything you are excited to learn? Today I want redesign and finish my project detail page and have it posted in today’s channel for feedback.
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
