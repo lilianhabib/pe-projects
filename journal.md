@@ -1905,6 +1905,69 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 
 
+## 12.16.2022 
+## Lesson 173: Personal Site Pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 12.17.2022 
+## Lesson 174: Personal Site Pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 12.18.2022 
+## Lesson 175: Day off 
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 12.19.2022 
+## Lesson 176: Intro to JavaScript and the Browser Console 
+### Standup 
+* What is one thing you learned yesterday? Over the last 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
