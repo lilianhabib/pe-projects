@@ -1958,9 +1958,9 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## 12.19.2022 
 ## Lesson 176: Intro to JavaScript and the Browser Console 
 ### Standup 
-* What is one thing you learned yesterday? Over the last 
+* What is one thing you learned yesterday? Over the weekend, I traveled to the mainland and also got sick. I ended up sleeping majority of the time so I did not get much done. 
 
-* Is there anything you are excited to learn? 
+* Is there anything you are excited to learn? Today, I am excited to get into JavaScript. Based on what I am seeing in the lesson and my conversation with Derek, I am seeing some similarities with PHP. 
 
 * Blockers: There are no blockers
 
