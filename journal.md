@@ -1972,6 +1972,27 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.20.2022 
+## Lesson 177: Personal Site Pro: Work Days
+### Standup 
+* What is one thing you learned yesterday? Yesterday I explored some JavaScript with Chrome's console. I also set up JSON for the rest of my pages. 
+
+* Is there anything you are excited to learn? Today, I am going to finish setting up the JSON for the last two pages. I believe I have everything I need done, but I'll run through the list to make sure 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+
+
 
 
 
