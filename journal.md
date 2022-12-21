@@ -1989,6 +1989,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.21.2022 
+## Lesson 178: Personal Site Pro: Work Days
+### Standup 
+* What is one thing you learned yesterday? Yesterday I created my JSON files for all of the pages but still need to work on the copy. The copy for each page will probably be an on-going process. 
+
+* Is there anything you are excited to learn? Today I met with Derek and went over JSON and fixed some errors that prevented me from outputting data onto the page. I will spend the rest of the day setting up my pages. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
 
 
 
