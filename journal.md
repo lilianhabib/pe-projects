@@ -1990,7 +1990,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.21.2022 
-## Lesson 178: Personal Site Pro: Work Days
+## Lesson 178: Vacation
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I created my JSON files for all of the pages but still need to work on the copy. The copy for each page will probably be an on-going process. 
 
@@ -2002,6 +2002,26 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 ## conclusion / major takeaways? 
+
+
+
+## 12.22.2022 
+## Lesson 178: Vacation
+### Standup 
+* What is one thing you learned yesterday? Yesterday met with Derek and went over JSON and issues I had with my site. I also created the modules I needed and completed my JSON files. I spent the rest of my time going over the first 10 videos. Although the videos go over things we have already learned, I highly recommend watching them and taking notes (I didn’t the first time so I watched the videos again)! It is a good way to review everything we have learned all together instead of in separate lessons. There are a lot of videos, but it is so worth it.
+
+* Is there anything you are excited to learn? Today I will be going over part 2 of the process and hopefully will be closer to getting my site all set up. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
 
 
 
