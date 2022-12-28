@@ -2006,11 +2006,11 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.22.2022 
-## Lesson 178: Vacation
+## Lesson 179: Vacation
 ### Standup 
-* What is one thing you learned yesterday? Yesterday met with Derek and went over JSON and issues I had with my site. I also created the modules I needed and completed my JSON files. I spent the rest of my time going over the first 10 videos. Although the videos go over things we have already learned, I highly recommend watching them and taking notes (I didn’t the first time so I watched the videos again)! It is a good way to review everything we have learned all together instead of in separate lessons. There are a lot of videos, but it is so worth it.
+* What is one thing you learned yesterday? 
 
-* Is there anything you are excited to learn? Today I will be going over part 2 of the process and hopefully will be closer to getting my site all set up. 
+* Is there anything you are excited to learn? 
 
 * Blockers: There are no blockers
 
@@ -2022,11 +2022,99 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.23.2022 
+## Lesson 180: Vacation
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
+## 12.24.2022 
+## Lesson 181: Vacation
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
+
+## 12.25.2022 
+## Lesson 182: Vacation
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 12.26.2022 
+## Lesson 183: Vacation
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 12.27.2022 
+## Lesson 184: Vacation
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 12.28.2022 
+## Lesson 185: Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Besides spending the holidays with family, I managed to get through majority of the shorter videos. I have the content up for most of my pages, except the responsive layout, exercise for programmers, and style guide. I haven't styled my site yet because I wanted to focus on the backend of things first.   
+
+* Is there anything you are excited to learn? Today I'll continue working through the last couple of videos. I am hoping to get all of the content up by tomorrow the lastest and spend Friday styling everything. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
