@@ -1,6 +1,3 @@
 {
-   "template": "exercise-detail", 
-   "title": "Tip Calculator",
-    "slug": "tip-calculator",
-    "intro": "Exercise for Programmers intro" 
+   "template": "exercise-detail"
 }
