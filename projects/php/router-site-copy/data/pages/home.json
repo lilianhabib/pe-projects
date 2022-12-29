@@ -1,0 +1,14 @@
+{
+    "id": "home",
+    "title": "Welcome",
+    "template": "standard", //explains what type of template is needed for this page
+    "intro": "You've made it",
+    "sections": [
+        {
+            "module": "big-heading",
+            "heading": "Welcome to the home page",
+            "detail": "The detail of each page"
+        }
+        
+    ]
+}
