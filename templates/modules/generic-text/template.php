@@ -1,5 +1,6 @@
 <?php 
 
+$heading = $section["heading"] ?? "default text heading"
 
 ?>
 
@@ -17,6 +18,7 @@
 
 
 			<p><?=$section["copy"]?></p>
+	
 
 
 			<?php if ($section["image"]) {?> 

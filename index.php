@@ -5,19 +5,19 @@
 <?php 
 
 // ROUTER
-	$pageId = "home"; 
-	if (isset($_GET["page"]) ){
-		$pageId = $_GET["page"]; 
-	}
+	// $pageId = "home"; 
+	// if (isset($_GET["page"]) ){
+	// 	$pageId = $_GET["page"]; 
+	// }
 
-// GET THE PAGE DATA 
-// $pageFilePath = "data/pages/$pageId.json";
-// $pageData = null; 
-// if (file_exists($pageFilePath) ) {
-// 	$json = file_get_contents($pageFilePath);
-// 	$pageData = json_decode($json, true); 
-// }
-?>
+
+//$pageFilePath = "data/pages/$pageId.json";
+//$pageData = null; 
+//if (file_exists($pageFilePath) ) {
+	//$json = file_get_contents($pageFilePath);
+	//$pageData = json_decode($json, true); 
+//}
+//?>
 
 
 <!DOCTYPE html>

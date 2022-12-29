@@ -15,6 +15,8 @@ Live Link: https://peprojects.dev/alpha-5/lilian
 <hr>
 * [x] project - list
 * [ ] project - detail
+* [ ] exercise for programmers
+* [ ] responsive layout 
 <hr>
 * [ ] style guide 
 * [ ] api tests 
