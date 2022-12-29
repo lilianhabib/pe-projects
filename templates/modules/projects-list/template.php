@@ -1,7 +1,7 @@
 <?php 
 
-$link = "?page=module&name=$section[url]&slug=$section[slug]";
-
+	$json = file_get_contents('data/projects-data.json'); 
+	$projects = json_decode($json, true); 
 
 ?>
 
@@ -11,11 +11,14 @@ $link = "?page=module&name=$section[url]&slug=$section[slug]";
 
 		<projects> 
 
-			<span><?=$section["slug"]?></span>
-			<h2><?=$section["name"]?></h2>
-			<p><?=$section['description']?></p>
-			<a href="?page=<?=$section['url']?>" target='_blank'>View Case Study</a>
-		
+			<?php foreach ($projects as $project) { 
+				$slug = $project["slug"];
+				?>
+
+				<h1><?=$project["name"]?></h1>
+				<p><?=$project["description"]?></p>
+				<a href="?page=project&slug=<?=$slug?>">Visit <span><?=$project["name"]?></span></a>
+			<?php } ?>
 	
 		</projects>
 

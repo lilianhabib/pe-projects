@@ -28,11 +28,12 @@ function pageData() {
 function renderPageTemplate() {
 	$filePath = "templates/pages/" . "standard" . ".php"; 
 	$pageData = pageData(); 
-	if ($pageData['template']) {
-		$filePath = "templates/pages/$pageData[template].php"; 
+	if ($pageData["template"]) {
+		$filePath = "templates/pages/$pageData[template].php";
 	}
+
 	if (file_get_contents($filePath) ) {
-		include($filePath); 
+		include($filePath); 	
 	} else {
 		include ("pages/404.php");
 	}
