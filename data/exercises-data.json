@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Tip Calculator",
+        "slug": "tip-calculator",
+        "intro": "Exercise for Programmers intro",
+        "copy": "jifsd", 
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Retirement Calculator",
+        "slug": "exercise-two",
+        "intro": "Exercise for Programmers intro",
+        "copy": "jifsd", 
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Greeting",
+        "slug": "exercise-three",
+        "intro": "Exercise for Programmers intro",
+        "copy": "jifsd", 
+        "conclusion": "This is what I have learned"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "id": "sdfksdjfds",
+    "slug": "exercises",
+    "title": "Exercises for Programmers Gallery",
+    "intro": "This is the intro",
+    "sections": [
+        {
+            "module": "exercises-list"
+       
+        }
+    ]
+}
