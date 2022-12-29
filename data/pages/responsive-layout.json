@@ -1,0 +1,38 @@
+{
+    "id": "responsive-layout",
+    "slug": "3",
+    "date": "Perpetual Education - Present",
+    "title": "Responsive Layout Garden",
+    "intro": "",
+    "sections": [
+        {
+            "module": "layout-list",
+            "layout-detail": [
+                {
+                    "name": "Slack",
+                    "description": "",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Github",
+                    "description": "",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Generic Layout 1",
+                    "description": "",
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "name": "Generic Layout 2",
+                    "description": "",
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}
