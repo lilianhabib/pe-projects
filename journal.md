@@ -2119,8 +2119,33 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.29.2022 
+## Lesson 185: Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I watched and rewatched the videos and worked on my Exercise for Programmers page. Spent some time figuring out why my data was not showing up on the page. 
+* Is there anything you are excited to learn? Today I am feeling elated. I figured out why my E4P data was not showing appearing on the page. Things are making more sense! Met with Derek to figure out the individual detail template pages. I now have a function that also gets the template page if the standard page is not set. Today i'll reorganize my files into the correct folders (data, data/pages, modules, templates/pages) and redo my project details and project list pages and json files. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
+
+## 12.30.2022 
+## Lesson 186: Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I met with Derek and figured out how to set up the detail page for E4P. I completed my project list and detail pages and the data. I went back to my E4P and added the individual forms to each page. 
+* Is there anything you are excited to learn? Today I want to redo my resume, goals, about, and style guide pages (i.e. the template, php, json detail page, and json data). Hoping to get through everything a little faster and reference the E4P pages and data less. 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
