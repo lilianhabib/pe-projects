@@ -1,0 +1,15 @@
+{
+    "id": "", 
+    "slug": "home",
+    "title": "Hello, I'm Lilian",
+    "intro": "",
+    "sections": [
+        {
+            "module": "generic-text",
+            "heading": "", 
+            "copy": "a junior web developer currently under a mentorship at Perpetual Education - Design for the Web", 
+            "image": ""
+        
+        }
+    ]
+}

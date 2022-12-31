@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Greeting",
+        "slug": "greeting",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Madlibs",
+        "slug": "madlibs",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Printing Quotes",
+        "slug": "printing-quotes",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Retirement Calculator",
+        "slug": "retirement-calculator",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Simple Math",
+        "slug": "simple-math",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "BMI Calculator",
+        "slug": "bmi-calculator",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Computing Simply Interest",
+        "slug": "computing-simply-interest",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Legal Driving Age",
+        "slug": "legal-driving-age",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Numbers to Name",
+        "slug": "numbers-to-name",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Paint Calculator",
+        "slug": "paint-calculator",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Password Validation",
+        "slug": "password-validation",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Pizza Party",
+        "slug": "pizza-party",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Self-Checkout",
+        "slug": "self-checkout",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Tax Calculator",
+        "slug": "tax-calculator",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    },
+    {
+        "title": "Temperature Converter",
+        "slug": "temperature-converter",
+        "intro": "This is the intro",
+        "copy": "Change copy",
+        "conclusion": "This is what I have learned"
+    }
+]

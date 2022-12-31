@@ -1,0 +1,11 @@
+{
+    "id": "projects",
+    "slug": "projects",
+    "title": "Projects",
+    "intro": "This is the intro",
+    "sections": [
+        {
+            "module": "projects-list"
+        }
+    ]
+}

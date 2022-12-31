@@ -1,0 +1,28 @@
+{
+    "id": "", 
+    "slug": "about",
+    "title": "About",
+    "intro": "this is the intro",
+    "sections": [
+        {
+            "module": "generic-text",
+            "heading": "",
+            "copy": "As a web developer, I am passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means. I have more than 10 years of experience in elementary education and 2 years of experience working the printing and technology industry. <br> <br> While under the mentorship at Perpetual Education - Design for the Web I am continuing my love for teaching at my local elementary school. I hope to work for a company that strives towards bettering education. <br> <br>When I am not teaching or building websites, you can find me on a hike, in the kitchen cooking a new one-pot recipe, catching up on the latest Netflix series, exploring the city through food, working on a puzzle, or walking through Costco's aisle.",
+            "image": ""
+        },
+        {
+            "module": "about-img-grid",
+            "img-list": [
+                "https://peprojects.dev/alpha-5/lilian/images/about1.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about2.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about3.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about4.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about5.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about9.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about7.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about8.jpeg",
+                "https://peprojects.dev/alpha-5/lilian/images/about11.jpeg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Slack",
+        "description": "This is the description."
+    },
+    {
+        "name": "Github",
+        "description": "This is the description." 
+    },
+    {
+        "name": "Generic Layout 1",
+        "description": "This is the description."
+    },
+    {
+        "name": "Generic Layout 2",
+        "description": "This is the description."
+    }
+]
