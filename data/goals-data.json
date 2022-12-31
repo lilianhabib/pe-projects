@@ -1,0 +1,32 @@
+[
+    {
+        "heading": "5-Year Vision",
+        "goals": [
+            "I will still be working as a developer with a greater skill set",
+            "I will be earning 70-80K",
+            "I will working with various educational oraganizations to talk about the implementation of technology in after-school programs",
+            "I have completed a draft of a curriculum to present to NCS",
+            "I have finished my travels across North AMerica, Asia, and Europe",
+            "I have diversified my income",
+            "I have lived in another city"
+        ]
+    },
+    {
+        "heading": "Course Vision",
+        "goals": [
+            "I have a portfolio that aligns with the job I want",
+            "I have a job as a junior developer or a QA specialist",
+            "I have a job within education, but open to start-ups and tech/financial tech companies",
+            "I have a good understanding of HTML, CSS, and JS and one or two other framework"
+        ]
+    },
+    {
+        "heading": "Monthly Vision",
+        "goals": [
+            "I have completed at least 2 responsive layouts",
+            "I have applied to at least 2 job postings",
+            "I am able to transition my person site from HTML to HTML and PHP",
+            "I am understand and am able to use CSS grids to create my website"
+        ]
+    }
+]

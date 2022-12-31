@@ -1,0 +1,80 @@
+[
+    {
+        "heading": "Education",
+        "sections": [
+            {
+                "name": "Perpetual Education - Design for the Web",
+                "year": "June 2022 - Present",
+                "company": "",
+                "description": []
+            },
+            {
+                "name": "Ontario Tech University",
+                "company": "Bachelor of Education",
+                "year": "June 2019 - Jan. 2021",
+                "description": []
+            },
+            {
+                "name": "Ryerson University",
+                "company": "Bachelor of Technology, Minor in Marketing",
+                "year": "June 2013 - Jan. 2018",
+                "description": []
+            }
+        ]
+    },
+    {
+        "heading": "Experience",
+        "sections": [
+            {
+                "name": "Elementary Teacher",
+                "year": "Feb. 2022 - Present",
+                "company": "Nanaimo School",
+                "description": [
+                    "Observe and evaluate students' performance, behavior, social development, and physical health",
+                    "Enhance student learning by optimizing a wide range of instructional approaches and innovative classroom activities",
+                    "Evaluate and revise lesson plans and course content to facilitate and moderate classroom discussions and student-centered learning",
+                    "Keep students on-task with proactive behavior modification and positive reinforcement strategies"
+                ]
+            },
+            {
+                "name": "Responsible Adult",
+                "year": "Feb. 2022 - Present",
+                "company": "Nanaimo-Ladysmith Public School",
+                "description": [
+                    "Provide general supervision to children in the classroom and on school property while developing relationships, providing encouragement, advice, and assistance to students and faculty throughout the school day",
+                    "With strong verbal and interpersonal skills, I help foster and encourage positive social interaction with students, staff, and the school community while assisting the classroom teacher or Early Childhood Education",
+                    "Work one-on-one or in a group setting to help students with classwork and effectively present information to them"
+                ]
+            },
+            {
+                "name": "Professional Development",
+                "year": "Sept.2019 - June 2021",
+                "company": "Career Break",
+                "description": [
+                    "Pursued my Bachelor of Education at Ontario Tech University"
+                ]
+            },
+            {
+                "name": "Teacher",
+                "year": "Sept.2018 - June 2019",
+                "company": "Learning Jungle Daycare",
+                "description": [
+                    "Observe and evaluate students' performance, behavior, social development, and physical health",
+                    "Enhance student learning by optimizing a wide range of instructional approaches and innovative classroom activities",
+                    "Evaluate and revise lesson plans and course content to facilitate and moderate classroom discussions and student-centered learning",
+                    "Keep students on-task with proactive behavior modification and positive reinforcement strategies"
+                ]
+            },
+            {
+                "name": "Structural Designer",
+                "year": "Sept.2016 - June 2018",
+                "company": "Atlantic Packaging",
+                "description": [
+                    "Worked efficiently independently and as part of a team to develop the best solutions that supported the company’s creative goals and objectives and exceed customers’ expectations",
+                    "Learned to use various software within a short period of time to create 3D renderings and corrugated prototypes as per the customer’s request",
+                    "Effectively handled numerous responsibilities and multiple projects simultaneously in a fast-paced environment"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "id": "",
+    "slug": "resume",
+    "title": "Resume",
+    "intro": "",
+    "sections": [
+        {
+            "module": "resume-list"
+        }
+    ]
+}
