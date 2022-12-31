@@ -1,0 +1,14 @@
+resume-list {
+	display: block;
+}
+
+.item-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+}
+
+resume-list h2{
+	font-weight: bold;
+}
