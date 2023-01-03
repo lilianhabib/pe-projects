@@ -1,69 +1,62 @@
 [
-	{
-		"name": "Java Finder",
-		"slug": "java-finder",
+    {
+        "name": "<span>Java</span> Finder",
+        "slug": "java-finder",
         "date": "Perpetual Education - October 2022",
-        "description": "Fill in descriptions",
+        "description": "",
         "language": "HTML, CSS, PHP",
-        "url": "java-finder",
+        "url": "https://www.peprojects.dev/alpha-5/lilian/projects/cafe/?page=home",
         "sections": [
-        	{
-        		"heading": "Project Overview",
-        		"copy": "Java Finder is an idea that developed when I was in Vancouver looking for a cafe to work in. When I did come across one and found a comfy quiet corner spot, I was told that they did not offer wifi. This is common with many cafes in the city because they want to maximize and increase turnover. I don't believe I was the only one who encountered this issue. The future of Java Finder is to work with cafes across multiple cities so users are able to find a cafe that meets their needs. Information such available seats and wifi availability are unique to Java Finder. I aim to create a website and app that is simple, easy to use and navigate across all devices.",
-            "image": "https://peprojects.dev/alpha-5/lilian/images/java-list.png"
-
-        	}, 
-
-        	{
-        		"heading": "Research",
-             	"copy": "In my research, I found similar apps and websites that I was able to draw inspirations and ideas from. I found that the apps and websites designs had at least one supplementary colour that complemented the overall colours of the website. Additionally, the apps and websites were simple and clean, so that was something I wanted to emulate.",
-            	"image": "https://peprojects.dev/alpha-5/lilian/images/jf-research-img.png"
-
-        	}, 
-        	{
-        		"heading": "Prototype",
-            	"copy": "During the research phase, I found similar apps and websites that I was able to draw inspirations and ideas from. - This is a sentence about research stuff. This is a sentence about research stuff. This is a sentence about research stuff. This is a sentence about research stuff. This is a sentence about research stuff. This is a sentence about research stuff. This is a sentence about research stuff.",
-            	"image": "https://peprojects.dev/alpha-5/lilian/images/jf-drawing.png"
-
-        	}, 
-        	{
-        		"heading": "Results",
-            	"copy": "After completing research and creating several prototypes, this is what I have finalized. I currently have a list of cafes with their details and a form to add a cafe. However, I am hoping to have the form collect the data and output it onto the Java List page. I am also hoping to create an app version of Java Finder.",
-            	"image": "https://peprojects.dev/alpha-5/lilian/images/jf-addjava.png"
-        	}
+            {
+                "heading": "Project Overview",
+                "copy": "Java Finder is an idea that developed when I was in Vancouver looking for a cafe to work in. When I did come across one and found a comfy quiet corner spot, I was told that they did not offer wifi. This is common with many cafes in the city because they want to maximize and increase turnover. I don't believe I was the only one who encountered this issue. Java Finder help users find a cafe that is meets their needs and wants. If users need wifi or want blue mountain coffee, Java Finder is the place to go. The future of Java Finder is to work with cafes across multiple cities. Information such available seats and wifi availability are unique to Java Finder. I aim to create a website and app that is simple, easy to use and navigate across all devices.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/java-list.png"
+            },
+            {
+                "heading": "Research",
+                "copy": "In my research, I found similar apps and websites that I was able to draw inspirations and ideas from. I found that the apps and websites designs had at least one supplementary colour that complemented the overall colours of the website. Additionally, the apps and websites were simple and clean, so that was something I wanted to emulate.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/jf-research-img.png"
+            },
+            {
+                "heading": "Prototype",
+                "copy": "Based on my own ideas and ones that have been inspired by others, here is a small collection of my prototypes",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/prototype-jf.png"
+            },
+            {
+                "heading": "Results",
+                "copy": "After completing research and creating several prototypes, this is what I have finalized. I currently have a list of cafes with their details and a form to add a cafe. However, I am hoping to have the form collect the data and output it onto the Java List page. I am also hoping to create an app version of Java Finder.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/jf-addjava.png"
+            }
         ]
-    },    
-  
-	{
-		"name": "Natural Skin",
-		"slug": "natural-skin",
+    },
+    {
+        "name": "<span>Natural</span> Skin",
+        "slug": "natural-skin",
         "date": "Perpetual Education - September 2022",
-        "description": "Fill in description",
+        "description": "",
         "language": "HTML, CSS, PHP",
-        "url": "natural-skin",
+        "url": "https://www.peprojects.dev/alpha-5/lilian/projects/theme-challenge/#",
         "sections": [
-        	{
-        		"heading": "Project Overview",
-       		 	"copy": "",
-        		"image": "https://peprojects.dev/images/landscape.jpg"
-        	},
-        	{
-        		"heading": "Research",
-       		 	"copy": "",
-        		"image": "https://peprojects.dev/images/landscape.jpg"
-        	},
-        	{
-        		"heading": "Prototypes",
-       		 	"copy": "",
-        		"image": "https://peprojects.dev/images/landscape.jpg"
-        	},
-        	{
-        		"heading": "Results",
-       		 	"copy": "",
-        		"image": "https://peprojects.dev/images/landscape.jpg"
-        	}
-
+            {
+                "heading": "Project Overview",
+                "copy": "",
+                "image": "https://peprojects.dev/images/landscape.jpg"
+            },
+            {
+                "heading": "Research",
+                "copy": "",
+                "image": "https://peprojects.dev/images/landscape.jpg"
+            },
+            {
+                "heading": "Prototypes",
+                "copy": "",
+                "image": "https://peprojects.dev/images/landscape.jpg"
+            },
+            {
+                "heading": "Results",
+                "copy": "",
+                "image": "https://peprojects.dev/images/landscape.jpg"
+            }
         ]
-    
-	}
+    }
 ]

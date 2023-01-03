@@ -2,7 +2,7 @@
     "id": "", 
     "slug": "goals",
     "title": "My Goals",
-    "intro": "These are my goals",
+    "intro": "",
     "sections": [
         {
             "module": "goals-list"

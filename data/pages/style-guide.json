@@ -2,7 +2,7 @@
     "id": "", 
     "slug": "style-guide",
     "title": "Style Guide",
-    "intro": "This is the style-guide.json",
+    "intro": "",
     "sections": [
         {
             "module": "about-img-grid"
