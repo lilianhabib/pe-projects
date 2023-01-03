@@ -1,0 +1,296 @@
+@import meyer-reset.css; 
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+picture {
+   display: block;
+   background-color: #333;
+}
+
+img {
+  display: block; /* it's inline-block by default */
+  width: 100%; /* fill it's parent element */
+  height: auto;
+  opacity: 0;
+}
+
+.logo{
+   width: 70px;
+   border: 1px solid black;
+   overflow: hidden;
+   border-radius: 100%;
+   background-color: #333;
+}
+
+.logo img{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+inner-column{
+  display: block;
+  max-width: 800px; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 10px;
+ 
+}
+
+
+body{
+  display: flex; 
+  flex-direction: column; 
+}
+
+.site-header{
+  display: block;
+  padding-top: 1vh; 
+  padding-bottom: 1vh;
+  background-color: #25292E;
+  padding: 10px;
+}
+
+header inner-column{
+   display: flex; 
+   flex-direction: row; 
+   justify-content: start; 
+   align-items: center; 
+   gap: 20px;
+}
+
+.nav-item{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.site-menu{
+  display: flex; 
+  flex-direction: row; 
+  gap: 20px;
+}
+
+.introduction{
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
+  justify-center: center;
+  align-items: center;
+}
+
+.introduction h1{
+  font-size: 50px;
+  font-weight: lighter;
+  padding-top: 5vh;
+  color: #FFF;
+}
+
+.introduction p{
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.3em;
+  margin-bottom: 50px;
+  color: #FFF;
+}
+
+.button{
+  background-color: #54B95B;
+  padding: 10px 20px;
+  border-radius: 3px; 
+}
+
+.bold-voice{
+  font-weight: bolder; 
+}
+
+.introduction a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-intro1{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+/*    */
+  background-color: #2B3137;
+  min-height: 65vh;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+.main-intro1 inner-column{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-intro2{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  padding: 15px; 
+  padding-bottom: 10vh;
+}
+
+.introduction2{
+  text-align: center;
+}
+
+.introduction2 span{
+  display: block; 
+  margin-top: 45px; 
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.introduction2 h2{
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.introduction2 p{
+  line-height: 1.5em;
+  font-size: 17px;
+  margin-bottom: 40px; 
+}
+
+.signup2{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 2vh;
+}
+
+.introduction2 a{
+  text-decoration: none; 
+  colour: blue;
+}
+
+/* fORM */
+
+.intro-form{
+  padding: 20px 30px;
+  background-color: #FFF;
+  border-radius: 2px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: start;
+  align-items: center;
+  max-width: 400px;
+}
+.fields{
+  display: block;
+}
+
+label{
+  display: block;
+  padding-top: 15px; 
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+input{
+  display: block;
+  padding: 10px;
+  min-width: 300px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+  margin-top: 5px;
+}
+
+.intro-form button{
+  display: block;
+  background-color: #58C05F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.descriptive-voice{
+  display: block;
+  font-size: 10px;
+  max-width: 300px;
+  margin-top: 5px;
+}
+.signup-voice{
+  display: block;
+  font-size: 10px;
+  max-width: 300px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .intro-form{
+    display: none;
+  }
+  .nav-item{
+    display: none;
+  }
+}
+
+
+@media (min-width: 500px){
+  .button{
+    display: none;
+  }
+}
+
+@media (max-width: 800px){
+   .nav-item{
+    display: none;
+  }
+  
+  .site-header inner-column{
+    justify-content: space-between;  
+  }
+  
+   .div{
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 6px 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .main-intro1{
+    flex-direction: row;
+    gap: 40px;
+  }
+  .main-intro1 inner-column{
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+ 
+  
+  .introduction p{
+    text-align: left;
+  }
+  
+  .introduction h1{
+    text-align: left;
+  }
+  
+}

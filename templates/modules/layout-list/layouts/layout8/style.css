@@ -1,0 +1,200 @@
+@import"../css/meyer-reset.css"; 
+/*@import"../css/developer.css"; */
+@import"../css/settings.css"; 
+@import"../css/setup.css"; 
+
+html {
+  --black: #111111;
+  --white: #FFFFFF;
+  --color: #FE11A8;
+  --highlight: #DCDCDC;
+
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+
+picture {
+	max-width: 20px;
+	background-color: var(--color);
+	border-radius: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+}
+
+.intro {
+	background-color: var(--black);
+	color: var(--white);
+	padding: 15px;
+	padding-top: 10vh;
+	padding-bottom: 2vh;
+	margin-bottom: 5vh;
+}
+
+.loud-voice {
+	font-weight: bolder;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px
+}
+
+.intro-voice {
+	font-size: 14px;
+	line-height: 1.2em;
+	font-weight: lighter;
+}
+
+.detail-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.detail {
+	padding: 15px;
+	padding-top: 2vh;
+	background-color: var(--white);
+}
+
+.bold-voice {
+	font-weight: bolder;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.quiet-voice {
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+.little-voice {
+	color: var(--color);
+	font-weight: bolder;
+	font-size: 12px;
+
+}
+
+@media (max-width: 590px) {
+
+	.little-voice {
+		display: none;
+	}
+
+	.large-voice {
+		display: none;
+	}
+}
+
+@media (min-width: 400px) {
+
+	body {
+		background-color: var(--highlight);
+	}
+
+	.detail-section {
+		gap: 20px;
+		position: relative;
+		bottom: 100px;
+	}
+
+	.detail {
+		max-width: 370px;
+		padding: 30px;
+	}
+
+	.intro {
+		padding-bottom: 15vh;
+	}
+}
+
+
+@media (min-width: 600px) {
+
+	.detail-section {
+		flex-direction: row;
+		justify-content: center;
+
+	}
+
+	.detail {
+		max-width: 30%;
+	}
+
+	.intro {
+		padding-left: 22px;
+	}
+
+	.loud-voice {
+		font-size: 25px;
+	}
+
+	.intro-voice {
+		font-size: 17px;
+		max-width: 400px;
+	}
+
+	.small-voice {
+		display: none;
+	}
+
+	.bold-voice {
+		font-size: 17px;
+	}
+
+	.quiet-voice {
+		font-size: 13px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

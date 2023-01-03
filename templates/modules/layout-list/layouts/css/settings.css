@@ -1,0 +1,12 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--color: #FE11A8;
+	--highlight: #2F112D;
+}
+/* you can make more! */
+
+
+
+/* USAGE */
