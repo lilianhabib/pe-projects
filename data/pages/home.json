@@ -1,15 +1,16 @@
 {
-    "id": "", 
+    "id": "",
     "slug": "home",
-    "title": "Hello, I'm Lilian",
-    "intro": "",
+    "title": "<span>Hello, I'm </span>Lilian",
+    "intro": "a junior web developer currently under a mentorship at Perpetual Education - Design for the Web.",
     "sections": [
         {
             "module": "generic-text",
-            "heading": "", 
-            "copy": "a junior web developer currently under a mentorship at Perpetual Education - Design for the Web", 
-            "image": ""
-        
+            "heading": "",
+            "copy": "",
+            "image": "",
+            "link1": "?page=resume",
+            "link2": "?page=contact"
         }
     ]
 }

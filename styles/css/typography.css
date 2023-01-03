@@ -1,1 +1,61 @@
-typography.css
+.loud-voice {
+	font-size: 80px;
+	font-weight: 900;
+	-webkit-text-stroke: 2px var(--black);
+	color: var(--white);
+
+
+
+}
+
+.loud-voice span {
+	color: var(--black);
+	font-weight: 900;
+	padding: 0;
+}
+
+
+.strong-voice {
+	font-size: 25px;
+}
+
+.bold-voice {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.tall-voice {
+	font-weight: bold;
+}
+
+.intro-voice {
+
+}
+
+.page-header .home .intro-voice {
+	font-size: 20px;
+}
+
+.page-header .projects .intro-voice {
+	padding-top: 20px;
+}
+
+.small-voice {
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+.little-voice {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.lazy-voice {
+	font-weight: bold;
+
+}
+
+.normal-voice {
+	font-size: 15px;
+}

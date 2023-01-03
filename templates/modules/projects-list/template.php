@@ -3,24 +3,50 @@
 	$json = file_get_contents('data/projects-data.json'); 
 	$projects = json_decode($json, true); 
 
+	$pageId = "home"; 
+	if (isset($_GET["page"]) ){
+		$pageId = $_GET["page"]; 
+	}
 ?>
 
 
-<section class=''> 
+<section class='<?=$pageId?>'> 
 	<inner-column>
 
-		<projects> 
+		<div class="page-links"> 
 
+				<a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+
+				<a href="?page=exercises" class='page-link'>Exercise for Programmers</a>
+
+		</div> 
+
+
+		<projects-list> 
+			
 			<?php foreach ($projects as $project) { 
 				$slug = $project["slug"];
 				?>
 
-				<h1><?=$project["name"]?></h1>
-				<p><?=$project["description"]?></p>
-				<a href="?page=project&slug=<?=$slug?>">Visit <span><?=$project["name"]?></span></a>
+				<section class='project-list'>
+					<div class="project-info"> 
+
+						<div class='text-content'>
+
+							<h2 class='bold-voice'><?=$project["name"]?></h2>
+							<p class='info-voice'><?=$project["description"]?></p>
+							<p class='info-voice'><?=$project["language"]?></p>
+
+						</div>
+						<div class='project-button'> 
+							<a href="?page=project&slug=<?=$slug?>" class='page-link'>Visit <span><?=$project["name"]?></span></a>
+						</div>
+					</div>
+
+				</section>
 			<?php } ?>
 	
-		</projects>
+		</projects-list>
 
 	</inner-column>
 </section>

@@ -1,18 +1,29 @@
 <?php
-	$pageData = pageData()
+	$pageData = pageData();
+	$pageId = "home"; 
+	if (isset($_GET["page"]) ){
+		$pageId = $_GET["page"]; 
+	}
+
 ?>
 
 
 <header class="page-header"> 
 	<inner-column> 
 
-		<?php if (isset ($pageData["title"]) ) { ?>
-			<h1><?=$pageData["title"]?></h1>
-		<?php } ?>
+		<div class="<?=$pageId?>">
 
-		<?php if (isset($pageData["intro"]) ) { ?>
-			<p><?=$pageData["intro"]?></p>
-		<?php } ?>
+			<?php if (isset ($pageData["title"]) ) { ?>
+				<h1 class='loud-voice'><?=$pageData["title"]?></h1>
+			<?php } ?>
+
+		</div>
+
+		<div class="<?=$pageId?>"> 
+
+			<p class='intro-voice'><?=$pageData["intro"]?></p>
+	
+		</div>
 		
 	
 	</inner-column>

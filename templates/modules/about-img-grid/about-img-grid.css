@@ -2,12 +2,19 @@ img-grid {
 	display: block;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 5px;
+	max-width: 500px;
+	gap: 10px;
+	border:  2px solid var(--black);
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 
+	border-radius: 30px;
+	box-shadow: 7px 7px var(--accent);
 }
 
 img-grid picture {
-	max-width: 220px;
+	max-width: 175px;
 }
 
 .about-img {

@@ -5,7 +5,7 @@
 
 <nav class="site-menu">
 
-	<picture class="logo"> 
+	<picture class="menu-logo"> 
 		<img src="https://www.peprojects.dev/images/circle.png">
 	</picture>
 
@@ -14,11 +14,12 @@
 		<li class="menu-item"><a href="?page=projects">Work </a></li>
 		<li class="menu-item"><a href="?page=about">About</a></li>
 		<li class="menu-item"><a href="?page=contact">Contact</a></li>
-		<li class="menu-item"><a href="?page=style-guide">Style Guide</a></li>
-		<li class="menu-item"><a href="?page=exercises">Exercises</a></li>
+<!-- 		<li class="menu-item"><a href="?page=style-guide">Style Guide</a></li> -->
 
-		<li class="menu-item"><a href="?page=resume">Resume</a></li>
-		<li class="menu-item"><a href="?page=goals">Goals</a></li>
+		<li class="about-item"><a href="?page=resume">Resume</a></li>
+		<li class="about-item"><a href="?page=goals">Goals</a></li>
+		<li class="work-item"><a href="?page=layouts">Layouts</a></li>
+		<li class="work-item"><a href="?page=exercises">Exercises</a></li> 
 	</ul>
 
 

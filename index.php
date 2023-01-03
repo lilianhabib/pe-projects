@@ -5,10 +5,10 @@
 <?php 
 
 // ROUTER
-	// $pageId = "home"; 
-	// if (isset($_GET["page"]) ){
-	// 	$pageId = $_GET["page"]; 
-	// }
+	$pageId = "home"; 
+	if (isset($_GET["page"]) ){
+		$pageId = $_GET["page"]; 
+	}
 
 
 //$pageFilePath = "data/pages/$pageId.json";
@@ -32,7 +32,7 @@
 	<body class="<?=$pageId?>">
 		<inner-column>
 			<header class="site-header"> 
-				<p><?=queryString();?></p> 
+			<!-- 	<p><?=queryString();?></p>  -->
 
 				<?php include('templates/partials/site-menu.php');?>
 			</header>

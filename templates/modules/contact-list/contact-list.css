@@ -1,3 +1,34 @@
+
+
 contact-list{
 	display: block;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 300px;
+	
 }
+
+.contact .intro-voice {
+	padding-top: 3vh;
+
+}
+
+.info {
+	border: 2px solid var(--black);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px var(--accent);
+	margin-top: 20px;
+}
+
+.contact .intro-voice {
+	border: 2px solid var(--black);
+	padding: 20px;
+	margin-top: 40px;
+	border-radius: 20px;
+	box-shadow: 5px 5px var(--accent);
+	max-width: 500px;
+}
+

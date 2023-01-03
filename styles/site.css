@@ -2,18 +2,19 @@
 @import "css/settings.css"; 
 @import "css/setup.css"; 
 @import "css/typography.css";
-@import "css/developer.css"; 
+/*@import "css/developer.css"; */
 
 
 @import "css/site-header.css"; 
 @import "css/modules.css";
+@import "partials/header.css";
 
 
 
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: Avenir, sans-serif
+	font-family: Avenir, sans-serif; 
 }
 
 body {
@@ -25,7 +26,50 @@ body {
 
 inner-column {
 	display: block;
-	max-width: 600px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
+	display: grid;
+	grid-template-columns: ;
 }
+
+
+.page-header {
+	padding-top: 10vh;
+}
+
+.page-header .home {
+	padding-top: 2vh;
+}
+
+.page-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding-top: 20px;
+	gap: 5vh;
+
+}
+
+
+.page-link {
+	text-decoration: none;
+	border: 2px solid var(--black);
+	padding: 10px 40px;
+	border-radius: 20px 20px;
+	box-shadow: 5px 5px var(--accent);
+	text-align: center;
+	min-width: 150px;
+}
+
+
+@media (min-width: 350px) {
+	.page-links {
+		flex-direction: row;
+
+	}
+
+	
+}
+
+

@@ -6,19 +6,19 @@
 
 
 
-<section class=''> 
+<section class='<?=$pageId?>'> 
 	<inner-column>
 		<goals-list> 
 
-			<section> 
+			<section class='goal-item'> 
 
 				<?php foreach ($goals as $goal) { ?>
-					<h1><?=$goal["heading"]?></h1>
+					<h2 class='lazy-voice'><?=$goal["heading"]?></h2>
 
 					<ol>
 						<?php foreach ($goal["goals"] as $goalItem) { ?>
 							<li>
-								<p><?=$goalItem?></p>
+								<p class='normal-voice'><?=$goalItem?></p>
 							</li>
 						<?php } ?>
 					</ol>

@@ -2,7 +2,7 @@
     "id": "projects",
     "slug": "projects",
     "title": "Projects",
-    "intro": "This is the intro",
+    "intro": "This is the default intro",
     "sections": [
         {
             "module": "projects-list"
