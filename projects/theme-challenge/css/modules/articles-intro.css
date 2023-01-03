@@ -1,0 +1,17 @@
+
+articles-intro {
+  display: block;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+
+articles-intro header {
+  text-align: center;
+}
+
+articles-intro article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.1em;
+}

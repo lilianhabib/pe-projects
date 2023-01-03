@@ -1,0 +1,63 @@
+.welcome-quiz text-content {
+  display: block;
+  max-width: 1000px;
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.5);
+  margin: 0px;
+}
+
+graphic-diptych-quiz inner-column{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+graphic-diptych-quiz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  /* */
+  gap: 30px;
+
+}
+
+graphic-diptych-quiz .intro-voice{
+  text-align: center;
+  font-size: 40px;
+}
+
+graphic-diptych-quiz picture{
+  display: none;
+}
+graphic-diptych-quiz text-content {
+  display: block;
+  max-width: 700px;
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.5);
+  margin: 0px;
+}
+
+
+@media (min-width: 660px) {
+  graphic-diptych-quiz {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  graphic-diptych-quiz :is(picture, text-content) {
+    width: 50%;
+
+
+  }
+
+  graphic-diptych-quiz picture {
+    order: 2;
+    /* OR you could use flex-direction row-reverse */
+    /* it depends on the situation */
+  }
+}

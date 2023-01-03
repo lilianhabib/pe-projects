@@ -1,0 +1,138 @@
+[31-Oct-2022 18:15:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 18:15:24 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $address in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 153
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $addressError in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 154
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $wifi in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 161
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $wifiError in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 162
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $hours in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 172
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $hours in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 174
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $hoursError in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 175
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $price in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 183
+[31-Oct-2022 18:21:02 UTC] PHP Warning:  Undefined variable $priceError in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/create.php on line 184
+[31-Oct-2022 19:10:54 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:10:57 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:10:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:11:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:11:13 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:11:24 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:11:27 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:11:27 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:12:02 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:12:05 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:12:05 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:12:30 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:12:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:12:30 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:12:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:15:33 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:15:36 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:15:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:16:20 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:17:06 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:17:06 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:17:36 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:17:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:17:36 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:17:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:23:17 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:23:17 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:23:20 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:23:21 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:23:21 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:23:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:23:24 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:31:48 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:31:58 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:32:01 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:32:01 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:32:03 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:32:12 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:32:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29
+[31-Oct-2022 19:32:17 UTC] PHP Warning:  Undefined array key "name" in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/list.php on line 15
+[31-Oct-2022 19:32:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 19
+[31-Oct-2022 19:32:24 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php:29
+Stack trace:
+#0 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/router.php(9): include()
+#1 /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/index.php(29): getTemplate()
+#2 {main}
+  thrown in /home/peadmin/public_html/alpha-5/lilian/projects/php/cafe/detail.php on line 29

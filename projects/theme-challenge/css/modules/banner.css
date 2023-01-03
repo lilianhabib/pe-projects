@@ -1,0 +1,22 @@
+.announcement{
+  display: block; 
+  color: var(--white);
+  padding: 1px;
+  margin: 0px;
+   background-color: rgba(139,132,114,1);
+}
+
+.announcement h2{
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+/*  */
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+
+/*header .announcement span{
+  text-decoration: underline;
+}
+*/
