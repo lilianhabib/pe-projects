@@ -1,0 +1,12 @@
+[
+    {
+        "slug": "slack",
+        "name": "Slack",
+        "description": "This is the description."
+    },
+    {
+        "slug": "github",
+        "name": "Github",
+        "description": "This is the description." 
+    }
+]
