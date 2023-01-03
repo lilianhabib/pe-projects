@@ -2150,17 +2150,51 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 12.31.2022 
+## Lesson 187: Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 01.1.2022 
+## Lesson 188: Day off
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
 
 
+## 01.2.2022 
+## Lesson 188:Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Over the last couple of days, I wasn't feeling well so I took some time off. I tried to work on my website as much as I could though. Since the last update, I finished creating all of my data and pages and I have started adding css to my site. I have styled all of my site except for the responsive layout, exercise for programmers, and theme challenge. I ran into an images issue with my projects. It seems that all of the image links are broken. So 
+* Is there anything you are excited to learn? 
 
+* Blockers: There are no blockers
 
+## Lesson Notes
+* 
 
-
-
-
+## conclusion / major takeaways? 
 
 
 
