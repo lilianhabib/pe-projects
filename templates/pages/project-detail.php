@@ -12,37 +12,45 @@
 
 	$date = $chosenProject["date"];
 	$description = $chosenProject["description"]; 
+	$name = $chosenProject['name'];
+	$url = $chosenProject["url"];
+	$language = $chosenProject["language"]; 
 
 
 ?>
-<section class=''> 
+<section class='<?=$pageId?>'> 
 	<inner-column>
 
-		<project-detail> 
+		<work-detail> 
 
 			<section class=''> 
-
+				<h1 class='loud-voice'><?=$name?></h1>
 				<span><?=$date?></span>
-				<p><?=$description?></p>
+				<p class="normal-voice"><?=$description?></p>
+				<p class="normal-voice"><?=$language?></p>
+				<a href="<?=$url?>" target="_blank" class="page-link">Visit <?=$name?></a>
+	
 			</section>
 
-			<section class=''> 
+			 
 
 				<?php foreach ($chosenProject["sections"] as $section) { 
 
 					$heading = $section["heading"]; 
 					$copy = $section ["copy"]; 
-					$image = $section["image"]; 
-				?>
+					$image = $section["image"];
 
-					<h1><?=$heading?></h1>
-					<p><?=$copy?></p>
+				?>
+				<section class='work-info'>
+
+					<h2 class="lazy-voice"><?=$heading?></h2>
+					<p class="normal-voice"><?=$copy?></p>
 					<img src="<?=$image?>">
 
+				</section>
 				<?php } ?>
-			</section>
 	
-		</project-detail>
+		</work-detail>
 
 	</inner-column>
 </section>

@@ -27,20 +27,23 @@
 
 
 				<?php foreach ($resume["sections"] as $resumeSection) { ?>
-						<div class='year-content'> 
-							<h3 class='little-voice'><?=$resumeSection["name"]?></h3>
-							<p class='normal-voice'><?=$resumeSection["year"]?></p>
-						</div>
+		
+					<div class='year-content'> 
+						<h3 class='little-voice'><?=$resumeSection["name"]?></h3>
+						<p class='normal-voice'><?=$resumeSection["year"]?></p>
+					</div>
 
-						<p class='normal-voice'><?=$resumeSection["company"]?></p>
-						<ul class='resume-list'> 
-							<?php foreach($resumeSection["description"] as $description) { ?>
 
-								<li class='resume-item'> 
-									<p class="normal-voice"><?=$description?></p>
-								</li>
-							<?php } ?>
-						</ul>
+					<p class='normal-voice'><?=$resumeSection["company"]?></p>
+					<ul class='resume-list'> 
+						<?php foreach($resumeSection["description"] as $description) { ?>
+
+							<li class='resume-item'> 
+								<p class="normal-voice"><?=$description?></p>
+							</li>
+						<?php } ?>
+					</ul>
+			
 				<?php } ?>
 		
 			<?php } ?>

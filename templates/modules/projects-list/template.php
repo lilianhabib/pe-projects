@@ -15,9 +15,9 @@
 
 		<div class="page-links"> 
 
-				<a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+				<a href="<!-- ?page=layouts -->" class='page-link'>Coming Soon</a>
 
-				<a href="?page=exercises" class='page-link'>Exercise for Programmers</a>
+				<a href="<!-- ?page=exercises -->" class='page-link'>Coming Soon</a>
 
 		</div> 
 

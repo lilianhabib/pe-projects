@@ -9,6 +9,9 @@ resume-list {
 	border-radius: 30px;
 	box-shadow: 7px 7px var(--accent);
 }
+.resume-list {
+
+}
 
 .item-group {
 	display: flex;
@@ -44,9 +47,15 @@ resume-list .normal-voice {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: start;
+	padding-top: 10px;
 }
 
 
 .goals .intro-voice {
 	padding-top:  20px;
+}
+
+.goal-list {
+	padding-top: 10px;
+}
 }

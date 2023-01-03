@@ -8,6 +8,7 @@
 @import "css/site-header.css"; 
 @import "css/modules.css";
 @import "partials/header.css";
+@import "pages/project-detail.css";
 
 
 
@@ -36,6 +37,10 @@ inner-column {
 
 .page-header {
 	padding-top: 10vh;
+}
+
+.home .page-header {
+	padding-top: 20vh;
 }
 
 .page-header .home {

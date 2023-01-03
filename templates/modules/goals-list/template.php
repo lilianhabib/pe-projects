@@ -9,25 +9,34 @@
 <section class='<?=$pageId?>'> 
 	<inner-column>
 		<goals-list> 
+			<div class="page-links"> 
 
-			<section class='goal-item'> 
+				<a href="?page=about" class='page-link'>About</a>
 
-				<?php foreach ($goals as $goal) { ?>
+				<a href="?page=resume" class='page-link'>Resume</a>
+
+			</div> 
+
+			<?php foreach ($goals as $goal) { ?>
+
+				<section class="goal-item"> 
 					<h2 class='lazy-voice'><?=$goal["heading"]?></h2>
+					<hr>
 
-					<ol>
+
+					<ol class='goal-list'>
 						<?php foreach ($goal["goals"] as $goalItem) { ?>
 							<li>
 								<p class='normal-voice'><?=$goalItem?></p>
 							</li>
 						<?php } ?>
 					</ol>
+				</section>
 
 
-				<?php } ?>
+			<?php } ?>
 
-		
-			</section>
+	
 
 		</goals-list> 
 	
