@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Email",
+        "connect": "Connect through Email",
+        "url": "https://www.putwebsitehere.com"
+    },
+    {
+        "name": "Google Meet",
+        "connect": "Connect through Google Meet",
+        "url": "https://calendly.com/liliankuhabib/30min"
+    }
+]
