@@ -3,9 +3,6 @@
 	font-weight: 900;
 	-webkit-text-stroke: 2px var(--black);
 	color: var(--white);
-
-
-
 }
 
 .loud-voice span {
@@ -24,6 +21,17 @@
 	font-size: 20px;
 }
 
+.home .intro-voice {
+	line-height: 1.3em;
+}
+
+contact-list .normal-voice {
+	line-height: 1.3em;
+}
+
+about-text .normal-voice {
+	line-height: 1.3em;
+}
 
 .tall-voice {
 	font-weight: bold;
@@ -59,3 +67,33 @@
 .normal-voice {
 	font-size: 15px;
 }
+
+/*responsive layout text*/
+
+.title-voice {
+	font-size: 70px;
+	font-weight: 900;
+	padding-bottom: 2vh;
+}
+
+.busy-voice {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+.button-voice {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.intro-form .button-voice {
+	font-size: 10px;
+	font-weight: bolder;
+	
+}
+
+
+
+.descriptive-voice{
+
+  font-size: 10px;
