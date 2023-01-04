@@ -9,6 +9,7 @@
 @import "css/modules.css";
 @import "partials/header.css";
 @import "pages/project-detail.css";
+@import "pages/home.css";
 
 
 
@@ -39,13 +40,7 @@ inner-column {
 	padding-top: 10vh;
 }
 
-.home .page-header {
-	padding-top: 25vh;
-}
 
-.home .intro-voice {
-	max-width: 500px;
-}
 
 .page-links {
 	display: flex;
@@ -53,7 +48,6 @@ inner-column {
 	justify-content: start;
 	padding-top: 20px;
 	gap: 5vh;
-
 }
 
 
@@ -73,7 +67,6 @@ inner-column {
 		flex-direction: row;
 
 	}
-
 	
 }
 

@@ -25,13 +25,6 @@
 	line-height: 1.3em;
 }
 
-contact-list .normal-voice {
-	line-height: 1.3em;
-}
-
-about-text .normal-voice {
-	line-height: 1.3em;
-}
 
 .tall-voice {
 	font-weight: bold;
@@ -66,6 +59,7 @@ about-text .normal-voice {
 
 .normal-voice {
 	font-size: 15px;
+	line-height: 1.3em;
 }
 
 /*responsive layout text*/

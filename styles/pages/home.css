@@ -1,3 +1,19 @@
 .home text-content {
 	display: none;
 }
+
+
+.home .page-header {
+	padding-top: 10vh;
+}
+
+.home .intro-voice {
+	max-width: 500px;
+}
+
+
+@media (min-width: 350px) {
+	.home .page-header {
+		padding-top: 25vh;
+	}
+}

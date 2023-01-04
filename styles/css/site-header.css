@@ -21,7 +21,6 @@
 }
 
 
-
 .about-item {
 	display: none;
 }
@@ -52,11 +51,15 @@
 
 .menu-logo {
 	max-width: 50px;
+	border-radius: 100%;
+	background-color: var(--accent);
 }
 
 .menu-logo img {
 	width: 100%; 
 	height: auto;
+	opacity: 0;
+
 }
 
 .menu-list {
