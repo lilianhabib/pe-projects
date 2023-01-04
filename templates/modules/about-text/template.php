@@ -14,7 +14,7 @@
 
 			<text-content> 
 
-				<p class="calm-voice"><?=$section["copy"]?></p>
+				<p class="normal-voice"><?=$section["copy"]?></p>
 			</text-content>
 
 
