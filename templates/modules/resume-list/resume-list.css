@@ -36,11 +36,6 @@ resume-list li {
 
 }
 
-resume-list .normal-voice {
-
-
-}
-
 
 .year-content {
 	display: flex;
@@ -51,11 +46,9 @@ resume-list .normal-voice {
 }
 
 
-.goals .intro-voice {
-	padding-top:  20px;
+@media (max-width: 450px) {
+	.year-content {
+		flex-direction: column;
+	}
 }
 
-.goal-list {
-	padding-top: 10px;
-}
-}
