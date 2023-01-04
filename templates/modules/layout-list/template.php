@@ -16,21 +16,21 @@
 
 		<layout-list>
 
-				<?php foreach ($layouts as $layout) { 
-					$slug = $layout["slug"];
-					$name = $layout["name"]; 
-					$description = $layout["description"]; 
+			<?php foreach ($layouts as $layout) { 
+				$slug = $layout["slug"];
+				$name = $layout["name"]; 
+				$description = $layout["description"]; 
 
-					?>
+				?>
 
-					<section class="layout-item">
-			
-						<p><?=$description?></p>
-						<?php include ("layouts/$name/$slug.php");?>
+				<section class="layout-item">
 		
-					</section>
 
-				<?php } ?>
+					<?php include ("layouts/$slug/$slug.php");?>
+	
+				</section>
+
+			<?php } ?>
 
 		</layout-list>
 
