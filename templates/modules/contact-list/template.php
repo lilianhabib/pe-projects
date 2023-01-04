@@ -9,18 +9,26 @@
 <section class='<?=$pageId?>'>
 	<inner-column> 
 
+		<div class="page-links"> 
+
+                <a href="mailto:lilianslku@gmail.com" class='page-link'>Email</a>
+
+                <a href="https://calendly.com/liliankuhabib/30min" target="_blank" class='page-link'>Google Meet</a>
+
+        </div> 
+
 		<contact-list> 
 
-				<?php foreach ($contacts as $contact) { 
-					$name = $contact["name"]; 
-					$connect = $contact["connect"]; 
-					$url = $contact["url"]; 
-				?>
-					<div class='info'> 
-						<h2 class="bold-voice"><?=$name?></h2>
-						<a href="<?=$url?>" target='_blank' class='small-voice'><?=$connect?></a>
-					</div>
-				<?php } ?>
+			<?php foreach ($contacts as $contact) { 
+				$heading = $contact["heading"]; 
+				$copy = $contact["copy"]; 
+		
+			?>
+				<div class='info'> 
+					<p class="normal-voice"><?=$copy?></p>
+	
+				</div>
+			<?php } ?> 
 			
 				
 		</contact-list>
