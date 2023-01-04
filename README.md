@@ -14,14 +14,11 @@ Live Link: https://peprojects.dev/alpha-5/lilian
 * [x] goals
 <hr>
 * [x] project - list
-* [ ] project - detail
-* [ ] exercise for programmers
-* [ ] responsive layout 
+* [x] project - detail
+* [x] exercise for programmers
+* [x] responsive layout 
 <hr>
 * [ ] style guide 
-* [ ] api tests 
-* [ ] style website
+* [x] style website
 
 ## Questions 
-* Should my projects be in separate json files? 
-	* I stored project data into separate json files and I have also stored project data into a single json file (projects.json). I am currently referencing the individual json files. Which is better? 
