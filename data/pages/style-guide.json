@@ -1,5 +1,5 @@
 {
-    "id": "", 
+    "id": "",
     "slug": "style-guide",
     "title": "Style Guide",
     "intro": "",
@@ -8,10 +8,28 @@
             "module": "about-img-grid"
         },
         {
-            "module": "about-img-grid"
+            "module": "about-text"
         },
         {
-            "module": "about-img-grid"
+            "module": "contact-list"
+        },
+        {
+            "module": "exercises-list"
+        },
+        {
+            "module": "generic-text"
+        },
+        {
+            "module": "goals-list"
+        },
+        {
+            "module": "layout-list"
+        },
+        {
+            "module": "projects-list"
+        },
+        {
+            "module": "resume-list"
         }
     ]
 }

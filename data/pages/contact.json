@@ -2,7 +2,7 @@
     "id": "contact",
     "slug": "contact",
     "title": "<span>Say</span> Hello",
-    "intro": "I'm always looking forward to connecting with other humans. We can talk about anything - the weather, cats, travel, food, or the next greatest project idea. We can also sit in absolute silence and delight in the awkwardness. Either way, I'd love to connect with you!",
+    "intro": "I'm always looking forward to connecting with you. We can talk about anything - the weather, cats, travel, food, or the next greatest project idea. We can also sit in absolute silence and delight in the awkwardness. Either way, I'd love to connect with you!",
     "sections": [
         {
             "module": "contact-list"
