@@ -14,11 +14,14 @@
 					$name = $layout["name"]; 
 
 					?>
+
+					<section class="layout-item">
 			
-					<h2><?=$layout["name"]?></h2>
-					<p><?=$layout["description"]?></p>
-					<?php include ("layouts/$name/$slug.php");?>
-					<!-- <a href="?page=layout&<?=$slug?>">Visit <?=$name?></a> -->
+						<h2><?=$layout["name"]?></h2>
+						<p><?=$layout["description"]?></p>
+						<?php include ("layouts/$name/$slug.php");?>
+						<!-- <a href="?page=layout&<?=$slug?>">Visit <?=$name?></a> -->
+					</section>
 
 
 				<?php } ?>
