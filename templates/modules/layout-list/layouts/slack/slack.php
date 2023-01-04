@@ -55,20 +55,31 @@
     <hr>
 
     <main>
+
       <inner-column> 
+
         <section class='main-intro1'> 
+
           <div class='introduction'>
-            <h1>Where Work Happens</h1> 
-            <p>When your team needs to kick off a project, hire a new employees, display some code, review a sales contract, finalize next year's budget, measure an A/I test, plan your next office opening and more, Slack has you covered.</p> 
-            <a href='#' class='button'>Get Started</a> 
-            <span class='signin'>Already using Slack?<a href='#'>Sign in</a></span>
+
+            <h1 class="title-voice">Where Work Happens</h1> 
+            <p class="busy-voice">When your team needs to kick off a project, hire a new employees, display some code, review a sales contract, finalize next year's budget, measure an A/I test, plan your next office opening and more, Slack has you covered.</p> 
+            <a href='#' class='button-voice'>Get Started</a> 
+          
           </div> 
 
-          <picture> 
-            <img src='https://peprojects.dev/alpha-5/lilian/projects/responsive-layout-garden/images/working.png' class='img1'> 
+          <picture class='work-img'> 
+
+            <img src='https://peprojects.dev/alpha-5/lilian/images/working.png' class='img1'> 
+
           </picture> 
+
         </section> 
+
       </inner-column> 
+
     </main> 
+
   </body>
+
 </html>
