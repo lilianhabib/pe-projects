@@ -2184,7 +2184,22 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.2.2022 
-## Lesson 188:Personal Site pro: Work Days 
+## Lesson 189:Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn?
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 01.3.2022 
+## Lesson 190:Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Over the last couple of days, I wasn’t feeling well so I took some time off. Since the last update, I finished creating all of my data and pages and I have started adding css to my site. I have styled all of my pages except for the responsive layout, exercise for programmers, and theme challenge. I ran into an images issue with my projects. It seems that all of the image links are broken, but should be an easy fix!
 * Is there anything you are excited to learn? Today I am  going to make a list of goals I want to accomplish for this week. I hope to get all of the image links fixed, and once that is complete,  I want to style my E4P pages. I am also going to make a video of what I have done so far too and get some feedback. 
@@ -2199,10 +2214,19 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.4.2022 
+## Lesson 189:Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I fixed broken image links in in several of my projects (Java Finder, Responsive Layout and Natural Skin), I styled all of my E4P, fixed DivideByZero issues, and added a reset button. Then I fixed my responsive layout page. Since I am placing all of my responsive layouts on one page, I had to fix some broken image links, add style to the layouts, and make it responsive again. There are currently just two layouts but will be adding more. I forgot to upload an update video. 
 
+* Is there anything you are excited to learn? Today going to upload an update video and add case study content to my last project. 
 
+* Blockers: There are no blockers
 
+## Lesson Notes
+* 
 
+## conclusion / major takeaways? 
 
 
 
