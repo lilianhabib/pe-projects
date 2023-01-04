@@ -1,4 +1,8 @@
+<?php 
+	$img = $section["img-list"] ?? "https://peprojects.dev/images/square.jpg";
+	
 
+?>
 
 <section class=''>
 	<inner-columm>
@@ -9,6 +13,7 @@
 				<picture class='about-grid'> 
 					<img class='about-img' src="<?=$img?>">
 				</picture>
+				
 
 			<?php } ?>
 	
