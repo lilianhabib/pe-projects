@@ -15,7 +15,7 @@
 
 		<div class="page-links"> 
 
-				<a href="<!-- ?page=layouts -->" class='page-link'>Coming Soon</a>
+				<a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
 
 				<a href="?page=exercises" class='page-link'>Exercise for Programmers</a>
 
@@ -34,8 +34,8 @@
 						<div class='text-content'>
 
 							<h2 class='bold-voice'><?=$project["name"]?></h2>
-							<p class='info-voice'><?=$project["description"]?></p>
-							<p class='info-voice'><?=$project["language"]?></p>
+							<p class='normal-voice'><?=$project["description"]?></p>
+							<p class='normal-voice'><?=$project["language"]?></p>
 
 						</div>
 						<div class='project-button'> 
