@@ -17,7 +17,7 @@
 
 				<a href="<!-- ?page=layouts -->" class='page-link'>Coming Soon</a>
 
-				<a href="<!-- ?page=exercises -->" class='page-link'>Coming Soon</a>
+				<a href="?page=exercises" class='page-link'>Exercise for Programmers</a>
 
 		</div> 
 
