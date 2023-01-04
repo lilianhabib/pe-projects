@@ -2,13 +2,11 @@
     {
         "slug": "slack",
         "name": "Slack",
-        "description": "",
-        "file": "layouts/$name/$slug.php"
+        "description": ""
     },
     {
         "slug": "github",
         "name": "Github",
-        "description": "" 
+        "description": ""
     }
 ]
-
