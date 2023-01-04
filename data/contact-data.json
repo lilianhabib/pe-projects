@@ -1,12 +1,7 @@
 [
     {
-        "name": "Email",
-        "connect": "Connect through Email",
-        "url": "https://www.putwebsitehere.com"
-    },
-    {
-        "name": "Google Meet",
-        "connect": "Connect through Google Meet",
-        "url": "https://calendly.com/liliankuhabib/30min"
+        "heading": "",
+        "copy": "I look forward to connecting with you. We can talk about anything - the weather, cats, travel, food, or the next greatest project idea. We can also sit in absolute silence and delight in the awkwardness. Either way, I'd love to meet you! <br> <br> Feel free to email me and I will get back to you within 1-2 business days. If you would like to meet virtually, take a look at my availability in the link above. <br> <br> I look forward to hearing from you! <br><br> Lilian ",
+        "image": ""
     }
 ]
