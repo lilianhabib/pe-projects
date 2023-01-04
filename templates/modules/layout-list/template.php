@@ -27,7 +27,7 @@
 			
 						<p><?=$description?></p>
 						<?php include ("layouts/$name/$slug.php");?>
-						<!-- <a href="?page=layout&<?=$slug?>">Visit <?=$name?></a> -->
+		
 					</section>
 
 				<?php } ?>
