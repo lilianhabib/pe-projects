@@ -9,6 +9,15 @@
 
 <section class=''>
     <inner-column>
+
+        <div class="page-links"> 
+
+                <a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+
+                <a href="?page=projects" class='page-link'>Projects</a>
+
+        </div> 
+
         <exercises-list> 
             <ul> 
             	<?php foreach ($exercises as $exercise) {
