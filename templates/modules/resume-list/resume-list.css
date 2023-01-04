@@ -46,7 +46,7 @@ resume-list li {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	.year-content {
 		flex-direction: column;
 	}
