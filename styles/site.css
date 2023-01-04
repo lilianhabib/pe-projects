@@ -40,11 +40,11 @@ inner-column {
 }
 
 .home .page-header {
-	padding-top: 20vh;
+	padding-top: 25vh;
 }
 
-.page-header .home {
-	padding-top: 2vh;
+.home .intro-voice {
+	max-width: 500px;
 }
 
 .page-links {
