@@ -32,3 +32,7 @@ goals-list .lazy-voice {
 .goal-list {
 	padding-top: 10px;
 }
+
+.goals .page-links {
+	padding-top: 0;
+}
