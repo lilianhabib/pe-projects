@@ -1,5 +1,13 @@
 layout-list {
 	display: block;
+
+}
+
+.layouts inner-column {
+	max-width: 1000px;
+}
+
+.layout-item {
 	border: 2px solid var(--black);
 	margin-top: 4vh;
 	padding: 20px;
@@ -7,5 +15,170 @@ layout-list {
 	padding-bottom: 40px;
 	border-radius: 30px;
 	box-shadow: 10px 10px var(--accent);
-	max-width: 700px;
+
+}
+
+/*github*/
+
+.main-intro1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: ;
+
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding-top: 4vh;
+}
+
+.button-voice{
+	display: block;
+	margin-top: 20px;
+	border: 2px solid var(--accent);
+	background-color: var(--accent);
+	color: var(--white);
+	border-radius: 40px;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	width: 30%;
+	padding: 10px;
+	margin-top: 20px;
+	border: 2px solid var(--accent);
+	background-color: var(--accent);
+	color: var(--white);
+	border-radius: 40px;
+	width: 50%;
+	text-align: center;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.sign-in {
+	margin-top: 3vh;
+}
+
+.work-img {
+	max-width: 500px;
+}
+
+.img1 {
+		width: 100%;
+	}
+
+header-nav { 
+  padding-bottom: 2vh;
+}
+
+/*form*/
+.intro-form {
+	margin-top: 5vh;
+	padding: 20px;
+	border: 2px solid var(--accent);
+	border-radius: 20px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: start;
+	align-items: center;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+label {
+  display: block;
+  padding-top: 15px; 
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+input{
+  display: block;
+  padding: 10px;
+  min-width: 300px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+  margin-top: 5px;
+}
+
+.intro-form .button-voice{
+  display: block;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 20px;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px;
+  color: var(--white);
+}
+
+
+.descriptive-voice{
+	max-width: 300px;
+	margin-top: 5px;
+
+}
+
+
+/*main 2 intro*/
+
+.main-intro2 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding-top: 5vh;
+}
+
+.signup2 {
+	border: 2px solid var(--accent);
+	padding: 10px 10px;
+	border-radius: 30px;
+	max-width: 40%;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-intro2 .button {
+	background-color: var(--white);
+	color: var(--accent);
+}
+
+@media (min-width: 700px) {
+	.main-intro1 {
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		gap: 30px;
+	}
+
+	.introduction {
+		max-width: 400px;
+	}
+
+	.work-img {
+		max-width: 800px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+	.intro-form{
+    	display: none;
+  }
 }
