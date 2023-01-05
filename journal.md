@@ -2233,6 +2233,36 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.5.2022 
+## Lesson 189:Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I ended up coming across a handful of small issues with my site. I am often only looking at the site locally so when looking at the pe site, there were issues that I did not know existed. Luckily they were quick fixes. 
+  * Responsive layouts page did not show the layouts- wrong file path
+  * Image links were broken - not sure what happened since I updated the links already and committed and push those changes 
+  * About page was broken on my style guide - I forgot to create an about-data.json file. 
+  * When I created an about-data.json file and transfered the data over, the images were broken. This took a while to fix, but finally got it to work. - The foreach needed to be updated 
+  * Started on my style guide but there were some broken links so that caused the entire page to be broken (i.e. contents were being cut off the page. However, when I fixed the about section, it helped! 
+  * I started on my case study but only finished the project overview and result sections 
+
+
+* Is there anything you are excited to learn? Today I want to get my site done. 
+  * I want to finish the last case study 
+    * Fill in the research - gather all of my research one artboard in AD and write the copy 
+    * Fill in the prototype - gather the images and drawings for this site and write the copy 
+  * Look back at one of the shorter videos to take a look at the style guide derek made 
+  * Go over the feedback and make some CSS changes to my pages 
+    * Hover effect on title and links 
+    * Also going to look at other minimal sites for inspiration 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
 
 
 
