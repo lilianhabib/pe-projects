@@ -1,8 +1,5 @@
 <?php 
 
-$heading = $section["heading"] ?? "default text heading";
-$copy = $section["copy"] ?? "default text copy";
-$image = $section["image"] ?? "<img src='https//:www.peprojects.dev/";
 
 ?>
 
@@ -14,25 +11,26 @@ $image = $section["image"] ?? "<img src='https//:www.peprojects.dev/";
 
 	
 			<text-content> 
-				<h1 class='loud-voice'><?=$section["heading"]?></h1>
+				<?php if (isset($section["heading"]) ) { ?>
+					<h1 class='loud-voice'><?=$section["heading"]?></h1>
+				<?php } ?> 
 
-				<p class='calm-voice'><?=$section["copy"]?></p>
+				<?php if (isset($section["copy"]) ) { ?>
+					<p class='calm-voice'><?=$section["copy"]?></p>
+				<?php } ?> 
+				
+
+				
 			</text-content>
-	
-		
-			<picture> 
-				<img src="<?=$section['image']?>">
-			</picture>
 
 			
-
 			<div class="page-links"> 
 
-				<a href="<?=$section['link1']?>" class='page-link'>Resume</a>
+				<a href="?page=resume" class='page-link'>Resume</a>
 
-				<a href="<?=$section['link2']?>" class='page-link'>Contact</a>
+				<a href="?page=contact" class='page-link'>Contact</a>
 
-			</div>
+			</div> 
 
 		</generic-text>
 
