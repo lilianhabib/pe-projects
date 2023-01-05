@@ -1,35 +1,32 @@
 {
-    "id": "",
+    "id": "style-guide",
     "slug": "style-guide",
     "title": "Style Guide",
     "intro": "",
     "sections": [
         {
-            "module": "about-img-grid"
-        },
-        {
-            "module": "about-text"
-        },
-        {
-            "module": "contact-list"
-        },
-        {
-            "module": "exercises-list"
-        },
-        {
-            "module": "generic-text"
-        },
-        {
-            "module": "goals-list"
+            "module": "projects-list"
         },
         {
             "module": "layout-list"
         },
         {
-            "module": "projects-list"
+            "module": "exercises-list"
+        },
+        {
+            "module": "about-text"
         },
         {
             "module": "resume-list"
+        },
+        {
+            "module": "goals-list"
+        },
+        {
+            "module": "contact-list"
+        },
+        {
+            "module": "generic-text"
         }
     ]
 }
