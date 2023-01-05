@@ -23,7 +23,6 @@
 			<?php foreach ($resumeData as $resume) {?>
 				<h2 class='lazy-voice'><?=$resume["heading"]?></h2>
 				<hr>
-				<br>
 
 
 				<?php foreach ($resume["sections"] as $resumeSection) { ?>
