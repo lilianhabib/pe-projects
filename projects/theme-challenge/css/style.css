@@ -80,7 +80,7 @@ inner-column {
 }
 
 .welcome {
-		background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/welcome.jpg);
+		background-image: url(https://peprojects.dev/alpha-5/lilian/images/welcome.jpg);
 		background-size: cover;
 		height: 100%;
 		background-position: center;
@@ -90,7 +90,7 @@ inner-column {
 }
 
 .welcome-quiz {
-		background-image: url(https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/welcome-quiz.jpg);
+		background-image: url(https://peprojects.dev/alpha-5/lilian/images/welcome-quiz.jpg);
 		background-size: cover;
 		height: 100%;
 		background-position: bottom;
@@ -106,7 +106,7 @@ inner-column {
 .get-involved {
 /*  background-color:  var(--highlight);
   background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
-  background-image: url("https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/action4.jpg");
+  background-image: url("https://peprojects.dev/alpha-5/lilian/images/action4.jpg");
 	background-size: cover;
 	height: 100%;
 	background-position: center;

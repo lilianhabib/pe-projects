@@ -27,9 +27,9 @@
 		<h3>Stay Connected</h3>
 
 		<icon>
-			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/twitter.png'></a>
-			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/instagram.png'></a>
-			<a href='#'><img src='http://peprojects.dev/alpha-5/lilian/projects/php/theme-challenge/images/facebook.png'></a>
+			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/images/twitter.png'></a>
+			<a href='#'><img src='https://peprojects.dev/alpha-5/lilian/images/instagram.png'></a>
+			<a href='#'><img src='http://peprojects.dev/alpha-5/lilian/images/facebook.png'></a>
 		</icon>
 
 		<subsribe>
