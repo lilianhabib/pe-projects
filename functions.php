@@ -29,7 +29,7 @@ function renderPageTemplate() {
 	$pageData = pageData();
 	$page = currentPage(); 
 	$filePath = "templates/pages/standard.php";
-	$filePage = "data/pages/$page.json"; 
+
 
 	
 	if (isset($pageData["template"])) {
@@ -44,3 +44,5 @@ function renderPageTemplate() {
 	}
 
 }
+
+
