@@ -1,7 +1,4 @@
-<?php 
 
-
-?>
 
 
 <section class=''>
@@ -22,7 +19,6 @@
 
 				
 			</text-content>
-
 			
 			<div class="page-links"> 
 
