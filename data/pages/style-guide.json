@@ -1,32 +1,11 @@
 {
     "id": "style-guide",
     "slug": "style-guide",
-    "title": "Style Guide",
-    "intro": "",
+    "title": "<span>Style</span> Guide",
+    "intro": "Take a look at at the typography, design, colour, modules, and style that are used to create this website.",
     "sections": [
         {
-            "module": "projects-list"
-        },
-        {
-            "module": "layout-list"
-        },
-        {
-            "module": "exercises-list"
-        },
-        {
-            "module": "about-text"
-        },
-        {
-            "module": "resume-list"
-        },
-        {
-            "module": "goals-list"
-        },
-        {
-            "module": "contact-list"
-        },
-        {
-            "module": "generic-text"
+            "module": "style-guide"
         }
     ]
 }
