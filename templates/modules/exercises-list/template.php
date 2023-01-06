@@ -12,9 +12,9 @@
 
         <div class="page-links"> 
 
-                <a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+            <a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
 
-                <a href="?page=projects" class='page-link'>Projects</a>
+            <a href="?page=projects" class='page-link'>Projects</a>
 
         </div> 
 
@@ -27,7 +27,7 @@
 
                     <section class="exercise"> 
                         <text-content> 
-                    		<h2 class='tall-voice'><?=$exercise["title"]?></h2>
+                    		<h2 class='lazy-voice'><?=$exercise["title"]?></h2>
         	            	<p><?=$exercise["intro"]?></p>
         	            	<p><?=$exercise["conclusion"]?></p>
         	            	<!-- <a href="?page=exercise&slug=<?=$slug?>">Visit <span><?=$title?></span></a> -->
