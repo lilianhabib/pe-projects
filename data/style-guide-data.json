@@ -1,0 +1,67 @@
+[
+    {
+        "heading": "Keywords: Playful, Professional, and Minimalistic",
+        "sub-heading": "",
+        "examples": []
+    },
+    {
+        "heading": "Typography",
+        "sub-heading": "Avenir Text",
+        "examples": [
+            {
+                "example1": "Heading H1 - AaBbCcDd",
+                "blurb1": "Heading 1 - .loud-voice / 80px / 900"
+            },
+            {
+                "example2": "Heading H2 - Aa Bb Cc Dd",
+                "blurb2": "Heading 2 - .lazy-voice / 15px / 500"
+            },
+            {
+                "example3": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
+                "blurb3": "Paragraph 1 - .bold-voice / 17px / 700"
+            },
+            {
+                "example4": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
+                "blurb4": "Paragraph 2 - .normal-voice / 15px / 1.3em"
+            },
+            {
+                "example5": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
+                "blurb5": "Paragraph 3 - .little-voice / 15px / 700"
+            }
+        ]
+    },
+    {
+        "heading": "Bullet List",
+        "sub-heading": "",
+        "examples": [
+            {
+                "example4": "<li>This is a list item</li><li>This is a list item</li><li>This is a list item</li><li>This is a list item</li>"
+            }
+        ]
+    },
+    {
+        "heading": "Button",
+        "sub-heading": "",
+        "examples": [
+            {
+                "example4": "<div class='page-links'><a href='?page=style-guide' class='page-link'>Default</a></div>",
+                "blurb4": "Primary default button with .normal-voice text"
+            }
+        ]
+    },
+    {
+        "heading": "Colours",
+        "sub-heading": "",
+        "examples": [
+            {
+                "example4": "<div class='colour1'>Primary - #EBCF8B</div>"
+            },
+            {
+                "example4": "<div class='colour2'>Neutral 100 - #FFFFFF</div>"
+            },
+            {
+                "example4": "<div class='colour3'>Neutral 900 - #111111</div>"
+            }
+        ]
+    }
+]
