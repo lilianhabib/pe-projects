@@ -43,7 +43,7 @@
 				?>
 				<section class='work-info'>
 
-					<h2 class="lazy-voice"><?=$heading?></h2>
+					<h2 class="bold-voice"><?=$heading?></h2>
 					<p class="normal-voice"><?=$copy?></p>
 					<img src="<?=$image?>">
 
