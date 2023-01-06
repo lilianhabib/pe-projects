@@ -46,12 +46,7 @@
 				<?php } ?>
 		
 			<?php } ?>
-			
-				
 		
-		
-
-				
 
 		</resume-list>
 
