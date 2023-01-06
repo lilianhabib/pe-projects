@@ -13,7 +13,7 @@ This journal is to document my progress, questions, notes about the lesson, and 
 * Added a goals page to my site 
 * Completed my substack article 
 
-**Today**
+** Today **
 * Reorganize my mood board and experiment with shapes, space, and colour
 * Practice responsive layout and add it to my garden
 * Create a responsive layout webpage 
@@ -2247,8 +2247,8 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 * Is there anything you are excited to learn? Today I want to get my site done. 
   * I want to finish the last case study 
-    * Fill in the research - gather all of my research one artboard in AD and write the copy 
-    * Fill in the prototype - gather the images and drawings for this site and write the copy 
+    [x] Fill in the research - gather all of my research one artboard in AD and write the copy 
+    [x] Fill in the prototype - gather the images and drawings for this site and write the copy 
   * Look back at one of the shorter videos to take a look at the style guide derek made 
   * Go over the feedback and make some CSS changes to my pages 
     * Hover effect on title and links 
