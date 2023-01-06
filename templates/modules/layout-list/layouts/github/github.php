@@ -85,7 +85,7 @@
         <section class='main-intro2'>
 
           <span class='normal-voice'>GitHub for teams</span> 
-          <h2 class="tall-voice"> A better way to work together</h2> 
+          <h2 class="lazy-voice"> A better way to work together</h2> 
           <p class="normal-voice">GitHub brings people together to work through problems, move ideas forward, and learn from each other along the way.</p> 
           <a href='#' class='button'>Sign up your team</a>
 
