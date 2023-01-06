@@ -39,18 +39,18 @@
         "sections": [
             {
                 "heading": "Project Overview",
-                "copy": "Growing up, I have always watched my sister and older cousins try the latest and greatest make-up and beauty products. I was mesmorized by the shinny packaging and immediate 'glow' they would get after applying Urbran Decay eye shadow. Beauty has always been a big part of my childhood, so when I was tasked with a challenge to create a website with a specific theme, I immediately gravitated towards beauty. Within beauty, I wanted to specifically focus on eco-friendly natural skin care products because I believe that what you put in and on your body should not only be good for us but also for the environment. This project replicates similar layouts as many current e-commerce sites -- a call-to-action, article, product showcase, and collection. It was also important to me to make the layout repsonsive across multiple devices. I hope to continue updating my site to make it more accessible for users of all abilities.",
+                "copy": "Growing up, I have always watched my sister and older cousins try the latest and greatest make-up and beauty products. I was mesmerized by the shinny packaging and immediate ‘glow’ they would get after applying Urban Decay eye shadow. Beauty has always been a big part of my childhood, so when I was tasked with a challenge to create a website with a specific theme, I immediately gravitated towards beauty. Within beauty, I wanted to specifically focus on eco-friendly natural skin care products because I believe that what you put in and on your body should not only be good for us but also for the environment. This project replicates similar layouts as many current e-commerce sites -- a call-to-action, article, product showcase, and collection. It was also important to me to make the layout responsive across multiple devices. I hope to continue updating my site to make it more accessible for users of all abilities.",
                 "image": "https://peprojects.dev/alpha-5/lilian/images/ns-overview.png"
             },
             {
                 "heading": "Research",
-                "copy": "",
-                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-overview.png"
+                "copy": "In my research, I found many similarities across various skin care websites. I quickly noticed that the colour schemes were often neutral colours, evoking images of clean and natural. So the neutral colour scheme is something I wanted to emulate for my site. Additionally, I noticed that all the websites had multiple sections and the two most common types of sections had a simple call-to-action and product/collection section of products that were popular, new, and/or best sellers. I found this interesting because it encourages users to buy the product, especially when they are seeing the opportunity to do so, mutliple time throughout the website. To make my website look like a legitimate e-commerce site, I definitely wanted to implement a call-to-action and product collection at least once on my site. After completing thorough research, I wanted to create some prototypes",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-research.png"
             },
             {
                 "heading": "Prototypes",
-                "copy": "",
-                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-overview.png"
+                "copy": "I created some drawings of different sections of the site. I also created a style tile to get an idea of how all of the components would look.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-prototype.png"
             },
             {
                 "heading": "Results",
