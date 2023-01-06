@@ -3,6 +3,7 @@
 	font-weight: 900;
 	-webkit-text-stroke: 2px var(--black);
 	color: var(--white);
+	line-height: 1em;
 }
 
 .loud-voice span {
@@ -11,13 +12,39 @@
 	padding: 0;
 }
 
+.lazy-voice {
+	font-size: 15px;
+	font-weight: 500;
 
-.strong-voice {
-	font-size: 25px;
 }
 
+.normal-voice {
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+
 .bold-voice {
-	font-weight: bolder;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.strong-voice {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.little-voice {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+.style-guide .loud-voice {
+	line-height: 1.1em;
+}
+
+.page-header .home .intro-voice {
 	font-size: 20px;
 }
 
@@ -26,41 +53,10 @@
 }
 
 
-.tall-voice {
-	font-weight: bold;
-}
-
-.intro-voice {
-
-}
-
-.page-header .home .intro-voice {
-	font-size: 20px;
-}
-
 .page-header .projects .intro-voice {
 	padding-top: 20px;
 }
 
-.small-voice {
-	text-decoration: none;
-	padding-top: 10px;
-}
-
-.little-voice {
-	font-weight: bold;
-	font-size: 14px;
-}
-
-.lazy-voice {
-	font-weight: bold;
-
-}
-
-.normal-voice {
-	font-size: 15px;
-	line-height: 1.3em;
-}
 
 /*responsive layout text*/
 
@@ -85,8 +81,6 @@
 	font-weight: bolder;
 	
 }
-
-
 
 .descriptive-voice{
 
