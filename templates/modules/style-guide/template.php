@@ -27,7 +27,7 @@
 					<h2 class="bold-voice"><?=$style["heading"]?></h2>
 					<hr>
 
-					<h3 class="lazy-voice"><?=$style["sub-heading"]?></h3>
+					<h3 class="lazy-voice"><?=$style["copy"]?></h3>
 					
 					<?php foreach ($style["examples"] as $example) { ?>
 
