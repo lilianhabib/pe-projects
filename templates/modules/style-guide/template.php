@@ -37,7 +37,7 @@
 						<?php } ?> 
 
 						<?php if (isset($example["blurb1"]) ) { ?>
-							<p class='lazy-voice'><?=$example["blurb1"]?></p>
+							<p class='normal-voice'><?=$example["blurb1"]?></p>
 						<?php } ?> 
 
 					
@@ -47,7 +47,7 @@
 						<?php } ?> 
 
 						<?php if (isset($example["blurb2"]) ) { ?>
-							<p class='lazy-voice'><?=$example["blurb2"]?></p>
+							<p class='normal-voice'><?=$example["blurb2"]?></p>
 						<?php } ?> 
 
 						
@@ -57,7 +57,7 @@
 						<?php } ?> 
 
 						<?php if (isset($example["blurb3"]) ) { ?>
-							<p class='bold-voice'><?=$example["blurb3"]?></p>
+							<p class='normal-voice'><?=$example["blurb3"]?></p>
 						<?php } ?>
 
 				
