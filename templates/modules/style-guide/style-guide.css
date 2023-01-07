@@ -27,9 +27,7 @@ style-guide {
 
 }
 
-/*.modules a {
-	display: none;
-}*/
+
 
 .type {
 	padding-bottom: 2em;
@@ -54,8 +52,8 @@ style-guide .loud-voice {
 	  font-size: clamp(1rem, 10vw, 5rem);
 }
 
-.data .lazy-voice:first-child {
-	
+.data .lazy-voice {
+	font-weight: normal;
 }
 
 
