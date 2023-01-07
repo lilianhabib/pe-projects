@@ -1,0 +1,29 @@
+error-text {
+	display: block;
+	border: 2px solid var(--black);
+	margin-top: 4vh;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 10px 10px var(--accent);
+	max-width: 700px;
+	margin-bottom: 30vh;
+
+}
+
+.error-it {
+	color: var(--accent);
+	list-style: none;
+	text-decoration: none;
+}
+
+.error-link {
+	color: var(--accent);
+	list-style: none;
+	text-decoration: none;
+	font-style: italic;
+
+}
+
+.error-link:hover {
+	font-weight: bolder;
+}
