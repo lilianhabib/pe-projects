@@ -76,5 +76,22 @@
                 ]
             }
         ]
+    },
+    {
+        "heading": "Technical Skills",
+        "sections": [
+            {
+                "name": "Languages</span>: <span class='normal-voice'>HTML, CSS, PHP</span>",
+                "description": []
+            },
+            {
+                "name": "Developer Tools</span>: <span class='normal-voice'>VS Code, Visual Studio, Sublime Text, Tower, MAMP, Transmit</span>",
+                "description": []
+            },
+            {
+                "name": "Application</span>: <span class='normal-voice'>Microsoft Office (Word, Excel, PowerPoint), Adobe Creative Suite (Illustrator, Photoshop, InDesign), Affinity Designer, Github, Slack</span>",
+                "description": []
+            }
+        ]
     }
 ]
