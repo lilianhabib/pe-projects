@@ -2265,6 +2265,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.6.2022 
+## Lesson 190:Personal Site pro: Work Days 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I finished the remaining sections (research and prototype) for my natural skin case study and worked on adding typoegraphy, colours, buttons, lists, and modules to my style guide. 
+
+
+* Is there anything you are excited to learn? Today I want to clean up the typography section on my style guide page, add a paragraph explaining the keywords, and style the intro. If I have time, I want to add a footer to my site with page links and links to Linked, Github, etc. 
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
 
 
 
