@@ -21,29 +21,37 @@
 
 
 			<?php foreach ($resumeData as $resume) {?>
-				<h2 class='lazy-voice'><?=$resume["heading"]?></h2>
-				<hr>
+
+				<section class='resume-text'> 
+					<h2 class='lazy-voice'><?=$resume["heading"]?></h2>
+					<hr>
 
 
-				<?php foreach ($resume["sections"] as $resumeSection) { ?>
-		
-					<div class='year-content'> 
-						<h3 class='little-voice'><?=$resumeSection["name"]?></h3>
-						<p class='normal-voice'><?=$resumeSection["year"]?></p>
-					</div>
-
-
-					<p class='normal-voice'><?=$resumeSection["company"]?></p>
-					<ul class='resume-list'> 
-						<?php foreach($resumeSection["description"] as $description) { ?>
-
-							<li class='resume-item'> 
-								<p class="normal-voice"><?=$description?></p>
-							</li>
-						<?php } ?>
-					</ul>
+					<?php foreach ($resume["sections"] as $resumeSection) { ?>
 			
-				<?php } ?>
+						<div class='year-content'> 
+							<h3 class='little-voice'><?=$resumeSection["name"]?></h3>
+
+							<?php if (isset ($resumeSection["year"]) ) { ?>
+								<p class='normal-voice'><?=$resumeSection["year"]?></p>
+							<?php } ?>
+						</div>
+
+						<?php if (isset ($resumeSection["company"]) ) { ?>
+							<p class='normal-voice'><?=$resumeSection["company"]?></p>
+						<?php } ?>
+						
+						<ul class='resume-list'> 
+							<?php foreach($resumeSection["description"] as $description) { ?>
+
+								<li class='resume-item'> 
+									<p class="normal-voice"><?=$description?></p>
+								</li>
+							<?php } ?>
+						</ul>
+				
+					<?php } ?>
+				</section>
 		
 			<?php } ?>
 		
