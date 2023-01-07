@@ -35,7 +35,7 @@
 
 							<h2 class='bold-voice'><?=$project["name"]?></h2>
 							<p class='normal-voice'><?=$project["description"]?></p>
-							<p class='normal-voice'><?=$project["language"]?></p>
+							<!-- <p class='normal-voice'><?=$project["language"]?> --></p>
 
 						</div>
 						<div class='project-button'> 
