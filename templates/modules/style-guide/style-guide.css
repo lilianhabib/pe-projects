@@ -54,6 +54,22 @@ style-guide .loud-voice {
 	  font-size: clamp(1rem, 10vw, 5rem);
 }
 
+.data .lazy-voice:first-child {
+	
+}
+
+
+.data .bold-voice {
+
+}
+
+.data .normal-voice {
+	padding-bottom: 10px;
+}
+
+.data .normal-voice:nth-last-child(2) {
+	padding-bottom: 0px;
+}
 
 
 
