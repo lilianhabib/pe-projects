@@ -1,7 +1,7 @@
 
 
 
-<section class=''>
+<section class='<?=$pageId?>'>
 	<inner-column> 
 
 		<generic-text> 
