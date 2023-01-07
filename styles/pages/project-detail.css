@@ -1,5 +1,4 @@
 .project {
-	padding-bottom: 10vh;
 }
 
 work-detail {
@@ -14,6 +13,7 @@ work-detail {
 	border-radius: 30px;
 	box-shadow: 10px 10px var(--accent);
 	max-width: 90%;
+	margin-bottom: 10vh;
 
 }
 
