@@ -1,38 +1,38 @@
 [
     {
-        "heading": "Professional, Playful, and Minimalistic",
-        "sub-heading": "Professional, playful, and minimalistic are words that I want my website to reflect. <br><br> Having a professional website is essential because it allows me to  highlight my skills, experiences, and achievements in a way that is easy to access and read. Additionally, my website gives me a platform to share my work, thoughts, and ideas with a wider audience. It is also aplace for others to learn more about me and be a part of my journey to becoming a web developer. <br><br>",
+        "heading": "Professional, Fun, and Minimalistic",
+        "copy": "Professional, fun, and minimalistic are the words I used to help build my website. <br><br> It's essential to have a professional website because it allows me to showcase my skills, experiences, and achievements in a clear and accessible way. It also gives me a platform to share my work, web developement journey, thoughts, and ideas with a wider audience. <br><br> While maintaining a minimalistic design, I've added pops of color, box shadows, and rounded borders to reflect my fun and playful personality. I believe that having fun is not only important in the workplace, but also in life. <br><br>A minimalistic design can complement the professionalism of a website by highlighting the most important information without overwhelming the reader. It can also make the site easier to navigate and understand.",
         "examples": []
     },
     {
         "heading": "Typography",
-        "sub-heading": "Avenir Text",
+        "copy": "",
         "examples": [
             {
                 "example1": "Heading H1 - AaBbCcDd",
-                "blurb1": "Heading 1 - .loud-voice / 80px / 900"
+                "blurb1": "Heading 1 - .loud-voice / 80px / 900 / Avenir"
             },
             {
                 "example2": "Heading H2 - Aa Bb Cc Dd",
-                "blurb2": "Heading 2 - .lazy-voice / 15px / 500"
+                "blurb2": "Heading 2 - .lazy-voice / 15px / 500 / Avenir"
             },
             {
                 "example3": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
-                "blurb3": "Paragraph 1 - .bold-voice / 17px / 700"
+                "blurb3": "Paragraph 1 - .bold-voice / 17px / 700 / Avenir"
             },
             {
                 "example4": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
-                "blurb4": "Paragraph 2 - .normal-voice / 15px / 1.3em"
+                "blurb4": "Paragraph 2 - .normal-voice / 15px / 1.3em / Avenir"
             },
             {
                 "example5": "At every opportunity, they've told evangelical Christians that Democrats disrespect their values and dislike their Church, while suggesting to the rest of the country that religious Americans care only about issues like abortion and gay marriage; school prayer and intelligent design. It is on your lips and in your heart.",
-                "blurb5": "Paragraph 3 - .little-voice / 15px / 700"
+                "blurb5": "Paragraph 3 - .little-voice / 15px / 700 / Avenir"
             }
         ]
     },
     {
         "heading": "Bullet List",
-        "sub-heading": "",
+        "copy": "",
         "examples": [
             {
                 "example4": "<li>This is a list item</li><li>This is a list item</li><li>This is a list item</li><li>This is a list item</li>"
@@ -41,7 +41,7 @@
     },
     {
         "heading": "Button",
-        "sub-heading": "",
+        "copy": "",
         "examples": [
             {
                 "example4": "<div class='page-links'><a href='?page=style-guide' class='page-link'>Default</a></div>",
@@ -51,7 +51,7 @@
     },
     {
         "heading": "Colours",
-        "sub-heading": "",
+        "copy": "",
         "examples": [
             {
                 "example4": "<div class='colour1'>Primary - #EBCF8B</div>"
