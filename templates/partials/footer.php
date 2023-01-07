@@ -18,6 +18,8 @@
 
 			<li class="footer-item"><a href="?page=404" class='normal-voice'>404</a></li>
 
+			<li class="footer-item"><a href="?page=style-guide" class='normal-voice'>Style Guide</a></li>
+
 		</div>
 
 		<div class="work-menu">
