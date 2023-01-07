@@ -73,6 +73,10 @@ projects-list .page-link {
 	projects-list .page-link {
 		min-width: 100px;
 	}
+	.project-info {
+		flex-direction: column;
+		gap: 20px;
+	}
 
 }
 
@@ -81,6 +85,8 @@ projects-list .page-link {
 		font-size: 15px;
 		border: 2px solid var(--black);
 	}
+
+
 
 }
 
