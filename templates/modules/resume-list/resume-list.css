@@ -1,5 +1,8 @@
 resume-list {
 	display: block;
+
+}
+.resume-text {
 	line-height: 1.2em;
 	border:  2px solid var(--black);
 	padding: 20px;
@@ -8,9 +11,6 @@ resume-list {
 
 	border-radius: 30px;
 	box-shadow: 7px 7px var(--accent);
-}
-.resume-list {
-
 }
 
 .item-group {
@@ -45,6 +45,11 @@ resume-list li {
 	padding-top: 10px;
 }
 
+
+.normal-voice {
+	list-style: none;
+	font-weight: normal;
+}
 
 @media (max-width: 480px) {
 	.year-content {
