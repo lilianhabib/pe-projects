@@ -37,6 +37,17 @@
 		</inner-column>
 
 	</body>
+
+
+	<footer > 
+		<inner-column>
+
+			<?php include ('templates/partials/footer.php') ?>
+
+		
+		</inner-column>
+	</footer>
+		
 </html>
 
 
