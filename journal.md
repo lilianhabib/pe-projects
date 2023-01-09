@@ -2283,6 +2283,33 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.7.2022 
+## Lesson 191: Website Diagnostic Day 
+### Standup 
+* What is one thing you learned yesterday? No lesson. Gave colleagues feedback 
+
+
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 01.8.2022 
+## Lesson 192: Day off 
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I completed the disgnostic for everyone's site, including my own. I was working on feedback for each person but I got caught up in some personal stuff that took up majority of my weekend. 
+
+* Is there anything you are excited to learn? Today I am looking forward going over the Javascript intro lesson. I have gone through the lesson a couple weeks back but going to go over it again to refresh my memory. I also want to complete my feedback for everyone's  site. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
 
 
 
