@@ -2299,7 +2299,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.8.2022 
-## Lesson 192: Day off 
+## Lesson 192: Intro to JavaScript and the browser Console
 ### Standup 
 * What is one thing you learned yesterday? Over the weekend, I completed the disgnostic for everyone's site, including my own. I was working on feedback for each person but I got caught up in some personal stuff that took up majority of my weekend. 
 
@@ -2311,6 +2311,19 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 
 
+
+## 01.9.2022 
+## Lesson 192: The Document Object Model
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I went over some JS basics and played around with the browser console. 
+
+* Is there anything you are excited to learn? Today I am going to watch today's video, play around with someone else's webpage, and create a page wiith only JavaScript. I'll also start implementing the changes to my website based on the suggestions.  
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
