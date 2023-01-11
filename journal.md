@@ -2328,9 +2328,18 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.10.2022 
+## Lesson 193: User input with browser dialog boxes
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I created a simple page with only JavaScript in the console and edited an existing website using the console. 
 
+* Is there anything you are excited to learn? Today I'm going to watch the video and follow along, write out the pseudo code for the first 10 exercises for programmers, and then write the code. 
 
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
