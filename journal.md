@@ -2120,7 +2120,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.29.2022 
-## Lesson 185: Personal Site pro: Work Days 
+## Lesson 186: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I watched and rewatched the videos and worked on my Exercise for Programmers page. Spent some time figuring out why my data was not showing up on the page. 
 * Is there anything you are excited to learn? Today I am feeling elated. I figured out why my E4P data was not showing appearing on the page. Things are making more sense! Met with Derek to figure out the individual detail template pages. I now have a function that also gets the template page if the standard page is not set. Today i'll reorganize my files into the correct folders (data, data/pages, modules, templates/pages) and redo my project details and project list pages and json files. 
@@ -2135,7 +2135,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.30.2022 
-## Lesson 186: Personal Site pro: Work Days 
+## Lesson 187: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I met with Derek and figured out how to set up the detail page for E4P. I completed my project list and detail pages and the data. I went back to my E4P and added the individual forms to each page. 
 * Is there anything you are excited to learn? Today I want to redo my resume, goals, about, and style guide pages (i.e. the template, php, json detail page, and json data). Hoping to get through everything a little faster and reference the E4P pages and data less. 
@@ -2151,7 +2151,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 12.31.2022 
-## Lesson 187: Personal Site pro: Work Days 
+## Lesson 188: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? 
 * Is there anything you are excited to learn? 
@@ -2167,7 +2167,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.1.2022 
-## Lesson 188: Day off
+## Lesson 189: Day off
 ### Standup 
 * What is one thing you learned yesterday? 
 * Is there anything you are excited to learn? 
@@ -2184,7 +2184,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.2.2022 
-## Lesson 189:Personal Site pro: Work Days 
+## Lesson 190: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? 
 * Is there anything you are excited to learn?
@@ -2198,8 +2198,9 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+
 ## 01.3.2022 
-## Lesson 190:Personal Site pro: Work Days 
+## Lesson 191: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Over the last couple of days, I wasn’t feeling well so I took some time off. Since the last update, I finished creating all of my data and pages and I have started adding css to my site. I have styled all of my pages except for the responsive layout, exercise for programmers, and theme challenge. I ran into an images issue with my projects. It seems that all of the image links are broken, but should be an easy fix!
 * Is there anything you are excited to learn? Today I am  going to make a list of goals I want to accomplish for this week. I hope to get all of the image links fixed, and once that is complete,  I want to style my E4P pages. I am also going to make a video of what I have done so far too and get some feedback. 
@@ -2215,7 +2216,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.4.2022 
-## Lesson 189:Personal Site pro: Work Days 
+## Lesson 192:Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I fixed broken image links in in several of my projects (Java Finder, Responsive Layout and Natural Skin), I styled all of my E4P, fixed DivideByZero issues, and added a reset button. Then I fixed my responsive layout page. Since I am placing all of my responsive layouts on one page, I had to fix some broken image links, add style to the layouts, and make it responsive again. There are currently just two layouts but will be adding more. I forgot to upload an update video. 
 
@@ -2234,7 +2235,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.5.2022 
-## Lesson 189:Personal Site pro: Work Days 
+## Lesson 193:Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I ended up coming across a handful of small issues with my site. I am often only looking at the site locally so when looking at the pe site, there were issues that I did not know existed. Luckily they were quick fixes. 
   * Responsive layouts page did not show the layouts- wrong file path
@@ -2266,7 +2267,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.6.2022 
-## Lesson 190:Personal Site pro: Work Days 
+## Lesson 194: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I finished the remaining sections (research and prototype) for my natural skin case study and worked on adding typoegraphy, colours, buttons, lists, and modules to my style guide. 
 
@@ -2284,10 +2285,9 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.7.2022 
-## Lesson 191: Website Diagnostic Day 
+## Lesson 195: Website Diagnostic Day 
 ### Standup 
 * What is one thing you learned yesterday? No lesson. Gave colleagues feedback 
-
 
 * Is there anything you are excited to learn? 
 
@@ -2299,7 +2299,24 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.8.2022 
-## Lesson 192: Intro to JavaScript and the browser Console
+## Lesson 196: Day off
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+* Blockers: There are no blockers
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+## 01.9.2022 
+## Lesson 197: Intro to JavaScript and the browser Console
 ### Standup 
 * What is one thing you learned yesterday? Over the weekend, I completed the disgnostic for everyone's site, including my own. I was working on feedback for each person but I got caught up in some personal stuff that took up majority of my weekend. 
 
@@ -2312,8 +2329,8 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.9.2022 
-## Lesson 192: The Document Object Model
+## 01.10.2022 
+## Lesson 198: The Document Object Model
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I went over some JS basics and played around with the browser console. 
@@ -2328,9 +2345,8 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.10.2022 
-## Lesson 193: User input with browser dialog boxes
-
+## 01.11.2022 
+## Lesson 199: For Each What?
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I created a simple page with only JavaScript in the console and edited an existing website using the console. 
 
@@ -2342,6 +2358,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 
 
+
+
+## 01.12.2022 
+## Lesson 200: User input with browser dialog boxes
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I wrote the pseudocode and JavaScript code for the first 10 E4P exercises in the console. 
+
+* Is there anything you are excited to learn? Today I am looking forward to going to learn about the Array.forEach. 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
