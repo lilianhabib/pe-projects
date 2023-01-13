@@ -2377,6 +2377,21 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.13.2022 
+## Lesson 201: More forEach and filter 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spent a good chunk of time pausing the video and practicing each step. Each time I referenced the example less. I was able to do majority of the steps without referencing, but quite there yet. 
+
+* Is there anything you are excited to learn? Today is busier than usual. Heading back to Toronto for a couple of weeks so heading to the mainland today to fly out tomorrow. So going to finish as much as I possibly can in the next 3 hours! 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
 
 
 
