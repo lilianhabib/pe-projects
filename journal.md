@@ -2396,6 +2396,80 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.14.2022 
+## Lesson 202: Common JS Interface tricks 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 01.15.2022 
+## Lesson 203: Day off 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+## 01.16.2022 
+## Lesson 203: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I got to toronto saturday night and spent the rest of the weekend with family. I didn't too much work, but during a layover I made some changes to my site (changed footer colour, home page paragraph line height, buttons, E4P page) and added a toggle to change the background colour.
+* Is there anything you are excited to learn? Today I am looking forward to completing E4P with JavaScript. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
