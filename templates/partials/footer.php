@@ -11,6 +11,7 @@
 
 <site-map class='<?=$pageId?>'>
 	<links>
+
 		<div class='others'> 
 			<li class="footer-item"><a href="?page=home" class='normal-voice'>Home</a></li>
 

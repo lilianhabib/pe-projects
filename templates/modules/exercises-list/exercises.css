@@ -12,7 +12,7 @@ text-content {
 	margin-bottom: 10vh;
 }
 
-.exercise {
+.exercise-section {
 	border: 2px solid var(--black);
 	margin-top: 4vh;
 	padding: 20px;
@@ -20,12 +20,22 @@ text-content {
 	padding-bottom: 40px;
 	border-radius: 30px;
 	box-shadow: 10px 10px var(--accent);
-	max-width: 700px;
+	max-width: 400px;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	flex: 1;
+}
+
+.exercises .page-links .page-link:first-child {
+	min-width: 300px;
+}
+
+
+.exercise-section .page-link {
+	max-width: 250px;
+	margin-top: 20px;
 }
 
 .form {
@@ -71,4 +81,6 @@ input {
 	border: 1px solid var(--accent);
 	border-radius: 10px;
 }
+
+
 

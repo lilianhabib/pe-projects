@@ -3,11 +3,16 @@
     $json = file_get_contents('data/exercises-data.json'); 
     $exercises = json_decode($json, true); 
 
+
+    $pageId = "home"; 
+        if (isset($_GET["page"]) ){
+            $pageId = $_GET["page"]; 
+        }
 ?> 
 
 
 
-<section class=''>
+<section class='<?=$pageId?>'>
     <inner-column>
 
         <div class="page-links"> 
@@ -25,16 +30,14 @@
             		$title = $exercise["title"];
             		?>
 
-                    <section class="exercise"> 
+                    <section class="exercise-section"> 
                         <text-content> 
-                    		<h2 class='lazy-voice'><?=$exercise["title"]?></h2>
+                    		<h2 class='bold-voice'><?=$exercise["title"]?></h2>
         	            	<p><?=$exercise["intro"]?></p>
         	            	<p><?=$exercise["conclusion"]?></p>
-        	            	<!-- <a href="?page=exercise&slug=<?=$slug?>">Visit <span><?=$title?></span></a> -->
+        	            	<a href="?page=exercise&slug=<?=$slug?>" class='page-link'>Visit <span><?=$title?></span></a>
                         </text-content>
-                         <div class='form'> 
-                            <?php include ("exercises/$slug.php");?>
-                        </div>
+                        
 
                     </section>
 

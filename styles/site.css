@@ -9,6 +9,7 @@
 @import "css/modules.css";
 @import "partials/header.css";
 @import "pages/project-detail.css";
+@import "pages/exercise-detail.css";
 @import "pages/home.css";
 @import "partials/footer.css";
 @import "pages/404.css";
@@ -44,7 +45,11 @@ main {
 }
 
 
-
+.home .intro-voice {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	line-height: 1.5em;
+}
 
 .page-links {
 	display: flex;
@@ -62,12 +67,54 @@ main {
 	border-radius: 20px 20px;
 	box-shadow: 5px 5px var(--accent);
 	text-align: center;
-	min-width: 150px;
+	min-width: 160px;
 }
 
 .page-link:hover {
 	font-weight: bolder;
 }
+
+.toggle {
+	max-width: 100px;
+	background-color: var(--accent);
+	border-radius: 30px;
+	padding: 10px;
+	margin: 0;
+	border: 0;
+}
+
+.toggle:hover {
+	max-width: 100px;
+	background-color: var(--black);
+	border-radius: 30px;
+	padding: 10px;
+	margin: 0;
+}
+
+
+/*toggle*/
+
+body.fancy {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 
 
 @media (min-width: 350px) {

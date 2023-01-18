@@ -19,6 +19,11 @@ layout-list {
 
 }
 
+
+.layouts .page-links .page-link:first-child {
+	min-width: 300px;
+}
+
 /*github*/
 
 .main-intro1 {

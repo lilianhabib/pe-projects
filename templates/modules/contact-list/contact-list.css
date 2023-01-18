@@ -17,6 +17,10 @@ contact-list{
 	border-radius: 20px;
 	box-shadow: 5px 5px var(--accent);
 	margin-top: 30px;
-	margin-bottom: 13vh;
+	margin-bottom: 16vh;
+}
+
+.contact .page-links .page-link:nth-child(2) {
+	min-width: 200px;
 }
 

@@ -37,17 +37,33 @@
 				<?php include('templates/partials/site-menu.php');?>
 			</header>
 
+
 			<main>
 				<?php renderPageTemplate()?>
 			
 			</main>
+
+
+			<script>
+				var body = document.querySelector('body'); 
+
+				var toggle = document.querySelector('button'); 
+
+
+				function toggleTheme(){
+				body.classList.toggle('fancy'); 
+				}
+
+				toggle.addEventListener('mouseover', toggleTheme); 
+
+			</script>
 
 		</inner-column>
 
 	</body>
 
 
-	<footer > 
+	<footer class="<?=$pageId?>" > 
 		<inner-column>
 
 			<?php include ('templates/partials/footer.php') ?>
@@ -57,6 +73,5 @@
 	</footer>
 		
 </html>
-
 
 

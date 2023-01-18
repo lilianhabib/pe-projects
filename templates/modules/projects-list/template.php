@@ -15,7 +15,7 @@
 
 		<div class="page-links"> 
 
-				<a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+				<a href="?page=layouts" class='page-link'>Responsive Layout Garden </a>
 
 				<a href="?page=exercises" class='page-link'>Exercises for Programmers</a>
 

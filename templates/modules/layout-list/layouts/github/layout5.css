@@ -29,6 +29,7 @@ img {
    background-color: #333;
 }
 
+
 .logo img{
    display: block;
    width: 100%;
@@ -238,6 +239,7 @@ input{
   margin-top: 5px;
   text-align: center;
 }
+
 
 @media (max-width: 500px) {
   .intro-form{

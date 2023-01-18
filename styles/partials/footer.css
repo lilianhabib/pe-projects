@@ -11,6 +11,7 @@ footer inner-column {
 
 body footer {
 	padding: 10px;
+	max-width: 100%;
 }
 
 site-map {
@@ -26,25 +27,43 @@ site-map {
 .footer-item {
 	list-style: none;
 	gap: 10px;
+	color: var(--black);
 }
 
 .footer-item a {
 	text-decoration: none;
 }
 
+.footer-item a:hover {
+	font-weight: bolder;
+}
+
+
 social li {
 	display: block;
 	text-decoration: none;
+	padding: 10px;
+}
+
+social {
+	gap: 30px;
 }
 
 .footer-logo {
 	max-width: 30px;
 }
 
+
+.footer-logo:hover {
+	max-width: 32px;
+
+}
+
 .footer-logo img {
 	width: 100%;
 	height: auto;
 }
+
 
 links {
 
@@ -84,6 +103,12 @@ social {
 }
 
 
+.layouts footer {
+  padding-right: 61vh;
+
+}
+
+
 @media (max-width: 500px) {
 	site-map {
 		flex-direction: column;
@@ -92,9 +117,17 @@ social {
 
 	links {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: start;
 		align-items: start;
+		width: 100%;
+	}
 
+	social {
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		align-items: start;
+		width: 100%;
 	}
 }

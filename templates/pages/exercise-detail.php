@@ -20,19 +20,20 @@
 <section class=''> 
     <inner-column>
 
-        <project-detail> 
+        <exercise-detail>
 
-            <h1><?=$title?></h1>
-            <p><?=$intro?></p>
+           <h1 class='loud-voice'><?=$title?></h1>
+         <!--    <p><?=$intro?></p>
             <p><?=$copy?></p>
-            <p><?=$conclusion?></p>
-            <p><?=$slug?></p>
+            <p><?=$conclusion?></p> -->
+            
             <div class='form'> 
                 <?php include ("exercises/$slug.php");?>
             </div>
+        
             
     
-        </project-detail>
+        </exercise-detail>
 
     </inner-column>
 </section>
