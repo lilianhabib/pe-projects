@@ -2431,7 +2431,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 ## 01.16.2022 
-## Lesson 203: Exercises for programmers with JavaScript 
+## Lesson 204: Exercises for programmers with JavaScript 
 
 ### Standup 
 * What is one thing you learned yesterday? Over the weekend, I got to toronto saturday night and spent the rest of the weekend with family. I didn't too much work, but during a layover I made some changes to my site (changed footer colour, home page paragraph line height, buttons, E4P page) and added a toggle to change the background colour.
@@ -2441,6 +2441,35 @@ The data can live anywhere it wants. Almost all modern database have a network A
 * 
 
 ## conclusion / major takeaways? 
+
+
+## 01.17.2022 
+## Lesson 205: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday?
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 01.18.2022 
+## Lesson 206: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? I spoke with Derek and went over the Anagram Checker. I also worked on the Password Strength Indicator and I think I got it to work. I also started on the Months to Pay Off a Credit Card calculator. I created the form and variables but need to set up the calculations. Also, went back to two of the php forms and converted it to JS. 
+
+* Is there anything you are excited to learn? I want to continue working on converting the php forms to JS and work on the Months to Pay Off a Credit Card calculator. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
 
 
 
