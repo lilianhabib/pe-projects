@@ -2473,14 +2473,73 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.19.2022 
+## Lesson 207: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
+## 01.20.2022 
+## Lesson 208: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
+## 01.21.2022 
+## Lesson 209: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
+
+## 01.22.2022 
+## Lesson 210: Exercises for programmers with JavaScript 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 01.23.2022 
+## Lesson 211: So many things to do  
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I spent time with family celebrating Chinese New Year. I unfortunately did not get any work done. 
+* Is there anything you are excited to learn? Today I got on a call with Derek to solve the temperature conversion issue I was having. I am looking forward to getting back to the routine. I am currently working on the to do app and stopping the video to try each step on my own. It has so far been going well. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
 
 
 
