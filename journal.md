@@ -2543,6 +2543,24 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
+## 01.24.2022 
+## Lesson 212: todo list day 2: Exploring encapsulation  
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I met with Derek to go over one of the E4Ps. Fixed the problem and spent the rest of the day going over/following along with the video and figuring how to get the last function in the exercise to work. While going over it the second, I came across a StackOverflow thread and tried a forEach and if statement to get one of the list items to update. 
+* Is there anything you are excited to learn? Today I am going to meet with Derek to go over yesterday’s exercise. I just want to get a solid understanding of it. I have also been going over forEach statements and will be starting today’s lesson soon. 
+
+By the end of this week, I would like to be able to redo the entire todo list app from start to finish and have an understanding of each step. 
+
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
 
 
 
