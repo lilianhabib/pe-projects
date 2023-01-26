@@ -2561,6 +2561,26 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 01.25.2022 
+## Lesson 213: todo list day 2: Exploring encapsulation  
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I followed along the video and created a travel list app in an object. I learned how to call on an item using the unique id.
+
+* Is there anything you are excited to learn? Today I am looking forward to reviewing yesterday’s concepts and getting into today’s lesson about functions
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+
+
+
 
 
 
