@@ -2577,6 +2577,69 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 01.26.2022 
+## Lesson 214: Exploring local storage
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+## 01.27.2022 
+## Lesson 215: Rendering Data 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways? 
+
+
+
+
+## 01.28.2022 
+## Lesson 216: JavaScript Classes 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 01.29.2022 
+## Lesson 217: Day off  
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
 
 
 
