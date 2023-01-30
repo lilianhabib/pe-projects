@@ -2581,9 +2581,9 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## Lesson 214: Exploring local storage
 
 ### Standup 
-* What is one thing you learned yesterday? 
+* What is one thing you learned yesterday? Yesterday I spent some time following along the video and creating constructor functions.
 
-* Is there anything you are excited to learn? 
+* Is there anything you are excited to learn? Today I spent the morning creating some constructor functions. Then, I’ll be work on today’s video to figure out a way to save the data to the local storage. I’ll spend time some practicing everything I’ve learned since Monday.
 
 
 ## Lesson Notes
@@ -2597,10 +2597,10 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## Lesson 215: Rendering Data 
 
 ### Standup 
-* What is one thing you learned yesterday? 
+* What is one thing you learned yesterday? Yesterday I updated my constructor to include this.print, this.findById, this.add, this.remove, this.complete, this.update. Ran into issues but managed figure it out. I also went over the video about local storage and spent some time practicing.
 
-* Is there anything you are excited to learn? 
 
+* Is there anything you are excited to learn? Today I added some functions to store my data and will be meeting with Derek and going over today’s video.
 
 ## Lesson Notes
 * 
@@ -2640,6 +2640,21 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 ## conclusion / major takeaways?
 
+
+
+## 01.30.2022 
+## Lesson 218: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I spent time working on Friday and Saturday's lesson then on Sunday I practiced object, constructor, and class functions. While reviewing the lessons, each step made more sense but  I need to do it a couple more times. 
+
+* Is there anything you are excited to learn? Today, I am looking forward to experimenting with Figma and recreating a layout with it. I am also hoping to go over object, constructor, class and rendering the data onto the web page again. 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
