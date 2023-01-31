@@ -2658,6 +2658,22 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 01.31.2022 
+## Lesson 219: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
 
 
 
