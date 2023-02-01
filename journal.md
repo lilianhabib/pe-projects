@@ -2166,7 +2166,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.1.2022 
+## 01.1.2023 
 ## Lesson 189: Day off
 ### Standup 
 * What is one thing you learned yesterday? 
@@ -2183,7 +2183,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.2.2022 
+## 01.2.2023 
 ## Lesson 190: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? 
@@ -2199,7 +2199,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.3.2022 
+## 01.3.2023 
 ## Lesson 191: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Over the last couple of days, I wasn’t feeling well so I took some time off. Since the last update, I finished creating all of my data and pages and I have started adding css to my site. I have styled all of my pages except for the responsive layout, exercise for programmers, and theme challenge. I ran into an images issue with my projects. It seems that all of the image links are broken, but should be an easy fix!
@@ -2215,7 +2215,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.4.2022 
+## 01.4.2023 
 ## Lesson 192:Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I fixed broken image links in in several of my projects (Java Finder, Responsive Layout and Natural Skin), I styled all of my E4P, fixed DivideByZero issues, and added a reset button. Then I fixed my responsive layout page. Since I am placing all of my responsive layouts on one page, I had to fix some broken image links, add style to the layouts, and make it responsive again. There are currently just two layouts but will be adding more. I forgot to upload an update video. 
@@ -2234,7 +2234,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.5.2022 
+## 01.5.2023 
 ## Lesson 193:Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I ended up coming across a handful of small issues with my site. I am often only looking at the site locally so when looking at the pe site, there were issues that I did not know existed. Luckily they were quick fixes. 
@@ -2266,7 +2266,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.6.2022 
+## 01.6.2023 
 ## Lesson 194: Personal Site pro: Work Days 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I finished the remaining sections (research and prototype) for my natural skin case study and worked on adding typoegraphy, colours, buttons, lists, and modules to my style guide. 
@@ -2284,7 +2284,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.7.2022 
+## 01.7.2023 
 ## Lesson 195: Website Diagnostic Day 
 ### Standup 
 * What is one thing you learned yesterday? No lesson. Gave colleagues feedback 
@@ -2298,7 +2298,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.8.2022 
+## 01.8.2023 
 ## Lesson 196: Day off
 ### Standup 
 * What is one thing you learned yesterday? 
@@ -2315,7 +2315,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.9.2022 
+## 01.9.2023 
 ## Lesson 197: Intro to JavaScript and the browser Console
 ### Standup 
 * What is one thing you learned yesterday? Over the weekend, I completed the disgnostic for everyone's site, including my own. I was working on feedback for each person but I got caught up in some personal stuff that took up majority of my weekend. 
@@ -2329,7 +2329,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.10.2022 
+## 01.10.2023 
 ## Lesson 198: The Document Object Model
 
 ### Standup 
@@ -2345,7 +2345,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.11.2022 
+## 01.11.2023 
 ## Lesson 199: For Each What?
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I created a simple page with only JavaScript in the console and edited an existing website using the console. 
@@ -2360,7 +2360,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.12.2022 
+## 01.12.2023 
 ## Lesson 200: User input with browser dialog boxes
 
 ### Standup 
@@ -2377,7 +2377,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.13.2022 
+## 01.13.2023 
 ## Lesson 201: More forEach and filter 
 
 ### Standup 
@@ -2396,7 +2396,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.14.2022 
+## 01.14.2023 
 ## Lesson 202: Common JS Interface tricks 
 
 ### Standup 
@@ -2412,7 +2412,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.15.2022 
+## 01.15.2023 
 ## Lesson 203: Day off 
 
 ### Standup 
@@ -2430,7 +2430,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.16.2022 
+## 01.16.2023 
 ## Lesson 204: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2443,7 +2443,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 ## conclusion / major takeaways? 
 
 
-## 01.17.2022 
+## 01.17.2023 
 ## Lesson 205: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2457,7 +2457,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.18.2022 
+## 01.18.2023 
 ## Lesson 206: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2473,7 +2473,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.19.2022 
+## 01.19.2023 
 ## Lesson 207: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2487,7 +2487,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.20.2022 
+## 01.20.2023 
 ## Lesson 208: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2501,7 +2501,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.21.2022 
+## 01.21.2023 
 ## Lesson 209: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2515,7 +2515,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.22.2022 
+## 01.22.2023
 ## Lesson 210: Exercises for programmers with JavaScript 
 
 ### Standup 
@@ -2529,7 +2529,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.23.2022 
+## 01.23.2023 
 ## Lesson 211: So many things to do  
 
 ### Standup 
@@ -2543,7 +2543,7 @@ The data can live anywhere it wants. Almost all modern database have a network A
 
 
 
-## 01.24.2022 
+## 01.24.2023 
 ## Lesson 212: todo list day 2: Exploring encapsulation  
 
 ### Standup 
@@ -2561,7 +2561,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.25.2022 
+## 01.25.2023 
 ## Lesson 213: todo list day 2: Exploring encapsulation  
 
 ### Standup 
@@ -2577,7 +2577,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.26.2022 
+## 01.26.2023 
 ## Lesson 214: Exploring local storage
 
 ### Standup 
@@ -2593,7 +2593,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.27.2022 
+## 01.27.2023 
 ## Lesson 215: Rendering Data 
 
 ### Standup 
@@ -2610,7 +2610,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.28.2022 
+## 01.28.2023 
 ## Lesson 216: JavaScript Classes 
 
 ### Standup 
@@ -2626,7 +2626,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.29.2022 
+## 01.29.2023 
 ## Lesson 217: Day off  
 
 ### Standup 
@@ -2642,7 +2642,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.30.2022 
+## 01.30.2023 
 ## Lesson 218: General Mock-Up To Code Challenge Day 
 
 ### Standup 
@@ -2658,7 +2658,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 01.31.2022 
+## 01.31.2023
 ## Lesson 219: General Mock-Up To Code Challenge Day 
 
 ### Standup 
@@ -2671,6 +2671,22 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 ## conclusion / major takeaways?
 
+
+
+
+## 02.1.20223
+## Lesson 219: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday, I did as much as I could with the wireframe. I was inspired by John to do it in PHP and JSON. I came across some challenges but got it to work. I used my perosnal site and what John had done to guide me through it.
+
+* Is there anything you are excited to learn? Today, feeling a little better. I'll be continuing with my wireframe. I'm behind so going to push through as much as I can. 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
