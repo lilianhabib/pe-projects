@@ -1,0 +1,20 @@
+.center-section {
+	margin: 10vh;
+}
+
+.center-section inner-column {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+
+.center-section .content-img {
+	padding-top: 50px;
+	width: 600px;
+
+}
+

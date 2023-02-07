@@ -1,0 +1,31 @@
+.call-to-action-section {
+	margin: 10vh;
+}
+
+.call-to-action-section inner-column {
+	padding: 10vh 5vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	background-color: var(--background);
+}
+
+.call-to-action-section introduction {
+	text-align: center;
+}
+
+button {
+	display: block;
+	background-color: var(--highlight);
+	border: none;
+
+}
+
+.cta-link {
+	text-decoration: none;
+	color: var(--white);
+	padding: 10px 22px;
+}

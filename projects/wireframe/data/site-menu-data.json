@@ -1,0 +1,74 @@
+[
+    {
+        "type": "site-menu",
+        "class": "logo",
+        "components": [
+            {
+                "list-item": "",
+                "image": "images/site-logo.svg",
+                "class": "part-one",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "type": "site-menu",
+        "class": "item",
+        "components": [
+            {
+                "list-item": "Home",
+                "image": "",
+                "class": "home",
+                "link": "#"
+            },
+            {
+                "list-item": "Updates",
+                "image": "",
+                "class": "part-two",
+                "link": "#"
+            },
+            {
+                "list-item": "Services",
+                "class": "part-two",
+                "image": "",
+                "link": "#"
+            },
+            {
+                "list-item": "Features",
+                "class": "part-two",
+                "image": "",
+                "link": "#"
+            },
+            {
+                "list-item": "About Us",
+                "class": "part-two",
+                "image": "",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "type": "site-menu",
+        "class": "english",
+        "components": [
+            {
+                "list-item": "EN",
+                "image": "images/world.svg",
+                "class": "part-three",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "type": "site-menu",
+        "class": "login",
+        "components": [
+            {
+                "list-item": "LogIn",
+                "class": "part-four",
+                "image": "",
+                "link": ""
+            }
+        ]
+    }
+]

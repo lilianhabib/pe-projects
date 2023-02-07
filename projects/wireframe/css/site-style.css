@@ -1,1 +1,40 @@
-style.csss
+@import "meyer-reset.css"; 
+@import "settings.css"; 
+@import "setup.css"; 
+@import "typography.css";
+/*@import "developer.css";*/
+
+@import "site-header.css";
+@import "../templates/modules/hero/hero.css";
+@import "../templates/modules/center-content/center-content.css"; 
+@import "../templates/modules/feature/feature.css";
+@import "../templates/modules/clients/client.css";
+@import "../templates/modules/call-to-action/call-to-action.css";
+@import "../templates/modules/faqs/faqs.css";
+@import "modules.css"; 
+@import "../templates/partials/footer.css";
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif; 
+}
+
+body {
+	padding: 0;
+}
+
+inner-column {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+}
+
+li {
+	list-style: none;
+}
+

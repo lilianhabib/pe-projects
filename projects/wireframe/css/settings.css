@@ -1,0 +1,13 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--highlight: #3563e9;
+	--fontColor1: #424242;
+	--background: #F7F9FE;
+	--info: #2851E3;
+	--heading: #212121;
+	--description: #616161;
+
+}
+

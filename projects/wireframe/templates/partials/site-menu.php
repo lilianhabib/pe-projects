@@ -1,23 +1,43 @@
+<?php 
+
+	$json = file_get_contents("data/site-menu-data.json"); 
+	$menuData = json_decode($json, true); 
+?>
+
+<site-menu>
+	<nav class='site-menu'> 
+
+		<?php foreach($menuData as $menuItem) { 
+			$class = $menuItem['class'];
+			?>
+			
+		
+
+			<?php foreach($menuItem['components'] as $links) {
+
+				$page = $links["list-item"];
+				$link = $links["link"];
+				$image = $links["image"];
+				$compClass = $links['class'];
+
+			?>
 
 
+				<ul class='menu-list  <?=$compClass?>'>
+					<picture class='site-img'> 
+						<img src="<?=$image?>">
+					</picture>
+				
+					<li class='menu-item <?=$class?>'><a href='<?=$link?>'><?=$page?></a></li>
+					
+				</ul>
 
-<nav class='site-menu'> 
 
-	<div class='site-logo'> 
-		<a href='../../images/site-logo.png'><img src='#'></a>
-	</div>
+			<?php } ?>
+			
+		<?php } ?>
+		
 
 
-	<ul class='menu-list'>
-		<li class='menu-item'><a href='#'>Home</a></li> 
-		<li class='menu-item'><a href='#'>Updates</a></li>
-		<li class='menu-item'><a href='#'>Services</a></li>
-		<li class='menu-item'><a href='#'>Features</a></li>
-		<li class='menu-item'><a href='#'>About Us</a></li>
-	</ul>
-
-	<div class='sign-in'>
-		<a href='#'>EN</a>
-		<a href='#'>LogIn</a>
-	</div>
-</nav>
+	</nav>
+</site-menu>

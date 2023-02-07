@@ -1,0 +1,41 @@
+.faqs-section {
+	margin: 10vh;
+}
+
+.faqs-section inner-column {
+	padding: 10vh 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: start;
+	gap: 15px;
+}
+
+.faqs-section introduction {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 10px;
+}
+
+.question-container {
+	width: 100%;
+}
+
+details {
+	width: 100%;
+	margin: 1rem;
+	border-bottom: 0.5px solid var(--black);
+}
+
+summary {
+	list-style-image: url(faqs-arrow.svg);
+}
+
+details[open] summary {
+	list-style-image: url(arrow2.svg);
+}
+
+
+
+

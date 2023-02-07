@@ -1,0 +1,26 @@
+[
+    {
+        "type": "hero",
+        "heading": "Arcu suscipit massa aliquam proin amet",
+        "intro1": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor",
+        "intro2": "",
+        "image":"",
+        "components": [
+            {
+                "type": "button",
+                "copy": "Get started"
+            },
+            {
+                "type": "button",
+                "copy": "Get free trial"
+            }
+        ]
+    },
+    {
+        "type": "center-content",
+        "intro1": "Rhoncus, accumsan dictum",
+        "intro2": "Neque, pulvinar vestibulum non aliquam.",
+        "heading": "Etiam nulla lfulputate.",
+        "image": "images/content-img.svg"
+    }
+]

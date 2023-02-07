@@ -1,0 +1,111 @@
+
+.loud-voice {
+	font-style: normal;
+	font-weight: 700;
+	font-size: clamp(30px, 20vw, 64px);
+	line-height: 77px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+
+.intro-voice {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: var(--fontColor1);
+}
+
+.surprised-voice {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 67px;
+	text-align: center;
+}
+
+.heading-voice {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	colour: var(--heading);
+}
+
+.bold-voice /*list heading*/{
+	font-style: normal;
+	font-weight: 600; 
+	font-size: 22px;
+	line-height: 27px;
+	colour: var(--heading);
+}
+
+.detail-voice { /*list paragraph*/ 
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	opacity: 0.7;
+
+}
+
+.quiet-voice {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+
+}
+
+.client-section .quiet-voice {
+	opacity: 0.7;
+}
+
+.faqs-section .quiet-voice {
+	opacity: 0.7;
+}
+
+.feature .detail-voice {
+	opacity: 0.7;
+}
+
+.shy-voice {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20 px;
+	line-height: 32px;
+	letter-spacing: 0.2px;
+	color: var(--fontColor1);
+}
+
+.small-voice {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.46px;
+}
+
+.tiny-voice {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+
+}
+
+.descriptive-voice {
+	font-weight: 400px;
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--white);
+	opacity: 0.7;
+}
+
+footer .detail-voice {
+	opacity: 0.7;
+}

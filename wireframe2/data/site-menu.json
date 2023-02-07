@@ -1,0 +1,46 @@
+[
+    {
+        "type": "logo",
+        "image": "images/site-logo.svg"
+    },
+    {
+        "type": "nav-items",
+        "image": "",
+        "listItems": [
+            {
+                "id": "home",
+                "page": "Home",
+                "link": "#"
+            },
+            {
+                "id": "updates",
+                "page": "Updates",
+                "link": "#"
+            },
+            {
+                "id": "services",
+                "page": "Services",
+                "link": "#"
+            },
+            {
+                "id": "features",
+                "page": "Features",
+                "link": "#"
+            },
+            {
+                "id": "about-us",
+                "page": "About Us",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "type": "language",
+        "text": "EN",
+        "image": "images/world.svg"
+    },
+    {
+        "type": "button",
+        "text": "LogIn"
+    }
+]

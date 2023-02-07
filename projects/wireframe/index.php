@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content="Lilian Habib">
-		<meta name="description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
 
-		<meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/sharelilian.png">
+<?php include("templates/partials/header.php");?>
+
+	<main> 
+
+		<?php 
+			$json = file_get_contents('data/module-data.json');
+			$moduleData = json_decode($json, true); 
+		?>
+		<?php foreach ($moduleData as $module) {
+				$heading = $module['heading']; 
+				$intro1 = $module["intro1"]; 
+				$type = $module["type"]; 
+				$intro2 = $module["intro2"];
+				$image = $module['image'];
+
+
+			include ('templates/modules/hero/hero.php'); 
+			include ('templates/modules/center-content/center-content.php'); 
+			include ('templates/modules/feature/feature.php');
+			include ('templates/modules/clients/client.php');
+			include ('templates/modules/call-to-action/call-to-action.php');
+			include ('templates/modules/faqs/faqs.php');
+	
+		} ?>
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
+
+	
+	</main> 
+
+	<script src='wireframe.js' type="text/javascript"></script>
+
+</body>
 
 
-
-		<title>Wireframe</title>
-	</head>
-
-
-	<body> 
-		<header> 
-			<?php include('templates/partials/site-menu.php') ?>
-		</header>
-
-
-
-	</body>
-
-
-	<footer> 
-	<?php include ('templates/partials/footer.php') ?>
-	</footer>
+<footer> 
+	<inner-column> 
+		<?php include ('templates/partials/footer.php') ?>
+	</inner-column>
+</footer>

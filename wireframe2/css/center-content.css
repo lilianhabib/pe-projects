@@ -1,0 +1,19 @@
+.center-section {
+	padding-top: 7vh;
+	padding-bottom: 15vh;
+}
+
+.center-section inner-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+
+.content-img {
+	padding-top: 50px;
+	width: 600px;
+
+}
+

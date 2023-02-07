@@ -1,0 +1,49 @@
+.hero-section {
+	background-color: var(--background);
+	background-image: url("../../../images/hero-lines.svg");
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+.hero-section inner-column {
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+
+.page-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.page-links a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.page-link:nth-child(1) {
+	background-color: var(--highlight);
+	padding: 15px 50px;
+	color: var(--white);
+}
+
+
+.page-link:nth-child(2) {
+	border: 1px solid var(--highlight);
+	background-color: var(--white);
+	padding: 15px 50px;
+	color: var(--highlight);
+}

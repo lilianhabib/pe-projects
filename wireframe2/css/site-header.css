@@ -1,0 +1,13 @@
+
+
+/*menu*/
+
+site-menu {
+	display: block;
+	border: 2px solid red;
+}
+
+.site-img {
+	max-width: 100px;
+}
+

@@ -1,0 +1,26 @@
+
+.loud-voice {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+.intro-voice {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: var(--fontColor1);
+}
+
+.surprised-voice {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 67px;
+	text-align: center;
+}

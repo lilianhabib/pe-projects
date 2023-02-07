@@ -1,0 +1,19 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--highlight: #3563e9;
+	--accent: #616161;
+	--fontColor1: #424242;
+	--background: #F7F9FE;
+/*	--highlight: #2F112D;
+	--accent: #FFD615;*/
+/*	FFE981;*/
+/*	#EBCF8B;*/
+/*	#0D4E22;*/
+}
+/* you can make more! */
+
+
+
+/* USAGE */

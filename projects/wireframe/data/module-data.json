@@ -1,0 +1,140 @@
+[
+    {
+        "type": "hero",
+        "heading": "Arcu suscipit massa aliquam proin amet",
+        "intro1": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor",
+        "intro2": "",
+        "image": "",
+        "components": [
+            {
+                "type": "button",
+                "copy": "Get started"
+            },
+            {
+                "type": "button",
+                "copy": "Get free trial"
+            }
+        ]
+    },
+    {
+        "type": "center-content",
+        "intro1": "Rhoncus, accumsan dictum",
+        "intro2": "Neque, pulvinar vestibulum non aliquam.",
+        "heading": "Etiam nulla lfulputate.",
+        "image": "images/content-img.svg"
+    },
+    {
+        "type": "feature",
+        "intro1": "Neque, pulvinar vestibulum non aliquam.",
+        "intro2": "",
+        "heading": "Etiam nulla lectus molestie at vulputate.",
+        "image": "images/feature-img2.svg",
+        "components": [
+            {
+                "type": "list",
+                "image": "images/one.svg",
+                "list-heading": "Sit quam gravida",
+                "copy": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+            },
+            {
+                "type": "list",
+                "image": "images/two.svg",
+                "list-heading": "Elementum enim tempus",
+                "copy": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
+            },
+            {
+                "type": "list",
+                "image": "images/three.svg",
+                "list-heading": "Tempor egestas augue",
+                "copy": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+            },
+            {
+                "type": "list",
+                "image": "images/four.svg",
+                "list-heading": "Nulla ac lacinia",
+                "copy": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+            },
+            {
+                "type": "list",
+                "image": "images/five.svg",
+                "list-heading": "Velit nibh a",
+                "copy": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+            }
+        ]
+    },
+    {
+        "type": "client",
+        "intro1": "Neque, pulvinar vestibulum non aliquam.",
+        "intro2": "",
+        "heading": "What Our Clients Says",
+        "image": "images/content-img.svg",
+        "components": [
+            {
+                "type": "review",
+                "image1": "images/stars.svg",
+                "image2": "images/client-circle.svg",
+                "name": "Courtney Henry",
+                "copy": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+            },
+            {
+                "type": "review",
+                "image1": "images/stars.svg",
+                "image2": "images/client-circle.svg",
+                "name": "Courtney Henry",
+                "copy": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
+            }
+        ]
+    },
+    {
+        "type": "call-to-action",
+        "intro1": "Rhoncus, accumsan dictum",
+        "intro2": "",
+        "heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+        "image": "",
+        "components": [
+            {
+                "type": "button",
+                "copy": "Get free quotes"
+            }
+        ]
+    },
+    {
+        "type": "faqs",
+        "intro1": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+        "intro2": "",
+        "heading": "Frequent Ask Questions",
+        "image": "",
+        "components": [
+            {
+                "type": "questions",
+                "image": "images/faqs-arrow.svg",
+                "question-heading": "How Soon Will My Order Ship?",
+                "copy": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            },
+            {
+                "type": "questions",
+                "image": "images/faqs-arrow.svg",
+                "question-heading": "Is There Any Warranty Exclusions?",
+                "copy": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            },
+            {
+                "type": "questions",
+                "image": "images/faqs-arrow.svg",
+                "question-heading": "Are there any return exclusions?",
+                "copy": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            },
+            {
+                "type": "questions",
+                "image": "images/faqs-arrow.svg",
+                "question-heading": "Will I Be Charged For A Replacement Item?",
+                "copy": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            },
+            {
+                "type": "questions",
+                "image": "images/faqs-arrow.svg",
+                "question-heading": "How Can I Track My Orders & Payment?",
+                "copy": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            }
+        ]
+    }
+]

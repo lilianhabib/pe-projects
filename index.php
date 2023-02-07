@@ -43,7 +43,7 @@
 			
 			</main>
 
-
+<!-- 
 			<script>
 				var body = document.querySelector('body'); 
 
@@ -56,7 +56,7 @@
 
 				toggle.addEventListener('mouseover', toggleTheme); 
 
-			</script>
+			</script> -->
 
 		</inner-column>
 

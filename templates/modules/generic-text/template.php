@@ -1,6 +1,5 @@
 
 
-
 <section class='<?=$pageId?>'>
 	<inner-column> 
 
