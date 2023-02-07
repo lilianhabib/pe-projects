@@ -2674,8 +2674,8 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-## 02.1.20223
-## Lesson 219: General Mock-Up To Code Challenge Day 
+## 02.1.2023
+## Lesson 220: General Mock-Up To Code Challenge Day 
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday, I did as much as I could with the wireframe. I was inspired by John to do it in PHP and JSON. I came across some challenges but got it to work. I used my perosnal site and what John had done to guide me through it.
@@ -2687,6 +2687,120 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 * 
 
 ## conclusion / major takeaways?
+
+
+
+## 02.2.2023
+## Lesson 221: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? Over the last couple of days, I did as much as I could with the wireframe. I was inspired by John to do it in PHP and JSON. I came across some challenges but got it to work. I used my personal site and what John had done to guide me through it.
+
+
+* Is there anything you are excited to learn? Today I am feeling a little better. Finally got a good night rest last night. I’ll be continuing with my wireframe today. I’m behind as I am still working on the first template so going to push through as much as I can. I will update at the end of the day.
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
+## 02.3.2023
+## Lesson 222: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.4.2023
+## Lesson 223: General Mock-Up To Code Challenge Day 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.5.2023
+## Lesson 224: Day off 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.6.2023
+## Lesson 225: Planning Prototype Week 1  
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I traveled home all day Saturday and then on Sunday I fully rested. 
+
+
+* Is there anything you are excited to learn? Today I am feeling 100% better. Since last week was pretty unproductive for me, I'll be dedicating half the day to this week's task and then the other half to last week's project. In total, it'll be about an 8-9 hour day. Today I'll be getting on a call with Derek to go over the assignment last week and talk about this my plan for mini-app.  
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.7.2023
+## Lesson 226: Planning Prototype Week 2  
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I brainstormed some ideas for apps. Narrowed it down to 4 ideas and decided to do a pizza maker after talking to Derek. Met with Derek and solved a css problem that was pretty simple but I overlooked. I also worked on my wireframe (header, footer, and faqs sections). In total, I spent 5 hours working. 8-9 hours was a stretch! I decided it is best to work on the wireframe a section at a time to not overdo it.
+
+
+* Is there anything you are excited to learn? Today I am meeting with Derek to go over my wireframe and draft my app on figma. I am also going to work on my wireframe and hopefully get the faqs done. I also want to start writing a blog post about the wireframe process.
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
