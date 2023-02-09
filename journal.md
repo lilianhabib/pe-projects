@@ -2792,7 +2792,18 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 02.8.2023
+## Lesson 226: Planning Prototype Week 3  
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday I met with Derek to go over my wireframe and go over my design on figma. I worked on the header and footer for my wireframe. I removed certain items from the JSON data. I also finished my design on figma and posted it. 
+
+* Is there anything you are excited to learn? Today i'll be making a prototype on figma. I'll also be finalizing my footer on my wireframe. I'll also get started on my post. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
