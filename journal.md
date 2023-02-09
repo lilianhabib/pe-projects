@@ -2760,7 +2760,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 02.6.2023
-## Lesson 225: Planning Prototype Week 1  
+## Lesson 225: Planning Prototype Day 1  
 
 ### Standup 
 * What is one thing you learned yesterday? Over the weekend, I traveled home all day Saturday and then on Sunday I fully rested. 
@@ -2777,7 +2777,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 02.7.2023
-## Lesson 226: Planning Prototype Week 2  
+## Lesson 226: Planning Prototype Day 2  
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I brainstormed some ideas for apps. Narrowed it down to 4 ideas and decided to do a pizza maker after talking to Derek. Met with Derek and solved a css problem that was pretty simple but I overlooked. I also worked on my wireframe (header, footer, and faqs sections). In total, I spent 5 hours working. 8-9 hours was a stretch! I decided it is best to work on the wireframe a section at a time to not overdo it.
@@ -2793,7 +2793,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 02.8.2023
-## Lesson 226: Planning Prototype Week 3  
+## Lesson 226: Planning Prototype Day 3  
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I met with Derek to go over my wireframe and go over my design on figma. I worked on the header and footer for my wireframe. I removed certain items from the JSON data. I also finished my design on figma and posted it. 
@@ -2806,7 +2806,18 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## conclusion / major takeaways?
 
 
+## 02.9.2023
+## Lesson 227: Planning Prototype Day 4  
 
+### Standup 
+* What is one thing you learned yesterday? Yesterday  I created a prototype on figma and worked on my wireframe. spent the time practicing/exploring css grids.
+
+* Is there anything you are excited to learn?  I will go over my prototype and make some final edits. I added two additional welcome pages and added animation to it.  To keep it simple, I have decided to remove the option for the user to continue as a guest. John reminded me of the JS functions so going to revisit those too. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
