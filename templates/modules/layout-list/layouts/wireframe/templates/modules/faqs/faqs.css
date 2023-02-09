@@ -28,12 +28,13 @@ details {
 	border-bottom: 0.5px solid var(--black);
 }
 
-summary {
-	list-style-image: url(faqs-arrow.svg);
+
+.faqs-section details[open] summary{
+	list-style-image: url(arrow2.svg);
 }
 
-details[open] summary {
-	list-style-image: url(arrow2.svg);
+.faqs-section summary {
+	list-style-image: url(faqs-arrow.svg);
 }
 
 

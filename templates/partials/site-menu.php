@@ -13,7 +13,7 @@
 		<li class="menu-item"><a href="?page=about">About</a></li>
 		<li class="menu-item"><a href="?page=contact">Contact</a></li>
 <!-- 		<li class="menu-item"><a href="?page=style-guide">Style Guide</a></li> -->
-		<button class='toggle'></button>
+	<!-- 	<button class='toggle'></button> -->
 
 	</ul>
 <!-- 

@@ -1,16 +1,12 @@
-.call-to-action-section {
-	margin: 10vh;
-}
+
 
 .call-to-action-section inner-column {
 	padding: 10vh 5vh;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 50px;
-	background-color: var(--background);
 }
 
 .call-to-action-section introduction {
@@ -28,4 +24,17 @@ button {
 	text-decoration: none;
 	color: var(--white);
 	padding: 10px 22px;
+}
+
+
+@media (max-width: 699px) {
+	.call-to-action-section {
+		background-color: var(--background);
+	}
+}
+
+@media (min-width: 700px) {
+	.call-to-action-section inner-column {
+		background-color: var(--background);
+	}
 }

@@ -6,6 +6,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	gap: 20px;
 	padding-top: 22px;
 	padding-bottom: 22px;
 
@@ -15,15 +16,9 @@
 	padding: 0;
 }
 
-.english {
-	
 
-}
-
-.part-three {
-	max-width: 50px;
-	display: flex;
-	gap: 5px;
+.menu-logo {
+	max-width: 150px;
 }
 
 
@@ -38,8 +33,8 @@
 
 .menu-item {
 /*	border: 2px solid blue;*/
-/*	padding-left: 15px;
-	padding-right: 15px;*/
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .menu-item a {
@@ -84,6 +79,7 @@
 
 .login a {
 	color: var(--white);
+	text-decoration: none;
 }
 
 .menu-container {
@@ -95,13 +91,29 @@
 }
 
 
+.menu-image {
+	max-width: 20px;
+}
+
+signin {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.language {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
 .en  {
 	font-weight: 700;
 	color: var(--accent);
-}
-
-.menu-image {
-	max-width: 20px;
+	text-decoration: none;
 }
 
 

@@ -1,0 +1,75 @@
+[
+    {
+        "type": "footer",
+        "heading": "Product",
+        "class": "a",
+        "components": [
+            {
+                "copy": "Diam orci",
+                "link": "#"
+            },
+            {
+                "copy": "Mi feugiat",
+                "link": "#"
+            },
+            {
+                "copy": "Netus",
+                "link": "#"
+            },
+            {
+                "copy": "Suspendisse viverra",
+                "link": "#"
+            },
+            {
+                "copy": "Id dolor",
+                "link": "#"
+            },
+            {
+                "copy": "Erat mattis",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "type": "footer",
+        "heading": "Information",
+        "class": "b",
+        "components": [
+            {
+                "copy": "Nibh",
+                "link": "#"
+            },
+            {
+                "copy": "Egestas",
+                "link": "#"
+            },
+            {
+                "copy": "Dictum",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "type": "footer",
+        "heading": "Company",
+        "class": "c",
+        "components": [
+            {
+                "copy": "Id maecenas",
+                "link": "#"
+            },
+            {
+                "copy": "Id orci",
+                "link": "#"
+            },
+            {
+                "copy": "Magna ultricies",
+                "link": "#"
+            },
+            {
+                "copy": "Quis risus",
+                "link": "#"
+            }
+        ]
+    }
+]
