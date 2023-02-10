@@ -66,7 +66,6 @@ social {
 
 
 links {
-
 	display: block;
 	display: grid;
 	grid-template-columns: repeat(3, 100px);
@@ -98,6 +97,10 @@ social {
 	gap: 10px;
 }
 
+social img {
+	min-width: 30px;
+}
+
 .404 .footer {
 	border: 2px solid red;
 }
@@ -122,6 +125,8 @@ social {
 		align-items: start;
 		width: 100%;
 	}
+
+
 
 	social {
 		display: flex;

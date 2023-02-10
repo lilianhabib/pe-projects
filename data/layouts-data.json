@@ -8,5 +8,10 @@
         "slug": "github",
         "name": "Github",
         "description": ""
+    },
+    {
+        "slug": "layout3",
+        "name": "Layout3",
+        "description": ""
     }
 ]
