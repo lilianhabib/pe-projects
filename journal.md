@@ -2823,6 +2823,23 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 02.10.2023
+## Lesson 228: Planning Prototype Day 5  
+
+### Standup 
+* What is one thing you learned yesterday?  I finalized my figma prototype. I had to deal with a personal matter so I didn’t get a chance to tackle the other things on my list.
+
+* Is there anything you are excited to learn?  Today I’ll practice JS functions, update my personal site with more layouts, and finish my substack post
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
 
 
 
