@@ -31,8 +31,6 @@ inner-column {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	display: grid;
-	grid-template-columns: ;
 }
 
 
