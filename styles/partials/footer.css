@@ -6,6 +6,10 @@ footer {
 footer inner-column {
 	max-width: 100%;
 	padding-bottom: 10px;
+  display: block;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -18,9 +22,8 @@ site-map {
 	display: block;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: start;
 	align-items: center;
-	color: var(--white);
 
 }
 
