@@ -23,9 +23,6 @@
         <exercise-detail>
 
            <h1 class='loud-voice'><?=$title?></h1>
-         <!--    <p><?=$intro?></p>
-            <p><?=$copy?></p>
-            <p><?=$conclusion?></p> -->
             
             <div class='form'> 
                 <?php include ("exercises/$slug.php");?>

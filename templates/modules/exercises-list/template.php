@@ -33,9 +33,8 @@
                     <section class="exercise-section"> 
                         <text-content> 
                     		<h2 class='bold-voice'><?=$exercise["title"]?></h2>
-        	            	<p><?=$exercise["intro"]?></p>
-        	            	<p><?=$exercise["conclusion"]?></p>
-        	            	<a href="?page=exercise&slug=<?=$slug?>" class='page-link'>Visit <span><?=$title?></span></a>
+                            <br>
+        	            	<a href="?page=exercise&slug=<?=$slug?>" class='exercise-link'>Visit <span><?=$title?></span></a>
                         </text-content>
                         
 

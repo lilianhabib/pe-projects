@@ -239,91 +239,11 @@ input{
 
 
 
-
-/* LAYOUT 4 */ 
-
-
-./*site-header {
-  background-color: var(--color);
-}
-
-.site-header inner-column {
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	align-items: center;
-	gap: 10px;
-	padding: 10px;
-}
-
-.company-name {
-	
-}
-
-.site-header .logo {
-  max-width: 60px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: var(--black);
-}
-
-.logo img {
-	opacity: 0;
-}
-
-.page-content .welcome {
-  background-color: var(--color);
-  padding: 5vh; 
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-}
-
-.welcome .inner-column {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
- 
-}
-
-.welcome-img {
-	border: 1px solid black;
-  flex-basis: 50%;
-  background-color: var(--highlight);
-
-}
-
-.welcome-img img {
-	opacity: 0;
-}
-
-.welcome .welcome-link {
-  background-color: var(--white);
-  width: 50%;
-  height: 35px;
-  border-radius: 20px 20px;
-  border: none;
-  color: white;
-  text-transform: uppercase;
-  overflow: hidden;
-}
-
-
-
-
-
-
-
-*/
-
-
 /*LAYOUT 3*/
 
 @media (max-width: 350px) {
 	.detail-section {
+
 		gap: 20px;
 	}
 }

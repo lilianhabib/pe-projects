@@ -1,46 +1,3 @@
-<!doctype html> 
-
-<html>
-
-    <meta name="author" content="Lilian Habib">
-  <head> 
-    <meta charset="utf-8">
-    <meta name="description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  
-
-    <meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/lilian1.png">
-    
-
-    <link rel="shortcut icon" href="images/lilian1.png" type="image/png">
-
-    <link rel='stylesheet' href='style.css'>
-    
-    <!-- font --> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap" rel="stylesheet">
-
-  
-    <!-- Facebook Meta Tags -->
-      <meta property="og:url" content="https://peprojects.dev/alpha-5/lilian/">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content=" index ">
-      <meta property="og:description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
-      <meta property="og:image" content="https://peprojects.devimages/metalilian.png?hello">
-
-      <!-- Twitter Meta Tags -->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="twitter:domain" content="peprojects.dev">
-      <meta property="twitter:url" content="https://peprojects.dev/alpha-5/lilian">
-      <meta name="twitter:title" content=" index ">
-      <meta name="twitter:description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
-      <meta name="twitter:image" content="https://peprojects.devimages/metalilian.png">
-
-    <title>Exercises for Programmers</title>
-  </head> 
-
 
 <?php 
 	
@@ -77,23 +34,35 @@
 		if (isset($_POST["quantity3"]) ){
 			$quantity3 = $_POST["quantity3"];
 		}
+
+		if (isset($_POST["clear"]) ){
+        $_POST = array();
+    }
+
+		$subtotal = floatval($price1) * floatval($quantity1) + floatval($price2) * floatval($quantity2) + floatval($price3) * floatval($quantity3);
+		$subtotalFormat = round($subtotal, 2);
+		$message1 = "<p>Subtotal: $$subtotalFormat</p>";
+
+
+
+		$tax = 5.5 / 100.0; 
+		$totalTax = floatval($subtotal) * floatval($tax); 
+		$totalTaxFormat = round($totalTax, 2);
+		$message2 = "Tax: $$totalTaxFormat"; 
+
+
+		$totalCost = floatval($totalTaxFormat) + floatval($subtotal); 
+		$totalCostFormat = round($totalCost, 2);
+		$message3 = "Total: $$totalCostFormat"; 
+
+		echo $message1;
+		echo $message2;
+		echo $message3;
 	}
 
-	$subtotal = floatval($price1) * floatval($quantity1) + floatval($price2) * floatval($quantity2) + floatval($price3) * floatval($quantity3);
-	$subtotalFormat = round($subtotal, 2);
-	$message1 = "<p>Subtotal: $$subtotalFormat</p>";
+	
 
 
-
-	$tax = 5.5 / 100.0; 
-	$totalTax = floatval($subtotal) * floatval($tax); 
-	$totalTaxFormat = round($totalTax, 2);
-	$message2 = "Tax: $$totalTaxFormat"; 
-
-
-	$totalCost = floatval($totalTaxFormat) + floatval($subtotal); 
-	$totalCostFormat = round($totalCost, 2);
-	$message3 = "Total: $$totalCostFormat"; 
 
 
 ?>
@@ -101,7 +70,6 @@
 
 <form method="POST"> 
 
-	<h1>Self Checkout</h1>
 
 	<div class="field">
 		<label>Enter the price of item 1:</label>
@@ -134,10 +102,12 @@
 	</div>
 
 	<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+<!-- 
+		<p><?=$message1?></p>
+		<p><?=$message2?></p>
+		<p><?=$message3?></p> -->
 
 </form>
 
-	<p><?=$message1?></p>
-	<p><?=$message2?></p>
-	<p><?=$message3?></p>
 

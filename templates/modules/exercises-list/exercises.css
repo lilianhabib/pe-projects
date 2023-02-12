@@ -9,34 +9,49 @@ text-content {
 }
 
 .exercises exercises-list{
-	margin-bottom: 10vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+
 }
 
 .exercise-section {
 	border: 2px solid var(--black);
 	margin-top: 4vh;
-	padding: 20px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 40px 20px 40px 20px; 
 	border-radius: 30px;
 	box-shadow: 10px 10px var(--accent);
-	max-width: 400px;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	flex: 1;
+	
 }
 
-.exercises .page-links .page-link:first-child {
+.exercise-link {
+	text-decoration: none;
+    border: 2px solid var(--black);
+    padding: 10px 40px;
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px var(--accent);
+    text-align: center;
+    min-width: 160px;
+
+}
+
+.exercise-link:hover {
+	font-weight: 700;
+}
+
+.exercise-section text-content {
+	text-align: center;
+}
+
+
+.exercises .exercise-links .exercise-link:first-child {
 	min-width: 300px;
 }
 
-
-.exercise-section .page-link {
-	max-width: 250px;
-	margin-top: 20px;
-}
 
 .form {
 	border: 1px solid var(--black);
