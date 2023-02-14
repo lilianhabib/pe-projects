@@ -1,0 +1,87 @@
+.loud-voice {
+	font-size: 80px;
+	font-weight: 900;
+	-webkit-text-stroke: 2px var(--black);
+	color: var(--white);
+	line-height: 1em;
+}
+
+.loud-voice span {
+	color: var(--black);
+	font-weight: 900;
+	padding: 0;
+}
+
+.lazy-voice {
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+.normal-voice {
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+
+.bold-voice {
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.strong-voice {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.little-voice {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+.style-guide .loud-voice {
+	line-height: 1.1em;
+}
+
+.page-header .home .intro-voice {
+	font-size: 20px;
+}
+
+.home .intro-voice {
+	line-height: 1.3em;
+}
+
+
+.page-header .projects .intro-voice {
+	padding-top: 20px;
+}
+
+
+/*responsive layout text*/
+
+.title-voice {
+	font-size: 70px;
+	font-weight: 900;
+	padding-bottom: 2vh;
+}
+
+.busy-voice {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+.button-voice {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.intro-form .button-voice {
+	font-size: 10px;
+	font-weight: bolder;
+	
+}
+
+.descriptive-voice{
+
+  font-size: 10px;
