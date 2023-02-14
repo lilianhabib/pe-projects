@@ -1,0 +1,65 @@
+<!doctype html> 
+
+<html>
+  <head> 
+    <meta charset="utf-8">
+
+    <title>Exercises for Programmers</title>
+  </head> 
+
+
+
+<body> 
+
+	<form method="POST" id='pizzaParty'>
+		<h1>Pizza Party</h1>
+
+		<div class='field'> 
+			<label>How many people?</label>
+			<input type="text" id="people">
+		</div>
+
+		<div class='field'>
+			<label>How many pieces of pizza will each person have?</label>
+			<input type="text" id="pieces"> 
+		</div>
+
+		<button type="submit" name="submitted" >Submit</button>
+	<!-- 	<input type="reset"> -->
+
+		<output id='output'></output>
+	</form>
+
+
+	<script>
+		var $form = document.querySelector('form');
+		var $input = $form.querySelector('input');
+		var $people = document.querySelector('#people'); 
+		var $pieces = document.querySelector('#pieces'); 
+		var $output = document.querySelector('#output');
+
+
+
+		$form.addEventListener('submit', function(event){
+			event.preventDefault();
+
+			var $pizza = "6";
+			var $totalPieces = +$people.value * +$pieces.value; // 10 * 2 = 20 ; 
+
+			var $totalBoxes = +$totalPieces / +$pizza;
+			
+			var $rounded = Math.round($totalBoxes);
+			var $totalPizza = +$rounded * +$pizza;
+			var $totalLeftOver = +$totalPizza - +$totalPieces; 
+			var $roundedLeftOver = Math.abs($totalLeftOver);
+			
+		
+		$output.innerHTML =  `<p>There are ${$people.value} people and each person will have ${$pieces.value} pieces. Each box will have ${$pizza} pieces of pizza. You will need ${$rounded} box of pizza. There are ${$roundedLeftOver} pieces of pizza left.</p>`; 
+
+		});
+
+
+
+	</script>
+
+</body>

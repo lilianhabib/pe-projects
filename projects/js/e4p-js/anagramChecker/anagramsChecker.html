@@ -1,0 +1,88 @@
+
+<html> 
+	<head> 
+		<meta charset='utf-8'>
+		<title>Anagram Checker</title>
+
+	</head>
+
+	<body> 
+
+		<form> 
+
+			<h1>Anagram Checker</h1>
+
+			<div class='field'>
+				<label for="firstValue">What is the first word?</label>
+				<input id='firstValue' type='text'>
+			</div>
+
+			<div class='field'>
+				<label for="secondValue">What is the second word?</label>
+				<input id='secondValue' type='text'>
+			</div>
+
+
+			<button type="submit">Submit</button>
+
+			<output id='firstMessage'> </output>
+			<output id='secondMessage'> </output>
+			
+		</form>
+
+		<script>
+
+
+			const $form = document.querySelector('form');
+
+			const $firstInput = $form.querySelector('#firstValue');
+
+			const $secondInput = $form.querySelector('#secondValue');
+
+			const $firstOutput = $form.querySelector('#firstMessage');
+
+			const $secondOutput = $form.querySelector('#secondMessage');
+
+
+			$form.addEventListener('submit', function(event) {
+			
+			event.preventDefault(); 
+
+			function isAnagram (oneHead, twoHead) {
+				var theMessage = `The length of the two words are not the same`; 
+				if (oneHead.length == twoHead.length) {
+					$firstOutput.innerHTML = `<p>${theMessage}</p>`; 
+				} else {
+					$firstOutput.innerHTML = `<p>The length of the two words are not the same</p>`; 
+				} 
+
+				
+
+				var one = $firstInput.value.split('').sort().join('');
+				var two = $secondInput.value.split('').sort().join('');
+				var message = `The words, ${$firstInput.value} and ${$secondInput.value} are anagrams`;
+				
+
+
+				if (one == two) {
+					$secondOutput.innerHTML = `<p>${message}</p>`; 
+				
+				} else {
+					message = `The words, ${$firstInput.value} and ${$secondInput.value} are not anagrams`;
+
+					$secondOutput.innerHTML = `<p>${message}</p>`; 
+				}
+
+
+				};
+
+				isAnagram ($firstInput.value, $secondInput.value);
+
+
+			});
+		
+		</script>
+
+	</body>
+
+

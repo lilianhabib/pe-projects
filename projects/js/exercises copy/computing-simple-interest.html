@@ -1,0 +1,64 @@
+
+<html>
+
+  <head> 
+    <meta charset="utf-8">
+
+    <title>Exercises for Programmers</title>
+  </head> 
+
+ 
+
+<form method="POST">
+
+  <h1>Computing Simple Interest</h1>
+
+  <div class="field">
+    <label>What is the principle amount</label>
+    <input type='text' id="principleAmount">
+  </div>
+
+  <div class="field">
+    <label>What is the rate</label>
+    <input type="text" id="rate">
+  </div>
+
+  <div class="field">
+    <label>Enter the number of years</label>
+    <input type="text" id="years">
+  </div>
+
+  <button type="submit" name="submitted">Submit</button>
+
+  <output id='output'></output>
+
+</form>
+
+<script type="text/javascript">
+
+  var $form = document.querySelector('form');
+  var $input = document.querySelector('input');
+  var $output = document.querySelector('#output');
+  var $principleAmount = document.querySelector('#principleAmount'); 
+  var $rate = document.querySelector('#rate'); 
+  var $years = document.querySelector('#years'); 
+
+  $form.addEventListener('submit', function(event){
+    event.preventDefault(); 
+    var $amountAccrued = parseFloat($principleAmount.value) * parseFloat(1 + parseFloat($rate.value) * parseFloat($years.value));
+    var $formatAmountAccrued = String($amountAccrued).replace(/(.)(?=(\d{3})+$)/g,'$1,') 
+
+    var $message = `<p>After ${$years.value} at ${$rate.value}%, the investment will be worth $${$formatAmountAccrued}.00.</p>`;
+
+    if ($principleAmount.value == ""){
+      $output.innerHTML = `<p>Uh oh! Please complete the form.</p>`; 
+    } else {
+       $output.innerHTML = `${$message}`;
+    }
+
+   
+  })
+  
+
+  
+</script>
