@@ -1,0 +1,24 @@
+.login-content {
+
+	display: grid;
+	place-items: center;
+	gap: 20px;
+}
+
+form {
+
+	display: grid;
+	place-items: center;
+	gap: 20px;
+}
+
+.fields {
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.input-text {
+	padding: 5px 10px;
+}

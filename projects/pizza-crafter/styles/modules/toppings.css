@@ -1,0 +1,54 @@
+*.topping-img {
+	max-width: 50px;
+	min-width: 50px;
+}
+
+.topping-list {
+	display: block;
+	padding: 10px;
+	border: 2px solid red;
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 15px;
+}
+
+.list-sauces {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.list-cheese {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+
+}
+
+.list-crust {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+}
+
+.list-meat {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+
+}
+
+.list-veggies {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+}
+
+
+*/

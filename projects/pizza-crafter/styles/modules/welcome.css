@@ -1,0 +1,38 @@
+
+[data-outlet='main'] {
+	padding: 10px;
+	display: grid;
+	place-items: center;
+	height: 75%;
+
+
+}
+
+.welcome-content {
+	width: 100%;
+	display: grid;
+	place-items: center;
+	gap: 50px;
+	text-align: center;
+
+}
+
+.welcome-content text-content {
+	display: grid;
+	gap: 10px;
+	max-width: 400px;
+}
+
+
+.login-btn {
+	border: none;
+    background-color: var(--color);
+    color: var(--white);
+    max-width: 200px;
+    padding: 15px 50px;
+
+}
+
+.header-img {
+	max-width: 30px;
+}

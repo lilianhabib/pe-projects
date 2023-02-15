@@ -1,0 +1,54 @@
+.startBtn {
+	border: none;
+	background-color: var(--color);
+	color: var(--white);
+	font-size: 15px;
+	font-weight: 700;
+
+}
+
+.welcome-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color);
+	display: grid;
+	place-items: center;
+	transition: 0;
+
+}
+
+
+.welcome-overlay.away {
+	transform: translate(90%, 0);
+	opacity: 0;
+}
+
+.pizza {
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	opacity: 0;
+	pointer-events: none;
+	transform-origin: center;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+.welcome-overlay.loading .pizza {
+	opacity: 100%;
+	transform: 2s;
+}
+
+.welcome-overlay.loading button {
+	display: none; 
+}
