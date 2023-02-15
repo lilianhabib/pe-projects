@@ -12,25 +12,33 @@
 	<body> 
 
 		<header>
-			<h1>Pizza Crafter</h1>
+			<h1 class='bold-voice'>Pizza Crafter</h1>
+			<site-menu id="site-menu"> </site-menu>
+			<picture class='header-img'>
+				<img src='images/login-photo.svg'>
+			</picture>
 		</header>
 
-		<main> 
-			<output id='p-crust' class='topping-list'></output>
+		<main data-outlet="main"> 
+			<!-- This is constantly changing -->
 
+			<div class="welcome-overlay">
+				<button data-screen='welcome' class='startBtn'>Click to Start</button>
+				
+				<div class="pizza">
+					
+					<img src='images/loading-pizza.svg'>
+					
+				</div>
+			</div>
 
-			<output id='p-sauce' class='topping-list'></output>
-		
-			<output id='p-cheese' class='topping-list'></output>
-			
-
-		
-			<output id='p-meat' class='topping-list'></output>
-		
-
-			<output id='p-veggies' class='topping-list'></output>
 
 		</main>
+
+
+		<footer>
+			<div class='footer-container'></div>
+		</footer>
 
 
 		<script src='main.js' type='module'></script>
@@ -38,7 +46,5 @@
 	</body>
 
 
-	<footer>
-		
-	</footer>
+
 </html>
