@@ -1,0 +1,258 @@
+/*.crust-container {
+    display: none;
+}*/
+
+
+.maker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    place-items: center;
+    height: 100%;
+}
+button *  {
+    pointer-events: none;
+}
+
+
+
+.topping-logo {
+  /*  min-width: 70px;*/
+    grid-area: ".topping-logo";
+}
+
+
+.pizza-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85%;
+}
+
+[data-outlet='choices'] {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+}
+
+.topping-items {
+    display: grid;
+    grid-template-areas: 
+    ".topping-logo .topping-logo .topping-logo .topping-logo .topping-logo"
+    ".topping-list .topping-list .topping-list .topping-list .topping-list";
+
+    grid-template-rows: 1fr 110px;
+}
+
+.top-btn {
+    
+}
+
+
+
+
+[data-outlet='choices'] .topping-list {
+    grid-area: ".topping-list";
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px;
+    padding: 3px;
+
+}
+
+.topping-img {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+[data-options='crust']  {
+    background-color: var(--crust);
+}
+
+[data-options='sauce'] {
+    background-color: var(--sauce);
+}
+
+[data-options='cheese'] {
+    background-color: var(--cheese);
+}
+
+[data-options='meat'] {
+    background-color: var(--meat);
+}
+
+[data-options='veggies'] {
+    background-color: var(--veggies);
+}
+
+
+.topping-options {
+    display: flex;
+}
+
+.topping-list button {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.topping-items nav {
+    display: flex;
+}
+
+.topping-img {
+    max-width: 80px;
+
+}
+
+
+.maker-button {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.default-btn, .save-btn {
+    
+    background-color: var(--color);
+    color: var(--white);
+    max-width: 200px;
+    padding: 7px 10px;
+}
+
+.maker-button.btn-dimmer {
+    opacity: 0.2;
+}
+
+
+.crust-container.crust-dimmer {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.instruction-overlay.disappear { 
+    display: none;
+}
+
+.instruction-overlay.appear {
+        border: 2px solid var(--black);
+    background-color: var(--white);
+    padding: 10px 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 5px; 
+
+    position: fixed;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 15%;
+}
+
+
+.instruction-overlay.gone {
+    display: none;
+}
+
+.crust-container.show {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.maker-button.see {
+    opacity: 1;
+}
+
+
+/*.list-topping {
+  position: absolute;
+  z-index: 9;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+.topping-img{
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: #fff;
+}
+*/
+
+
+
+
+.crust-container.crust-dimmer2{
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.maker-button.btn-dimmer2 {
+    opacity: 0.2;
+}
+
+.topping-items.topping-dimmer {
+    opacity: 0.2;
+}
+
+.crust-container.crust-bright {
+    opacity: 1;
+}
+
+.maker-button.btn-bright {
+    opacity: 1;
+}
+
+.topping-items.topping-bright {
+    opacity: 1;
+}
+
+
+.save-overlay.save-disappear {
+    display: none;
+}
+
+
+
+.save-overlay.save-appear {
+    display: block;
+     border: 2px solid var(--black);
+    background-color: var(--white);
+    width: 50%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    left: 25%;
+    top: 40%;
+}
+
+.save-overlay.save-none {
+    display: none;
+}
+
+.x-btn {
+    border-radius: 100px;
+    padding: 7px 10px;
+    background-color: var(--color);
+    position: fixed;
+    top: 38%;
+    left: 70%;
+    color: var();
+}
+
+
+
+
