@@ -24,5 +24,13 @@
 	color: var(--white);
 }
 
+.teeny-voice {
+	font-size: 10px;
+}
+
+.label-voice {
+	font-size: 12px;
+}
+
 
 

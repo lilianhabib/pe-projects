@@ -20,7 +20,7 @@ body {
 	font-family: Avenir, sans-serif; 
 	display: grid;
 	height: 100%;
-/*	background-color: var(--color);*/
+	background-color: var(--paper);
 
 	grid-template-rows: auto 1fr auto;
 }
@@ -51,4 +51,6 @@ header {
 	height: 100%;
 	padding: 20px;
 }
+
+
 

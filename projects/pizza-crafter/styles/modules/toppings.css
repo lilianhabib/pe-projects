@@ -1,4 +1,15 @@
-*.topping-img {
+.topping-items {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	max-width: 400px;
+}
+
+.topping-logo {
+	max-width: 100px;
+}
+
+/*.topping-img {
 	max-width: 50px;
 	min-width: 50px;
 }
@@ -49,6 +60,4 @@
 	align-items: center;
 	text-align: center;
 }
-
-
 */

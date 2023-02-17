@@ -1,5 +1,6 @@
-import { changeScreen, $mainView } from './changeScreen.js';
+import { changeTo, $mainView } from './changeTo.js';
 
+import  instructionItems  from './instructions-steps.js';
 
 
 
@@ -18,7 +19,7 @@ import { changeScreen, $mainView } from './changeScreen.js';
 // 	li.classList.add('list-crust');
 // 	li.innerHTML = crust.text;
 // 	img.src = `images/${crust.image}`;
-//	img.draggable = "true";
+// 	img.draggable = "true";
 // 	picture.appendChild(img);
 // 	li.appendChild(picture);
 // 	pCrust.appendChild(li);
@@ -117,31 +118,32 @@ import { changeScreen, $mainView } from './changeScreen.js';
 
 
 
-window.addEventListener('click', function(event) {
+
+// window.addEventListener('click', function(event) {
+
+// 	if (event.target.matches('[data-to]') ) {
+// 		changeto(event.target.dataset.to);
+// 	};
+
 	
-	if ( event.target.matches("[data-screen='welcome']") ) {
+// 	if ( event.target.matches("[data-to='welcome']") ) {
 
-		setTimeout( function() {
-			document.querySelector('.welcome-overlay').classList.add('loading');
-			setTimeout( function() {
-				document.querySelector('.welcome-overlay').classList.add('away');
-				changeScreen( event.target.dataset.screen );  
-			}, 2500);
-		}, 500);
-		
-	}
-	
-
-	if (event.target.matches('[data-screen="login"]') ) {
-		changeScreen( event.target.dataset.screen);
-	};
-
-	if (event.target.matches('[data-screen="instructions"]') ) {
-		changeScreen(event.target.dataset.screen);
-	};
+// 		setTimeout( function() {
+// 			document.querySelector('.welcome-overlay').classList.add('loading');
+// 			setTimeout( function() {
+// 				document.querySelector('.welcome-overlay').classList.add('away');
+// 				changeto( event.target.dataset.to );  
+// 			}, 2500);
+// 		}, 500);
+		 
+// 	};
 
 
-});
+
+
+
+
+// });
 
 
 

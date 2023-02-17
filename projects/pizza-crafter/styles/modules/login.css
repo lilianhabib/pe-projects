@@ -1,11 +1,11 @@
 .login-content {
 
 	display: grid;
-	place-items: center;
+	place-items: start;
 	gap: 20px;
 }
 
-form {
+.login-content form {
 
 	display: grid;
 	place-items: center;
@@ -13,7 +13,6 @@ form {
 }
 
 .fields {
-
 	display: flex;
 	flex-direction: column;
 
@@ -21,4 +20,12 @@ form {
 
 .input-text {
 	padding: 5px 10px;
+	background-color: var(--paper);
+}
+
+.account-btn {
+	border: none;
+	background-color: var(--paper);
+	text-decoration: underline;
+
 }

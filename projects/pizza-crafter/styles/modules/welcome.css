@@ -1,11 +1,9 @@
 
-[data-outlet='main'] {
-	padding: 10px;
+main {
+	border: 2px solid red;
 	display: grid;
 	place-items: center;
-	height: 75%;
-
-
+	height: 100%;
 }
 
 .welcome-content {
@@ -30,7 +28,6 @@
     color: var(--white);
     max-width: 200px;
     padding: 15px 50px;
-
 }
 
 .header-img {
