@@ -25,6 +25,17 @@ body {
 	grid-template-rows: auto 1fr auto;
 }
 
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 main {
 
 }

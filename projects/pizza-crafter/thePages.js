@@ -84,10 +84,13 @@ thePages.account = `
 
 `;
 
+thePages.pizza = `
+	
+
+`
+
 
 thePages.maker = `
-
-
 
 	<div class='maker-container'> 
 
@@ -119,9 +122,83 @@ thePages.maker = `
 		<div class='pizza-container'>
 
 			<div class='crust-container'> 
-				<picture class='crust-item' id="crust">
-					<img src='images/crust.svg'>  
+				
+				<picture data-layer='w-crust' id="w-crust">
+					<img src='images/t-w-crust.svg'>  
 				</picture> 
+
+				<picture data-layer='ww-crust' id="ww-crust">
+					<img src='images/t-ww-crust.svg'>  
+				</picture> 
+
+				<picture data-layer='pesto-sauce'  id="pesto-sauce">
+					<img src='images/t-pesto-sauce.svg'>  
+				</picture> 
+
+				<picture data-layer='tomato-sauce' id="tomato-sauce">
+					<img src='images/t-tomato-sauce.svg'> 
+				</picture> 
+
+				<picture data-layer='bacon' class='bacon' id="bacon">
+					<img src='images/t-bacon.svg'>  
+				</picture> 
+
+				<picture data-layer='cheddar' id="cheddar">
+					<img src='images/t-cheddar.svg'>  
+				</picture> 
+
+				<picture data-layer='chicken' id="chicken">
+					<img src='images/t-chicken.svg'>  
+				</picture> 
+
+				<picture data-layer='feta' id="feta">
+					<img src='images/t-feta.svg'>  
+				</picture> 
+
+				<picture data-layer='ham' id="ham">
+					<img src='images/t-ham.svg'>  
+				</picture> 
+
+				<picture data-layer='mixed' id="mixed">
+					<img src='images/t-mixed.svg'>  
+				</picture> 
+
+				<picture data-layer='mozzarella' id="mozzarella">
+					<img src='images/t-mozzarella.svg'>  
+				</picture> 
+
+				<picture data-layer='mushroom' id="mushroom">
+					<img src='images/t-mushroom.svg'>  
+				</picture> 
+
+				<picture data-layer='olives'  id="olives">
+					<img src='images/t-olives.svg'>  
+				</picture> 
+
+				<picture data-layer='pepperoni' id="pepperoni">
+					<img src='images/t-pepperoni.svg'>  
+				</picture> 
+
+				<picture data-layer='peppers' id="peppers">
+					<img src='images/t-peppers.svg'>  
+				</picture> 
+
+				<picture data-layer='pineapple' id="pineapple">
+					<img src='images/t-pineapple.svg'>  
+				</picture> 
+
+				<picture data-layer='sausage' id="sausage">
+					<img src='images/t-sausage.svg'>  
+				</picture> 
+
+				<picture data-layer='sliced-moz' id="sliced-moz">
+					<img src='images/t-sliced-moz.svg'>  
+				</picture> 
+
+				<picture data-layer='tomatoes' id="tomatoes">
+					<img src='images/t-tomatoes.svg'>  
+				</picture> 
+
 			</div> 
 
 			
@@ -171,16 +248,11 @@ thePages.maker = `
 
 `;
 
-// thePages.save = `
+thePages.save = `
 
-// 	<div class='save-overlay' id='save'> 
+	
 
-// 		<p id='save-text' class='save-text'>Saved!</p>
-
-// 		<button id='x-btn' class='x-btn'>X</button>
-// 	</div> 
-
-// `
+`
 
 export default thePages; 
 

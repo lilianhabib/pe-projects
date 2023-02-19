@@ -16,12 +16,12 @@ var toppingOptions = {
 
 	sauce: [
 		{
-			id: "t-sauce",
+			id: "tomato-sauce",
 			name: "Tomato",
 			image: "images/tomato-sauce.svg",
 		},
 		{
-			id: "t-sauce",
+			id: "pesto-sauce",
 			name: "Pesto", 
 			image: "images/pesto-sauce.svg"
 		}
@@ -29,27 +29,27 @@ var toppingOptions = {
 
 	cheese: [
 		{
-			id: "m-cheese",
+			id: "sliced-moz",
 			name: "Fresh Mozzarella",
 			image: "images/mozzarella.svg"
 		},
 		{
-			id: "c-cheese",
+			id: "cheddar",
 			name: "Shredded Cheddar",
 			image: 'images/cheddar.svg',  
 		},
 		{
-			id: "ms-cheese",
+			id: "mozzarella",
 			name: "Shredded Mozzarella",
 			image: 'images/mozzarella-s.svg',
 		},
 		{
-			id: "mixed-cheese",
+			id: "mixed",
 			name: "Mixed Cheese", 
 			image: 'images/mixed.svg',
 		},
 		{
-			id: "f-cheese",
+			id: "feta",
 			name: "Feta",
 			image: 'images/feta.svg',
 
@@ -58,27 +58,27 @@ var toppingOptions = {
 
 	meat: [
 		{
-			id: "p-meat",
+			id: "pepperoni",
 			name: "Pepperoni", 
 			image: "images/pepperoni.svg",
 		},
 		{
-			id: "s-meat",
+			id: "sausage",
 			name: "Sausage", 
 			image: "images/sausage.svg",
 		},
 		{
-			id: "g-meat",
+			id: "chicken",
 			name: "Grilled Chicken", 
 			image: "images/grilled-chicken.svg",
 		},
 		{
-			id: "b-meat",
+			id: "bacon",
 			name: "Bacon Bits", 
 			image: "images/bacon.svg",
 		},
 		{
-			id: "h-meat",
+			id: "ham",
 			name: "Ham", 
 			image: "images/ham.svg",
 		}
@@ -86,27 +86,27 @@ var toppingOptions = {
 
 	veggies: [
 		{
-			id: "t-veggies",
+			id: "tomatoes",
 			name: "Tomato",
 			image: "images/tomato.svg",
 		},
 		{
-			id: "o-veggies",
+			id: "olives",
 			name: "Olives",
 			image: "images/olives.svg",
 		},
 		{
-			id: "p-veggies",
+			id: "pepper",
 			name: "Pepper",
 			image: "images/peppers.svg",
 		},
 		{
-			id: "pineapple-veggies",
+			id: "pineapple",
 			name: "Pineapples", 
 			image: "images/pineapple.svg", 
 		}, 
 		{
-			id: "m-veggies",
+			id: "mushroom",
 			name: "Mushroom", 
 			image: "images/mushrooms.svg",
 		}

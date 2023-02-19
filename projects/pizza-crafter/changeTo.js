@@ -3,6 +3,7 @@ import instructionItems from './instructions-steps.js';
 import { toppingOptions }  from './topping.js';
 
 
+
 const $mainView = document.querySelector('[data-outlet="main"]');
 
 
@@ -100,6 +101,7 @@ window.addEventListener('click', function(event) {
 		}, 0);
 
 
+
 			var xBtn = document.querySelector('#x-btn');
 			xBtn.addEventListener('click', function() {
 				console.log("THIS WORKS)")
@@ -110,17 +112,7 @@ window.addEventListener('click', function(event) {
 				document.querySelector('.topping-items').classList.add('topping-bright');
 
 			})
-
-
-
-
-		//when i click the x button, I want the saved popup to disappear and the opacity to disppear 
-
-
-
-
-		//when the whole wheat crust is selected, the crust will appear on screen. 
-		// crust have an id and if the id matches the selected then it will be shown otherwise display none 
+				//make a function		
 
 	};
 
@@ -131,38 +123,119 @@ window.addEventListener('click', function(event) {
 		openOptions: null, 
 	}
 
+
+
 	function buildToppingList(toppingOptions) {
 		var template = ""; 
 
 		toppingOptions.forEach( function(item) {
 			template += `
-
-				<div class='topping-list' id='list'>
-					
+				
+				<button class='topping-list' id='list' data-name='${item.id}'>
+					${item.id}
 					<p class='topping-name teeny-voice'>${item.name}</p> 
-					<picture class='topping-img' id='list-img' draggable='true'> 
+					<picture class='topping-img' id='list-img'> 
 						<img src='${item.image}'>
 					<picture> 
 
-				</div> 
+				</button> 
 			`;
 		});
 		return template; 
 	}
 
+
+
 	window.addEventListener('click', function(event) {
 		const { target: clicked } = event;
 		const data = clicked.dataset; 
-
 		if (clicked.matches('[data-options]')) {
 			var $optionsOutlet = document.querySelector("[data-outlet='choices']");
-			btnState.openOptions = data.options; 
-			$optionsOutlet.innerHTML = buildToppingList( toppingOptions[btnState.openOptions] );
 
+			btnState.openOptions = data.options; 
+			console.log(data.options);
+			$optionsOutlet.innerHTML = buildToppingList( toppingOptions[btnState.openOptions] );
 
 		};
 
+		//when the image is clicked (ww-crust), the click will know what image I have clicked and display it on the screen 
 	});
+
+	// setTimeout( function() {
+	// 		document.querySelector('.crust-container').classList.add('container');
+			
+	// 		var toppingBtn = document.querySelector('[data-topping-img]')
+	// 		toppingBtn.addEventListener('click', function () {
+	// 			document.querySelector('#pesto').classList.add('p-appear');
+
+	// 		})
+		
+	// 	}, 0);
+
+	
+
+
+
+console.clear();
+
+var selected = [];
+
+
+
+
+function updatePizza(currentOptions) {
+	var layers = document.querySelectorAll('[data-layer]');
+	layers.forEach( function(layer) {
+		var name = layer.dataset.layer;
+		console.log('layer name', name)
+		if (currentOptions.includes(name)) {
+			layer.style.opacity = 1;
+		} else {
+			layer.style.opacity = 0;
+		}
+	})
+}
+
+function updateSelection(button) {
+	var clickedName = button.dataset.name;
+	if (selected.includes(clickedName)) {
+		var index = selected.indexOf(clickedName);
+		selected.splice(index, 1);
+	} else {
+	
+		selected.innerHTML = selected.push(clickedName);
+	}
+}
+
+
+
+window.addEventListener('click', function(event) {
+	
+	if (event.target.matches("[data-name]")) {
+		updateSelection(event.target)
+
+	};
+	
+	updatePizza(selected);
+	
+	console.log('selected', selected);
+})
+
+updatePizza(selected);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });
@@ -171,5 +244,6 @@ window.addEventListener('click', function(event) {
 export {
 	$mainView, 
 	changeTo,
+
 
 }
