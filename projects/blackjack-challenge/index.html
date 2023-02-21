@@ -1,0 +1,63 @@
+<html>
+	<head>
+<!-- 		<link rel='stylesheet' href='style.css'> -->
+	</head>
+
+	<style>
+		* {
+			font-family: Avenir;
+		}
+
+		body {
+			background-color: lightpink;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+		}
+
+		h1 {
+			text-align: center;
+			padding: 30px;
+		}
+
+		p {
+			text-align: center;
+		}
+
+		.button {
+			min-width: 100px;
+		}
+
+		.loud-voice {
+			font-size: 30px;
+			font-weight: bolder;
+		}
+
+
+	</style>
+
+	<body>
+	
+		<h1>Blackjack</h1>
+		<p class="loud-voice" id="message-el">Want to play a round?</p>
+		<p id='cards-el'>Cards:</p>
+		<p id="sum-el">Sum:</p>
+
+
+		<button class='button' onclick="startGame()">Start Game</button>
+
+		<button class='button' onclick="newCard()">New Card</button>
+		<!-- <p id='player-el'></p> -->
+		<script src="index.js"></script>
+		<script src="../exercises.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
