@@ -96,7 +96,7 @@ var toppingOptions = {
 			image: "images/olives.svg",
 		},
 		{
-			id: "pepper",
+			id: "peppers",
 			name: "Pepper",
 			image: "images/peppers.svg",
 		},

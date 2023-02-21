@@ -8,190 +8,135 @@ const $mainView = document.querySelector('[data-outlet="main"]');
 
 
 function changeTo(view) {
-
 	console.log('change screen to', view);
 	$mainView.innerHTML = thePages[view];
 };
 
 
-
-
-window.addEventListener('click', function(event) {
-
-	if ( event.target.matches("[data-to='intro']") ) {
-
+function welcomeOverlay() {
+	setTimeout( function() {
+		document.querySelector('.welcome-overlay').classList.add('loading');
 		setTimeout( function() {
-			document.querySelector('.welcome-overlay').classList.add('loading');
-			setTimeout( function() {
-				document.querySelector('.welcome-overlay').classList.add('away');
-				changeTo( event.target.dataset.to ); // "login"
-			}, 500);
+			document.querySelector('.welcome-overlay').classList.add('away');
+			changeTo( event.target.dataset.to ); // "login"
 		}, 500);
-	}
+	}, 500);
+}
 
-
-	if (event.target.matches('[data-to]') ) {
-		changeTo(event.target.dataset.to);
-		};
-
-	if ( event.target.matches("[data-to='maker']") ) {
-
-		setTimeout( function () {
-			document.querySelector('.maker-button').classList.add('btn-dimmer');
-			setTimeout(function() {
-				document.querySelector('.crust-container').classList.add('crust-dimmer');
-				setTimeout( function() {
-					document.querySelector('.instruction-overlay').classList.add('disappear');
-				}, 0);
-
-
-				setTimeout( function() {
-					document.querySelector('.instruction-overlay').classList.add('appear');
-						const nextBtn = document.querySelector('#next');
-						const text = document.querySelector('#text');
-
-						let index = 0;
-						//start at 0
-
-						nextBtn.addEventListener('click', function() {
-						
-
-							var nextStep = instructionItems[index];
-
-							if (nextStep.key === true ) {
-								document.querySelector('.instruction-overlay').classList.add('gone');
-								document.querySelector('.crust-container').classList.add('show');
-								document.querySelector('.maker-button').classList.add('see');
-							}
-							
-							text.innerHTML = nextStep.text;
-
-							while (index < instructionItems.length - 1) {
-								
-								index++;
-
-								if (instructionItems.length  === 5) {
-									break
-								}
-
-						
-							};
-
-						});
-
-				}, 500);
-
+function makeDimmer() {
+	
+	setTimeout( function () {
+		document.querySelector('.maker-button').classList.add('btn-dimmer');
+		setTimeout(function() {
+			document.querySelector('.crust-container').classList.add('crust-dimmer');
+			setTimeout( function() {
+				document.querySelector('.instruction-overlay').classList.add('disappear');
 			}, 0);
+		}, 0); 
+	}, 0);
+}; 
 
-			
-		}, 0);
+function instructionOverlay() {
+	setTimeout( function() {
+		document.querySelector('.instruction-overlay').classList.add('appear');
+			const nextBtn = document.querySelector('#next');
+			const text = document.querySelector('#text');
 
-		setTimeout( function() {
-			document.querySelector('.save-overlay').classList.add('save-disappear');
-			
-			var saveBtn = document.querySelector('#save-btn')
-			saveBtn.addEventListener('click', function () {
-				document.querySelector('.save-overlay').classList.add('save-appear');
-				document.querySelector('.crust-container').classList.add('crust-dimmer2');
-				document.querySelector('.maker-button').classList.add('btn-dimmer2');
-				document.querySelector('.topping-items').classList.add('topping-dimmer');
+			let index = 0;
+			//start at 0
 
-			})
-		
-		}, 0);
+			nextBtn.addEventListener('click', function() {
+				var nextStep = instructionItems[index];
+
+				if (nextStep.key === true ) {
+					document.querySelector('.instruction-overlay').classList.add('gone');
+					document.querySelector('.crust-container').classList.add('show');
+					document.querySelector('.maker-button').classList.add('see');
+				}
+				
+				text.innerHTML = nextStep.text;
+
+				while (index < instructionItems.length - 1) {
+					index++;
+				if (instructionItems.length  === 5) {
+					break
+				}
+
+				};
+
+			});
+
+	}, 500);
+
+}
+
+// function saveOverlay() {
+// 	var saveBtn = document.querySelector('#save-btn')
+
+// 	document.querySelector('.save-overlay').classList.add('save-disappear');
+// 	saveBtn.addEventListener('click', function () {
+// 		document.querySelector('.save-overlay').classList.add('save-appear');
+// 		document.querySelector('.crust-container').classList.add('crust-dimmer2');
+// 		document.querySelector('.maker-button').classList.add('btn-dimmer2');
+// 		document.querySelector('.topping-items').classList.add('topping-dimmer');
+
+// 	})
+
+// }
 
 
+// function closeSave() {
+// 	var xBtn = document.querySelector('#x-btn');
+// 		xBtn.addEventListener('click', function() {
+// 			console.log("THIS WORKS)")
 
-			var xBtn = document.querySelector('#x-btn');
-			xBtn.addEventListener('click', function() {
-				console.log("THIS WORKS)")
+// 			document.querySelector('#save').classList.add('save-none');
+// 			document.querySelector('.crust-container').classList.add('crust-bright');
+// 			document.querySelector('.maker-button').classList.add('btn-bright');
+// 			document.querySelector('.topping-items').classList.add('topping-bright');
 
-				document.querySelector('#save').classList.add('save-none');
-				document.querySelector('.crust-container').classList.add('crust-bright');
-				document.querySelector('.maker-button').classList.add('btn-bright');
-				document.querySelector('.topping-items').classList.add('topping-bright');
-
-			})
-				//make a function		
-
-	};
+// 		})
+// }
 
 
-
-
-	var btnState = {
+var btnState = {
 		openOptions: null, 
 	}
 
-
-
-	function buildToppingList(toppingOptions) {
-		var template = ""; 
-
-		toppingOptions.forEach( function(item) {
-			template += `
-				
-				<button class='topping-list' id='list' data-name='${item.id}'>
-					${item.id}
-					<p class='topping-name teeny-voice'>${item.name}</p> 
-					<picture class='topping-img' id='list-img'> 
-						<img src='${item.image}'>
-					<picture> 
-
-				</button> 
-			`;
-		});
-		return template; 
-	}
-
-
-
-	window.addEventListener('click', function(event) {
-		const { target: clicked } = event;
-		const data = clicked.dataset; 
-		if (clicked.matches('[data-options]')) {
-			var $optionsOutlet = document.querySelector("[data-outlet='choices']");
-
-			btnState.openOptions = data.options; 
-			console.log(data.options);
-			$optionsOutlet.innerHTML = buildToppingList( toppingOptions[btnState.openOptions] );
-
-		};
-
-		//when the image is clicked (ww-crust), the click will know what image I have clicked and display it on the screen 
-	});
-
-	// setTimeout( function() {
-	// 		document.querySelector('.crust-container').classList.add('container');
-			
-	// 		var toppingBtn = document.querySelector('[data-topping-img]')
-	// 		toppingBtn.addEventListener('click', function () {
-	// 			document.querySelector('#pesto').classList.add('p-appear');
-
-	// 		})
-		
-	// 	}, 0);
-
+function buildToppingList(toppingOptions) {
+	var template = "";
 	
+	const toppingArr = Array.from(toppingOptions)
+	
+	toppingArr.forEach( function(item) {
+		template += `
+			
+		<button class='topping-list' id='list' data-name='${item.id}'>
+			<p class='topping-name teeny-voice'>${item.name}</p> 
+			<picture class='topping-img' id='list-img'> 
+				<img src='${item.image}'>
+			<picture> 
 
+		</button> 
+	`;
+	});
+	return template; 
+}
 
 
 console.clear();
 
 var selected = [];
 
-
-
-
 function updatePizza(currentOptions) {
 	var layers = document.querySelectorAll('[data-layer]');
 	layers.forEach( function(layer) {
 		var name = layer.dataset.layer;
-		console.log('layer name', name)
+		// console.log('layer name', name)
 		if (currentOptions.includes(name)) {
-			layer.style.opacity = 1;
+			layer.style.display = "block";
 		} else {
-			layer.style.opacity = 0;
+			layer.style.display = "none";
 		}
 	})
 }
@@ -201,49 +146,41 @@ function updateSelection(button) {
 	if (selected.includes(clickedName)) {
 		var index = selected.indexOf(clickedName);
 		selected.splice(index, 1);
+
 	} else {
-	
-		selected.innerHTML = selected.push(clickedName);
+		selected.push(clickedName)	
 	}
 }
 
 
 
-window.addEventListener('click', function(event) {
+function clearSelection() {
+	var startBtn = document.querySelector('#start-btn');
+	var $pizzaOutlet = document.querySelector('[data-outlet="pizza"]');
 	
-	if (event.target.matches("[data-name]")) {
-		updateSelection(event.target)
-
-	};
-	
-	updatePizza(selected);
-	
-	console.log('selected', selected);
-})
-
-updatePizza(selected);
+	startBtn.addEventListener('click', function(){
+		
+		$pizzaOutlet.innerHTML = "";
+		
+		selected = [];
+	})
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
 
 
 export {
-	$mainView, 
+	$mainView,
+	toppingOptions, 
 	changeTo,
-
+	selected,
+	welcomeOverlay,
+	makeDimmer,
+	instructionOverlay,
+	buildToppingList,
+	updatePizza,
+	updateSelection,
+	btnState,
+	clearSelection
 
 }

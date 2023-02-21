@@ -84,11 +84,13 @@ thePages.account = `
 
 `;
 
-thePages.pizza = `
-	
 
-`
+		// <div class='save-overlay' id='save'> 
 
+		// 	<p id='save-text' class='save-text'>Saved!</p>
+
+		// 	<button id='x-btn' class='x-btn'>X</button>
+		// </div> 
 
 thePages.maker = `
 
@@ -101,27 +103,19 @@ thePages.maker = `
 			<button id='next' class='next-btn'>Next</button>
 		</div> 
 
-		
-		<div class='save-overlay' id='save'> 
-
-			<p id='save-text' class='save-text'>Saved!</p>
-
-			<button id='x-btn' class='x-btn'>X</button>
-		</div> 
+	
 
 		
 		<div class='maker-button'> 
-			<button class='save-btn' id='save-btn'>Save</button>
 			
-			<button data-to='' class='default-btn'>Undo</button>
-			
-			<button data-to='maker' class='default-btn'>Start Over</button>
+			<button data-to='maker' id='start-btn' class='default-btn'>Start Over
+			</button>
 		</div>
 
 
 		<div class='pizza-container'>
 
-			<div class='crust-container'> 
+			<div class='crust-container' data-outlet='pizza'> 
 				
 				<picture data-layer='w-crust' id="w-crust">
 					<img src='images/t-w-crust.svg'>  
