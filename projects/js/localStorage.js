@@ -5,7 +5,6 @@ theData.clear();
 
 var packingList = ["shoes", "jacket", "mitten", "phone", "laptop", "shirts", "socks"];
 
-var theData = localStorage;
 
 theData.setItem("Packing List: ", JSON.stringify(packingList)); 
 
@@ -52,7 +51,7 @@ document.body.textContent = theMessage;
 function stringify (key, value) {
 	var data = localStorage;
 	var setData = data.setItem(key, value);
-	var get = data.getItem(key);
+	var get = setData.getItem(key);
 	var convert = JSON.stringify(value);
 	console.log(convert);
 }

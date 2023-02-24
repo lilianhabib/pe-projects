@@ -31,7 +31,7 @@ var toppingOptions = {
 		{
 			id: "sliced-moz",
 			name: "Fresh Mozzarella",
-			image: "images/mozzarella.svg"
+			image: "images/mozzarella-s.svg"
 		},
 		{
 			id: "cheddar",
@@ -41,7 +41,7 @@ var toppingOptions = {
 		{
 			id: "mozzarella",
 			name: "Shredded Mozzarella",
-			image: 'images/mozzarella-s.svg',
+			image: 'images/mozzarella.svg',
 		},
 		{
 			id: "mixed",

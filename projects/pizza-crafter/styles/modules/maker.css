@@ -348,20 +348,19 @@ input[type="radio"] {
 }
 
 .instruction-overlay.appear {
-        border: 2px solid var(--black);
+    border: 2px solid var(--black);
     background-color: var(--white);
     padding: 10px 10px;
     opacity: 1;
     display: grid;
     place-items: center;
     text-align: center;
-    gap: 5px; 
-
+    gap: 5px;
     position: fixed;
     top: 40%;
-    left: 0;
     width: 100%;
     height: 15%;
+    max-width: 400px;
 }
 
 
@@ -494,13 +493,29 @@ svg [data-topping='ww-crust'] {
 }
 
 
+.sauceGone {
+    display: none;
+}
+
+
+#w-crust.w-crustShow {
+    display: block;
+}
+
+.instruction-overlay.no-show {
+    display: none;
+}
 
 
 
+.warning.warning-gone {
+    display: none;
+}
 
 
-
-
+.warning.warning-show {
+    display: block;
+}
 
 
 

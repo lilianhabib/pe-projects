@@ -29,3 +29,12 @@
 	text-decoration: underline;
 
 }
+
+
+.start {
+	border: none;
+    background-color: var(--color);
+    color: var(--white);
+    max-width: 200px;
+    padding: 15px 50px;
+}

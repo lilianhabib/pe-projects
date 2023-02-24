@@ -10,7 +10,11 @@ import { $mainView,
 	updateSelection,
 	selected,
 	btnState,
-	clearSelection, } from './changeTo.js'
+	clearSelection,
+	// startOver, 
+	addCrust,
+	setupWelcome,
+	buttonValidator, } from './changeTo.js'
 
 import  instructionItems  from './instructions-steps.js';
 
@@ -24,10 +28,16 @@ window.addEventListener('click', function(event) {
 
 	if (event.target.matches('[data-to]') ) {
 		changeTo(event.target.dataset.to);
+
 	};
 
 	if ( event.target.matches("[data-to='intro']") ) {
-		welcomeOverlay(); 	
+		welcomeOverlay(); 
+	}
+
+	if (event.target.matches('[data-to="login"]') ) {
+		buttonValidator();
+
 	}
 
 	if (event.target.matches('[data-to="maker"]') ){
@@ -35,6 +45,10 @@ window.addEventListener('click', function(event) {
 		instructionOverlay();
 		buildToppingList(toppingOptions);
 		clearSelection();
+		addCrust();
+		// startOver();
+
+	
 	}
 
 	if (clicked.matches('[data-options]')) {

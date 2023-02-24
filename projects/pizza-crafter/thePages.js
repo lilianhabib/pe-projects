@@ -1,5 +1,14 @@
 var thePages = {}
 
+// thePages.setUp = `
+// 	<div class="welcome-overlay" >
+// 		<button data-to='intro' class='startBtn'>Click to Start</button>
+
+// 		<div class="pizza">	
+// 			<img src='images/loading-pizza.svg'>
+// 		</div>
+// 	</div>
+// `;
 
 thePages.intro = `
 
@@ -8,7 +17,7 @@ thePages.intro = `
 			<h1 class='loud-voice'>Pizza Crafter</h1>
 			<p class='intro-voice'>Who's hungry? Make delectable pizzas for your guests using this interactive pizza game!</p>
 		</text-content>
-
+		
 		<div class='welcome-container'>
 			<button data-to="login" class='login-btn small-voice'>Login</button> 
 		</div>
@@ -21,19 +30,14 @@ thePages.login = `
 			<h1 class='loud-voice'>Pizza Crafter</h1>
 		</text-content>
 
-		<form method='POST'>
+		<form class='login-form'>
 			<div class='fields'> 
 				<label class='label-voice'>Username</label>
 				<input type='text' class='input-text'>
 			</div> 
 
-			<div class='fields'> 
-				<label class='label-voice'>Password</label>
-				<input type='text' class='input-text'>
-			</div>
-
 			<div class='login-btn-container'>
-				<button data-to="maker" class='login-btn small-voice'>Login</button> 
+				<button data-to="maker" class='start small-voice'>Start</button> 
 			</div>
 
 			<button data-to="account" class='teeny-voice account-btn'>Create an account</button>
@@ -94,21 +98,18 @@ thePages.account = `
 
 thePages.maker = `
 
+	<div class='instruction-overlay' id='instructions'> 
+
+		<p id='text' class='text'>To build your own pizza, select a category from the menu below</p>
+
+		<button id='next' class='next-btn'>Next</button>
+	</div> 
+
 	<div class='maker-container'> 
-
-		<div class='instruction-overlay' id='instructions'> 
-
-			<p id='text' class='text'>To build your own pizza, select a category from the menu below</p>
-
-			<button id='next' class='next-btn'>Next</button>
-		</div> 
-
-	
-
 		
 		<div class='maker-button'> 
 			
-			<button data-to='maker' id='start-btn' class='default-btn'>Start Over
+			<button id='start-btn' class='default-btn'>Start Over
 			</button>
 		</div>
 
@@ -121,7 +122,7 @@ thePages.maker = `
 					<img src='images/t-w-crust.svg'>  
 				</picture> 
 
-				<picture data-layer='ww-crust' id="ww-crust">
+				<picture data-layer='ww-crust' id="ww-crust" required>
 					<img src='images/t-ww-crust.svg'>  
 				</picture> 
 
