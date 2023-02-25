@@ -24,13 +24,14 @@ function setData (storageKey, valueToSave) {
 function login(username) {
 	if (username.length >= 5) {
 		setData('user', username); 
-
+		changeTo('maker');
 	} else {
-		alert("test test test")
+		alert("Username must be 5 or more characters.")
 	}
 
-
 }
+
+
 
 
 
@@ -52,28 +53,6 @@ function setupWelcome() {
 }
 
 
-// function validateForm() {
-// 	var form = document.querySelector('.login-form')
-// 	var input = document.querySelector('.input-text')
-// 	var validationOk = false;
-
-	
-// 	if (input.value === "") {
-// 		alert("Please fill in your username.")
-// 		return false;
-		
-// 	} 
-// }
-
-// function buttonValidator() {
-// 	var button = document.querySelector('.start');
-
-// 	button.addEventListener('submit', validateForm()) 
-	
-	
-// }
-
-
 
 function welcomeOverlay() {
 	setTimeout( function() {
@@ -87,16 +66,12 @@ function welcomeOverlay() {
 
 
 function makeDimmer() {
-	
-	setTimeout( function () {
-		document.querySelector('.maker-button').classList.add('btn-dimmer');
-		setTimeout(function() {
-			document.querySelector('.crust-container').classList.add('crust-dimmer');
-			setTimeout( function() {
-				document.querySelector('.instruction-overlay').classList.add('disappear');
-			}, 0);
-		}, 0); 
-	}, 0);
+	document.querySelector('.maker-button').classList.add('btn-dimmer');
+		
+	document.querySelector('.crust-container').classList.add('crust-dimmer');
+			
+	document.querySelector('.instruction-overlay').classList.add('disappear');	
+
 }; 
 
 function instructionOverlay() {
@@ -137,34 +112,6 @@ function instructionOverlay() {
 
 
 
-
-// function saveOverlay() {
-// 	var saveBtn = document.querySelector('#save-btn')
-
-// 	document.querySelector('.save-overlay').classList.add('save-disappear');
-// 	saveBtn.addEventListener('click', function () {
-// 		document.querySelector('.save-overlay').classList.add('save-appear');
-// 		document.querySelector('.crust-container').classList.add('crust-dimmer2');
-// 		document.querySelector('.maker-button').classList.add('btn-dimmer2');
-// 		document.querySelector('.topping-items').classList.add('topping-dimmer');
-
-// 	})
-
-// }
-
-
-// function closeSave() {
-// 	var xBtn = document.querySelector('#x-btn');
-// 		xBtn.addEventListener('click', function() {
-// 			console.log("THIS WORKS)")
-
-// 			document.querySelector('#save').classList.add('save-none');
-// 			document.querySelector('.crust-container').classList.add('crust-bright');
-// 			document.querySelector('.maker-button').classList.add('btn-bright');
-// 			document.querySelector('.topping-items').classList.add('topping-bright');
-
-// 		})
-// }
 
 
 var btnState = {
@@ -233,9 +180,15 @@ function updateSelection(button) {
 
 	}
 
-	setData('pizza', selected) 
+	setData('pizza', selected);
+	
 }
 
+
+function saveBtn() {
+
+	setData('pizza', selected) 
+}
 
 
 
@@ -247,11 +200,10 @@ function clearSelection(currentOptions) {
 	
 	startBtn.addEventListener('click', function(){
 		document.querySelector('.instruction-overlay').classList.add('no-show');
-		selected.pop();
+	
 		
 
 		layers.forEach( function(layer) {
-			window.localStorage.removeItem('pizza');
 			selected.pop();
 			layer.style.display = "none";
 		

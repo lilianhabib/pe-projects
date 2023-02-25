@@ -1,14 +1,5 @@
 var thePages = {}
 
-// thePages.setUp = `
-// 	<div class="welcome-overlay" >
-// 		<button data-to='intro' class='startBtn'>Click to Start</button>
-
-// 		<div class="pizza">	
-// 			<img src='images/loading-pizza.svg'>
-// 		</div>
-// 	</div>
-// `;
 
 thePages.intro = `
 
@@ -19,85 +10,30 @@ thePages.intro = `
 		</text-content>
 		
 		<div class='welcome-container'>
-			<button data-to="login" class='login-btn small-voice'>Login</button> 
+			<button type='button' data-to="login" class='login-btn small-voice'>Login</button> 
 		</div>
 	</div>
 `;
 
 thePages.login = `
 	<div class='login-content'>
-	
-		<text-content>
-			<h1 class='loud-voice'>Pizza Crafter</h1>
-		</text-content>
 
-		<form data-action='login' class='login-form'>
-			<div class='fields'> 
-				<label class='label-voice'>Username</label>
-				<input type='text' class='input-text'>
-			</div> 
+		<h1 class='loud-voice'>Pizza Crafter</h1>
 
-			<div class='login-btn-container'>
+		<form class='login' data-action='login'>
+			<form-field>
+				<label>Username</label>
+				<input type='text' />
+			</form-field>
+			
+			<button type='submit' class='standard'>
+				Submit
+			</button>
 				
-				<button data-to="maker" class='start small-voice'>Start
-				</button> 
-			</div>
-
-			<button data-to="account" class='teeny-voice account-btn'>Create an account</button>
 		</form>
 	</div>
-
 `;
 
-thePages.account = `
-	<div class='account-content'>
-		<text-content>
-			<h1 class='loud-voice'>Pizza Crafter</h1>
-		</text-content>
-
-		<form method='POST'>
-			<div class='fields a'> 
-				<label class='label-voice'>Full Name</label>
-				<input type='text' class='input-text'>
-			</div> 
-
-
-			<div class='fields b'> 
-				<label class='label-voice'>Email Address</label>
-				<input type='text' class='input-text'>
-			</div>
-
-			<div class='fields c'> 
-				<label class='label-voice'>Phone Number</label>
-				<input type='text' class='input-text'>
-			</div>
-
-			<div class='fields d'> 
-				<label class='label-voice'>Username</label>
-				<input type='text' class='input-text'>
-			</div>
-
-			<div class='fields e'> 
-				<label class='label-voice'>Password</label>
-				<input type='text' class='input-text'>
-			</div>
-
-			<div class='account-btn-container f'>
-				<button data-to="login" class='create-btn small-voice'>Create Account</button> 
-			</div>
-		</form>
-	</div>
-
-
-`;
-
-
-		// <div class='save-overlay' id='save'> 
-
-		// 	<p id='save-text' class='save-text'>Saved!</p>
-
-		// 	<button id='x-btn' class='x-btn'>X</button>
-		// </div> 
 
 thePages.maker = `
 
@@ -113,6 +49,9 @@ thePages.maker = `
 		<div class='maker-button'> 
 			
 			<button id='start-btn' class='default-btn'>Start Over
+			</button>
+
+			<button id='start-btn' class='default-btn'>Save
 			</button>
 		</div>
 
@@ -246,11 +185,6 @@ thePages.maker = `
 
 `;
 
-thePages.save = `
-
-	
-
-`
 
 export default thePages; 
 

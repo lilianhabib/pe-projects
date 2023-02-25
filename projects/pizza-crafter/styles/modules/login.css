@@ -1,8 +1,8 @@
 .login-content {
 
 	display: grid;
-	place-items: start;
-	gap: 20px;
+	place-items: center;
+	gap: 50px;
 }
 
 .login-content form {
@@ -31,10 +31,11 @@
 }
 
 
-.start {
+.standard {
 	border: none;
     background-color: var(--color);
     color: var(--white);
     max-width: 200px;
-    padding: 15px 50px;
+    padding: 10px 40px;
 }
+
