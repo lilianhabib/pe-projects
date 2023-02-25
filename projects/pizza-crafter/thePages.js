@@ -26,18 +26,21 @@ thePages.intro = `
 
 thePages.login = `
 	<div class='login-content'>
+	
 		<text-content>
 			<h1 class='loud-voice'>Pizza Crafter</h1>
 		</text-content>
 
-		<form class='login-form'>
+		<form data-action='login' class='login-form'>
 			<div class='fields'> 
 				<label class='label-voice'>Username</label>
 				<input type='text' class='input-text'>
 			</div> 
 
 			<div class='login-btn-container'>
-				<button data-to="maker" class='start small-voice'>Start</button> 
+				
+				<button data-to="maker" class='start small-voice'>Start
+				</button> 
 			</div>
 
 			<button data-to="account" class='teeny-voice account-btn'>Create an account</button>

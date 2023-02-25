@@ -21,6 +21,19 @@ function setData (storageKey, valueToSave) {
 }
 
 
+function login(username) {
+	if (username.length >= 5) {
+		setData('user', username); 
+
+	} else {
+		alert("test test test")
+	}
+
+
+}
+
+
+
 function setupWelcome() {
 	var template = `
 		
@@ -39,28 +52,26 @@ function setupWelcome() {
 }
 
 
-function requireInput() {
-	var form = document.querySelector('.login-form')
-	var input = document.querySelector('.input-text')
-	var validationOk = false;
+// function validateForm() {
+// 	var form = document.querySelector('.login-form')
+// 	var input = document.querySelector('.input-text')
+// 	var validationOk = false;
 
 	
-	if (input.value === "") {
-		console.log("fill in")
-		event.preventDefault();
+// 	if (input.value === "") {
+// 		alert("Please fill in your username.")
+// 		return false;
 		
-	} 
-}
+// 	} 
+// }
 
-function buttonValidator() {
-	var button = document.querySelector('.start');
+// function buttonValidator() {
+// 	var button = document.querySelector('.start');
 
-	button.addEventListener('submit', function(event) {
-		event.preventDefault();
-		requireInput();
-
-	})
-}
+// 	button.addEventListener('submit', validateForm()) 
+	
+	
+// }
 
 
 
@@ -272,7 +283,6 @@ export {
 	clearSelection, 
 	addCrust,
 	setupWelcome,
-	buttonValidator,
-	// startOver, 
+	login,
 
 }
