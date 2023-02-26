@@ -13,9 +13,9 @@ import { $mainView,
 	clearSelection,
 	// startOver, 
 	addCrust,
-	setupWelcome,
 	login,
 	username,
+	saveBtn,
 	 } from './changeTo.js'
 
 import  instructionItems  from './instructions-steps.js';
@@ -25,7 +25,7 @@ import { toppingOptions }  from './topping.js';
 
 
 window.addEventListener('submit', function(event) {
-	
+
 
 	if (event.target.matches('[data-action="login"]') ) {
 		event.preventDefault(); 
@@ -42,15 +42,17 @@ window.addEventListener('submit', function(event) {
 })
 
 
+
 window.addEventListener('click', function(event) {
+
+
 	const { target: clicked } = event;
 	const data = clicked.dataset; 
 
-	// event.preventDefault();
+	
 
 	if (event.target.matches('[data-to]') ) {
 		changeTo(event.target.dataset.to);
-
 	};
 
 
@@ -61,14 +63,10 @@ window.addEventListener('click', function(event) {
 
 	}
 
-	if (event.target.matches('[data-to="login"]') ) {
-
-	}
-
 	if (event.target.matches('[data-to="maker"]') ){
-		var $username = event.target.querySelector('input');
 		buildToppingList(toppingOptions);
-		username($username.value)
+		username();
+
 	}
 
 
@@ -84,8 +82,9 @@ window.addEventListener('click', function(event) {
 	if (event.target.matches("[data-name]")) {
 		updateSelection(event.target);
 		updatePizza(selected);
+		saveBtn(selected);
 		console.clear();
-		console.log('selected', selected);
+		// console.log('selected', selected);
 	};
 
 

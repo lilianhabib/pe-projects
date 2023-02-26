@@ -14,6 +14,7 @@ button *  {
 
 
 
+
 .topping-logo {
   /*  min-width: 70px;*/
     grid-area: ".topping-logo";
@@ -34,6 +35,8 @@ button *  {
 
 
 
+
+
 /* topping options */
 .crust-container {
     display: grid;
@@ -41,6 +44,11 @@ button *  {
     height: 100%;
     width: 45%;
     position: relative;
+}
+
+.topping-list {
+    background-color: #c3d5c9;
+
 }
 
 [data-layer='w-crust'] {

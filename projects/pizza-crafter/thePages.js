@@ -49,6 +49,10 @@ thePages.maker = `
 			
 			<button id='start-btn' class='default-btn'>Start Over
 			</button>
+
+			<button id='save-btn' class='save-btn'>Save
+			</button>
+
 		</div>
 
 
@@ -138,7 +142,7 @@ thePages.maker = `
 
 			<div class='topping-items'> 
 
-				<nav>
+				<nav class='outlet-choices'>
 					<ul data-outlet='choices' class='option-list'>
 					</ul>
 				</nav>

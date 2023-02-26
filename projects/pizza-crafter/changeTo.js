@@ -35,22 +35,22 @@ function login(username) {
 
 
 
-function setupWelcome() {
-	var template = `
+// function setupWelcome() {
+// 	var template = `
 		
-		<div class="welcome-overlay" >
-			<button data-to='intro' class='startBtn'>Click to Start</button>
+// 		<div class="welcome-overlay" >
+// 			<button data-to='intro' class='startBtn'>Click to Start</button>
 
-			<div class="pizza">	
-				<img src='images/loading-pizza.svg'>
-			</div>
-		</div>
+// 			<div class="pizza">	
+// 				<img src='images/loading-pizza.svg'>
+// 			</div>
+// 		</div>
 
-	`;
+// 	`;
 
-	document.querySelector('main').innerHTML = template;
+// 	document.querySelector('main').innerHTML = template;
 
-}
+// }
 
 
 
@@ -59,7 +59,7 @@ function welcomeOverlay() {
 		document.querySelector('.welcome-overlay').classList.add('loading');
 		setTimeout( function() {
 			document.querySelector('.welcome-overlay').classList.add('away');
-		}, 500);
+		}, 0);
 	}, 500);
 
 }
@@ -176,32 +176,53 @@ function updateSelection(button) {
 		selected.splice(index, 1);
 
 	} else {
+
 		selected.push(clickedName)	
 
 	}
 
+
 	setData('pizza', selected);
+	
 	
 }
 
 
-function saveBtn() {
 
-	setData('pizza', selected) 
+function saveBtn(array) {
+
+	
+	var save = document.querySelector('#save-btn');
+
+	save.addEventListener('click', function() {
+		
+		const uniqueKey = Date.now();
+		const existingData = getData('pizza'); 
+		existingData[uniqueKey] = array; 
+		setData('pizza', existingData);
+
+
+	})
+
+	
+
+	
 }
 
 
 function username(username) {
-	var $headerUsername = document.querySelector('.header-username');
+	var headerUsername = document.querySelector('#header-user');
 
-	var $username = document.querySelector('input').value;
+	var getUsername = getData('user')
 
-	console.log("this works")
+	console.log(headerUsername);
 
-	$headerUsername.innerHTML = $username;
+	headerUsername.innerHTML = getUsername
 
 
 }
+
+
 
 function clearSelection(currentOptions) {
 	var startBtn = document.querySelector('#start-btn');
@@ -211,12 +232,13 @@ function clearSelection(currentOptions) {
 	
 	startBtn.addEventListener('click', function(){
 		document.querySelector('.instruction-overlay').classList.add('no-show');
-	
 		
-
 		layers.forEach( function(layer) {
-			selected.pop();
+			
 			layer.style.display = "none";
+			selected = [];
+			
+			
 		
 		});	 
 			
@@ -245,8 +267,8 @@ export {
 	btnState,
 	clearSelection, 
 	addCrust,
-	setupWelcome,
 	login,
 	username,
+	saveBtn,
 
 }
