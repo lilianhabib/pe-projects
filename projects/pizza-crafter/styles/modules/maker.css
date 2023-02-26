@@ -29,6 +29,7 @@ button *  {
     margin-left: auto;
     margin-right: auto;
     height: 85%;
+    gap: 50px;
 }
 
 
@@ -38,7 +39,7 @@ button *  {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     height: 100%;
-    width: 100%;
+    width: 45%;
     position: relative;
 }
 
@@ -252,7 +253,7 @@ input[type="radio"] {
     ".topping-list .topping-list .topping-list .topping-list .topping-list";
 
     grid-template-rows: 1fr auto;
-    width: 100%;
+    width: 80%;
 }
 
 .top-btn {
@@ -368,6 +369,7 @@ input[type="radio"] {
 .crust-container.show {
     opacity: 1;
     pointer-events: none;
+    width: 60%;
 }
 
 .maker-button.see {
