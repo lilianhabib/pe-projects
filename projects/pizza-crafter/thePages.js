@@ -22,7 +22,6 @@ thePages.login = `
 
 		<form class='login' data-action='login'>
 			<form-field>
-				<label>Username</label>
 				<input type='text' class='input-text'/>
 			</form-field>
 			
