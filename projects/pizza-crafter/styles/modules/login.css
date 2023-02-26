@@ -7,9 +7,9 @@
 
 .login-content form {
 
-	display: grid;
-	place-items: center;
-	gap: 20px;
+	display: flex;
+	flex-direction: row;
+
 }
 
 .fields {
@@ -17,6 +17,8 @@
 	flex-direction: column;
 
 }
+
+
 
 .input-text {
 	padding: 5px 10px;
@@ -36,6 +38,6 @@
     background-color: var(--color);
     color: var(--white);
     max-width: 200px;
-    padding: 10px 40px;
+    padding: 7px 10px;
 }
 

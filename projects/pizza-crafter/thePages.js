@@ -23,11 +23,11 @@ thePages.login = `
 		<form class='login' data-action='login'>
 			<form-field>
 				<label>Username</label>
-				<input type='text' />
+				<input type='text' class='input-text'/>
 			</form-field>
 			
 			<button type='submit' class='standard'>
-				Submit
+				>
 			</button>
 				
 		</form>
@@ -49,9 +49,6 @@ thePages.maker = `
 		<div class='maker-button'> 
 			
 			<button id='start-btn' class='default-btn'>Start Over
-			</button>
-
-			<button id='start-btn' class='default-btn'>Save
 			</button>
 		</div>
 
@@ -147,7 +144,7 @@ thePages.maker = `
 					</ul>
 				</nav>
 				
-				<nav>
+				<nav class='topping-list'>
 					<button data-options='crust' class='top-btn'>
 						<picture class='topping-logo' id='crust'>
 							<img src='images/crust-logo.svg'>

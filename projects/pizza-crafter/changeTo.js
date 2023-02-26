@@ -191,6 +191,17 @@ function saveBtn() {
 }
 
 
+function username(username) {
+	var $headerUsername = document.querySelector('.header-username');
+
+	var $username = document.querySelector('input').value;
+
+	console.log("this works")
+
+	$headerUsername.innerHTML = $username;
+
+
+}
 
 function clearSelection(currentOptions) {
 	var startBtn = document.querySelector('#start-btn');
@@ -236,5 +247,6 @@ export {
 	addCrust,
 	setupWelcome,
 	login,
+	username,
 
 }

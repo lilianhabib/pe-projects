@@ -14,10 +14,22 @@ main {
 
 }
 
+.welcome-container {
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.welcome-container button {
+	display: block;
+	width: 30%;
+
+}
+
 .welcome-content text-content {
 	display: grid;
 	gap: 10px;
-	max-width: 400px;
+	max-width: 100%;
 }
 
 

@@ -2,7 +2,7 @@
 	border: none;
 	background-color: var(--color);
 	color: var(--white);
-	font-size: 15px;
+	font-size: 3vh;
 	font-weight: 700;
 
 }
@@ -27,7 +27,7 @@
 }
 
 .pizza {
-	width: 100px;
+	width: 150px;
 	position: absolute;
 	top: 50%;
 	left: 50%;

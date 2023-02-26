@@ -15,6 +15,7 @@ import { $mainView,
 	addCrust,
 	setupWelcome,
 	login,
+	username,
 	 } from './changeTo.js'
 
 import  instructionItems  from './instructions-steps.js';
@@ -29,7 +30,7 @@ window.addEventListener('submit', function(event) {
 	if (event.target.matches('[data-action="login"]') ) {
 		event.preventDefault(); 
  		var $username = event.target.querySelector('input');
- 		console.log($username);
+
  		login($username.value);
 
  		$username.value = ""; 
@@ -65,8 +66,9 @@ window.addEventListener('click', function(event) {
 	}
 
 	if (event.target.matches('[data-to="maker"]') ){
+		var $username = event.target.querySelector('input');
 		buildToppingList(toppingOptions);
-		
+		username($username.value)
 	}
 
 

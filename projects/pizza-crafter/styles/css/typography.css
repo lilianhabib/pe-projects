@@ -1,12 +1,12 @@
 .loud-voice {
-	font-size: 25px;
+	font-size: 5vh;
 	font-weight: 700;
 	color: var(--black);
 }
 
 
 .intro-voice {
-	font-size: 13px;
+	font-size: 2vh;
 	font-weight: 500;
 	color: var(--black);
 }
@@ -19,13 +19,17 @@
 
 
 .small-voice {
-	font-size: 15px;
+	font-size: 1.5vh;
 	font-weight: 700;
 	color: var(--white);
 }
 
 .teeny-voice {
 	font-size: 10px;
+}
+
+.topping-list .teeny-voice {
+	font-size: 1.5vh;
 }
 
 .label-voice {

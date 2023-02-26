@@ -1,6 +1,3 @@
-/*.crust-container {
-    display: none;
-}*/
 
 
 .maker-container {
@@ -35,40 +32,41 @@ button *  {
 }
 
 
+
 /* topping options */
 .crust-container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
 [data-layer='w-crust'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 
 }
 
 [data-layer='ww-crust'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='pesto-sauce'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 
 }
@@ -76,155 +74,155 @@ button *  {
 
 [data-layer='tomato-sauce'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='bacon'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 } 
 
 [data-layer='cheddar']{
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='mixed'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 } 
 
 [data-layer='chicken' ] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='feta'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 } 
 
 [data-layer='ham'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='mozzarella'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [ data-layer='mozzarella' ] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='mushroom'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [ data-layer='olives'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='pepperoni'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='peppers'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 
 [data-layer='pineapple'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='sausage' ] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='sliced-moz'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
 [data-layer='tomatoes'] {
     display: none;
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 325px;
+    width: 85%;
     place-items: center;
 }
 
@@ -241,7 +239,11 @@ input[type="radio"] {
 [data-outlet='choices'] {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
+
+
+
 
 .topping-items {
     display: grid;
@@ -249,7 +251,8 @@ input[type="radio"] {
     ".topping-logo .topping-logo .topping-logo .topping-logo .topping-logo"
     ".topping-list .topping-list .topping-list .topping-list .topping-list";
 
-    grid-template-rows: 1fr 110px;
+    grid-template-rows: 1fr auto;
+    width: 100%;
 }
 
 .top-btn {
@@ -271,8 +274,8 @@ input[type="radio"] {
 }
 
 .topping-img {
-    max-width: 70px;
-    min-width: 70px;
+    flex-grow: 1;
+    max-width: 100px;
 }
 
 [data-options='crust']  {
@@ -310,10 +313,6 @@ input[type="radio"] {
     display: flex;
 }
 
-.topping-img {
-    max-width: 80px;
-
-}
 
 
 .maker-button {
@@ -351,16 +350,14 @@ input[type="radio"] {
     border: 2px solid var(--black);
     background-color: var(--white);
     padding: 10px 10px;
-    opacity: 1;
     display: grid;
     place-items: center;
     text-align: center;
-    gap: 5px;
     position: fixed;
     top: 40%;
+    gap: 20px;
     width: 100%;
-    height: 15%;
-    max-width: 400px;
+    max-width: 90%;
 }
 
 
@@ -377,21 +374,6 @@ input[type="radio"] {
     opacity: 1;
 }
 
-
-/*.list-topping {
-  position: absolute;
-  z-index: 9;
-  border: 1px solid #d3d3d3;
-  text-align: center;
-}
-
-.topping-img{
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  color: #fff;
-}
-*/
 
 
 
@@ -464,7 +446,7 @@ input[type="radio"] {
 
 
 
-svg [data-topping='ww-crust'] {
+/*svg [data-topping='ww-crust'] {
     fill: 2px solid red;
 }
 
@@ -475,7 +457,7 @@ svg [data-topping='ww-crust'] {
 [data-topping='tomato'] {
     display: none;
 }
-
+*/
 .tomato {
     border: 5px solid orange;
 }
