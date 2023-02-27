@@ -59,7 +59,7 @@ function welcomeOverlay() {
 		document.querySelector('.welcome-overlay').classList.add('loading');
 		setTimeout( function() {
 			document.querySelector('.welcome-overlay').classList.add('away');
-		}, 0);
+		}, 2000);
 	}, 500);
 
 }
