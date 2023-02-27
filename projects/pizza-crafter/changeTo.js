@@ -182,46 +182,47 @@ function updateSelection(button) {
 	}
 
 
-	setData('pizza', selected);
+	// setData('pizza', selected);
 	
 	
 }
 
 
 
-function saveBtn(array) {
-
-	
+function saveBtn() {
 	var save = document.querySelector('#save-btn');
+	var appPrefix = getData('user');
 
-	save.addEventListener('click', function() {
+	// when save btn is clicked 
+	save.addEventListener('click', function(array) {
+		var randomKey = Math.random().toString(36).substring(2);
+		setData(`${appPrefix}_${randomKey}`, selected);
 		
-		const uniqueKey = Date.now();
-		const existingData = getData('pizza'); 
-		existingData[uniqueKey] = array; 
-		setData('pizza', existingData);
-
+	
 
 	})
-
-	
-
-	
 }
 
+function username(username) {	
 
-function username(username) {
-	var headerUsername = document.querySelector('#header-user');
-
+	var headerUser = document.querySelector('#header-user')
 	var getUsername = getData('user')
 
-	console.log(headerUsername);
-
-	headerUsername.innerHTML = getUsername
-
-
+	headerUser.innerHTML = `Hello, ${getUsername}!`;
 }
 
+
+function signOut() {
+	var signOut = document.querySelector('#signOut-btn')
+	var headerUser = document.querySelector('#header-user')
+
+
+	signOut.addEventListener('click', function() {
+		localStorage.removeItem('user');
+		changeTo('intro')
+		headerUser.innerHTML = '';
+	})
+}
 
 
 function clearSelection(currentOptions) {
@@ -270,5 +271,6 @@ export {
 	login,
 	username,
 	saveBtn,
+	signOut,
 
 }

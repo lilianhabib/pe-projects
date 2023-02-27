@@ -25,7 +25,7 @@ thePages.login = `
 				<input type='text' class='input-text'/>
 			</form-field>
 			
-			<button type='submit' class='standard'>
+			<button type='submit' id='standard' class='standard'>
 				>
 			</button>
 				
@@ -51,6 +51,9 @@ thePages.maker = `
 			</button>
 
 			<button id='save-btn' class='save-btn'>Save
+			</button>
+
+			<button id='signOut-btn' class='signOut-btn'>Sign Out
 			</button>
 
 		</div>

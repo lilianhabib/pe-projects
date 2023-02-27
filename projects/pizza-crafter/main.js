@@ -16,6 +16,7 @@ import { $mainView,
 	login,
 	username,
 	saveBtn,
+	signOut,
 	 } from './changeTo.js'
 
 import  instructionItems  from './instructions-steps.js';
@@ -38,6 +39,9 @@ window.addEventListener('submit', function(event) {
 		instructionOverlay();
 		addCrust();
 		clearSelection();
+		saveBtn(selected);
+		signOut();
+		username();
 	}
 })
 
@@ -65,7 +69,8 @@ window.addEventListener('click', function(event) {
 
 	if (event.target.matches('[data-to="maker"]') ){
 		buildToppingList(toppingOptions);
-		username();
+		
+
 
 	}
 
@@ -82,8 +87,7 @@ window.addEventListener('click', function(event) {
 	if (event.target.matches("[data-name]")) {
 		updateSelection(event.target);
 		updatePizza(selected);
-		saveBtn(selected);
-		console.clear();
+	
 		// console.log('selected', selected);
 	};
 
