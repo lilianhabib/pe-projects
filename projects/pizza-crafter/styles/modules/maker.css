@@ -30,7 +30,7 @@ button *  {
     margin-left: auto;
     margin-right: auto;
     height: 85%;
-    gap: 50px;
+    gap: 10px;
 }
 
 
@@ -53,29 +53,26 @@ button *  {
 
 [data-layer='w-crust'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 
 }
 
 [data-layer='ww-crust'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='pesto-sauce'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 
 }
@@ -83,155 +80,138 @@ button *  {
 
 [data-layer='tomato-sauce'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='bacon'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 } 
 
 [data-layer='cheddar']{
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='mixed'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 } 
 
 [data-layer='chicken' ] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='feta'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 } 
 
 [data-layer='ham'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='mozzarella'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [ data-layer='mozzarella' ] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='mushroom'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [ data-layer='olives'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='pepperoni'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='peppers'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 
 [data-layer='pineapple'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='sausage' ] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='sliced-moz'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
 [data-layer='tomatoes'] {
     display: none;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 1;
     z-index: 1;
-    width: 85%;
     place-items: center;
 }
 
@@ -379,7 +359,7 @@ input[type="radio"] {
 .crust-container.show {
     opacity: 1;
     pointer-events: none;
-    width: 100%;
+    width: 90%;
     min-width: 400px;
 }
 
