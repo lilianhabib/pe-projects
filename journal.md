@@ -2793,7 +2793,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 02.8.2023
-## Lesson 226: Planning Prototype Day 3  
+## Lesson 227: Planning Prototype Day 3  
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday I met with Derek to go over my wireframe and go over my design on figma. I worked on the header and footer for my wireframe. I removed certain items from the JSON data. I also finished my design on figma and posted it. 
@@ -2807,7 +2807,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 02.9.2023
-## Lesson 227: Planning Prototype Day 4  
+## Lesson 228: Planning Prototype Day 4  
 
 ### Standup 
 * What is one thing you learned yesterday? Yesterday  I created a prototype on figma and worked on my wireframe. spent the time practicing/exploring css grids.
@@ -2822,9 +2822,8 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
-
 ## 02.10.2023
-## Lesson 228: Planning Prototype Day 5  
+## Lesson 229: Planning Prototype Day 5  
 
 ### Standup 
 * What is one thing you learned yesterday?  I finalized my figma prototype. I had to deal with a personal matter so I didn’t get a chance to tackle the other things on my list.
@@ -2836,6 +2835,331 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 * 
 
 ## conclusion / major takeaways?
+
+
+## 02.11.2023
+## Lesson 230: Planning Prototype Day 6  
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn?  
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
+## 02.12.2023
+## Lesson 231: Day Off  
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.13.2023
+## Lesson 232: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.14.2023
+## Lesson 233: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.15.2023
+## Lesson 234: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.16.2023
+## Lesson 235: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.17.2023
+## Lesson 236: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.18.2023
+## Lesson 237: ExmaScript Modules
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.19.2023
+## Lesson 238: Day Off 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.20.2023
+## Lesson 239: Generic Work Day  
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.20.2023
+## Lesson 239: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 02.21.2023
+## Lesson 240: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.22.2023
+## Lesson 241: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.23.2023
+## Lesson 242: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
+## 02.24.2023
+## Lesson 243: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.25.2023
+## Lesson 244: Consolidation 
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.26.2023
+## Lesson 245: Day off  
+
+### Standup 
+* What is one thing you learned yesterday? Working on Pizza Making app
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.27.2023
+## Lesson 246: E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday?  Over the weekend, I worked on my pizza app and finalized things like the sign-out, start over, and save buttons and made a lot of changes to the css. I think I am pretty happy with it. There are definitely some things that I want to add later on which I will make a video about I also looked over the 9/10 code pen app examples and implemented some things into my app. 
+
+* Is there anything you are excited to learn?  Today I am looking for to completing some E4P with Vue. I will also be getting on a call with Derek. I also want to get started on the case study for my app. 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 02.28.2023
+## Lesson 247: E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I had a meeting with Derek and we went over some of the examples in the lesson. I then tackled 3 E4Ps and I'm starting to feeling a little more comfortable with Vue. I also did some reading on computed and methods. As I was completing the E4Ps, I started to conflate the two. The readings helped cleared some of the confusion. 
+
+* Is there anything you are excited to learn? Today I'm going to complete a couple more e4ps (about 4) and take my time understanding it. I'll also revist yesterday's e4ps and make it look nicer. I also want to do some reading on the different types of options API. I am curious about the built in directives, so going to try and use some of them in the exercises. 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
