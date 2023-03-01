@@ -121,9 +121,9 @@ var btnState = {
 function buildToppingList(toppingOptions) {
 	var template = "";
 	
-	const toppingArr = Array.from(toppingOptions)
+	// const toppingArr = Array.from(toppingOptions)
 	
-	toppingArr.forEach( function(item) {
+	toppingOptions.forEach( function(item) {
 		template += `
 			
 		<button class='topping-list' id='list' data-name='${item.id}'>
