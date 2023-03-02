@@ -3137,6 +3137,36 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.01.2023
+## Lesson 248: E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I spent some time working through the e4ps and learned how to format/get the math to work for some of the exercises
+
+* Is there anything you are excited to learn? Today I am fighting through a migraine, so going to try and push through as many e4ps (hopefully get through 3). 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.02.2023
+## Lesson 249: E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday my migraine got worse and napped as much as I could, but before it got worse, I managed to complete about 3 exercises and take a deeper dive into components and props. 
+
+* Is there anything you are excited to learn? Today feeling better but not 100%. So aiming to finish at least 3. I’m also wanting to start on my case study for my pizza app. 
+
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
