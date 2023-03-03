@@ -3170,6 +3170,21 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.03.2023
+## Lesson 250: E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I completed 3 more e4ps. Going to post the one from the last couple of days and take a look at everyone else’s. Also finished my case study.
+
+* Is there anything you are excited to learn? Today I am going to finish as many e4ps as I can today.
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
 
 
 
