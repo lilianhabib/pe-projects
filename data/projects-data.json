@@ -79,8 +79,8 @@
             },
             {
                 "heading": "Prototypes",
-                "copy": "For this prototype, I used Figma. I knew that I wanted to take aspect of the website - like the topping menu, pizza, toppings - I found and implement it in my app.",
-                "image": "<a href='https://www.figma.com/file/eW8etJ4VjM8gvIREHppyxr/Pizza-Crafter-Prototype?node-id=0%3A1&t=A83YfesCZBSHvWmD-1'>https://peprojects.dev/alpha-5/lilian/images/pc-prototype.png</a>"
+                "copy": "For this prototype, I used Figma. I knew that I wanted to take aspect of the website - like the topping menu, pizza, toppings - I found and implement it in my app. Checkout the prototype on <a href='www.figma.com/file/eW8etJ4VjM8gvIREHppyxr/Pizza-Crafter-Prototype?node-id=0%3A1&t=A83YfesCZBSHvWmD-1' class='link-voice'>Figma.</a>",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/pc-prototype.png"
             },
             {
                 "heading": "Results",

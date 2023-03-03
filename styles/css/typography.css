@@ -57,6 +57,11 @@
 	padding-top: 20px;
 }
 
+.projects-list .link-voice {
+	text-decoration: none;
+	font-style: italic;
+}
+
 
 /*responsive layout text*/
 
