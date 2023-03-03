@@ -57,9 +57,10 @@
 	padding-top: 20px;
 }
 
-.projects-list .link-voice {
+.link-voice {
 	text-decoration: none;
 	font-style: italic;
+	color: var(--black);
 }
 
 
