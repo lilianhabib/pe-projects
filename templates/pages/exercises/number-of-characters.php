@@ -3,7 +3,7 @@
 
 	$name = "";
 	$length = "";
-	
+	$message = "";
 
 	
 	if (isset ($_POST["submitted"]) ){
@@ -17,6 +17,12 @@
 		}
 
 		$length = strlen($name);
+
+		if ($length != "" ) {
+			$message = "<p>Here, $name. There are $length characters in your name.</p>";
+		} else if ($length == "" ) {
+			$message = "<p></p>";
+		}
 	}
 
 ?>
@@ -31,15 +37,10 @@
 	</div>  
     
     
-
-	<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	<div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
 	<br>
-	<?php
-		if ($length != "" ) {
-			echo "<p>Here, $name. There are $length characters in your name.</p>";
-		} else if ($length == "" ) {
-			echo "<p></p>";
-		}
-	?>
+	<?=$message?>
 </form>

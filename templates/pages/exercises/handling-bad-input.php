@@ -3,7 +3,7 @@
 
 	$rate = "";
 	$years = "";
-
+	$message = "";
 	
 	if (isset ($_POST["submitted"]) ){
 
@@ -16,6 +16,14 @@
 		}
 
 		$years = round(72 / $rate); 
+
+		if ($years != "") {
+			$message = "<p>It will take $years years to double your initial investment.</p>";
+		} else if ($years == "") {
+			$message = "<p></p>";
+		} else if ($years == 0 ) {
+			$message = "<p>Sorry, this is not a valid input.</p>";
+		}
 	}
 
 ?>
@@ -28,17 +36,10 @@
 	    <label>What is the rate of return?</label> 
 	    <input type='number' value='<?=$rate?>' name='rate'  min='0'> 
 	  </div>
-
-	<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	<div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
 	<br>
-	<?php
-		if ($years != "") {
-			echo "<p>It will take $years years to double your initial investment.</p>";
-		} else if ($years == "") {
-			echo "<p></p>";
-		} else if ($years == 0 ) {
-			echo "<p>Sorry, this is not a valid input.</p>";
-		}
-	?>
+	<?=$message?>
 </form>

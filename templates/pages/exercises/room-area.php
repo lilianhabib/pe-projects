@@ -3,6 +3,7 @@
 
 	$length = "";
 	$width = ""; 
+	$message = "";
 
 	
 	if (isset ($_POST["submitted"]) ){
@@ -20,8 +21,13 @@
 		}
 
 		$squareFeet = floatval($length) * floatval($width);
-		$squareMeter = (floatval($squareFeet) * 0.09290304).toFixed(3);
+		$squareMeter = round(floatval($squareFeet) * 0.09290304);
 
+		if ($length && $width != "" ) {
+			$message = "<p>The area is $squareFeet square feet and $squareMeter square meters.</p>";
+		} else if ($length && $width == "" ) {
+			$message = "<p></p>";
+		}
 	}
 
 ?>
@@ -39,15 +45,10 @@
       <label for='width'>What is the width of the room in feet?</label> 
       <input id='width' type='number' name='width' value='<?=$width?>' min='0'> 
     </div> 
-
-	<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
-	<?php
-		if ($length && $width != "" ) {
-			echo "<p>The area is $squareFeet square feet and $squareMeter square meters</p>";
-		} else if ($length && $width == "" ) {
-			echo "<p></p>";
-		}
-	?>
+    <div class='buttons'> 
+			<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
+			<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+		</div>
+		<br>
+		<?=$message?>
 </form>

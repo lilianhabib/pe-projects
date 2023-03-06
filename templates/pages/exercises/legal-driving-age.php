@@ -1,7 +1,8 @@
 
   <?php 
 
-    $age = ""; 
+    $age = "";
+    $message = ""; 
 
     if(isset($_POST["submitted"]) ){
 
@@ -16,7 +17,13 @@
 
     }
 
-
+    if ($age >= 16) {
+      $message = "You are old enough to legally drive";  
+    } else if ($age == "") {
+      $message = ""; 
+    } else if ($age <= 16) {
+      $message = "You are NOT old enough to legally drive"; 
+    }
 
 
   ?>
@@ -29,17 +36,11 @@
       <label>What is your age?</label>
       <input type="text" name="age" value="<?=$age?>"> 
     </div>
-
-    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+    <div class='buttons'> 
+      <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+      <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+    </div>
     <br> 
-    <br> 
-    <?php
-      if ($age >= 16) {
-        echo "You are old enough to legally drive";  
-      } else {
-        echo "You are NOT old enough to legally drive"; 
-      } 
-    ?>
+    <?=$message?>
 
   </form>

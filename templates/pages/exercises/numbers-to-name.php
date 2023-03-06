@@ -4,6 +4,7 @@
 
   $month = ""; 
   $number = ""; 
+  $message = "";
     
 
   if (isset($_POST["submitted"]) ){
@@ -18,55 +19,55 @@
 
     switch($month) {
       case "1":
-        echo "January"; 
+        $message = "January"; 
         break;
 
       case "2"; 
-        echo "February"; 
+        $message = "February"; 
         break;
 
       case "3"; 
-        echo "March"; 
+        $message = "March"; 
         break;
 
       case "4"; 
-        echo "April"; 
+        $message = "April"; 
         break;
 
       case "5"; 
-        echo "May"; 
+        $message = "May"; 
         break;
 
       case "6"; 
-        echo "June"; 
+        $message = "June"; 
         break;
 
       case "7"; 
-        echo "July";
+        $message = "July";
         break; 
 
       case "8"; 
-        echo "August"; 
+        $message = "August"; 
         break;
 
       case "9"; 
-        echo "September"; 
+        $message = "September"; 
         break;
 
       case "10"; 
-        echo "October"; 
+        $message = "October"; 
         break;
 
       case "11"; 
-        echo "November"; 
+        $message = "November"; 
         break;
 
       case "12"; 
-        echo "December"; 
+        $message = "December"; 
         break;
 
       default: 
-        echo "Please try again"; 
+        $message = "Please try again"; 
     }
 
   }
@@ -84,11 +85,13 @@
       <input type="text" name="month" value="<?=$month?>">
 
     </div>
+    <div class='buttons'> 
+      <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
 
-    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-
-    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+      <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+    </div>
+    <br>
+    <?=$message?>
     
 
   </form>

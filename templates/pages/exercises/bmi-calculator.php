@@ -4,8 +4,7 @@
 	$height = 1; 
 	$weight = 1; 
 	$message1 = ""; 
-	$message2 = "";
-	$message3 = "";
+
 
 	if (isset($_POST["submitted"])){
 
@@ -39,7 +38,7 @@
 	if ($bmiRounded >= 18.5 && $bmiRounded <=25){
 		$message1 = "You are beautiful!"; 
 	} else {
-		$message3 = "You are one of a kind!";
+		$message1 = "You are one of a kind!";
 	}
 
 
@@ -58,17 +57,13 @@
 			<label>What is your approximate weight in kilograms?</label>
 			<input type="text" name="weight" value="<?=$weight?>"> 
 		</div>
-
-		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-		<button type="submit" name="clear" value="<?=$clear?>">Clear</button><br>
+		<div class='buttons'>
+			<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+			<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+		</div>
+		<br>
 		
-		<?php 
-			if ($bmiRounded >= 18.5 && $bmiRounded <=25){
-				$message1 = "You are beautiful!"; 
-			} else {
-				$message3 = "You are one of a kind!";
-			}
-		?>
+		<?=$message1?>
 
 	</form>
 

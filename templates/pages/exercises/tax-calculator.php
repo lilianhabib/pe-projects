@@ -6,6 +6,9 @@
 	$totalTax = "$"; 
 	$total = ""; 
 	$tax = ""; 
+	$orderAmountMessage = "";
+	$totalTaxMessage = "";
+	$totalMessage = "";
 
 
 	if (isset($_POST["submitted"]) ){
@@ -53,10 +56,6 @@
 		$total = floatval($totalTax) + floatval($orderAmount);
 		$totalMessage = "The total is $$total";
 
-		echo $orderAmountMessage;
-		echo $totalTaxMessage;
-		echo $totalMessage;
-
 	}
 
 
@@ -76,13 +75,18 @@
 			<label>What is the province?</label>
 			<input type='text' name='province' value='<?=$province?>'>
 		</div>
+		<div class='buttons'> 
 
-		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+			<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+			<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+		</div>
+		<br> 
+		<p><?=$orderAmountMessage?></p>
+		<p><?=$totalTaxMessage?></p>
+		<p><?=$totalMessage?></p>
+
+
 	</form>
 
-<!-- 	<p><?=$orderAmountMessage?></p>
-	<p><?=$totalTaxMessage?></p>
-	<p><?=$totalMessage?></p>
- -->
+
 </body>

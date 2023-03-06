@@ -5,6 +5,7 @@
 
     $celsiusTemp = ""; 
     $temperature = "";
+    $celsiusMessage = "";
 
 
     if (isset($_POST["celsius"]) ){
@@ -39,13 +40,14 @@
 
     </div>
 
-    <button type="submit" name="celsius" value="<?=$celsius?>">Celsius</button>
+    <div class='buttons'>
+      <button type="submit" name="celsius" value="<?=$celsius?>">Celsius</button>
 
-    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-    
+      <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+    </div>
     <br>
 
-    <p><?=$celsiusMessage?></p>
+    <?=$celsiusMessage?>
 
   </form>
 

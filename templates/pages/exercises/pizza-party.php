@@ -10,6 +10,7 @@
 	$totalBoxes = ""; 
 	$totalPieces = ""; 
 	$totalPizza = ""; 
+	$message = "";
 	
 	if (isset ($_POST["submitted"]) ){
 
@@ -40,6 +41,12 @@
 
 	$positive = abs($totalLeftover);
 
+	if($people && $pieces != "") {
+		$message =  "<p>There are $people people and each person will have $pieces pieces.<br> Each box will have $pizza pieces of pizza.<br> You will need $rounded box of pizza.<br> There are $positive pieces of pizza left.</p>";
+	} else if ($people && $pieces == "") {
+		$message = "<p></p>";
+	}
+
 ?>
 
 
@@ -56,18 +63,13 @@
 		<label>How many pieces of pizza will each person have?</label>
 		<input type="text" name="pieces" value="<?=$pieces?>"> 
 	</div>
+	<div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	<br>
 
-	<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-	<br>
-	<br>
-	<?php
-		if($people && $pieces != "") {
-			echo  "<p>There are $people people and each person will have $pieces pieces.<br> Each box will have $pizza pieces of pizza.<br> You will need $rounded box of pizza.<br> There are $positive pieces of pizza left.</p>";
-		} else if ($people && $pieces == "") {
-			echo  "<p></p>";
-		}
-	?>
+	<?=$message?>
 
 
 </form>

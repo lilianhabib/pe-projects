@@ -8,6 +8,9 @@
 	$quantity2 = ""; 
 	$quantity3 = ""; 
 	$taxNumber = 5.5 / 100.0; 
+	$message1 = "";
+	$message2 = "";
+	$message3 = "";
 
 	if (isset($_POST["submitted"]) ) {
 
@@ -54,10 +57,6 @@
 		$totalCost = floatval($totalTaxFormat) + floatval($subtotal); 
 		$totalCostFormat = round($totalCost, 2);
 		$message3 = "Total: $$totalCostFormat"; 
-
-		echo $message1;
-		echo $message2;
-		echo $message3;
 	}
 
 	
@@ -101,12 +100,14 @@
 		<input type="number" name="quantity3" min="1" value="<?=$quantity3?>">
 	</div>
 
-	<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-<!-- 
-		<p><?=$message1?></p>
-		<p><?=$message2?></p>
-		<p><?=$message3?></p> -->
+	<div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	<br>
+	<p><?=$message1?></p>
+	<p><?=$message2?></p>
+	<p><?=$message3?></p> 
 
 </form>
 

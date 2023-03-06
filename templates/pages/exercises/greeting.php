@@ -6,6 +6,7 @@
 	$name = ""; 
 
 	$greeting = ""; 
+	$message = "";
 
 
 	// USER INPUT
@@ -23,14 +24,14 @@
       $_POST = array();
     }
 
-			echo "<p class='greeting'>$greeting $name.</p>"; 
+    	if ($name != "" ) {
+			$message = "<p class='greeting'>$greeting $name.</p>"; 
+    	} else {
+    		$message = "<p></p>";
+    	}
 
 	}
 
-
-// CALCULATION/PRCOESSIN
-
-		// echo "<p class='greeting'>Hello, nice to meet you, $name.</p>"; 
 
 ?>
 
@@ -46,8 +47,11 @@
 	 	<label>What is your greeting?</label>
 	 	<input type='text' name="greeting" value="<?=$greeting?>"> 
 	</div> 	
-
-	 <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-	 <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	<div class='buttons'> 	
+		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	 <br>
+	<?=$message?>
 
 </form>

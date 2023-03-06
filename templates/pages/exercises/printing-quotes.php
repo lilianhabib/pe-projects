@@ -5,6 +5,9 @@
 
 	$quote = " "; 
 	$author = "";
+	$message1 = "";
+	$message2 = "";
+	$message3 = "";
 
 
 	if (isset($_POST["submitted"])){
@@ -27,9 +30,7 @@
 		$message3 ="<p>$author says, '$quote.'</p>"; 
 
 
-		echo $message1;
-		echo $message2;
-		echo $message3;
+		
 	}
 
 
@@ -48,9 +49,14 @@
 		<input type="text" name="author" value="<?=$author?>">  
 	</div>
 
-	<button type="submit" name="submitted">Submit</button>
-	 <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+	<div class='buttons'> 
+		<button type="submit" name="submitted">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	 <br> 
+	<?=$message1?>
+	<?=$message2?>
+	<?=$message3?>
 </form>
 
 

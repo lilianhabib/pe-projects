@@ -4,7 +4,7 @@
 	$num1 = "";
 	$num2 = "";
 	$num3 = "";
-
+	$message = "";
 
 	
 	if (isset ($_POST["submitted"]) ){
@@ -27,6 +27,11 @@
 
 		$maxNumber = max($num1, $num2, $num3);
 
+		if ($num1 && $num2 != "" ) {
+			$message = "<p>The largest number is $maxNumber.</p>";
+		} else if ($num1 && $num2 && $num3  == "" ) {
+			$message = "<p></p>";
+		}
 	}
 
 ?>
@@ -50,15 +55,10 @@
     <input id='num3' type='number' name='num3' value='<?=$num3?>' min='0'> 
   </div> 
         
-
-	<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+  <div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
 	<br> 
-	<?php
-		if ($num1 && $num2 != "" ) {
-			echo "<p>The largest number is $maxNumber.</p>";
-		} else if ($num1 && $num2 && $num3  == "" ) {
-			echo "<p></p>";
-		}
-	?>
+	<?=$message?>
 </form>

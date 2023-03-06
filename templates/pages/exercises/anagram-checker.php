@@ -6,6 +6,7 @@
 	$string2 = ""; 
 	$one = "";
 	$two = "";
+	$message = "";
 
 	
 	if (isset ($_POST["submitted"]) ){
@@ -25,7 +26,13 @@
 		$one = count_chars($string1);
 		$two = count_chars($string2);
 
-
+		if ($one == $two && $two != "" ) {
+			$message = "<p>$string1 and $string2 are anagrams</p>";
+		} else if ($one != $two) {
+			$message = "<p>$string1 and $string2 are not anagrams</p>";
+		} else if ($two  === "" ) {
+			$message = "<p></p>";
+		}
 	}
 
 ?>
@@ -42,17 +49,10 @@
     <label for='string2'>Enter the second string</label> 
     <input id='string2' type='text' value='<?=$string2?>' name='string2'> 
   </div> 
-
-	<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
-	<?php
-		if ($one == $two && $two != "" ) {
-			echo "<p>$string1 and $string2 are anagrams</p>";
-		} else if ($one != $two) {
-			echo "<p>$string1 and $string2 are not anagrams</p>";
-		} else if ($two  === "" ) {
-			echo "<p></p>";
-		}
-	?>
+  <div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>" >Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	<br>
+	<?=$message?>
 </form>

@@ -8,6 +8,7 @@
   $oneGallon = 350; 
   $gallonAmount = ""; 
   $sqftAmount = ""; 
+  $message = "";
 
   if (isset ($_POST["submitted"]) ){
 
@@ -29,10 +30,12 @@
 
     $gallonAmountRounded = ceil($gallonAmount);
 
-
-    $message = "You will need to purchase $gallonAmountRounded of paint to cover $sqftAmount square feet.";
-
-    echo $message;
+    if ($length && $width != "") {
+       $message = "You will need to purchase $gallonAmountRounded of paint to cover $sqftAmount square feet.";
+    } else {
+      $message = "";
+    }
+   
 
   }
 
@@ -50,8 +53,12 @@
     <label>What is the width of the room in square feet</label>
     <input type="text" name="width" value="<?=$width?>">
   </div>
+  <div class='buttons'> 
+    <button type="submit" name="submitted">Submit</button>
+    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+  </div>
+  <br> 
+  <?=$message?>
 
-  <button type="submit" name="submitted">Submit</button>
-  <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
 
 </form>

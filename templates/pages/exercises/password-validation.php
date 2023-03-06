@@ -5,6 +5,7 @@
     $username = ""; 
     $password = "abc$123"; 
     $userInputPassword = ""; 
+    $message = "";
 
     if (isset($_POST["submitted"]) ){
 
@@ -25,11 +26,11 @@
 
 
       if ($userInputPassword === $password){
-        echo "Welcome!";
+        $message = "Welcome!";
       } else if ($userInputPassword === ""){
-        echo ""; 
+        $message = ""; 
       } else {
-        echo "I don't know you"; 
+        $message = "I don't know you"; 
       }
   }
 
@@ -46,12 +47,15 @@
 
     <div class="field">
       <label>What is the password?</label>
-      <input type="password" name="userInputPassword" value="<?=$userInputPassword?>">
+      <input type="password" name="userInputPassword" value="<?=$userInputPassword?>" placeholder='abc$123'>
     </div>
 
-    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+    <div class='buttons'>
+      <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+      <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+    </div>
+    <br> 
+    <?=$message?>
   </form>
 
 

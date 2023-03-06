@@ -2,10 +2,11 @@
 
 <?php 
 
-  $principleAmount = "1500"; 
-  $rate = "5.4"; 
-  $years = "5"; 
+  $principleAmount = 0; 
+  $rate = 0; 
+  $years = 0; 
   $amountAccrued = ""; 
+  $message = "";
 
   if (isset($_POST["submitted"]) ){
 
@@ -27,9 +28,13 @@
 
       $amountAccrued = floatval($principleAmount) * (1 + floatval($rate) * floatval($years)); 
 
-      $message = "After $years at $rate%, the investment will be worth $$amountAccrued.";
-
-      echo $message; 
+      if ($principleAmount && $rate && $years != 0 ) {
+        $message = "After $years at $rate%, the investment will be worth $$amountAccrued.";
+      } else {
+        $message = "";
+      }
+      
+  
   }
 
 ?>
@@ -52,9 +57,11 @@
     <input type="text" name="years" value="<?=$years?>">
   </div>
 
-  <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-
-   <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+  <div class='buttons'> 
+    <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+    <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+  </div>
+   <br>
+   <?=$message?>
 </form>
 

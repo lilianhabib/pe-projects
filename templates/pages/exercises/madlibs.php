@@ -5,6 +5,7 @@
 	$adjective = "";
 	$adverb = "";
 	$verb = "";
+	$message = "";
 	
 	if (isset($_POST["submitted"])){
 
@@ -28,8 +29,12 @@
       $_POST = array();
     }
 
-			$message4 = "<p>Do you $verb your $adjective $noun $adverb? That's hilarious.</p>";
-			echo $message4;
+		if ($verb && $noun && $adjective && $adverb != "") {
+			$message = "<p>Do you $verb your $adjective $noun $adverb? That's hilarious.</p>";
+		} else {
+			$message = "";
+		}
+		
 
 	}
 
@@ -63,9 +68,12 @@
 		<input type="text" name="adverb" value="<?=$adverb?>">  
 	</div>
 
-	<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+	<div class='buttons'> 
+		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+	</div>
+	<br>
+	<?=$message?>
 </form>
 
 
