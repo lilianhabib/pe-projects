@@ -38,7 +38,7 @@
                         </text-content>
                         <exercises-links>
                             <a href="?page=exercise&slug=<?=$slug?>" class='exercise-link'>PHP</a>
-                             <a href="?page=exercise-vue&slug=<?=$slug?>" class='exercise-link'>JS</a>
+                             <a href="?page=exercise-vue&slug=<?=$slug?>" class='exercise-link'>Vue.js</a>
                         </exercises-links>
                         
 
