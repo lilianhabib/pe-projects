@@ -28,8 +28,7 @@
                 <?php include ("exercises/$slug.php");?>
             </div>
         
-            
-    
+
         </exercise-detail>
 
     </inner-column>

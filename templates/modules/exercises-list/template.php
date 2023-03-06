@@ -24,7 +24,8 @@
         </div> 
 
         <exercises-list> 
-            <ul> 
+
+            <ul class='list'> 
             	<?php foreach ($exercises as $exercise) {
             		$slug = $exercise["slug"];
             		$title = $exercise["title"];
@@ -34,8 +35,11 @@
                         <text-content> 
                     		<h2 class='bold-voice'><?=$exercise["title"]?></h2>
                             <br>
-        	            	<a href="?page=exercise&slug=<?=$slug?>" class='exercise-link'>Visit <span><?=$title?></span></a>
                         </text-content>
+                        <exercises-links>
+                            <a href="?page=exercise&slug=<?=$slug?>" class='exercise-link'>PHP</a>
+                             <a href="?page=exercise-vue&slug=<?=$slug?>" class='exercise-link'>JS</a>
+                        </exercises-links>
                         
 
                     </section>
