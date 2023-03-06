@@ -3186,11 +3186,50 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.04.2023
+## Lesson 251: End of E4P with Vue Options API 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
+## 03.05.2023
+## Lesson 252: Day Off 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
 
 
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 03.06.2023
+## Lesson 253: Node.js 
+
+### Standup 
+* What is one thing you learned yesterday? Over the weekend, I spent the time finishing up my Vue forms, transfering over to Sublime, and getting it up on my site. Since I had only completed 15 PHP forms, so I ended up completing 5 more php forms too. I fixed up issues and the styles for all of my PHP forms too and I think I can confidently say that my forms are 100% done.  
+
+* Is there anything you are excited to learn? Today I'm looking forward to getting into Node.js and installing it.  
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
