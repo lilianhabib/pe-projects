@@ -1,0 +1,53 @@
+.form-text{
+  display: block;
+  border: 2px solid #000;
+  padding: 20px; 
+  border-radius: 10px;
+  max-width: 400px;
+  gap: 10px; 
+}
+
+
+.loud-voice {
+  font-family: sans-serif;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.fields input {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px 5px 
+}
+
+form-fields {
+  display: block;
+  border: 2px solid var(--black);
+  margin-top: 4vh;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px var(--accent);
+  max-width: 90%;
+  margin-bottom: 10vh;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  max-width: 100px;
+  border: none;
+  color: #FFF; 
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form-fields output {
+  display: block;
+  border: 2px solid red;
+}
