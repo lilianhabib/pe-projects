@@ -13,12 +13,6 @@
       if (isset($_POST["clear"]) ){
         $_POST = array();
       }
-      
-      if ($age >= 16) {
-        echo "You are old enough to legally drive";  
-      } else {
-        echo "You are NOT old enough to legally drive"; 
-      }
 
     }
 
@@ -38,6 +32,14 @@
 
     <button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
     <button type="submit" name="clear" value="<?=$clear?>">Clear</button>
-
+    <br> 
+    <br> 
+    <?php
+      if ($age >= 16) {
+        echo "You are old enough to legally drive";  
+      } else {
+        echo "You are NOT old enough to legally drive"; 
+      } 
+    ?>
 
   </form>

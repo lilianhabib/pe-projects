@@ -55,9 +55,9 @@
     computed: {
       nameLength() {
         if (this.name.length > 0 ) {
-          return `Hello, ${this.name}. There are ${this.name.length} characters in your name`;
+          return `Hello, ${this.name}. There are ${this.name.length} characters in your name.`;
         } else {
-          return `I do not understand. Please try again`;
+          return `I do not understand. Please try again.`;
         }
       }
     }, 

@@ -21,17 +21,10 @@
 			$_POST = array(); 
 		}
 
-		echo "<p>What is your current age? $currentAge</p>";
-		echo "<p>At what age would you like to retire? $retireAge</p>"; 
-
-
-		$total = floatval($retireAge) - floatval($currentAge);  
-		$retireYear = floatval($year) + floatval($currentAge);
-		
-		echo "<p>You have $total years left until you can retire.</p>";
-		echo "<p>It's $year, so you can retire in $retireYear.</p>"; 
-
 	}
+
+	$total = floatval($retireAge) - floatval($currentAge);  
+	$retireYear = floatval($year) + floatval($currentAge);
 
 
 ?>
@@ -53,5 +46,14 @@
 
 	<button type="submit" name="submitted">Submit</button>
 	<button type="submit" name="clear">Clear</button>
+	<br> 
+	<br>
+	<?php
+		if($currentAge && $retireAge != "") {
+			echo  "<p>What is your current age? $currentAge.<br> At what age would you like to retire? $retireAge.<br> You have $total years left until you can retire. <br> It's $year, so you can retire in $retireYear.</p>";
+		} else if ($currentAge && $retireAge == "") {
+			echo  "<p></p>";
+		}
+	?>
 
 </form>

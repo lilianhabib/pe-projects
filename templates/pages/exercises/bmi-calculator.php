@@ -62,9 +62,13 @@
 		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
 		<button type="submit" name="clear" value="<?=$clear?>">Clear</button><br>
 		
-		<p><?=$bmiMessage?></p> <br>
-
-		<p><?=$message1?></p><p><?=$message3?></p><br>
+		<?php 
+			if ($bmiRounded >= 18.5 && $bmiRounded <=25){
+				$message1 = "You are beautiful!"; 
+			} else {
+				$message3 = "You are one of a kind!";
+			}
+		?>
 
 	</form>
 

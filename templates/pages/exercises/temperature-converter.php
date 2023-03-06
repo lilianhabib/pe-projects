@@ -3,9 +3,9 @@
   <?php 
 
 
-    $celsius = 0; 
-    $fahrenheit = ""; 
+    $celsiusTemp = ""; 
     $temperature = "";
+
 
     if (isset($_POST["celsius"]) ){
 
@@ -18,9 +18,12 @@
       }
     } 
 
-    if ($temperature != 0) {
+    if ($temperature != "") {
         $celsiusTemp = round((floatval($temperature) - 32) * (5/9)); 
         $celsiusMessage = "<p>The temperature in Celsius is $celsiusTemp.</p>";
+
+      } else if ($temperature == "") {
+        $celsiusMessage = "";
       }
 
     

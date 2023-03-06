@@ -103,5 +103,40 @@
         "intro": "",
         "copy": "",
         "conclusion": ""
+    },
+    {
+        "title": "Area of a Rectangle Room",
+        "slug": "room-area",
+        "intro": "",
+        "copy": "",
+        "conclusion": ""
+    },
+    {
+        "title": "Anagram Checker",
+        "slug": "anagram-checker",
+        "intro": "",
+        "copy": "",
+        "conclusion": ""
+    },
+    {
+        "title": "Comparing Numbers",
+        "slug": "comparing-numbers",
+        "intro": "",
+        "copy": "",
+        "conclusion": ""
+    },
+    {
+        "title": "Handling Bad Input",
+        "slug": "handling-bad-input",
+        "intro": "",
+        "copy": "",
+        "conclusion": ""
+    },
+    {
+        "title": "Number of Characters",
+        "slug": "number-of-characters",
+        "intro": "",
+        "copy": "",
+        "conclusion": ""
     }
 ]
