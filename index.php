@@ -26,6 +26,7 @@
 
 
 
+
 		<title>Lilian's Portfolio</title>
 	</head>
 
@@ -43,21 +44,6 @@
 			
 			</main>
 
-<!-- 
-			<script>
-				var body = document.querySelector('body'); 
-
-				var toggle = document.querySelector('button'); 
-
-
-				function toggleTheme(){
-				body.classList.toggle('fancy'); 
-				}
-
-				toggle.addEventListener('mouseover', toggleTheme); 
-
-			</script> -->
-
 		</inner-column>
 
 	</body>
@@ -68,9 +54,12 @@
 
 			<?php include ('templates/partials/footer.php') ?>
 
-		
+			
 		</inner-column>
+
 	</footer>
+	<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+
 		
 </html>
 
