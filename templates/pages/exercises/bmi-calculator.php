@@ -1,8 +1,8 @@
 
 <?php 
 	
-	$height = ""; 
-	$weight = ""; 
+	$height = 1; 
+	$weight = 1; 
 	$message1 = ""; 
 	$message2 = "";
 	$message3 = "";
@@ -22,17 +22,24 @@
 	    }
 	}
 
+	
+	if ($height != 0 && $weight != 0 ) {
+		$bmi = floatval($weight) / floatval($height) / floatval($height) * 10000; 
+	} else {
+		echo 'Please enter a number greater than 0';
+	}
+	
 
-	$bmi = floatval($weight) / (floatval($height) * floatval($height)) * 703; 
+	
 
 	$bmiRounded = round($bmi, 1, PHP_ROUND_HALF_DOWN); 
 
 	$bmiMessage = "Your BMI is: $bmiRounded";
 
 	if ($bmiRounded >= 18.5 && $bmiRounded <=25){
-		$message1 = "The earth says hello"; 
+		$message1 = "You are beautiful!"; 
 	} else {
-		$message3 = "It's time to party";
+		$message3 = "You are one of a kind!";
 	}
 
 
@@ -42,25 +49,25 @@
 
 	<form method="POST"> 
 
-		<h1>BMI Calculator</h1>
-
 		<div class='field'>
-			<label>What is your height in inches?</label>
+			<label>What is your height in centimeters?</label>
 			<input type="text" name="height" value="<?=$height?>"> 
 		</div>
 
 		<div class='field'>
-			<label>What is your approximate weight in pounds?</label>
+			<label>What is your approximate weight in kilograms?</label>
 			<input type="text" name="weight" value="<?=$weight?>"> 
 		</div>
 
 		<button type="submit" name="submitted" value="<?=$submitted?>">Submit</button>
-		<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+		<button type="submit" name="clear" value="<?=$clear?>">Clear</button><br>
 		
+		<p><?=$bmiMessage?></p> <br>
+
+		<p><?=$message1?></p><p><?=$message3?></p><br>
+
 	</form>
 
-	<p><?=$message1?></p>
-	<p><?=$message2?></p>
-	<p><?=$message3?></p>
-	<p><?=$bmiMessage?></p>
+	
+	
 </body>

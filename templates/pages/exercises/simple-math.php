@@ -3,8 +3,8 @@
 
 <?php
 
-	$num1 = "1"; 
-	$num2 = "1"; 
+	$num1 = 0; 
+	$num2 = 0; 
 	
 	if (isset ($_POST["submitted"]) ){
 
@@ -20,23 +20,15 @@
        		$_POST = array();
     	}
 
-		echo "<p>What is the first number? $num1</p>";
-		echo "<p>What is the second number? $num2</p>"; 
+	}
 
 		$addTotal = floatval($num1) + floatval($num2); 
 		$subTotal = floatval($num1) - floatval($num2); 
-		$divideTotal = floatval($num1)/floatval($num2); 
 		$multiplyTotal = floatval($num1) * floatval($num2); 
 		
-		echo "<p>$num1 + $num2= $addTotal</p> ";
-		echo "\r\n"; 
-		echo "<p>$num1 - $num2 = $subTotal</p>";
-		echo "\r\n";
-		echo "<p>$num1 / $num2 = $divideTotal</p>";
-		echo "\r\n";
-		echo "<p>$num1 * $num2 = $multiplyTotal</p>";
-
-	}
+		$add = "<p>$num1 + $num2 = $addTotal</p> ";
+		$subtract = "<p>$num1 - $num2 = $subTotal</p>";
+		$multiply = "<p>$num1 * $num2 = $multiplyTotal</p>";
 
 ?>
 
@@ -47,15 +39,26 @@
 
 	<div class='field'> 
 		<label>What is the first number?</label>
-		<input type="text" name="num1" value="<?=$num1?>">
+		<input type="text" name="num1" value="<?=$num1?>" min='1'>
 	</div>
 
 	<div class='field'>
 		<label>What is the second number?</label>
-		<input type="text" name="num2" value="<?=$num2?>">  
+		<input type="text" name="num2" value="<?=$num2?>" min='1'>  
 	</div>
 
 	<button type="submit" name="submitted">Submit</button>
 	<button type="submit" name="clear" value="<?=$clear?>">Clear</button>
+
+	<p><?=$add?></p>
+	<p><?=$subtract?></p>
+	<p><?=$multiply?></p>
+	<?php
+		if ($num1 != 0 && $num2 != 0) {
+			$divideTotal = floatval($num1)/floatval($num2); 
+			$divide = "<p>$num1 / $num2 = $divideTotal</p>";
+			echo $divide;
+		} 
+	?>
 </form>
 
