@@ -26,6 +26,7 @@ text-content {
 	border-radius: 30px;
 	box-shadow: 10px 10px var(--accent);
 	max-width: 350px;
+	min-width: 300px;
 }
 
 .exercise-link {
@@ -107,5 +108,14 @@ input {
 	border-radius: 10px;
 }
 
+
+@media (max-width: 600px) {
+	exercises-list .list {
+		grid-template-columns: 1fr;
+	}
+	.exercise-section {
+		max-width: 400px;
+	}
+}
 
 
