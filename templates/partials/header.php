@@ -20,8 +20,10 @@
 		</div>
 
 		<div class="<?=$pageId?>"> 
-
-			<p class='intro-voice'><?=$pageData["intro"]?></p>
+			<?php if (isset($pageData['intro']) ) { ?>
+				<p class='intro-voice'><?=$pageData["intro"]?></p>
+			<?php } ?>
+			
 	
 		</div>
 		
