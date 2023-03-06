@@ -2,7 +2,7 @@
     "id": "",
     "slug": "home",
     "title": "<span>Hello</span>, I'm Lilian",
-    "intro": "a junior web developer who help individuals and businesses create meaningful, responsive, user-accessible, and engaging experiences through digital means.",
+    "intro": "a web developer who help individuals and businesses create meaningful, responsive, user-accessible, and engaging experiences through digital means.",
     "sections": [
         {
             "module": "generic-text"
