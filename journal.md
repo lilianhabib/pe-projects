@@ -3221,13 +3221,27 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## Lesson 253: Node.js 
 
 ### Standup 
-* What is one thing you learned yesterday? Over the weekend, I spent the time finishing up my Vue forms, transfering over to Sublime, and getting it up on my site. Since I had only completed 15 PHP forms, so I ended up completing 5 more php forms too. I fixed up issues and the styles for all of my PHP forms too and I think I can confidently say that my forms are 100% done.  
+* What is one thing you learned yesterday? Over the weekend, I spent the time finishing up my Vue forms, transfering it over to Sublime, and getting it up on my site. Since I had only completed 15 PHP forms, I ended up completing 5 more php forms too. I fixed up issues and the styles for all of my PHP forms and I think I can confidently say that my forms are 100% done. 
 
 * Is there anything you are excited to learn? Today I'm looking forward to getting into Node.js and installing it.  
 
 
 ## Lesson Notes
-* 
+* Node.js is an open source server environment
+* Node.js runs on various platforms 
+* Node.js uses JS on the server 
+* Node.js eliminate the waiting, and simply continues to the next request.
+* Node.js runs single threaded, non-blocking, asynchronous programming, which is very memory efficient. 
+* How Node.js handles a file request: 
+  * Sends the task to the computer's file system 
+  * Ready to handle the next request 
+  * WHen the file system has opened and read the file, the server returns the content to the client. 
+
+* NPM = Node Package Manager. It is a library and registry for JavaScript software packages. 
+
+* NVM = Node Version Manager is a tool that allow you to download and install Node.js. 
+
+* NPX = Node Package Execute and is included with NPM. Allows you to execute your script 
 
 ## conclusion / major takeaways?
 
