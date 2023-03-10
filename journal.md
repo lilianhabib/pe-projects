@@ -3247,6 +3247,46 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.07.2023
+## Lesson 254: Node.js
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 03.08.2023
+## Lesson 255: Node.js 
+
+### Standup 
+* Yesterday I met with Derek and went over the nodes lesson. I have a better understanding of nodes but still not entirely confident in it. I also met with John and we went over the modular exercise. I also worked on the juggling-async exercise but got stuck.
+* Today I struggled through the juggling async exercise but ended up solving it. I didn’t solve it in the most efficient way so I have to go back to that. I am starting the node lessons from the beginning on my own to get a better understand of it all. So far it’s going well. Solved the first 3.
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.09.2023
+## Lesson 256: Node.js 
+
+### Standup 
+* Yesterday I started the node exercises from the beginning after meeting with Derek. I went through the first couple until the modules exercise. I needed to reference what I previously did. I also read about callbacks and modules to get a better understanding of both.
+* Today I met with Derek and went through callbacks. I think I’ve just been overthinking callbacks and complicating the idea of it. Callbacks are just functions that you can use when needed. I also went over the timer server exercise with Derek. I had the unction set up correctly but needed to format the date.
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
