@@ -3280,13 +3280,70 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## Lesson 256: Node.js 
 
 ### Standup 
-* Yesterday I started the node exercises from the beginning after meeting with Derek. I went through the first couple until the modules exercise. I needed to reference what I previously did. I also read about callbacks and modules to get a better understanding of both.
-* Today I met with Derek and went through callbacks. I think I’ve just been overthinking callbacks and complicating the idea of it. Callbacks are just functions that you can use when needed. I also went over the timer server exercise with Derek. I had the unction set up correctly but needed to format the date.
+* 
+* 
 
 ## Lesson Notes
 * 
 
 ## conclusion / major takeaways?
+
+
+## 03.10.2023
+## Lesson 257: Node.js 
+
+### Standup 
+* 
+* 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.11.2023
+## Lesson 258: Node.js 
+
+### Standup 
+* 
+* 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.12.2023
+## Lesson 259: Day off
+
+### Standup 
+* 
+* 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.13.2023
+## Lesson 260: Day off
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I set up another adoption site. I was also in a meeting with Derek and he helped me set up my detail pages for each monster. I ran into an issue where I made each id into a number instead of a string, which wouldn't have been a problem if I used "==" instead of "===" when setting up the code for it. 
+* Is there anything you are excited to learn? Today I am looking forward to watching today's video and continuing my monster site. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
 
 
 
