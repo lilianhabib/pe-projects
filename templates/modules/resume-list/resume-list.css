@@ -1,7 +1,26 @@
 resume-list {
 	display: block;
-
+	display: grid;
+	grid-template-areas: 
+		"a a a a"
+		"b b b c";
+	gap: 15px;
 }
+
+resume-list .a {
+	grid-area: a;
+}
+
+resume-list .b {
+	grid-area: b;
+}
+
+resume-list .c {
+	grid-area: c;
+	max-height: 33%;
+}
+
+
 .resume-text {
 	line-height: 1.2em;
 	border:  2px solid var(--black);
@@ -54,6 +73,22 @@ resume-list li {
 @media (max-width: 480px) {
 	.year-content {
 		flex-direction: column;
+	}
+}
+
+@media (max-width: 800px) {
+	resume-list {
+	
+		grid-template-areas: 
+			"a a a a"
+			"b b b b"
+			"c c c c";
+		gap: 0px
+
+	}
+	resume-list .c {
+		grid-area: c;
+		max-height: 100%;
 	}
 }
 
