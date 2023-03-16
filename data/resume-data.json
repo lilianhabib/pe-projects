@@ -85,6 +85,14 @@
                 "description": []
             },
             {
+                "name": "Framework</span>: <span class='normal-voice'>Vue.js</span>",
+                "description": []
+            },
+            {
+                "name": "Runtime Environment</span>: <span class='normal-voice'>Node.js</span>",
+                "description": []
+            },
+            {
                 "name": "Developer Tools</span>: <span class='normal-voice'>VS Code, Visual Studio, Sublime Text, Tower, MAMP, Transmit</span>",
                 "description": []
             },
