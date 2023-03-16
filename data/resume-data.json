@@ -1,6 +1,7 @@
 [
     {
         "heading": "Education",
+        "class": "a",
         "sections": [
             {
                 "name": "Perpetual Education - Design for the Web",
@@ -24,6 +25,7 @@
     },
     {
         "heading": "Experience",
+        "class": "b",
         "sections": [
             {
                 "name": "Elementary Teacher",
@@ -79,6 +81,7 @@
     },
     {
         "heading": "Technical Skills",
+        "class": "c",
         "sections": [
             {
                 "name": "Languages</span>: <span class='normal-voice'>HTML, CSS, PHP, JavaScript, Vue.js</span>",
