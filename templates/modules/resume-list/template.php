@@ -7,7 +7,7 @@
 
 ?>
 
-<section class=''>
+<section class='<?=$page?>'>
 	<inner-column> 
 		<div class="page-links"> 
 
@@ -22,7 +22,7 @@
 
 			<?php foreach ($resumeData as $resume) {?>
 
-				<section class='resume-text'> 
+				<section class='resume-text <?=$resume["class"]?>'> 
 					<h2 class='lazy-voice'><?=$resume["heading"]?></h2>
 					<hr>
 
