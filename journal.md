@@ -3335,13 +3335,114 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 ## Lesson 260: Day off
 
 ### Standup 
-* What is one thing you learned yesterday? Yesterday I set up another adoption site. I was also in a meeting with Derek and he helped me set up my detail pages for each monster. I ran into an issue where I made each id into a number instead of a string, which wouldn't have been a problem if I used "==" instead of "===" when setting up the code for it. 
-* Is there anything you are excited to learn? Today I am looking forward to watching today's video and continuing my monster site. 
+* 
+* 
 
 ## Lesson Notes
 * 
 
 ## conclusion / major takeaways?
+
+
+
+
+
+## 03.14.2023
+## Lesson 261: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.15.2023
+## Lesson 262: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.16.2023
+## Lesson 263: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+## 03.17.2023
+## Lesson 264: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.18.2023
+## Lesson 265: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.19.2023
+## Lesson 266: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
+
+## 03.20.2023
+## Lesson 267: 
+
+### Standup 
+* What is one thing you learned yesterday? 
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
+
 
 
 
