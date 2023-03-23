@@ -3431,7 +3431,7 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 ## 03.20.2023
-## Lesson 267: 
+## Lesson 267: E4P with Vue  
 
 ### Standup 
 * What is one thing you learned yesterday? 
@@ -3445,6 +3445,18 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.21.2023
+## Lesson 268: E4P with Vue 
+
+### Standup 
+* What is one thing you learned yesterday? Yesterday I was in a meeting with Derek and we went over some questions I had about ref and reactive. With Derek's help I was also able to solve a Terminal problem I had. The problem was a result of putting a repository inside another respository. Once I fixed that issue and created a separate respo and connected it to railway, I was able to get my monster website up. I also completed 5 E4Ps. I was going to do more but Codepen kept giving me a 503 error. 
+
+* Is there anything you are excited to learn? Today I read the article Derek posted about ref and reactive. It cleared some things up. I think I just need to apply the concepts to the E4Ps. I'll watch today's video and continuing with my E4Ps. 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
 
 
 
