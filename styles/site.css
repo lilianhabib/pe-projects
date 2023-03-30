@@ -54,20 +54,8 @@ main {
 }
 
 
-.home .intro-voice {
-	margin-top: 16px;
-	margin-bottom: 16px;
-	line-height: 1.5em;
-}
 
-.page-links {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	padding-top: 20px;
-	gap: 5vh;
-	min-width: 300px;
-}
+
 
 
 .page-link {
