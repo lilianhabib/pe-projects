@@ -1,14 +1,27 @@
+
+.home .intro-voice {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	line-height: 1.5em;
+	max-width: 550px;
+}
+
 .home text-content {
 	display: none;
+}
+
+.page-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding-top: 20px;
+	gap: 50px;
+	min-width: 300px;
 }
 
 
 .home .page-header {
 	padding-top: 10vh;
-}
-
-.home .intro-voice {
-	max-width: 550px;
 }
 
 
