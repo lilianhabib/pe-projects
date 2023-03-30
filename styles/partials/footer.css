@@ -1,6 +1,7 @@
 footer {
 	display: block;
 	background-color: var(--accent);
+	margin-top: auto;
 }
 
 footer inner-column {
