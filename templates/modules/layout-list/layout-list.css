@@ -39,6 +39,8 @@ layout-list {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
+	margin-right: auto;
+	margin-left: auto;
 	padding-top: 4vh;
 }
 
@@ -318,8 +320,9 @@ input{
 
 /*LAYOUT 1 & 2*/
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 	.main-intro1 {
+
 		flex-direction: row-reverse;
 		justify-content: space-evenly;
 		gap: 30px;

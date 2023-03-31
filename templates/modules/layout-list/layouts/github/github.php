@@ -38,8 +38,9 @@
     </header>
 
     <main>
+      <inner-column> 
         <section class='main-intro1'>
-          <inner-column> 
+          
           <div class='introduction'>
             <h1 class="title-voice">Built for developers</h1> 
             <p class="busy-voice">GitHub is a development platform inspired by the way you work from <span class='bold-voice'>open source</span> to <span class='bold-voice'>business</span> you can host and review code, manage projects, and build software alongside millions of other developers.</p> 
@@ -75,9 +76,9 @@
 
           </div>
 
-          </inner-column>
-
-        </section> 
+        
+          </section>
+        </inner-column> 
 
         <br>
         <hr>
