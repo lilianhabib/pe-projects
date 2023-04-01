@@ -1,6 +1,7 @@
 
 <?php include('functions.php'); ?>
 <?php include ('config.php');?>
+
 <?php 
 
 // ROUTER
@@ -15,7 +16,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<base href='/'/>
+		<base href='<?=BASE_URL?>'/>
 		<meta name="author" content="Lilian Habib">
 		<meta name="description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
 		<meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/sharelilian.png">
