@@ -39,7 +39,7 @@
 
 						</div>
 						<div class='project-button'> 
-							<a href="../work/<?=$slug?>" class='work-link'>Case Study
+							<a href="work/<?=$slug?>" class='work-link'>Case Study
 							</a>
 						</div>
 					</div>
