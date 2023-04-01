@@ -20,7 +20,7 @@
 		<meta name="description" content="A web developer passionate about creating meaningful, responsive, user-accessible, and engaging experiences through digital means.">
 		<meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/sharelilian.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="text/html" href="../styles/site.css">
+		<link type="text/html" rel='stylesheet' href="styles/site.css">
 		<base href='<?BASE_URL?>'>
 		<title>Lilian's Portfolio</title>
 	</head>
