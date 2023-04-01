@@ -5,10 +5,12 @@
 		$pageId = $_GET["page"]; 
 	}
 
+	include ('config.php');
+
 ?>
 
-
 <header class="page-header"> 
+
 	<inner-column> 
 
 		<div class="<?=$pageId?>">
