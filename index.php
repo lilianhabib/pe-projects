@@ -21,7 +21,6 @@
 		<meta property="og:image" content="https://peprojects.dev/alpha-5/lilian/images/sharelilian.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="styles/site.css" rel='stylesheet' >
-		<base href='<?=BASE_URL?>'>
 		<title>Lilian's Portfolio</title>
 	</head>
 
