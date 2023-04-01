@@ -10,17 +10,17 @@
 <!-- 
  <div class="page-links">  -->
 
-    <a href="?page=resume" class='page-link' id='resume'>Resume</a>
+    <a href="resume" class='page-link' id='resume'>Resume</a>
 
-    <a href="?page=contact" class='page-link'>Contact</a>
+    <a href="contact" class='page-link'>Contact</a>
 
-    <a href="?page=about" class='page-link'>About</a>
+    <a href="about" class='page-link'>About</a>
 
-    <a href="?page=goals" class='page-link'>Goals</a>
+    <a href="goals" class='page-link'>Goals</a>
 
-    <a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+    <a href="layouts" class='page-link'>Responsive Layout Garden</a>
 
-    <a href="?page=projects" class='page-link'>Projects</a>
+    <a href="works" class='page-link'>Work</a>
 
     <a href="mailto:lilianslku@gmail.com" class='page-link'>Email</a>
 
