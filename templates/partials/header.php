@@ -9,9 +9,6 @@
 
 ?>
 
-<head> 
-	<base href='<?=BASE_URL?>'/>
-</head>
 
 <header class="page-header"> 
 
