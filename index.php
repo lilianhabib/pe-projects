@@ -1,7 +1,6 @@
 
 <?php include('functions.php'); ?>
-
-
+<?php include ('config.php');?>
 <?php 
 
 // ROUTER
