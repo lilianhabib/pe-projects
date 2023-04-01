@@ -1,0 +1,36 @@
+# turn rewriting on 
+RewriteEngine On 
+
+# /		 → 									?page=/
+
+# /works → 									?page=works
+		
+
+# /about → 									?page=about
+	
+
+# /contact → 								?page=contact
+
+
+
+# /page-name → 								?page=page-name
+RewriteRule ^([0-9a-zA-Z_-]+)$				?page=$1
+
+
+# /works/project-name → 					?page=works&slug=slug
+RewriteRule ^works/([0-9a-zA-Z_-]+)$		?page=works&slug=$1 [NC,L]
+
+# /work/project-name → 						?page=work&slug=slug
+RewriteRule ^work/([0-9a-zA-Z_-]+)$			?page=work&slug=$1 [NC,L]
+
+
+# /exercises/project-name → 					?page=exercises&slug=slug
+RewriteRule ^exercises/([0-9a-zA-Z_-]+)$		?page=exercises&slug=$1 [NC,L]
+
+# /exercise/project-name → 						?page=exercise&slug=slug
+RewriteRule ^exercise/([0-9a-zA-Z_-]+)$			?page=exercise&slug=$1 [NC,L]
+
+# /exercise-vue/project-name → 						?page=exercise-vue&slug=slug
+RewriteRule ^exercise-vue/([0-9a-zA-Z_-]+)$			?page=exercise-vue&slug=$1 [NC,L]
+
+
