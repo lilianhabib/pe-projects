@@ -8,7 +8,7 @@
 @import "css/site-header.css"; 
 @import "css/modules.css";
 @import "partials/header.css";
-@import "pages/project-detail.css";
+@import "pages/work-detail.css";
 @import "pages/exercise-detail.css";
 @import "pages/home.css";
 @import "partials/footer.css";
@@ -53,11 +53,6 @@ main {
 	padding-top: 10vh;
 }
 
-
-
-
-
-
 .page-link {
 	text-decoration: none;
 	border: 2px solid var(--black);
@@ -65,12 +60,30 @@ main {
 	border-radius: 20px 20px;
 	box-shadow: 5px 5px var(--accent);
 	text-align: center;
-	min-width: 160px;
+	position: relative;
 }
+
 
 .page-link:hover {
 	font-weight: bolder;
 }
+
+.page-link:before {
+  content: attr(data-label);
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.button__label {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  right: 5px;
+  bottom: 10px;
+}
+
+
+
 
 .toggle {
 	max-width: 100px;
