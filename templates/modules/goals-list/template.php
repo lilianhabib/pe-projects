@@ -11,9 +11,9 @@
 		<goals-list> 
 			<div class="page-links"> 
 
-				<a href="?page=about" class='page-link'>About</a>
+				<a href="about" class='page-link'>About</a>
 
-				<a href="?page=resume" class='page-link'>Resume</a>
+				<a href="resume" class='page-link'>Resume</a>
 
 			</div> 
 

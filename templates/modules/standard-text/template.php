@@ -9,8 +9,8 @@
 	<inner-column>
 		<div class="page-links"> 
 
-			<a href="?page=resume" class='page-link'>Resume</a>
-			<a href="?page=goals" class='page-link'>Goals</a>
+			<a href="resume" class='page-link'>Resume</a>
+			<a href="goals" class='page-link'>Goals</a>
 
 		</div>
 

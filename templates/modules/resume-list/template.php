@@ -11,9 +11,9 @@
 	<inner-column> 
 		<div class="page-links"> 
 
-				<a href="?page=about" class='page-link'>About</a>
+				<a href="about" class='page-link'>About</a>
 
-				<a href="?page=goals" class='page-link'>Goals</a>
+				<a href="goals" class='page-link'>Goals</a>
 
 		</div> 
 

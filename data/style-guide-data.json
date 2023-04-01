@@ -44,7 +44,7 @@
         "copy": "",
         "examples": [
             {
-                "example4": "<div class='page-links'><a href='?page=style-guide' class='page-link'>Default</a></div>",
+                "example4": "<div class='page-links'><a href='style-guide' class='page-link'>Default</a></div>",
                 "blurb4": "Primary default button with .normal-voice text"
             }
         ]

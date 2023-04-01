@@ -17,9 +17,9 @@
 
         <div class="page-links"> 
 
-            <a href="?page=layouts" class='page-link'>Responsive Layout Garden</a>
+            <a href="layouts" class='page-link'>Responsive Layout Garden</a>
 
-            <a href="?page=projects" class='page-link'>Projects</a>
+            <a href="works" class='page-link'>Work</a>
 
         </div> 
 
@@ -37,8 +37,8 @@
                             <br>
                         </text-content>
                         <exercises-links>
-                            <a href="?page=exercise&slug=<?=$slug?>" class='exercise-link'>PHP</a>
-                             <a href="?page=exercise-vue&slug=<?=$slug?>" class='exercise-link'>Vue.js</a>
+                            <a href="exercise/<?=$slug?>" target='_blank' class='exercise-link'>PHP</a>
+                             <a href="exercise-vue/<?=$slug?>" target='_blank' class='exercise-link'>Vue.js</a>
                         </exercises-links>
                         
 

@@ -13,26 +13,26 @@
 	<links>
 
 		<div class='others'> 
-			<li class="footer-item"><a href="?page=home" class='normal-voice'>Home</a></li>
+			<li class="footer-item"><a href="home" class='normal-voice'>Home</a></li>
 
-			<li class="footer-item"><a href="?page=contact" class='normal-voice'>Contact</a></li>
+			<li class="footer-item"><a href="contact" class='normal-voice'>Contact</a></li>
 
-			<li class="footer-item"><a href="?page=404" class='normal-voice'>404</a></li>
+			<li class="footer-item"><a href="404" class='normal-voice'>404</a></li>
 
-			<li class="footer-item"><a href="?page=style-guide" class='normal-voice'>Style Guide</a></li>
+			<li class="footer-item"><a href="style-guide" class='normal-voice'>Style Guide</a></li>
 
 		</div>
 
 		<div class="work-menu">
-			<li class="footer-item"><a href="?page=projects" class='normal-voice'>Work </a></li>
-			<li class="footer-item"><a href="?page=layouts" class='normal-voice'>Responsive Layout</a></li>
-			<li class="footer-item"><a href="?page=exercises"  class='normal-voice'>Exercises for Programmers</a></li> 
+			<li class="footer-item"><a href="works" class='normal-voice'>Work </a></li>
+			<li class="footer-item"><a href="layouts" class='normal-voice'>Responsive Layout</a></li>
+			<li class="footer-item"><a href="exercises"  class='normal-voice'>Exercises for Programmers</a></li> 
 		</div> 
 
 		<div class="about-menu"> 
-			<li class="footer-item"><a href="?page=about" class='normal-voice'>About</a></li>
-			<li class="footer-item"><a href="?page=resume" class='normal-voice'>Resume </a></li>
-			<li class="footer-item"><a href="?page=goals" class='normal-voice'>Goals</a></li>
+			<li class="footer-item"><a href="about" class='normal-voice'>About</a></li>
+			<li class="footer-item"><a href="resume" class='normal-voice'>Resume </a></li>
+			<li class="footer-item"><a href="goals" class='normal-voice'>Goals</a></li>
 		</div>
 
 

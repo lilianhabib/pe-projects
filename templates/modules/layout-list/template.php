@@ -8,9 +8,9 @@
 	<inner-column> 
 		<div class="page-links"> 
 
-                <a href="?page=exercises" class='page-link'>Exercises for Programmers</a>
+                <a href="exercises" class='page-link'>Exercises for Programmers</a>
 
-                <a href="?page=projects" class='page-link'>Projects</a>
+                <a href="works" class='page-link'>Work</a>
 
         </div> 
 

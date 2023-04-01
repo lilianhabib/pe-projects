@@ -8,9 +8,9 @@
 		
 			<div class="page-links"> 
 
-				<a href="?page=resume" class='page-link'>Resume</a>
+				<a href="resume" class='page-link'>Resume</a>
 
-				<a href="?page=contact" class='page-link'>Contact</a>
+				<a href="contact" class='page-link'>Contact</a>
 
 			</div> 
 
