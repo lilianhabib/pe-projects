@@ -9,10 +9,13 @@
 
 ?>
 
+<head> 
+	<base href='<?=BASE_URL?>'/>
+</head>
+
 <header class="page-header"> 
 
 	<inner-column> 
-
 		<div class="<?=$pageId?>">
 
 			<?php if (isset ($pageData["title"]) ) { ?>
