@@ -1,3 +1,5 @@
+<?php include ('config.php');?>
+
 <?php
 	$pageData = pageData();
 	$pageId = "home"; 
@@ -5,7 +7,7 @@
 		$pageId = $_GET["page"]; 
 	}
 
-	include ('config.php');
+
 
 ?>
 
