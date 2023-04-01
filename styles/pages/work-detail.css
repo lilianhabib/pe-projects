@@ -1,0 +1,38 @@
+.project {
+}
+
+work-detail {
+	display: block;
+
+}
+
+.work-info {
+	border: 2px solid var(--black);
+	margin-top: 4vh;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 10px 10px var(--accent);
+	max-width: 90%;
+	margin-bottom: 10vh;
+
+}
+
+
+
+ work-detail .loud-voice {
+ 	padding-top: 10vh;
+}
+
+work-detail .normal-voice {
+	padding-top: 1vh;
+}
+
+work-detail .page-link {
+	margin-top: 5vh;
+	max-width: 40%;
+}
+
+.work-info .normal-voice {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

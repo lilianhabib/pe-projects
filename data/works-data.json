@@ -1,0 +1,92 @@
+[
+    {
+        "name": "<span>Java</span> Finder",
+        "slug": "cafe",
+        "date": "Perpetual Education - October 2022",
+        "description": "",
+        "language": "HTML, CSS, PHP",
+        "url": "https://www.peprojects.dev/alpha-5/lilian/projects/cafe",
+        "sections": [
+            {
+                "heading": "Project Overview",
+                "copy": "Java Finder is an idea that developed when I was in Vancouver looking for a cafe to work in. When I did come across one and found a comfy quiet corner spot, I was told that they did not offer wifi. This is common with many cafes in the city because they want to maximize and increase turnover. I don't believe I was the only one who encountered this issue. Java Finder help users find a cafe that is meets their needs and wants. If users need wifi or want blue mountain coffee, Java Finder is the place to go. The future of Java Finder is to work with cafes across multiple cities. Information such available seats and wifi availability are unique to Java Finder. I aim to create a website and app that is simple, easy to use and navigate across all devices.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/java-list.png"
+            },
+            {
+                "heading": "Research",
+                "copy": "In my research, I found similar apps and websites that I was able to draw inspirations and ideas from. I found that the apps and websites designs had at least one supplementary colour that complemented the overall colours of the website. Additionally, the apps and websites were simple and clean, so that was something I wanted to emulate.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/jf-research-img.png"
+            },
+            {
+                "heading": "Prototype",
+                "copy": "Based on my own ideas and ones that have been inspired by others, here is a small collection of my prototypes",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/prototype-jf.png"
+            },
+            {
+                "heading": "Results",
+                "copy": "After completing research and creating several prototypes, this is what I have finalized. I currently have a list of cafes with their details and a form to add a cafe. However, I am hoping to have the form collect the data and output it onto the Java List page. I am also hoping to create an app version of Java Finder.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/jf-addjava.png"
+            }
+        ]
+    },
+    {
+        "name": "<span>Natural</span> Skin",
+        "slug": "natural-skin",
+        "date": "Perpetual Education - September 2022",
+        "description": "",
+        "language": "HTML, CSS, PHP",
+        "url": "https://www.peprojects.dev/alpha-5/lilian/projects/theme-challenge",
+        "sections": [
+            {
+                "heading": "Project Overview",
+                "copy": "Growing up, I have always watched my sister and older cousins try the latest and greatest make-up and beauty products. I was mesmerized by the shinny packaging and immediate ‘glow’ they would get after applying Urban Decay eye shadow. Beauty has always been a big part of my childhood, so when I was tasked with a challenge to create a website with a specific theme, I immediately gravitated towards beauty. Within beauty, I wanted to specifically focus on eco-friendly natural skin care products because I believe that what you put in and on your body should not only be good for us but also for the environment. This project replicates similar layouts as many current e-commerce sites -- a call-to-action, article, product showcase, and collection. It was also important to me to make the layout responsive across multiple devices. I hope to continue updating my site to make it more accessible for users of all abilities.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-overview.png"
+            },
+            {
+                "heading": "Research",
+                "copy": "In my research, I found many similarities across various skin care websites. I quickly noticed that the colour schemes were often neutral colours, evoking images of clean and natural. So the neutral colour scheme is something I wanted to emulate for my site. Additionally, I noticed that all the websites had multiple sections and the two most common types of sections had a simple call-to-action and product/collection section of products that were popular, new, and/or best sellers. I found this interesting because it encourages users to buy the product, especially when they are seeing the opportunity to do so, mutliple time throughout the website. To make my website look like a legitimate e-commerce site, I definitely wanted to implement a call-to-action and product collection at least once on my site. After completing thorough research, I wanted to create some prototypes",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-research.png"
+            },
+            {
+                "heading": "Prototypes",
+                "copy": "I created some drawings of different sections of the site. I also created a style tile to get an idea of how all of the components would look.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-prototype.png"
+            },
+            {
+                "heading": "Results",
+                "copy": "After my research and creating various prototypes, these are images of the final website.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/ns-results.png"
+            }
+        ]
+    },
+    {
+        "name": "<span>Pizza</span> Crafter",
+        "slug": "pizza-crafter",
+        "date": "Perpetual Education - February 2023",
+        "description": "",
+        "language": "HTML, CSS, JavaScript",
+        "url": "https://www.peprojects.dev/alpha-5/lilian/projects/pizza-crafter/",
+        "sections": [
+            {
+                "heading": "Project Overview",
+                "copy": "The idea of developing a pizza-making app originated from my mentor. He was listing a variety of app ideas and immediately when he mentioned a pizza-making app, I took that idea and ran with it. I love pizza, so why not?",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/pc-overview.png"
+            },
+            {
+                "heading": "Research",
+                "copy": "Although there weren’t too many browser-based pizza apps that I could draw inspiration from as many of them were iOS apps, I did find a pizza making app from a website I used to play games on as a child. The app was pretty simple and it seemed doable for a novice like myself. I like that it was simple and the interface was easy to navigate.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/research-pc.png"
+            },
+            {
+                "heading": "Prototypes",
+                "copy": "For this prototype, I used Figma. I knew that I wanted to take aspect of the website - like the topping menu, pizza, toppings - I found and implement it in my app. Check out the prototype on <a href='https://www.figma.com/file/eW8etJ4VjM8gvIREHppyxr/Pizza-Crafter-Prototype?node-id=0%3A1&t=DZUOYDrjyzU6gM5A-1' target='_blank' class='link-voice'>Figma</a>.",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/pc-prototype.png"
+            },
+            {
+                "heading": "Results",
+                "copy": "After many dedicated hours, I am happy with the end results. Although, there are some changes and features I would like to add in the near future. These are: make the crust and sauce option radio buttons so that only one option can be selected, only show instructions for new users, and create personalized accounts for users and display their saved pizza",
+                "image": "https://peprojects.dev/alpha-5/lilian/images/pc-results.png"
+            }
+        ]
+    }
+]

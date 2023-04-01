@@ -1,0 +1,11 @@
+{
+    "id": "works",
+    "slug": "works",
+    "title": "Work",
+    "intro": "",
+    "sections": [
+        {
+            "module": "works-list"
+        }
+    ]
+}
