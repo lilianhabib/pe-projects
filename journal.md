@@ -3461,6 +3461,19 @@ By the end of this week, I would like to be able to redo the entire todo list ap
 
 
 
+## 03.22.2023
+## Lesson 269: E4P with Vue 
+
+### Standup 
+* What is one thing you learned yesterday? 
+
+* Is there anything you are excited to learn? 
+
+## Lesson Notes
+* 
+
+## conclusion / major takeaways?
+
 
 
 
