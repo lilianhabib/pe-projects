@@ -8,6 +8,10 @@
     place-items: center;
     height: 100%;
 }
+
+.img-container {
+    display: flex;
+}
 button *  {
     pointer-events: none;
 }

@@ -152,33 +152,43 @@ thePages.maker = `
 				
 				<nav class='topping-list'>
 					<button data-options='crust' class='top-btn'>
-						<picture class='topping-logo' id='crust'>
-							<img src='images/crust-logo.svg'>
-						</picture> 
+						<span class='img-container'>
+							<picture class='topping-logo' id='crust'>
+								<img src='images/crust-logo.svg'>
+							</picture> 
+						</span>
 					</button> 
 
 					<button data-options='sauce' class='top-btn'>
-						<picture class='topping-logo' id='sauce'>
-							<img src='images/sauce-logo.svg'>
-						</picture> 
+						<span class='img-container'>
+							<picture class='topping-logo' id='sauce'>
+								<img src='images/sauce-logo.svg'>
+							</picture> 
+						</span>
 					</button> 
 
 					<button data-options='cheese' class='top-btn'>
-						<picture class='topping-logo' id='cheese'>
-							<img src='images/cheese-logo.svg'>
-						</picture> 
+						<span class='img-container'>
+							<picture class='topping-logo' id='cheese'>
+								<img src='images/cheese-logo.svg'>
+							</picture> 
+						</span>
 					</button> 
 
 					<button data-options='meat' class='top-btn'>
-						<picture class='topping-logo' id='meat'>
-							<img src='images/meat-logo.svg'>
-						</picture>
+						<span class='img-container'>
+							<picture class='topping-logo' id='meat'>
+								<img src='images/meat-logo.svg'>
+							</picture>
+						</span>
 					</button> 
 
 					<button data-options='veggies' class='top-btn'>
-						<picture class='topping-logo' id='veggies'>
-							<img src='images/veggies-logo.svg'>
-						</picture>  
+						<span class='img-container'>
+							<picture class='topping-logo' id='veggies'>
+								<img src='images/veggies-logo.svg'>
+							</picture>  
+						</span>
 					</button> 
 				</nav>
 			</div>
