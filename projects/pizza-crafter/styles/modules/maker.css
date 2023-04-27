@@ -52,6 +52,7 @@ button *  {
 
 .topping-list {
     background-color: #c3d5c9;
+    border: 2px solid red;
 
 }
 
@@ -238,15 +239,21 @@ input[type="radio"] {
 
 
 .topping-items {
-    display: grid;
+/*    display: grid;
     grid-template-areas: 
     ".topping-logo .topping-logo .topping-logo .topping-logo .topping-logo"
     ".topping-list .topping-list .topping-list .topping-list .topping-list";
 
-    grid-template-rows: 1fr auto;
-    width: 100%;
+    grid-template-rows: 1fr auto;*/
+    /*width: 100%;
     max-width: 400px;
-    min-width: 400px
+    min-width: 400px;*/
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid blue;
+}
 }
 
 .top-btn {
@@ -257,7 +264,7 @@ input[type="radio"] {
 
 
 [data-outlet='choices'] .topping-list {
-    grid-area: ".topping-list";
+/*    grid-area: ".topping-list";*/
     flex-grow: 1;
     display: flex;
     flex-direction: column-reverse;
