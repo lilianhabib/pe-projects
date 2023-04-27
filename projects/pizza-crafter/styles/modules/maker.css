@@ -52,7 +52,11 @@ button *  {
 
 .topping-list {
     background-color: #c3d5c9;
-    border: 2px solid red;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid blue;
 
 }
 
@@ -245,15 +249,10 @@ input[type="radio"] {
     ".topping-list .topping-list .topping-list .topping-list .topping-list";
 
     grid-template-rows: 1fr auto;*/
-    /*width: 100%;
+    width: 100%;
     max-width: 400px;
-    min-width: 400px;*/
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-    border: 2px solid blue;
-}
+    min-width: 400px;
+
 }
 
 .top-btn {
