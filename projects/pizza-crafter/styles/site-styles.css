@@ -46,6 +46,20 @@ li {
 	list-style: none;
 }
 
+screen-container {
+	display: block;
+	height: 100vh;
+	min-width: 320px;
+	max-width: 360px;
+	max-height: 700px;
+	border: 1px solid red;
+	border-top: 40px solid black;
+	border-right: 5px solid black;
+	border-bottom: 60px solid black;
+	border-left: 5px solid black;
+	border-radius: 20px;
+}
+
 
 header {
 	background-color: var(--color);
