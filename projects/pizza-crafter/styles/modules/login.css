@@ -1,16 +1,21 @@
 .login-content {
-
 	display: grid;
 	place-items: center;
 	gap: 50px;
 }
 
 .login-content form {
-
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
 	gap: 10px;
 
+}
+
+.login-content form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .fields {
@@ -37,7 +42,7 @@
 	border: none;
     background-color: var(--color);
     color: var(--white);
-    max-width: 200px;
+    max-width: 100px;
     padding: 7px 10px;
 }
 
