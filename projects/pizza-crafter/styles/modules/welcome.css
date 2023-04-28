@@ -5,20 +5,21 @@ main {
 	height: 100%;
 }
 
+
 .welcome-content {
 	width: 100%;
 	display: grid;
 	place-items: center;
 	gap: 50px;
 	text-align: center;
+	padding: 0px 10px;
 
 }
 
 .welcome-container {
 	width: 100%;
 	display: grid;
-	place-items: center;
-}
+	place-items: center;}
 
 .welcome-container button {
 	display: block;
@@ -38,7 +39,7 @@ main {
     background-color: var(--color);
     color: var(--white);
     max-width: 200px;
-    padding: 10px 40px;
+    padding: 10px;
 }
 
 .header-img {
