@@ -18,15 +18,15 @@ thePages.intro = `
 thePages.login = `
 	<div class='login-content'>
 
-		<h1 class='loud-voice'>Pizza Crafter</h1>
-
 		<form class='login' data-action='login'>
+		
 			<form-field>
+				<label>Username</label>
 				<input type='text' class='input-text'/>
 			</form-field>
 			
 			<button type='submit' id='standard' class='standard'>
-				>
+				<span>Login</span>
 			</button>
 				
 		</form>
