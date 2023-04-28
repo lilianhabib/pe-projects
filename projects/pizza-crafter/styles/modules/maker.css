@@ -11,6 +11,8 @@
 
 .img-container {
     display: flex;
+    display: block;
+
 }
 button *  {
     pointer-events: none;
@@ -35,6 +37,7 @@ button *  {
     margin-right: auto;
     height: 85%;
     gap: 10px;
+
 }
 
 
@@ -46,19 +49,29 @@ button *  {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     height: 100%;
-    width: 45%;
+    width: 90%;
     position: relative;
 }
 
 .topping-list {
     background-color: #c3d5c9;
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid blue;
+    
 
 }
+
+.topping-img {
+    flex-grow: 1;
+    min-width: 60px;
+ 
+}
+
+.topping-item {
+    display: block;
+}
+
 
 [data-layer='w-crust'] {
     display: none;
@@ -237,18 +250,15 @@ input[type="radio"] {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background-color: var(--paper);
 }
 
 
 
 
 .topping-items {
-/*    display: grid;
-    grid-template-areas: 
-    ".topping-logo .topping-logo .topping-logo .topping-logo .topping-logo"
-    ".topping-list .topping-list .topping-list .topping-list .topping-list";
-
-    grid-template-rows: 1fr auto;*/
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 400px;
     min-width: 400px;
@@ -262,10 +272,9 @@ input[type="radio"] {
 
 
 
-[data-outlet='choices'] .topping-list {
-/*    grid-area: ".topping-list";*/
-    flex-grow: 1;
+[data-outlet='choices'] .topping-btn {
     display: flex;
+    flex-grow: 1;
     flex-direction: column-reverse;
     align-items: center;
     gap: 5px;
@@ -273,29 +282,31 @@ input[type="radio"] {
 
 }
 
-.topping-img {
-    flex-grow: 1;
-    max-width: 70px;
-}
+
 
 [data-options='crust']  {
     background-color: var(--crust);
+    flex-grow: 1;
 }
 
 [data-options='sauce'] {
     background-color: var(--sauce);
+    flex-grow: 1;
 }
 
 [data-options='cheese'] {
     background-color: var(--cheese);
+    flex-grow: 1;
 }
 
 [data-options='meat'] {
     background-color: var(--meat);
+    flex-grow: 1;
 }
 
 [data-options='veggies'] {
     background-color: var(--veggies);
+    flex-grow: 1;
 }
 
 
@@ -313,7 +324,12 @@ input[type="radio"] {
     display: flex;
 }
 
-
+.outlet-choices {
+    width
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .maker-button {
     margin-top: 5vh;
@@ -356,8 +372,7 @@ input[type="radio"] {
     position: fixed;
     top: 40%;
     gap: 20px;
-    width: 100%;
-    max-width: 90%;
+    width: 300px;
 }
 
 
@@ -368,8 +383,8 @@ input[type="radio"] {
 .crust-container.show {
     opacity: 1;
     pointer-events: none;
-    width: 90%;
-    min-width: 400px;
+    width: 80%;
+    min-width: 350px;
 }
 
 .maker-button.see {
@@ -503,6 +518,39 @@ input[type="radio"] {
 
 
 
+
+
+@media (min-width: 400px){
+   .instruction-overlay.appear {
+        max-width: 60%;
+    }
+    .crust-container.show {
+        min-width: 250px;
+    }
+
+    .pizza-container {
+        max-width: 300px;
+    }
+    .topping-items {
+        max-width: 350px;
+        min-width: 350px;
+    }
+    .maker-button {
+        margin-top: 2vh;
+    }
+    .default-btn {
+        padding: 5px;
+    }
+
+    .maker-container {
+        height: 103%;
+    }
+
+    [data-outlet='choices'] {
+        
+    }
+
+}
 
 
 
