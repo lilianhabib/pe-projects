@@ -29,7 +29,8 @@ work-detail .normal-voice {
 
 work-detail .page-link {
 	margin-top: 5vh;
-	max-width: 40%;
+	max-width: 220px;
+	min-width: 220px;
 }
 
 .work-info .normal-voice {
