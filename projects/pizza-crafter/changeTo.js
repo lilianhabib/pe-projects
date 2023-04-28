@@ -22,11 +22,11 @@ function setData (storageKey, valueToSave) {
 
 
 function login(username) {
-	if (username.length >= 5) {
+	if (username.length >= 3) {
 		setData('user', username); 
 		changeTo('maker');
 	} else {
-		alert("Username must be 5 or more characters.")
+		alert("Username must be 3 or more characters.")
 	}
 
 }
@@ -126,11 +126,13 @@ function buildToppingList(toppingOptions) {
 	toppingOptions.forEach( function(item) {
 		template += `
 			
-		<button class='topping-list' id='list' data-name='${item.id}'>
-			<p class='topping-name teeny-voice'>${item.name}</p> 
-			<picture class='topping-img' id='list-img'> 
-				<img src='${item.image}'>
-			<picture> 
+		<button class='topping-btn' id='list' data-name='${item.id}'>
+			<span class='topping-item'>
+				<p class='topping-name teeny-voice'>${item.name}</p> 
+				<picture class='topping-img' id='list-img'> 
+					<img src='${item.image}'>
+				<picture> 
+			</span>
 
 		</button> 
 	`;
@@ -180,11 +182,6 @@ function updateSelection(button) {
 		selected.push(clickedName)	
 
 	}
-
-
-	// setData('pizza', selected);
-	
-	
 }
 
 
@@ -198,8 +195,6 @@ function saveBtn() {
 		var randomKey = Math.random().toString(36).substring(2);
 		setData(`${appPrefix}_${randomKey}`, selected);
 		
-	
-
 	})
 }
 
@@ -245,8 +240,14 @@ function clearSelection(currentOptions) {
 			
 	});
 
-
 };
+
+// function backgroundColorChange() {
+// 	document.querySelector('[data-outlet="main"]').classList.add('main-background');
+// 	document.querySelector('#start-btn');
+
+
+// }
 
 
 
@@ -272,5 +273,6 @@ export {
 	username,
 	saveBtn,
 	signOut,
+
 
 }
