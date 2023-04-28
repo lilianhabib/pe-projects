@@ -43,7 +43,7 @@
 
 					<picture class='about-grid'> 
 
-						<img class='about-img' src='<?=$img?>'>
+						<img class='about-img' src='<?=$img?>' alt="picture of lilian's adventures - eating food, travel, and cat">
 							
 					</picture>
 
