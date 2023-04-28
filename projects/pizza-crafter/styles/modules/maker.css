@@ -65,6 +65,7 @@ button *  {
 .topping-img {
     flex-grow: 1;
     min-width: 60px;
+    max-width: 60px;
  
 }
 
